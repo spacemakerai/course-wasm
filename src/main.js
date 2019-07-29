@@ -23,7 +23,7 @@ import * as THREE from "./three.js";
   var camera, scene, renderer;
   var mesh;
   init();
-  animate();
+  // animate();
   function init() {
     try {
       console.log("init");
@@ -33,11 +33,51 @@ import * as THREE from "./three.js";
         1,
         1000
       );
-      camera.position.z = 400;
+
+      var geometry = new THREE.BufferGeometry();
+
+      const buildings = [
+        {
+          coodinates: [[0, 0], [200, 0], [200, 200], [0, 200]],
+          height: 200
+        }
+      ];
+
+      const vertices = new Float32Array(
+        buildings.flatMap(({ coodinates, height }) => {
+          return coodinates.flatMap((p1, j) => {
+            const start = 0;
+            const p2 = coodinates[(j + 1) % coodinates.length];
+            const corners = [
+              [p1[0], p1[1], start],
+              [p2[0], p2[1], start],
+              [p2[0], p2[1], height],
+              [p1[0], p1[1], height]
+            ];
+            return [
+              ...corners[0],
+              ...corners[1],
+              ...corners[2],
+              ...corners[0],
+              ...corners[2],
+              ...corners[3]
+            ];
+          });
+        })
+      );
+
+      console.log({ vertices });
+
+      var geometry = new THREE.BufferGeometry();
+      geometry.addAttribute("position", new THREE.BufferAttribute(vertices, 3));
+      var material = new THREE.MeshBasicMaterial({ color: 0xffffff });
+      var mesh = new THREE.Mesh(geometry, material);
+
+      camera.position.z = -400;
+      // camera.lookAt(0, 0, 0);
+      window.camera = camera;
       scene = new THREE.Scene();
-      var geometry = new THREE.BoxBufferGeometry(200, 200, 200);
-      var material = new THREE.MeshBasicMaterial();
-      mesh = new THREE.Mesh(geometry, material);
+
       scene.add(mesh);
       renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setPixelRatio(window.devicePixelRatio);
@@ -53,16 +93,10 @@ import * as THREE from "./three.js";
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
   }
-  function animate() {
+
+  /*function animate() {
     requestAnimationFrame(animate);
 
-    const { x, y, z } = mesh.position;
-    const positions = move([x, y, z]);
-
-    mesh.position.x = positions[0];
-    mesh.position.y = positions[1];
-    mesh.position.z = positions[2];
-
     renderer.render(scene, camera);
-  }
+  }*/
 })();
