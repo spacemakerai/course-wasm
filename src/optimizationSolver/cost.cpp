@@ -18,3 +18,13 @@ float getCost(Buildings buildings,ObjectiveToggles objectiveToggles){
     }
     return cost;
 }
+
+SolutionCandidate getBestSolutionCandidate(SolutionCandidates solutionCandidates) {
+    SolutionCandidate bestSolutionCandidate = solutionCandidates[0];
+    for (SolutionCandidate solutionCandidate: solutionCandidates) {
+        if (solutionCandidate.cost > bestSolutionCandidate.cost) {
+            bestSolutionCandidate = solutionCandidate;
+        }
+    }
+    return bestSolutionCandidate;
+}
