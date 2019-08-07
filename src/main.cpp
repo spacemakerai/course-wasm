@@ -55,19 +55,12 @@ std::vector<Building> solver(std::vector<Building> initialBuildings) {
     return optimalBuildings;
 }
 
-Polygon createMockPolygon(){
-    Point point1{ 0,0 };
-    Point point2{ 10,0 };
-    Point point3{ 10,5 };
-    Point point4{ 0,5 };
-    Polygon polygon={point1, point2, point3, point4};
-    return polygon;
-}
-
 int main(int argc, char *argv[]) {
-    Polygon polygon = createMockPolygon();
-    Building initialBuilding{ 9, polygon };
-    std::vector<Building> initialBuildings{ {initialBuilding} };
-    std::vector<Building> optimalBuildings = solver(initialBuildings);
+/*
+    GURO HER TRENGER JEG HJELP MED Å LAGE POINTER TIL DENNE LISTEN
+*/
+    float *positions = {0, 10, 10, 0, 10, 5, 0, 5, 9, 20, 0, 40, 0, 40, 10, 20, 10, 10};
+    std::vector<Building> initialBuildings = convertParametersToBuildings(positions, 2);
+    std::vector<Building> optimizedBuildings = solver(initialBuildings);
+    convertBuildingsToParameters(optimizedBuildings, positions);
 }
-
