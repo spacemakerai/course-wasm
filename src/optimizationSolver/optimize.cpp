@@ -2,10 +2,12 @@
 #include "optimize.h"
 #include "solutionCandidate.h"
 #include "cost.h"
+#include "feasibilityChecker.h"
 
 float MAX_HEIGHT = 20.0;
 float MIN_HEIGHT = 5.0;
 float HEIGHT_INCREMENT = 1.0;
+float MAX_AVERAGE_HEIGHT = 10;
 
 
 Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles){
@@ -20,14 +22,18 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
         if (currentHeight <= MAX_HEIGHT + HEIGHT_INCREMENT) {
             Buildings updatedBuildings = initialBuildings;
             updatedBuildings[buildingIndex].height = currentHeight + HEIGHT_INCREMENT;
-            SolutionCandidate newSolutionCandidate = createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles);
-            solutionCandidates.push_back(newSolutionCandidate);
+            if (solutionIsFeasible(updatedBuildings, MAX_AVERAGE_HEIGHT)){
+                SolutionCandidate newSolutionCandidate = createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles);
+                solutionCandidates.push_back(newSolutionCandidate);
+            }
         }
         if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT) {
             Buildings updatedBuildings = initialBuildings;
             updatedBuildings[buildingIndex].height = currentHeight - HEIGHT_INCREMENT;
-            SolutionCandidate newSolutionCandidate = createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles);
-            solutionCandidates.push_back(newSolutionCandidate);
+            if (solutionIsFeasible(updatedBuildings, MAX_AVERAGE_HEIGHT)) {
+                SolutionCandidate newSolutionCandidate = createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles);
+                solutionCandidates.push_back(newSolutionCandidate);
+            }
         }
     }
     SolutionCandidate bestSolutionCandidate = getBestSolutionCandidate(solutionCandidates);
