@@ -11,3 +11,12 @@ std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, 
     solution_candidates.push_back(currentSolutionCandidate);
     return initialBuildings;
 }
+
+std::vector<Building> increaseHeightOfBuildings(std::vector<Building> initialBuildings){
+    std::vector<Building> buildingsWithIncreasedHeight;
+    for (Building building: initialBuildings) {
+        Building buildingWithIncreasedHeight { building.height + 1, building.ground_polygon };
+        buildingsWithIncreasedHeight.push_back(buildingWithIncreasedHeight);
+    }
+    return buildingsWithIncreasedHeight;
+}

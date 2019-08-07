@@ -45,8 +45,8 @@ void move(float* positions, int n) {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     std::vector<Building> inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
     std::vector<Building> optimizedBuildings = solver(inputBuildings);
-
-    convertBuildingsToParameters(optimizedBuildings, positions);
+    std::vector<Building> buildingsWithIncreasedHeight = increaseHeightOfBuildings(inputBuildings);
+    convertBuildingsToParameters(buildingsWithIncreasedHeight, positions);
 }
 
 
@@ -57,7 +57,5 @@ std::vector<Building> solver(std::vector<Building> initialBuildings) {
 
 int main(int argc, char *argv[]) {
     float positions[18] = {0, 0, 10, 0, 10, 5, 0, 5, 9, 20, 0, 40, 0, 40, 10, 20, 10, 10};
-    std::vector<Building> initialBuildings = convertParametersToBuildings(&positions[0], 2);
-    std::vector<Building> optimizedBuildings = solver(initialBuildings);
-    convertBuildingsToParameters(optimizedBuildings, positions);
+    move(positions, 18);
 }
