@@ -13,8 +13,7 @@ struct Point {
 };
 typedef std::vector<Point> Polygon;
 struct Building {
-    double start_z;
-    double end_z;
+    double height;
     Polygon ground_polygon;
 };
 
