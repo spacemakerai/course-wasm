@@ -53,6 +53,6 @@ void convertBuildingsToParameters(Buildings buildings, float *positions){
 }
 
 int main(int argc, char *argv[]) {
-    float positions[18] = {0, 0, 10, 0, 10, 5, 0, 5, 9, 20, 0, 40, 0, 40, 10, 20, 10, 10};
+    float positions[18] = {0, 0, 10, 0, 10, 5, 0, 5, 10, 20, 0, 40, 0, 40, 10, 20, 10, 10};
     move(positions, 18);
 }
