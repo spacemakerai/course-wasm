@@ -1,9 +1,13 @@
 import * as THREE from "./three.js";
 
+import { generate } from "./generate.js";
+import * as buffered from "./geometry/buffered.js";
+import * as box from "./geometry/box.js";
+
 (async function() {
   const response = await fetch("../out/main.wasm");
   const bytes = await response.arrayBuffer();
-  const module = await WebAssembly.instantiate(bytes, importObjects);
+  const module = await WebAssembly.instantiate(bytes);
   const heap = new Float32Array(module.instance.exports.memory.buffer);
 
   function move(positions) {
@@ -19,84 +23,10 @@ import * as THREE from "./three.js";
     }
     return result;
   }
-  function chunk(array, chunkSize) {
-    const result = [];
-    for (let i = 0; i < array.length; i += chunkSize)
-      result.push(array.slice(i, i + chunkSize));
-    return result;
-  }
 
-  function createVertices(buildings) {
-    return chunk(buildings, 9).flatMap(building => {
-      const [x0, y0, x1, y1, x2, y2, x3, y3, height] = building;
-      const coodinates = [[x0, y0], [x1, y1], [x2, y2], [x3, y3]];
+  let buildings = generate();
 
-      const facades = coodinates.flatMap((p1, j) => {
-        const start = 0;
-        const p2 = coodinates[(j + 1) % coodinates.length];
-        const corners = [
-          [p1[0], p1[1], start],
-          [p2[0], p2[1], start],
-          [p2[0], p2[1], height],
-          [p1[0], p1[1], height]
-        ];
-        return [
-          ...corners[0],
-          ...corners[1],
-          ...corners[2],
-          ...corners[0],
-          ...corners[2],
-          ...corners[3]
-        ];
-      });
-
-      const roof = [
-        ...[x0, y0, height],
-        ...[x1, y1, height],
-        ...[x2, y2, height],
-        ...[x2, y2, height],
-        ...[x3, y3, height],
-        ...[x0, y0, height]
-      ];
-
-      return [...facades, ...roof];
-    });
-  }
-
-  function createMesh(buildings) {
-    const vertices = createVertices(buildings);
-
-    const geometry = new THREE.BufferGeometry();
-
-    geometry.addAttribute(
-      "position",
-      new THREE.Float32BufferAttribute(vertices, 3)
-    );
-    geometry.verticesNeedUpdate = true;
-    geometry.computeFaceNormals();
-    geometry.computeVertexNormals();
-    const material = new THREE.MeshLambertMaterial({
-      color: 0xff0000
-    });
-    const facades = new THREE.Mesh(geometry, material);
-    facades.receiveShadow = facades.castShadow = true;
-
-    return facades;
-  }
-
-  let buildings = [0, 20, 40].flatMap(offset => [
-    0,
-    offset,
-    10,
-    offset,
-    10,
-    10 + offset,
-    0,
-    10 + offset,
-    10
-  ]);
-
-  var camera, scene, renderer, controls, mesh;
+  var camera, scene, renderer, controls, objects;
   init();
   animate();
   function init() {
@@ -124,6 +54,15 @@ import * as THREE from "./three.js";
       var light = new THREE.DirectionalLight(0xffffff, 0.1);
       light.position.set(-20, 80, 20);
       light.castShadow = true;
+      const shadowMapSize = 4096;
+      light.shadow.mapSize.width = shadowMapSize;
+      light.shadow.mapSize.height = shadowMapSize;
+      const size = 600;
+      light.shadow.camera.near = -size / 2;
+      light.shadow.camera.left = -size;
+      light.shadow.camera.right = size;
+      light.shadow.camera.top = size;
+      light.shadow.camera.bottom = -size;
       scene.add(light);
       scene.add(ambient);
 
@@ -140,8 +79,8 @@ import * as THREE from "./three.js";
       plane.receiveShadow = plane.castShadow = true;
       scene.add(plane);
 
-      mesh = createMesh(buildings);
-      scene.add(mesh);
+      objects = box.create(buildings);
+      scene.add(objects);
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.getElementById("container").appendChild(renderer.domElement);
@@ -161,10 +100,7 @@ import * as THREE from "./three.js";
     controls.update();
 
     buildings = move(buildings);
-
-    const positions = mesh.geometry.attributes.position;
-    positions.array.set(createVertices(buildings));
-    positions.needsUpdate = true;
+    box.move(objects, buildings);
 
     renderer.render(scene, camera);
   }

@@ -1,13 +1,13 @@
 #define WASM_EXPORT __attribute__((visibility("default")))
 
-typedef struct
+typedef struct __attribute__((__packed__))
 {
   float x, y;
 } Coordinate;
 
-typedef struct
+typedef struct __attribute__((__packed__))
 {
-  Coordinate coordinates[8]; // [x0, y0, ... x3, y3],
+  float x1, y1, x2, y2, x3, y3, x4, y4;
   float height;
 } Building;
 
@@ -16,6 +16,5 @@ void move(float *numbers, int nBuildings, int iterations)
 {
   Building *buildings = (Building *)numbers;
 
-  (*buildings[0].coordinates).x += 1;
-  (*buildings[1].coordinates).x += 1;
+  buildings[0].height += 0.01;
 }
