@@ -16,7 +16,6 @@ struct Building {
 };
 typedef std::vector<Building> Buildings;
 float simpleArea(Building building);
-float getHeight(Building building);
 
 
 

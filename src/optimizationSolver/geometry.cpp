@@ -13,4 +13,3 @@ float simpleArea(Building building){
     float width = lengthOfLine(rectangularPolygon[1], rectangularPolygon[2]);
     return length * width;
 }
-float getHeight(Building building) { return building.height; };

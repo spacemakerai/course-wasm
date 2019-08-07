@@ -8,8 +8,8 @@
 
 struct SolutionCandidate {
     float cost;
-    bool violation;
-    std::vector<float> heights;
+    bool solutionIsFeasible;
+    Buildings buildings;
 };
 typedef std::vector<SolutionCandidate> SolutionCandidates;
 
