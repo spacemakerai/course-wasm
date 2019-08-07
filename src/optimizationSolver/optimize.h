@@ -1,6 +1,3 @@
-//
-// Created by Kristine Hagen on 2019-08-05.
-//
 
 #ifndef OPTIMIZE_OPTIMIZE_H
 #define OPTIMIZE_OPTIMIZE_H

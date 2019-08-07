@@ -1,6 +1,3 @@
-//
-// Created by Kristine Hagen on 2019-08-05.
-//
 
 #include "solutionCandidate.h"
 #include "cost.h"
