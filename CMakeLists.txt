@@ -21,7 +21,7 @@ message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
 
 set(SOURCE src/main.cpp)
 
-add_executable(spacemaker_intersection_area src/main.cpp)
+add_executable(height_optimize src/main.cpp)
 
 
 
