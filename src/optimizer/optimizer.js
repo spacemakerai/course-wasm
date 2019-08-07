@@ -1,6 +1,6 @@
 let module, heap;
 
-export async function init() {
+export async function init(buildings) {
   const response = await fetch("src/optimizer/main.wasm");
   const bytes = await response.arrayBuffer();
   module = await WebAssembly.instantiate(bytes);
