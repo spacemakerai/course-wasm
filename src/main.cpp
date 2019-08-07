@@ -56,11 +56,8 @@ std::vector<Building> solver(std::vector<Building> initialBuildings) {
 }
 
 int main(int argc, char *argv[]) {
-/*
-    GURO HER TRENGER JEG HJELP MED Å LAGE POINTER TIL DENNE LISTEN
-*/
-    float *positions = {0, 10, 10, 0, 10, 5, 0, 5, 9, 20, 0, 40, 0, 40, 10, 20, 10, 10};
-    std::vector<Building> initialBuildings = convertParametersToBuildings(positions, 2);
+    float positions[18] = {0, 10, 10, 0, 10, 5, 0, 5, 9, 20, 0, 40, 0, 40, 10, 20, 10, 10};
+    std::vector<Building> initialBuildings = convertParametersToBuildings(&positions[0], 2);
     std::vector<Building> optimizedBuildings = solver(initialBuildings);
     convertBuildingsToParameters(optimizedBuildings, positions);
 }
