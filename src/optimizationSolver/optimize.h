@@ -6,6 +6,7 @@
 #define OPTIMIZE_OPTIMIZE_H
 
 #include "geometry.h"
+#include <vector>
 
 std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, bool volumeToggle, bool sunToggle);
 

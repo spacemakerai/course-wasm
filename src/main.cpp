@@ -4,13 +4,14 @@
 #include "optimizationSolver/optimize.h"
 
 
+
 int PARAMETERS_PER_BUILDING = 9;
 int NUMBER_OF_COORDINATES_PER_BUILDING=4;
 
 std::vector<Building> solver(std::vector<Building> initialBuildings);
 
 
-std::vector<Building> convertParametersToBuildings(double* positions, int numberOfBuildings){
+std::vector<Building> convertParametersToBuildings(float* positions, int numberOfBuildings){
     std::vector<Building> inputBuildings;
     for (int i= 0; i<numberOfBuildings; i++) {
         Polygon ground_polygon;
@@ -25,7 +26,7 @@ std::vector<Building> convertParametersToBuildings(double* positions, int number
 }
 
 
-void convertBuildingsToParameters(std::vector<Building> buildings, double *positions){
+void convertBuildingsToParameters(std::vector<Building> buildings, float *positions){
     int numberOfBuildings = (int) buildings.size();
     for (int i= 0; i<numberOfBuildings; i++) {
         Building building = buildings[i];
@@ -40,7 +41,7 @@ void convertBuildingsToParameters(std::vector<Building> buildings, double *posit
 }
 
 WASM_EXPORT
-void move(double* positions, int n) {
+void move(float* positions, int n) {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     std::vector<Building> inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
     std::vector<Building> optimizedBuildings = solver(inputBuildings);
@@ -65,7 +66,7 @@ Polygon createMockPolygon(){
 
 int main(int argc, char *argv[]) {
     Polygon polygon = createMockPolygon();
-    Building initialBuilding{ 0, 9, polygon };
+    Building initialBuilding{ 9, polygon };
     std::vector<Building> initialBuildings{ {initialBuilding} };
     std::vector<Building> optimalBuildings = solver(initialBuildings);
 }
