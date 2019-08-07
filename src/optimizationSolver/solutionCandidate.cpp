@@ -7,8 +7,8 @@
 
 
 SolutionCandidate createSolutionCandidateFromBuildings(std::vector<Building> buildings, bool volumeToggle, bool sunToggle){
-    double cost = getCost(buildings, volumeToggle, sunToggle);
-    std::vector<double> heights;
+    float cost = getCost(buildings, volumeToggle, sunToggle);
+    std::vector<float> heights;
     heights.resize(buildings.size());
     std::transform(buildings.begin(), buildings.end(), heights.begin(), getHeight);
     SolutionCandidate solutionCandidate{cost, true, heights};

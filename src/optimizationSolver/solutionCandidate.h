@@ -8,9 +8,9 @@
 
 
 struct SolutionCandidate {
-    double cost;
+    float cost;
     bool violation;
-    std::vector<double> heights;
+    std::vector<float> heights;
 };
 typedef std::vector<SolutionCandidate> SolutionCandidates;
 

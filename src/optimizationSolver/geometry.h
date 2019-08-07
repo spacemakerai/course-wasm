@@ -7,18 +7,18 @@
 #include <vector>
 
 
+
 struct Point {
-    double x;
-    double y;
+    float x;
+    float y;
 };
 typedef std::vector<Point> Polygon;
 struct Building {
-    double start_z;
-    double end_z;
+    float height;
     Polygon ground_polygon;
 };
 
-double simpleArea(Building building);
-double getHeight(Building building);
+float simpleArea(Building building);
+float getHeight(Building building);
 
 #endif //COURSE_WASM_GEOMETRY_H
