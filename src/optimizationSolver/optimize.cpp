@@ -34,12 +34,3 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
     Buildings bestBuildings = bestSolutionCandidate.buildings;
     return bestBuildings;
 }
-
-Buildings increaseHeightOfBuildings(Buildings initialBuildings){
-    Buildings buildingsWithIncreasedHeight;
-    for (Building building: initialBuildings) {
-        Building buildingWithIncreasedHeight { building.height + 1, building.ground_polygon };
-        buildingsWithIncreasedHeight.push_back(buildingWithIncreasedHeight);
-    }
-    return buildingsWithIncreasedHeight;
-}

@@ -19,8 +19,7 @@ void move(float* positions, int n) {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     Buildings inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
     Buildings optimizedBuildings = optimizeBuildings(inputBuildings, {SUN_OBJECTIVE, VOLUME_OBJECTIVE});
-    Buildings buildingsWithIncreasedHeight = increaseHeightOfBuildings(inputBuildings);
-    convertBuildingsToParameters(buildingsWithIncreasedHeight, positions);
+    convertBuildingsToParameters(optimizedBuildings, positions);
 }
 
 

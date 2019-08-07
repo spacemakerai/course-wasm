@@ -11,6 +11,5 @@ struct ObjectiveToggles {
 };
 
 Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles);
-Buildings increaseHeightOfBuildings(Buildings initialBuildings);
 
 #endif //OPTIMIZE_OPTIMIZE_H
