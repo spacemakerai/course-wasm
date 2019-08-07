@@ -5,7 +5,12 @@
 #include "geometry.h"
 #include <vector>
 
-std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, bool volumeToggle, bool sunToggle);
+struct ObjectiveToggles {
+    bool sun;
+    bool volume;
+};
+
+std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, ObjectiveToggles objectiveToggles);
 std::vector<Building> increaseHeightOfBuildings(std::vector<Building> initialBuildings);
 
 #endif //OPTIMIZE_OPTIMIZE_H

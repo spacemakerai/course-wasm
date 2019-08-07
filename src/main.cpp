@@ -7,6 +7,9 @@
 
 int PARAMETERS_PER_BUILDING = 9;
 int NUMBER_OF_COORDINATES_PER_BUILDING=4;
+bool SUN_OBJECTIVE = false;
+bool VOLUME_OBJECTIVE = true;
+
 
 std::vector<Building> convertParametersToBuildings(float* positions, int numberOfBuildings);
 void convertBuildingsToParameters(std::vector<Building> buildings, float *positions);
@@ -16,7 +19,7 @@ WASM_EXPORT
 void move(float* positions, int n) {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     std::vector<Building> inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
-    std::vector<Building> optimizedBuildings = optimizeBuildings(inputBuildings, true, false);
+    std::vector<Building> optimizedBuildings = optimizeBuildings(inputBuildings, {SUN_OBJECTIVE, VOLUME_OBJECTIVE});
     std::vector<Building> buildingsWithIncreasedHeight = increaseHeightOfBuildings(inputBuildings);
     convertBuildingsToParameters(buildingsWithIncreasedHeight, positions);
 }
@@ -49,8 +52,6 @@ void convertBuildingsToParameters(std::vector<Building> buildings, float *positi
     }
 
 }
-
-
 
 int main(int argc, char *argv[]) {
     float positions[18] = {0, 0, 10, 0, 10, 5, 0, 5, 9, 20, 0, 40, 0, 40, 10, 20, 10, 10};

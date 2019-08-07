@@ -2,9 +2,9 @@
 #include "optimize.h"
 #include "solutionCandidate.h"
 
-std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, bool volumeToggle, bool sunToggle){
+std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, ObjectiveToggles objectiveToggles){
     SolutionCandidates solution_candidates;
-    SolutionCandidate currentSolutionCandidate = createSolutionCandidateFromBuildings(initialBuildings, volumeToggle, sunToggle);
+    SolutionCandidate currentSolutionCandidate = createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles);
     solution_candidates.push_back(currentSolutionCandidate);
     return initialBuildings;
 }

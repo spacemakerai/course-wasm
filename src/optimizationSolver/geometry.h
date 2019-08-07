@@ -14,8 +14,9 @@ struct Building {
     float height;
     Polygon ground_polygon;
 };
-
 float simpleArea(Building building);
 float getHeight(Building building);
+
+
 
 #endif //COURSE_WASM_GEOMETRY_H

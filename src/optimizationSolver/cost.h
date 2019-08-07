@@ -3,8 +3,9 @@
 #define OPTIMIZE_COST_H
 #include <vector>
 #include "geometry.h"
+#include "optimize.h"
 
 
-float getCost(std::vector<Building> buildings, bool volumeToggle, bool sunToggle);
+float getCost(std::vector<Building> buildings, ObjectiveToggles objectiveToggles);
 
 #endif //OPTIMIZE_COST_H
