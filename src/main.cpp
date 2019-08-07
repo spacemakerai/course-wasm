@@ -1,4 +1,3 @@
-#include <vector>
 #define WASM_EXPORT __attribute__((visibility("default")))
 #include "optimizationSolver/geometry.h"
 #include "optimizationSolver/optimize.h"
@@ -11,22 +10,22 @@ bool SUN_OBJECTIVE = false;
 bool VOLUME_OBJECTIVE = true;
 
 
-std::vector<Building> convertParametersToBuildings(float* positions, int numberOfBuildings);
-void convertBuildingsToParameters(std::vector<Building> buildings, float *positions);
+Buildings convertParametersToBuildings(float* positions, int numberOfBuildings);
+void convertBuildingsToParameters(Buildings buildings, float *positions);
 
 
 WASM_EXPORT
 void move(float* positions, int n) {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
-    std::vector<Building> inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
-    std::vector<Building> optimizedBuildings = optimizeBuildings(inputBuildings, {SUN_OBJECTIVE, VOLUME_OBJECTIVE});
-    std::vector<Building> buildingsWithIncreasedHeight = increaseHeightOfBuildings(inputBuildings);
+    Buildings inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
+    Buildings optimizedBuildings = optimizeBuildings(inputBuildings, {SUN_OBJECTIVE, VOLUME_OBJECTIVE});
+    Buildings buildingsWithIncreasedHeight = increaseHeightOfBuildings(inputBuildings);
     convertBuildingsToParameters(buildingsWithIncreasedHeight, positions);
 }
 
 
-std::vector<Building> convertParametersToBuildings(float* positions, int numberOfBuildings){
-    std::vector<Building> inputBuildings;
+Buildings convertParametersToBuildings(float* positions, int numberOfBuildings){
+    Buildings inputBuildings;
     for (int i= 0; i<numberOfBuildings; i++) {
         Polygon ground_polygon;
         for (int j=0; j<NUMBER_OF_COORDINATES_PER_BUILDING; j++){
@@ -39,7 +38,7 @@ std::vector<Building> convertParametersToBuildings(float* positions, int numberO
     return inputBuildings;
 }
 
-void convertBuildingsToParameters(std::vector<Building> buildings, float *positions){
+void convertBuildingsToParameters(Buildings buildings, float *positions){
     int numberOfBuildings = (int) buildings.size();
     for (int i= 0; i<numberOfBuildings; i++) {
         Building building = buildings[i];

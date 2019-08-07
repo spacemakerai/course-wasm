@@ -3,7 +3,7 @@
 #include "cost.h"
 
 
-SolutionCandidate createSolutionCandidateFromBuildings(std::vector<Building> buildings, ObjectiveToggles objectiveToggles){
+SolutionCandidate createSolutionCandidateFromBuildings(Buildings buildings, ObjectiveToggles objectiveToggles){
     float cost = getCost(buildings, objectiveToggles);
     std::vector<float> heights;
     heights.resize(buildings.size());

@@ -3,7 +3,7 @@
 #include "cost.h"
 
 
-float getCost(std::vector<Building> buildings,ObjectiveToggles objectiveToggles){
+float getCost(Buildings buildings,ObjectiveToggles objectiveToggles){
     float cost = 0;
     if (objectiveToggles.volume) {
         std::vector<float> buildingAreas;

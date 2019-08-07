@@ -13,6 +13,6 @@ struct SolutionCandidate {
 };
 typedef std::vector<SolutionCandidate> SolutionCandidates;
 
-SolutionCandidate createSolutionCandidateFromBuildings(std::vector<Building> buildings, ObjectiveToggles objectiveToggles);
+SolutionCandidate createSolutionCandidateFromBuildings(Buildings buildings, ObjectiveToggles objectiveToggles);
 
 #endif //OPTIMIZE_SOLUTIONCANDIDATE_H

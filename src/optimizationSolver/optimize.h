@@ -10,7 +10,7 @@ struct ObjectiveToggles {
     bool volume;
 };
 
-std::vector<Building> optimizeBuildings(std::vector<Building> initialBuildings, ObjectiveToggles objectiveToggles);
-std::vector<Building> increaseHeightOfBuildings(std::vector<Building> initialBuildings);
+Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles);
+Buildings increaseHeightOfBuildings(Buildings initialBuildings);
 
 #endif //OPTIMIZE_OPTIMIZE_H

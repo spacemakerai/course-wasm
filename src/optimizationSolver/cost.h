@@ -6,6 +6,6 @@
 #include "optimize.h"
 
 
-float getCost(std::vector<Building> buildings, ObjectiveToggles objectiveToggles);
+float getCost(Buildings buildings, ObjectiveToggles objectiveToggles);
 
 #endif //OPTIMIZE_COST_H
