@@ -8,7 +8,7 @@ const build = async () => {
       "wasm",
       "-g -O3"
     );
-    const outWasm = project.newFile("out/main.wasm", "wasm", true);
+    const outWasm = project.newFile("src/optimizer/main.wasm", "wasm", true);
     outWasm.setData(data);
   } catch (e) {
     console.error(e);

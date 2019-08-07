@@ -12,7 +12,7 @@ typedef struct __attribute__((__packed__))
 } Building;
 
 WASM_EXPORT
-void move(float *numbers, int nBuildings, int iterations)
+void move(float *numbers, int n)
 {
   Building *buildings = (Building *)numbers;
 
