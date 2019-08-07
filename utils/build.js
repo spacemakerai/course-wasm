@@ -2,8 +2,8 @@ const { Service, project } = require("@wasm/studio-utils");
 
 const build = async () => {
   const data = await Service.compileFile(
-    project.getFile("src/main.c"),
-    "c",
+    project.getFile("src/main.cpp"),
+    "c++",
     "wasm",
     "-g -O3"
   );
