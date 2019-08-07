@@ -15,8 +15,6 @@ struct Building {
     Polygon ground_polygon;
 };
 typedef std::vector<Building> Buildings;
-float simpleArea(Building building);
-
-
+float simpleVolume(Building building);
 
 #endif //COURSE_WASM_GEOMETRY_H
