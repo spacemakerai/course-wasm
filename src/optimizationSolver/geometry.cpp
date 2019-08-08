@@ -1,17 +1,23 @@
 
 #include "geometry.h"
-#include <cmath>
+#include<cmath>
+
 
 float lengthOfLine(Point point1, Point point2)
 {
     float distance = sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
     return distance;
 }
-float simpleArea(Building building)
+float getArea(Polygon rectangularPolygon)
 {
-    Polygon rectangularPolygon = building.ground_polygon;
     float length = lengthOfLine(rectangularPolygon[0], rectangularPolygon[1]);
     float width = lengthOfLine(rectangularPolygon[1], rectangularPolygon[2]);
     return length * width;
 }
-float getHeight(Building building) { return building.height; }
+
+float getVolume(Building building){
+    Polygon polygon = building.ground_polygon;
+    float polygonArea = getArea(polygon);
+    float volume = polygonArea * building.height;
+    return volume;
+}

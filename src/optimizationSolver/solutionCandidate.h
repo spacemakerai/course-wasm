@@ -3,15 +3,16 @@
 #define OPTIMIZE_SOLUTIONCANDIDATE_H
 #include <vector>
 #include "geometry.h"
+#include "optimize.h"
 
 
 struct SolutionCandidate {
     float cost;
-    bool violation;
-    std::vector<float> heights;
+    bool solutionIsFeasible;
+    Buildings buildings;
 };
 typedef std::vector<SolutionCandidate> SolutionCandidates;
 
-SolutionCandidate createSolutionCandidateFromBuildings(std::vector<Building> buildings, bool volumeToggle, bool sunToggle);
+SolutionCandidate createSolutionCandidateFromBuildings(Buildings buildings, ObjectiveToggles objectiveToggles);
 
 #endif //OPTIMIZE_SOLUTIONCANDIDATE_H
