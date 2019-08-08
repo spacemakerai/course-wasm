@@ -1,4 +1,4 @@
-#define WASM_EXPORT __attribute__((visibility("default")))
+
 
 typedef struct __attribute__((__packed__))
 {

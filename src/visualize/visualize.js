@@ -1,9 +1,10 @@
 import * as THREE from "../three.js";
 import * as buffered from "./buffered.js";
 import * as box from "./box.js";
-import * as Optimizer from "../optimizer/optimizer.js";
 
-export function init(buildings) {
+const geometry = buffered;
+
+export function init(buildings, Optimizer) {
   const renderer = createRenderer();
   const camera = createCamera();
 
@@ -15,20 +16,23 @@ export function init(buildings) {
   scene.add(createLight());
   scene.add(createPlane());
 
-  const objects = box.create(buildings);
+  const objects = geometry.create(buildings);
   scene.add(objects);
 
   document.getElementById("container").appendChild(renderer.domElement);
   window.addEventListener("resize", onWindowResize, false);
 
   return function render() {
+    const start = performance.now();
     requestAnimationFrame(render);
     controls.update();
 
     buildings = Optimizer.move(buildings);
-    box.move(objects, buildings);
+    geometry.move(objects, buildings);
 
     renderer.render(scene, camera);
+    const end = performance.now();
+    // console.log(end - start);
   };
 }
 
