@@ -1,27 +1,24 @@
-#define WASM_EXPORT __attribute__((visibility("default")))
-#include "optimizationSolver/geometry.h"
-#include "optimizationSolver/optimize.h"
+#include <vector>
 
-
+#include "geometry.h"
+#include "optimize.h"
 
 int PARAMETERS_PER_BUILDING = 9;
-int NUMBER_OF_COORDINATES_PER_BUILDING=4;
+int NUMBER_OF_COORDINATES_PER_BUILDING = 4;
 bool SUN_OBJECTIVE = false;
 bool VOLUME_OBJECTIVE = true;
-
 
 Buildings convertParametersToBuildings(float* positions, int numberOfBuildings);
 void convertBuildingsToParameters(Buildings buildings, float *positions);
 
-
-WASM_EXPORT
-void move(float* positions, int n) {
+extern "C" void move(float *positions, int n)
+{
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     Buildings inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
     Buildings optimizedBuildings = optimizeBuildings(inputBuildings, {SUN_OBJECTIVE, VOLUME_OBJECTIVE});
     convertBuildingsToParameters(optimizedBuildings, positions);
+    int r = 5;
 }
-
 
 Buildings convertParametersToBuildings(float* positions, int numberOfBuildings){
     Buildings inputBuildings;

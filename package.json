@@ -17,5 +17,8 @@
     "name": "Empty C Project",
     "description": "# Empty C Project",
     "icon": "c-lang-file-icon"
+  },
+  "dependencies": {
+    "three": "^0.106.2"
   }
 }

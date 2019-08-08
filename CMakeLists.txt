@@ -21,7 +21,17 @@ message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
 
 set(SOURCE src/main.cpp)
 
-add_executable(height_optimize src/main.cpp src/optimizationSolver/geometry.h src/optimizationSolver/geometry.cpp src/optimizationSolver/cost.h src/optimizationSolver/cost.cpp src/optimizationSolver/optimize.h src/optimizationSolver/optimize.cpp src/optimizationSolver/solutionCandidate.h src/optimizationSolver/solutionCandidate.cpp)
+add_executable(height_optimize
+        src/optimizationSolver/main.cpp
+        src/optimizationSolver/geometry.h
+        src/optimizationSolver/geometry.cpp
+        src/optimizationSolver/cost.h
+        src/optimizationSolver/cost.cpp
+        src/optimizationSolver/optimize.h
+        src/optimizationSolver/optimize.cpp
+        src/optimizationSolver/solutionCandidate.h
+        src/optimizationSolver/solutionCandidate.cpp
+        )
 
 
 
