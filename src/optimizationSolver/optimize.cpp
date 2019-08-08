@@ -10,16 +10,19 @@ float HEIGHT_INCREMENT = 1.0;
 float MAX_AVERAGE_HEIGHT = 10;
 
 
-Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles){
+Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles)
+{
     SolutionCandidates solutionCandidates;
     SolutionCandidate currentSolutionCandidate = createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles);
     solutionCandidates.push_back(currentSolutionCandidate);
 
     int numberOfBuildings = initialBuildings.size();
-    for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1) {
+    for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1)
+    {
         float currentHeight = initialBuildings[buildingIndex].height;
 
-        if (currentHeight <= MAX_HEIGHT + HEIGHT_INCREMENT) {
+        if (currentHeight <= MAX_HEIGHT + HEIGHT_INCREMENT)
+        {
             Buildings updatedBuildings = initialBuildings;
             updatedBuildings[buildingIndex].height = currentHeight + HEIGHT_INCREMENT;
             if (solutionIsFeasible(updatedBuildings, MAX_AVERAGE_HEIGHT)){
@@ -27,7 +30,8 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
                 solutionCandidates.push_back(newSolutionCandidate);
             }
         }
-        if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT) {
+        if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT)
+        {
             Buildings updatedBuildings = initialBuildings;
             updatedBuildings[buildingIndex].height = currentHeight - HEIGHT_INCREMENT;
             if (solutionIsFeasible(updatedBuildings, MAX_AVERAGE_HEIGHT)) {
