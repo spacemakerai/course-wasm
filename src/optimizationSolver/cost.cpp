@@ -8,7 +8,7 @@ float getCost(Buildings buildings,ObjectiveToggles objectiveToggles){
     if (objectiveToggles.volume) {
         std::vector<float> buildingVolumes;
         buildingVolumes.resize(buildings.size());
-        std::transform(buildings.begin(), buildings.end(), buildingVolumes.begin(), simpleVolume);
+        std::transform(buildings.begin(), buildings.end(), buildingVolumes.begin(), getVolume);
         float totalVolume = std::accumulate(buildingVolumes.begin(), buildingVolumes.end(), 0.0);
         cost += totalVolume;
     }
