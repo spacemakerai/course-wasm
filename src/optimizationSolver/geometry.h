@@ -16,5 +16,6 @@ struct Building {
 };
 typedef std::vector<Building> Buildings;
 float getVolume(Building building);
+float getArea(Building rectangularBuilding);
 
 #endif //COURSE_WASM_GEOMETRY_H

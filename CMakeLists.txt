@@ -31,6 +31,8 @@ add_executable(height_optimize
         src/optimizationSolver/optimize.cpp
         src/optimizationSolver/solutionCandidate.h
         src/optimizationSolver/solutionCandidate.cpp
+        src/optimizationSolver/feasibilityChecker.cpp
+        src/optimizationSolver/feasibilityChecker.h
         )
 
 

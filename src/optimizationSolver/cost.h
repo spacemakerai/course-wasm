@@ -8,6 +8,5 @@
 
 
 float getCost(Buildings buildings, ObjectiveToggles objectiveToggles);
-SolutionCandidate getBestSolutionCandidate(SolutionCandidates solutionCandidates);
 
 #endif //OPTIMIZE_COST_H

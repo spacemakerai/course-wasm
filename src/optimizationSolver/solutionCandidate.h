@@ -8,11 +8,12 @@
 
 struct SolutionCandidate {
     float cost;
-    bool solutionIsFeasible;
+    bool isFeasible;
     Buildings buildings;
 };
 typedef std::vector<SolutionCandidate> SolutionCandidates;
 
-SolutionCandidate createSolutionCandidateFromBuildings(Buildings buildings, ObjectiveToggles objectiveToggles);
+SolutionCandidate createSolutionCandidateFromBuildings(Buildings buildings, ObjectiveToggles objectiveToggles, float maxAverageHeight);
+SolutionCandidate getBestSolutionCandidate(SolutionCandidates solutionCandidates);
 
 #endif //OPTIMIZE_SOLUTIONCANDIDATE_H
