@@ -13,11 +13,9 @@ float MAX_AVERAGE_HEIGHT = 10;
 Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles)
 {
     SolutionCandidates solutionCandidates;
-    SolutionCandidate currentSolutionCandidate = createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles);
-    solutionCandidates.push_back(currentSolutionCandidate);
+    solutionCandidates.push_back({createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles)});
 
-    int numberOfBuildings = initialBuildings.size();
-    for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1)
+    for (int buildingIndex = 0; buildingIndex < int (initialBuildings.size()); buildingIndex += 1)
     {
         float currentHeight = initialBuildings[buildingIndex].height;
 
@@ -26,8 +24,7 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
             Buildings updatedBuildings = initialBuildings;
             updatedBuildings[buildingIndex].height = currentHeight + HEIGHT_INCREMENT;
             if (solutionIsFeasible(updatedBuildings, MAX_AVERAGE_HEIGHT)){
-                SolutionCandidate newSolutionCandidate = createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles);
-                solutionCandidates.push_back(newSolutionCandidate);
+                solutionCandidates.push_back({createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles)});
             }
         }
         if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT)
@@ -35,12 +32,10 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
             Buildings updatedBuildings = initialBuildings;
             updatedBuildings[buildingIndex].height = currentHeight - HEIGHT_INCREMENT;
             if (solutionIsFeasible(updatedBuildings, MAX_AVERAGE_HEIGHT)) {
-                SolutionCandidate newSolutionCandidate = createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles);
-                solutionCandidates.push_back(newSolutionCandidate);
+                solutionCandidates.push_back({createSolutionCandidateFromBuildings(updatedBuildings, objectiveToggles)});
             }
         }
     }
     SolutionCandidate bestSolutionCandidate = getBestSolutionCandidate(solutionCandidates);
-    Buildings bestBuildings = bestSolutionCandidate.buildings;
-    return bestBuildings;
+    return bestSolutionCandidate.buildings;
 }
