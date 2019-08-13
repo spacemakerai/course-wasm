@@ -10,30 +10,63 @@ float HEIGHT_INCREMENT = 1.0;
 float MAX_AVERAGE_HEIGHT = 18;
 
 SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, ObjectiveToggles objectiveToggles);
-void addFeasibleSolutionCandidatesToSolutionCandidateList(SolutionCandidates *solutionCandidates, SolutionCandidates potentialSolutionCandidates);
+SolutionCandidates getFeasibleSolutionCandidates(SolutionCandidates solutionCandidates);
+void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, SolutionCandidates solutionCandidatesToAdd);
 
 
 Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles)
 {
     SolutionCandidates solutionCandidates;
-    solutionCandidates.push_back({createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles, MAX_AVERAGE_HEIGHT)});
+    SolutionCandidate initialSolutionCandidate{createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles, MAX_AVERAGE_HEIGHT)};
+    solutionCandidates.push_back(initialSolutionCandidate);
 
-    for (int buildingIndex = 0; buildingIndex < int (initialBuildings.size()); buildingIndex += 1)
+    int numberOfBuildings = int (initialBuildings.size());
+
+    for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1)
     {
-        SolutionCandidates potentialSolutionCandidates = increaseAndDecreaseHeightOfBuilding(buildingIndex, initialBuildings, objectiveToggles);
-        addFeasibleSolutionCandidatesToSolutionCandidateList(&solutionCandidates, potentialSolutionCandidates);
+        SolutionCandidates solutionsWithOneBuildingHeightChanged = increaseAndDecreaseHeightOfBuilding(buildingIndex, initialBuildings, objectiveToggles);
+        addSolutionCandidatesToList(&solutionCandidates, solutionsWithOneBuildingHeightChanged);
+
+        for (SolutionCandidate solutionCandidate: solutionsWithOneBuildingHeightChanged)
+        {
+            for (int otherBuildingIndex = buildingIndex + 1; otherBuildingIndex < numberOfBuildings; otherBuildingIndex += 1)
+            {
+                SolutionCandidates solutionsWithTwoBuildingHeightsChanged = increaseAndDecreaseHeightOfBuilding(otherBuildingIndex, solutionCandidate.buildings, objectiveToggles);
+                addSolutionCandidatesToList(&solutionCandidates, solutionsWithTwoBuildingHeightsChanged);
+            }
+        }
     }
-    SolutionCandidate bestSolutionCandidate = getBestSolutionCandidate(solutionCandidates);
+    SolutionCandidates feasibleSolutionCandidates = getFeasibleSolutionCandidates(solutionCandidates);
+    SolutionCandidate bestSolutionCandidate = getBestSolutionCandidate(feasibleSolutionCandidates);
     return bestSolutionCandidate.buildings;
 }
 
+void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, SolutionCandidates solutionCandidatesToAdd)
+{
+    for (SolutionCandidate solutionCandidateToAdd: solutionCandidatesToAdd)
+    {
+        listToBeAddedTo->push_back(solutionCandidateToAdd);
+    }
+}
 
 Buildings changeHeightOfBuilding(Buildings buildings, int buildingIndexToChange, float heightIncrement)
 {
-    float currentHeight = buildings[buildingIndexToChange].height;
     Buildings updatedBuildings = buildings;
-    updatedBuildings[buildingIndexToChange].height = currentHeight + heightIncrement;
+    updatedBuildings[buildingIndexToChange].height = buildings[buildingIndexToChange].height + heightIncrement;
     return updatedBuildings;
+}
+
+SolutionCandidates getFeasibleSolutionCandidates(SolutionCandidates solutionCandidates)
+{
+    SolutionCandidates feasibleSolutionCandidates;
+    for (SolutionCandidate solutionCandidate: solutionCandidates)
+    {
+        if (solutionCandidate.isFeasible)
+        {
+            feasibleSolutionCandidates.push_back(solutionCandidate);
+        }
+    }
+    return feasibleSolutionCandidates;
 }
 
 
@@ -53,17 +86,3 @@ SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange
     }
     return potentialSolutionCandidates;
 }
-
-
-void addFeasibleSolutionCandidatesToSolutionCandidateList(SolutionCandidates *solutionCandidates, SolutionCandidates potentialSolutionCandidates)
-{
-    for (SolutionCandidate potentialSolutionCandidate: potentialSolutionCandidates)
-    {
-        if (potentialSolutionCandidate.isFeasible)
-        {
-            solutionCandidates->push_back(potentialSolutionCandidate);
-        }
-    }
-}
-
-
