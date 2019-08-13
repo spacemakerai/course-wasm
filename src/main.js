@@ -1,4 +1,4 @@
-import * as OptimizerSolver from "./solver/optimizer.js";
+import * as OptimizerSolver from "./solver/solver.js";
 
 const Optimizer = OptimizerSolver;
 
