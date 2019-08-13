@@ -2,10 +2,10 @@
 #include <numeric>
 #include "cost.h"
 
-float getTotalVolume(Buildings buildings);
+float getTotalVolume(const Buildings& buildings);
 
 
-float getCost(Buildings buildings,ObjectiveToggles objectiveToggles)
+float getCost(const Buildings& buildings, ObjectiveToggles objectiveToggles)
 {
     float cost = 0;
     if (objectiveToggles.volume) {
@@ -20,7 +20,7 @@ float getCost(Buildings buildings,ObjectiveToggles objectiveToggles)
 }
 
 
-float getTotalVolume(Buildings buildings)
+float getTotalVolume(const Buildings& buildings)
 {
     std::vector<float> buildingVolumes;
     buildingVolumes.resize(buildings.size());

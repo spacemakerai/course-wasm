@@ -11,41 +11,41 @@ float MAX_AVERAGE_HEIGHT = 18;
 
 SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, ObjectiveToggles objectiveToggles);
 SolutionCandidates getFeasibleSolutionCandidates(const SolutionCandidates& solutionCandidates);
-void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd);
+void addSolutionCandidatesToList(SolutionCandidates& listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd);
 
 
 Buildings optimizeBuildings(const Buildings& initialBuildings, ObjectiveToggles objectiveToggles)
 {
-    SolutionCandidates solutionCandidates;
+    SolutionCandidates solutions;
     SolutionCandidate initialSolutionCandidate{createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles, MAX_AVERAGE_HEIGHT)};
-    solutionCandidates.push_back(initialSolutionCandidate);
+    solutions.push_back(initialSolutionCandidate);
 
     int numberOfBuildings = int (initialBuildings.size());
 
     for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1)
     {
         SolutionCandidates solutionsWithOneBuildingHeightChanged = increaseAndDecreaseHeightOfBuilding(buildingIndex, initialBuildings, objectiveToggles);
-        addSolutionCandidatesToList(&solutionCandidates, solutionsWithOneBuildingHeightChanged);
+        addSolutionCandidatesToList(solutions, solutionsWithOneBuildingHeightChanged);
 
         for (const SolutionCandidate& solutionCandidate: solutionsWithOneBuildingHeightChanged)
         {
             for (int otherBuildingIndex = buildingIndex + 1; otherBuildingIndex < numberOfBuildings; otherBuildingIndex += 1)
             {
                 SolutionCandidates solutionsWithTwoBuildingHeightsChanged = increaseAndDecreaseHeightOfBuilding(otherBuildingIndex, solutionCandidate.buildings, objectiveToggles);
-                addSolutionCandidatesToList(&solutionCandidates, solutionsWithTwoBuildingHeightsChanged);
+                addSolutionCandidatesToList(solutions, solutionsWithTwoBuildingHeightsChanged);
             }
         }
     }
-    SolutionCandidates feasibleSolutionCandidates = getFeasibleSolutionCandidates(solutionCandidates);
+    SolutionCandidates feasibleSolutionCandidates = getFeasibleSolutionCandidates(solutions);
     SolutionCandidate bestSolutionCandidate = getBestSolutionCandidate(feasibleSolutionCandidates);
     return bestSolutionCandidate.buildings;
 }
 
-void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd)
+void addSolutionCandidatesToList(SolutionCandidates& listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd)
 {
     for (const SolutionCandidate& solutionCandidateToAdd: solutionCandidatesToAdd)
     {
-        listToBeAddedTo->push_back(solutionCandidateToAdd);
+        listToBeAddedTo.push_back(solutionCandidateToAdd);
     }
 }
 

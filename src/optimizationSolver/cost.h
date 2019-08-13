@@ -7,6 +7,6 @@
 #include "solutionCandidate.h"
 
 
-float getCost(Buildings buildings, ObjectiveToggles objectiveToggles);
+float getCost(const Buildings& buildings,ObjectiveToggles objectiveToggles);
 
 #endif //OPTIMIZE_COST_H
