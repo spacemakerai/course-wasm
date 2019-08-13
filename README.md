@@ -16,9 +16,9 @@ utilization of a building site. (no prior knowledge about WebAssembly, Three.js 
 
 ## Usage
 
-Install dependencies with `npm install`
+Install dependencies with `npm install` and [`emcc`](https://emscripten.org/docs/getting_started/downloads.html)
 
-Build the code with `npm run build`
+Build the code with `./build.sh`
 
 Start a web server `npm run start`
 
