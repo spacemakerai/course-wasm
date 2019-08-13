@@ -41,6 +41,7 @@ export function init(site) {
     renderer.setSize(window.innerWidth, window.innerHeight);
   }
   // 1. insert `renderer.render(scene, camera)` here
+  renderer.render(scene, camera);
 
   // 2. call render() (you should remove the render call from the previous task)
 }
