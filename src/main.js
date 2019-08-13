@@ -1,5 +1,4 @@
-import * as OptimizerHello from "./optimizer/optimizer.js";
-import * as OptimizerSolver from "./optimizationSolver/optimizer.js";
+import * as OptimizerSolver from "./solver/optimizer.js";
 
 const Optimizer = OptimizerSolver;
 
