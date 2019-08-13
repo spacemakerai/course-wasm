@@ -2,7 +2,7 @@
 #include <numeric>
 #include "feasibilityChecker.h"
 
-float getAverageHeight(Buildings buildings)
+float getAverageHeight(const Buildings& buildings)
 {
     std::vector<float> buildingVolumes;
     buildingVolumes.resize(buildings.size());
@@ -18,7 +18,7 @@ float getAverageHeight(Buildings buildings)
     return averageHeight;
 }
 
-bool solutionIsFeasible(Buildings buildings, float maxAverageHeight)
+bool solutionIsFeasible(const Buildings& buildings, float maxAverageHeight)
 {
     float averageHeight = getAverageHeight(buildings);
     bool solutionIsFeasible = averageHeight <= maxAverageHeight;

@@ -8,7 +8,7 @@ float lengthOfLine(Point point1, Point point2)
     float distance = sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
     return distance;
 }
-float getArea(Building rectangularBuilding)
+float getArea(const Building& rectangularBuilding)
 {
     Polygon polygon = rectangularBuilding.ground_polygon;
     float length = lengthOfLine(polygon[0], polygon[1]);
@@ -16,7 +16,7 @@ float getArea(Building rectangularBuilding)
     return length * width;
 }
 
-float getVolume(Building building)
+float getVolume(const Building& building)
 {
     float polygonArea = getArea(building);
     float volume = polygonArea * building.height;
