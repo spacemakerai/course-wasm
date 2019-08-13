@@ -4,36 +4,33 @@ import * as box from "./box.js";
 
 const geometry = buffered;
 
-export function init(buildings, Optimizer) {
+export function init(site) {
   const renderer = createRenderer();
   const camera = createCamera();
 
   const controls = new THREE.OrbitControls(camera, renderer.domElement);
-  controls.update();
 
   const scene = new THREE.Scene();
 
   scene.add(createLight());
   scene.add(createPlane());
 
-  const objects = geometry.create(buildings);
+  const objects = geometry.create(site.getBuildings());
   scene.add(objects);
 
   document.getElementById("container").appendChild(renderer.domElement);
   window.addEventListener("resize", onWindowResize, false);
 
-  return function render() {
-    const start = performance.now();
+  site.onChange(buildings => geometry.move(objects, buildings));
+
+  function render() {
     requestAnimationFrame(render);
     controls.update();
 
-    buildings = Optimizer.move(buildings);
-    geometry.move(objects, buildings);
-
     renderer.render(scene, camera);
-    const end = performance.now();
-    // console.log(end - start);
-  };
+  }
+
+  render();
 }
 
 function createRenderer() {
@@ -54,8 +51,8 @@ function createCamera() {
   );
 
   camera.lookAt(new THREE.Vector3(0, 0, 0));
-  camera.position.x = 20;
-  camera.position.z = 20;
+  camera.position.x = 100;
+  camera.position.z = 100;
   camera.up = new THREE.Vector3(0, 0, 1);
 
   return camera;
@@ -63,7 +60,7 @@ function createCamera() {
 
 function createLight() {
   const ambient = new THREE.AmbientLight(0xf0f0f0, 0.55);
-  var light = new THREE.DirectionalLight(0xffffff, 0.1);
+  var light = new THREE.DirectionalLight(0xffffff, 0.45);
   light.position.set(-20, 80, 20);
   light.castShadow = true;
   const shadowMapSize = 4096;
