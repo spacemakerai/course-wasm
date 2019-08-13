@@ -16,6 +16,11 @@ const createBuilding = (coordinates, height) => {
   // Think of this as if you where drawing on paper.
   // `moveTo` moves your pencil without touching the paper
   // `lineTo` will a staight line from your current position to the new point
+  shape.moveTo(x0, y0);
+  shape.lineTo(x1, y1);
+  shape.lineTo(x2, y2);
+  shape.lineTo(x3, y3);
+  shape.lineTo(x0, y0);
 
   const geometry = new THREE.ExtrudeGeometry(shape, {
     depth: height,
