@@ -32,6 +32,8 @@ const createBuilding = (coordinates, height) => {
 
   const building = new THREE.Mesh(geometry, material);
   // 4. The `THREE.Mesh` must have `receiceShadow` and `castShadow` set to true
+  building.receiveShadow = true;
+  building.castShadow = true;
 
   return building;
 };

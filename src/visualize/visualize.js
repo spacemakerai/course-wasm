@@ -76,7 +76,7 @@ function createLight() {
   const group = new THREE.Group();
   const ambient = new THREE.AmbientLight(0xf0f0f0, 0.55);
   // 4. Uncomment the following code to add an Directional Light
-  /*
+
   const light = new THREE.DirectionalLight(0xffffff, 0.45);
   light.position.set(80, 20, 20);
   light.castShadow = true;
@@ -89,7 +89,7 @@ function createLight() {
   light.shadow.camera.bottom = -size;
 
   group.add(light);
-  */
+
   group.add(ambient);
   return group;
 }
