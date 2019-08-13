@@ -67,7 +67,7 @@ function createCamera() {
 function createLight() {
   const ambient = new THREE.AmbientLight(0xf0f0f0, 0.55);
   var light = new THREE.DirectionalLight(0xffffff, 0.45);
-  light.position.set(-20, 80, 20);
+  light.position.set(80, 20, 20);
   light.castShadow = true;
   const shadowMapSize = 4096;
   light.shadow.mapSize.width = shadowMapSize;
