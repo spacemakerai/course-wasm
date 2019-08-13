@@ -81,8 +81,8 @@ SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange
     }
     if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT)
     {
-        Buildings buildingsWithIncreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, -HEIGHT_INCREMENT);
-        potentialSolutionCandidates.push_back({createSolutionCandidateFromBuildings(buildingsWithIncreasedHeight, objectiveToggles, MAX_AVERAGE_HEIGHT)});
+        Buildings buildingsWithDecreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, -HEIGHT_INCREMENT);
+        potentialSolutionCandidates.push_back({createSolutionCandidateFromBuildings(buildingsWithDecreasedHeight, objectiveToggles, MAX_AVERAGE_HEIGHT)});
     }
     return potentialSolutionCandidates;
 }
