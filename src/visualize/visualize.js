@@ -30,6 +30,12 @@ export function init(site) {
     renderer.render(scene, camera);
   }
 
+  function onWindowResize() {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  }
+
   render();
 }
 
@@ -91,10 +97,4 @@ function createPlane() {
 
   plane.receiveShadow = plane.castShadow = true;
   return plane;
-}
-
-function onWindowResize() {
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
 }
