@@ -8,7 +8,7 @@ int NUMBER_OF_COORDINATES_PER_BUILDING = 4;
 bool SUN_OBJECTIVE = false;
 bool VOLUME_OBJECTIVE = true;
 
-Buildings convertParametersToBuildings(float* positions, int numberOfBuildings);
+Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings);
 void convertBuildingsToParameters(Buildings buildings, float *positions);
 
 extern "C" void move(float *positions, int n)
@@ -19,7 +19,7 @@ extern "C" void move(float *positions, int n)
     convertBuildingsToParameters(optimizedBuildings, positions);
 }
 
-Buildings convertParametersToBuildings(float* positions, int numberOfBuildings)
+Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings)
 {
     Buildings inputBuildings;
     for (int i= 0; i<numberOfBuildings; i++)
