@@ -1,8 +1,9 @@
 import * as THREE from "../three.js";
 import * as buffered from "./buffered.js";
 import * as box from "./box.js";
+import * as extrude from "./extrude.js";
 
-const geometry = buffered;
+const geometry = extrude;
 
 export function init(site) {
   const renderer = createRenderer();
@@ -23,20 +24,25 @@ export function init(site) {
 
   site.onChange(buildings => geometry.move(objects, buildings));
 
+  // 2. uncomment the follwing function to implement the render loop
+  /*
   function render() {
-    requestAnimationFrame(render);
     controls.update();
 
-    renderer.render(scene, camera);
+    // move the renderer.render call here
+
+    // call the requestAnimationFrame with the render function as an argument
   }
+  */
 
   function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
   }
+  // 1. insert `renderer.render(scene, camera)` here
 
-  render();
+  // 2. call render() (you should remove the render call from the previous task)
 }
 
 function createRenderer() {
@@ -65,21 +71,23 @@ function createCamera() {
 }
 
 function createLight() {
+  const group = new THREE.Group();
   const ambient = new THREE.AmbientLight(0xf0f0f0, 0.55);
-  var light = new THREE.DirectionalLight(0xffffff, 0.45);
+  // 4. Uncomment the following code to add an Directional Light
+  /*
+  const light = new THREE.DirectionalLight(0xffffff, 0.45);
   light.position.set(80, 20, 20);
   light.castShadow = true;
-  const shadowMapSize = 4096;
-  light.shadow.mapSize.width = shadowMapSize;
-  light.shadow.mapSize.height = shadowMapSize;
-  const size = 600;
-  light.shadow.camera.near = -size / 2;
+  const size = 200;
+  light.shadow.camera.near = 10;
+  light.shadow.camera.far = 1000;
   light.shadow.camera.left = -size;
   light.shadow.camera.right = size;
   light.shadow.camera.top = size;
   light.shadow.camera.bottom = -size;
-  const group = new THREE.Group();
+
   group.add(light);
+  */
   group.add(ambient);
   return group;
 }

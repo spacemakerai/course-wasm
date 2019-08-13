@@ -16,7 +16,9 @@ export function create(buildings) {
     color: 0xfafafa
   });
   const facades = new THREE.Mesh(geometry, material);
-  facades.receiveShadow = facades.castShadow = true;
+
+  // 4.
+  // facades.receiveShadow = facades.castShadow = true;
 
   return facades;
 }

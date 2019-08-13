@@ -1,3 +1,4 @@
+//
 import Module from "../../out/solver.js";
 const instance = Module();
 
