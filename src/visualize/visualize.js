@@ -25,15 +25,16 @@ export function init(site) {
   site.onChange(buildings => geometry.move(objects, buildings));
 
   // 2. uncomment the follwing function to implement the render loop
-  /*
+
   function render() {
     controls.update();
 
     // move the renderer.render call here
+    renderer.render(scene, camera);
 
     // call the requestAnimationFrame with the render function as an argument
+    requestAnimationFrame(render);
   }
-  */
 
   function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
@@ -41,9 +42,9 @@ export function init(site) {
     renderer.setSize(window.innerWidth, window.innerHeight);
   }
   // 1. insert `renderer.render(scene, camera)` here
-  renderer.render(scene, camera);
 
   // 2. call render() (you should remove the render call from the previous task)
+  render();
 }
 
 function createRenderer() {
