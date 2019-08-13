@@ -10,11 +10,11 @@ float HEIGHT_INCREMENT = 1.0;
 float MAX_AVERAGE_HEIGHT = 18;
 
 SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, ObjectiveToggles objectiveToggles);
-SolutionCandidates getFeasibleSolutionCandidates(SolutionCandidates solutionCandidates);
-void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, SolutionCandidates solutionCandidatesToAdd);
+SolutionCandidates getFeasibleSolutionCandidates(const SolutionCandidates& solutionCandidates);
+void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd);
 
 
-Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles)
+Buildings optimizeBuildings(const Buildings& initialBuildings, ObjectiveToggles objectiveToggles)
 {
     SolutionCandidates solutionCandidates;
     SolutionCandidate initialSolutionCandidate{createSolutionCandidateFromBuildings(initialBuildings, objectiveToggles, MAX_AVERAGE_HEIGHT)};
@@ -27,7 +27,7 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
         SolutionCandidates solutionsWithOneBuildingHeightChanged = increaseAndDecreaseHeightOfBuilding(buildingIndex, initialBuildings, objectiveToggles);
         addSolutionCandidatesToList(&solutionCandidates, solutionsWithOneBuildingHeightChanged);
 
-        for (SolutionCandidate solutionCandidate: solutionsWithOneBuildingHeightChanged)
+        for (const SolutionCandidate& solutionCandidate: solutionsWithOneBuildingHeightChanged)
         {
             for (int otherBuildingIndex = buildingIndex + 1; otherBuildingIndex < numberOfBuildings; otherBuildingIndex += 1)
             {
@@ -41,9 +41,9 @@ Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objecti
     return bestSolutionCandidate.buildings;
 }
 
-void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, SolutionCandidates solutionCandidatesToAdd)
+void addSolutionCandidatesToList(SolutionCandidates *listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd)
 {
-    for (SolutionCandidate solutionCandidateToAdd: solutionCandidatesToAdd)
+    for (const SolutionCandidate& solutionCandidateToAdd: solutionCandidatesToAdd)
     {
         listToBeAddedTo->push_back(solutionCandidateToAdd);
     }
@@ -56,10 +56,10 @@ Buildings changeHeightOfBuilding(Buildings buildings, int buildingIndexToChange,
     return updatedBuildings;
 }
 
-SolutionCandidates getFeasibleSolutionCandidates(SolutionCandidates solutionCandidates)
+SolutionCandidates getFeasibleSolutionCandidates(const SolutionCandidates& solutionCandidates)
 {
     SolutionCandidates feasibleSolutionCandidates;
-    for (SolutionCandidate solutionCandidate: solutionCandidates)
+    for (const SolutionCandidate& solutionCandidate: solutionCandidates)
     {
         if (solutionCandidate.isFeasible)
         {

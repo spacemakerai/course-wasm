@@ -10,6 +10,6 @@ struct ObjectiveToggles {
     bool volume;
 };
 
-Buildings optimizeBuildings(Buildings initialBuildings, ObjectiveToggles objectiveToggles);
+Buildings optimizeBuildings(const Buildings& initialBuildings, ObjectiveToggles objectiveToggles);
 
 #endif //OPTIMIZE_OPTIMIZE_H
