@@ -7,6 +7,7 @@
 
 struct ObjectiveToggles {
     bool sun;
+
     bool volume;
 };
 
