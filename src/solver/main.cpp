@@ -5,8 +5,7 @@
 
 int PARAMETERS_PER_BUILDING = 9;
 int NUMBER_OF_COORDINATES_PER_BUILDING = 4;
-bool DISTANCE_TO_BUS_STOP_OBJECTIVE = true;
-bool VOLUME_OBJECTIVE = true;
+Objective mainObjective = Objective::VOLUME_OBJECTIVE;
 
 Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings);
 void convertBuildingsToParameters(Buildings buildings, float *positions);
@@ -15,7 +14,7 @@ extern "C" void move(float *positions, int n)
 {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     Buildings inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
-    Buildings optimizedBuildings = optimizeBuildings(inputBuildings, {DISTANCE_TO_BUS_STOP_OBJECTIVE, VOLUME_OBJECTIVE});
+    Buildings optimizedBuildings = optimizeBuildings(inputBuildings, mainObjective);
     convertBuildingsToParameters(optimizedBuildings, positions);
 }
 

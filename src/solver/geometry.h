@@ -3,8 +3,6 @@
 #define COURSE_WASM_GEOMETRY_H
 #include <vector>
 
-
-
 struct Point {
     float x;
     float y;
