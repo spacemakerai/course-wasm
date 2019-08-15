@@ -15,7 +15,7 @@ export function generate() {
     ),
 
     setBuildings(buildings) {
-      this.buildings.set(buildings);
+      this.buildings = buildings;
 
       (this.listeners || []).forEach(listener => listener(this.buildings));
     },
