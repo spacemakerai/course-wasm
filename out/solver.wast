@@ -553,7 +553,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i)
@@ -562,7 +562,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$5
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -572,7 +572,7 @@
   (local.set $$this1$i43$i$i
    (local.get $$this$addr$i42$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i43$i$i)
@@ -581,7 +581,7 @@
   (local.set $$__p$addr$i$i41$i$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i41$i$i)
   )
@@ -603,7 +603,7 @@
   (local.set $$this1$i$i$i31$i$i
    (local.get $$this$addr$i$i$i26$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i
    (i32.add
     (local.get $$this1$i$i$i31$i$i)
@@ -622,7 +622,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i
    (local.get $$this$addr$i$i$i$i$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$8
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i)
@@ -654,7 +654,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$7)
@@ -670,7 +670,7 @@
   (local.set $$this1$i22$i$i
    (local.get $$this$addr$i21$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i22$i$i)
@@ -679,7 +679,7 @@
   (local.set $$__p$addr$i$i20$i$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i20$i$i)
   )
@@ -689,7 +689,7 @@
   (local.set $$this1$i18$i$i
    (local.get $$this$addr$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i18$i$i)
@@ -727,7 +727,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i
    (i32.add
     (local.get $$11)
@@ -743,7 +743,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$14
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -752,7 +752,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$15
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -774,7 +774,7 @@
   (local.set $$this1$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i)
@@ -793,7 +793,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$16
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -825,7 +825,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i
    (i32.add
     (local.get $$15)
@@ -850,7 +850,7 @@
   (local.set $$$addr3$i$i$i
    (local.get $$add$ptr9$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i)
   )
@@ -872,7 +872,7 @@
   (local.set $$this1$i$i$i40
    (local.get $$this$addr$i$i$i33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$18
    (i32.load
     (local.get $$this1$i$i$i40)
@@ -881,7 +881,7 @@
   (local.set $$__p$addr$i$i$i$i32
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$19
    (local.get $$__p$addr$i$i$i$i32)
   )
@@ -891,7 +891,7 @@
   (local.set $$this1$i43$i$i42
    (local.get $$this$addr$i42$i$i11)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$20
    (i32.load
     (local.get $$this1$i43$i$i42)
@@ -900,7 +900,7 @@
   (local.set $$__p$addr$i$i41$i$i10
    (local.get $$20)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$21
    (local.get $$__p$addr$i$i41$i$i10)
   )
@@ -922,7 +922,7 @@
   (local.set $$this1$i$i$i31$i$i46
    (local.get $$this$addr$i$i$i26$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i47
    (i32.add
     (local.get $$this1$i$i$i31$i$i46)
@@ -941,7 +941,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i49
    (local.get $$this$addr$i$i$i$i$i24$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$22
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i49)
@@ -973,7 +973,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i56
    (i32.add
     (local.get $$21)
@@ -989,7 +989,7 @@
   (local.set $$this1$i22$i$i57
    (local.get $$this$addr$i21$i$i18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$24
    (i32.load
     (local.get $$this1$i22$i$i57)
@@ -998,7 +998,7 @@
   (local.set $$__p$addr$i$i20$i$i17
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$25
    (local.get $$__p$addr$i$i20$i$i17)
   )
@@ -1008,7 +1008,7 @@
   (local.set $$this1$i18$i$i59
    (local.get $$this$addr$i17$i$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i60
    (i32.add
     (local.get $$this1$i18$i$i59)
@@ -1046,7 +1046,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i66
    (i32.add
     (local.get $$25)
@@ -1062,7 +1062,7 @@
   (local.set $$this1$i15$i$i67
    (local.get $$this$addr$i14$i$i21)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$28
    (i32.load
     (local.get $$this1$i15$i$i67)
@@ -1071,7 +1071,7 @@
   (local.set $$__p$addr$i$i13$i$i20
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$29
    (local.get $$__p$addr$i$i13$i$i20)
   )
@@ -1093,7 +1093,7 @@
   (local.set $$this1$i$i$i$i$i71
    (local.get $$this$addr$i$i$i$i$i24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i72
    (i32.add
     (local.get $$this1$i$i$i$i$i71)
@@ -1112,7 +1112,7 @@
   (local.set $$this1$i$i$i$i$i$i$i74
    (local.get $$this$addr$i$i$i$i$i$i$i22)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$30
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i74)
@@ -1144,7 +1144,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i81
    (i32.add
     (local.get $$29)
@@ -1169,7 +1169,7 @@
   (local.set $$$addr3$i$i$i31
    (local.get $$add$ptr9$i$i81)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i38)
   )
@@ -1191,7 +1191,7 @@
   (local.set $$this1$i$i$i113
    (local.get $$this$addr$i$i$i106)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$32
    (i32.load
     (local.get $$this1$i$i$i113)
@@ -1200,7 +1200,7 @@
   (local.set $$__p$addr$i$i$i$i105
    (local.get $$32)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$33
    (local.get $$__p$addr$i$i$i$i105)
   )
@@ -1210,7 +1210,7 @@
   (local.set $$this1$i43$i$i115
    (local.get $$this$addr$i42$i$i84)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$34
    (i32.load
     (local.get $$this1$i43$i$i115)
@@ -1219,7 +1219,7 @@
   (local.set $$__p$addr$i$i41$i$i83
    (local.get $$34)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$35
    (local.get $$__p$addr$i$i41$i$i83)
   )
@@ -1241,7 +1241,7 @@
   (local.set $$this1$i$i$i31$i$i119
    (local.get $$this$addr$i$i$i26$i$i87)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i120
    (i32.add
     (local.get $$this1$i$i$i31$i$i119)
@@ -1260,7 +1260,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i122
    (local.get $$this$addr$i$i$i$i$i24$i$i85)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$36
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i122)
@@ -1292,7 +1292,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i129
    (i32.add
     (local.get $$35)
@@ -1308,7 +1308,7 @@
   (local.set $$this1$i22$i$i130
    (local.get $$this$addr$i21$i$i91)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$38
    (i32.load
     (local.get $$this1$i22$i$i130)
@@ -1317,7 +1317,7 @@
   (local.set $$__p$addr$i$i20$i$i90
    (local.get $$38)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$39
    (local.get $$__p$addr$i$i20$i$i90)
   )
@@ -1327,7 +1327,7 @@
   (local.set $$this1$i18$i$i132
    (local.get $$this$addr$i17$i$i92)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i133
    (i32.add
     (local.get $$this1$i18$i$i132)
@@ -1365,7 +1365,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i139
    (i32.add
     (local.get $$39)
@@ -1381,7 +1381,7 @@
   (local.set $$this1$i15$i$i140
    (local.get $$this$addr$i14$i$i94)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$42
    (i32.load
     (local.get $$this1$i15$i$i140)
@@ -1390,7 +1390,7 @@
   (local.set $$__p$addr$i$i13$i$i93
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$43
    (local.get $$__p$addr$i$i13$i$i93)
   )
@@ -1412,7 +1412,7 @@
   (local.set $$this1$i$i$i$i$i144
    (local.get $$this$addr$i$i$i$i$i97)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i145
    (i32.add
     (local.get $$this1$i$i$i$i$i144)
@@ -1431,7 +1431,7 @@
   (local.set $$this1$i$i$i$i$i$i$i147
    (local.get $$this$addr$i$i$i$i$i$i$i95)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$44
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i147)
@@ -1463,7 +1463,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i154
    (i32.add
     (local.get $$43)
@@ -1488,7 +1488,7 @@
   (local.set $$$addr3$i$i$i104
    (local.get $$add$ptr9$i$i154)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i111)
   )
@@ -1977,12 +1977,12 @@
   (local.set $$this$addr$i$i$i
    (local.get $$this1$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -1993,7 +1993,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -2013,14 +2013,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$0
    (local.get $$__t$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$1
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -2033,7 +2033,7 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$2
    (local.get $$__u$addr$i$i$i$i)
   )
@@ -2092,12 +2092,12 @@
     (local.set $$this$addr$i$i$i40
      (local.get $$this1$i$i45)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
     (i32.store
      (local.get $$this1$i$i45)
      (i32.const 0)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
     (local.set $$__end_$i$i48
      (i32.add
       (local.get $$this1$i$i45)
@@ -2108,7 +2108,7 @@
      (local.get $$__end_$i$i48)
      (i32.const 0)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
     (local.set $$__end_cap_$i$i49
      (i32.add
       (local.get $$this1$i$i45)
@@ -2128,14 +2128,14 @@
     (local.set $$this1$i4$i$i50
      (local.get $$this$addr$i3$i$i38)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
     (local.set $$5
      (local.get $$__t$addr$i$i$i39)
     )
     (local.set $$__t$addr$i$i$i$i37
      (local.get $$5)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$6
      (local.get $$__t$addr$i$i$i$i37)
     )
@@ -2148,7 +2148,7 @@
     (local.set $$this1$i3$i$i$i51
      (local.get $$this$addr$i2$i$i$i33)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
     (local.set $$7
      (local.get $$__u$addr$i$i$i$i34)
     )
@@ -2301,7 +2301,7 @@
       (local.set $$this1$i137
        (local.get $$this$addr$i136)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
       (local.set $$__end_$i
        (i32.add
         (local.get $$this1$i137)
@@ -2319,7 +2319,7 @@
       (local.set $$this1$i$i138
        (local.get $$this$addr$i$i135)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
       (local.set $$__end_cap_$i$i139
        (i32.add
         (local.get $$this1$i$i138)
@@ -2338,7 +2338,7 @@
       (local.set $$this1$i$i$i$i141
        (local.get $$this$addr$i$i$i$i133)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
       (local.set $$18
        (i32.load
         (local.get $$this1$i$i$i$i141)
@@ -2368,7 +2368,7 @@
         (local.set $$this1$i15$i
          (local.get $$this$addr$i14$i)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
         (local.set $$__end_cap_$i16$i
          (i32.add
           (local.get $$this1$i15$i)
@@ -2387,7 +2387,7 @@
         (local.set $$this1$i$i$i18$i
          (local.get $$this$addr$i$i$i12$i)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
         (local.set $$__end_3$i
          (i32.add
           (local.get $$this1$i137)
@@ -2402,11 +2402,11 @@
         (local.set $$__p$addr$i11$i
          (local.get $$19)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$20
          (local.get $$__p$addr$i11$i)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
         (local.set $$21
          (local.get $$__x$addr$i)
         )
@@ -2419,7 +2419,7 @@
         (local.set $$__args$addr$i$i
          (local.get $$21)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
         (local.set $$22
          (local.get $$__a$addr$i$i)
         )
@@ -2432,7 +2432,7 @@
         (local.set $$__t$addr$i$i$i131
          (local.get $$24)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
         (local.set $$25
          (local.get $$__t$addr$i$i$i131)
         )
@@ -2451,7 +2451,7 @@
         (local.set $$__args$addr$i$i$i
          (local.get $$25)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
         (local.set $$26
          (local.get $$__a$addr$i$i$i)
         )
@@ -2464,7 +2464,7 @@
         (local.set $$__t$addr$i$i$i$i130
          (local.get $$28)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
         (local.set $$29
          (local.get $$__t$addr$i$i$i$i130)
         )
@@ -2477,7 +2477,7 @@
         (local.set $$__args$addr$i$i$i$i
          (local.get $$29)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
         (local.set $$30
          (local.get $$__p$addr$i$i$i$i129)
         )
@@ -2487,11 +2487,11 @@
         (local.set $$__t$addr$i$i$i$i$i128
          (local.get $$31)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
         (local.set $$32
          (local.get $$__t$addr$i$i$i$i$i128)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
         (i64.store align=4
          (local.get $$30)
          (i64.load align=4
@@ -2501,7 +2501,7 @@
         (local.set $$this$addr$i7$i
          (local.get $$__annotator$i)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
         (local.set $$__end_5$i
          (i32.add
           (local.get $$this1$i137)
@@ -2525,7 +2525,7 @@
         )
        )
        (block
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
         (local.set $$34
          (local.get $$__x$addr$i)
         )
@@ -2607,7 +2607,7 @@
     (local.set $$this1$i168
      (local.get $$this$addr$i165)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
     (local.set $$__end_$i169
      (i32.add
       (local.get $$this1$i168)
@@ -2625,7 +2625,7 @@
     (local.set $$this1$i$i170
      (local.get $$this$addr$i$i164)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i$i171
      (i32.add
       (local.get $$this1$i$i170)
@@ -2644,7 +2644,7 @@
     (local.set $$this1$i$i$i$i173
      (local.get $$this$addr$i$i$i$i162)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
     (local.set $$40
      (i32.load
       (local.get $$this1$i$i$i$i173)
@@ -2674,7 +2674,7 @@
       (local.set $$this1$i14$i
        (local.get $$this$addr$i13$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
       (local.set $$__end_cap_$i15$i
        (i32.add
         (local.get $$this1$i14$i)
@@ -2693,7 +2693,7 @@
       (local.set $$this1$i$i$i17$i
        (local.get $$this$addr$i$i$i11$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
       (local.set $$__end_3$i177
        (i32.add
         (local.get $$this1$i168)
@@ -2708,11 +2708,11 @@
       (local.set $$__p$addr$i18$i
        (local.get $$41)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
       (local.set $$42
        (local.get $$__p$addr$i18$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
       (local.set $$43
        (local.get $$__x$addr$i166)
       )
@@ -2725,7 +2725,7 @@
       (local.set $$__args$addr$i$i155
        (local.get $$43)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
       (local.set $$44
        (local.get $$__a$addr$i$i153)
       )
@@ -2738,7 +2738,7 @@
       (local.set $$__t$addr$i$i$i152
        (local.get $$46)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$47
        (local.get $$__t$addr$i$i$i152)
       )
@@ -2757,7 +2757,7 @@
       (local.set $$__args$addr$i$i$i150
        (local.get $$47)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
       (local.set $$48
        (local.get $$__a$addr$i$i$i148)
       )
@@ -2770,7 +2770,7 @@
       (local.set $$__t$addr$i$i$i$i147
        (local.get $$50)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$51
        (local.get $$__t$addr$i$i$i$i147)
       )
@@ -2783,7 +2783,7 @@
       (local.set $$__args$addr$i$i$i$i146
        (local.get $$51)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (local.set $$52
        (local.get $$__p$addr$i$i$i$i145)
       )
@@ -2793,11 +2793,11 @@
       (local.set $$__t$addr$i$i$i$i$i143
        (local.get $$53)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$54
        (local.get $$__t$addr$i$i$i$i$i143)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (call $__ZN8BuildingC2ERKS_
        (local.get $$52)
        (local.get $$54)
@@ -2805,7 +2805,7 @@
       (local.set $$this$addr$i7$i158
        (local.get $$__annotator$i167)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
       (local.set $$__end_5$i180
        (i32.add
         (local.get $$this1$i168)
@@ -2829,7 +2829,7 @@
       )
      )
      (block
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
       (local.set $$56
        (local.get $$__x$addr$i166)
       )
@@ -2861,7 +2861,7 @@
     (local.set $$this1$i$i$i216
      (local.get $$this$addr$i$i$i209)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$57
      (i32.load
       (local.get $$this1$i$i$i216)
@@ -2870,7 +2870,7 @@
     (local.set $$__p$addr$i$i$i$i208
      (local.get $$57)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$58
      (local.get $$__p$addr$i$i$i$i208)
     )
@@ -2880,7 +2880,7 @@
     (local.set $$this1$i43$i$i218
      (local.get $$this$addr$i42$i$i187)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$59
      (i32.load
       (local.get $$this1$i43$i$i218)
@@ -2889,7 +2889,7 @@
     (local.set $$__p$addr$i$i41$i$i186
      (local.get $$59)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$60
      (local.get $$__p$addr$i$i41$i$i186)
     )
@@ -2911,7 +2911,7 @@
     (local.set $$this1$i$i$i31$i$i222
      (local.get $$this$addr$i$i$i26$i$i190)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i223
      (i32.add
       (local.get $$this1$i$i$i31$i$i222)
@@ -2930,7 +2930,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i225
      (local.get $$this$addr$i$i$i$i$i24$i$i188)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$61
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i225)
@@ -2962,7 +2962,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i232
      (i32.add
       (local.get $$60)
@@ -2978,7 +2978,7 @@
     (local.set $$this1$i22$i$i233
      (local.get $$this$addr$i21$i$i194)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$63
      (i32.load
       (local.get $$this1$i22$i$i233)
@@ -2987,7 +2987,7 @@
     (local.set $$__p$addr$i$i20$i$i193
      (local.get $$63)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$64
      (local.get $$__p$addr$i$i20$i$i193)
     )
@@ -2997,7 +2997,7 @@
     (local.set $$this1$i18$i$i235
      (local.get $$this$addr$i17$i$i195)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i236
      (i32.add
       (local.get $$this1$i18$i$i235)
@@ -3035,7 +3035,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i242
      (i32.add
       (local.get $$64)
@@ -3051,7 +3051,7 @@
     (local.set $$this1$i15$i$i243
      (local.get $$this$addr$i14$i$i197)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$67
      (i32.load
       (local.get $$this1$i15$i$i243)
@@ -3060,7 +3060,7 @@
     (local.set $$__p$addr$i$i13$i$i196
      (local.get $$67)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$68
      (local.get $$__p$addr$i$i13$i$i196)
     )
@@ -3082,7 +3082,7 @@
     (local.set $$this1$i$i$i$i$i247
      (local.get $$this$addr$i$i$i$i$i200)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i248
      (i32.add
       (local.get $$this1$i$i$i$i$i247)
@@ -3101,7 +3101,7 @@
     (local.set $$this1$i$i$i$i$i$i$i250
      (local.get $$this$addr$i$i$i$i$i$i$i198)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$69
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i250)
@@ -3133,7 +3133,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i257
      (i32.add
       (local.get $$68)
@@ -3158,7 +3158,7 @@
     (local.set $$$addr3$i$i$i207
      (local.get $$add$ptr9$i$i257)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI5PointNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i214)
     )
@@ -3225,7 +3225,7 @@
   (local.set $$this1$i$i$i29
    (local.get $$this$addr$i$i$i24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$72
    (i32.load
     (local.get $$this1$i$i$i29)
@@ -3234,7 +3234,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$72)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$73
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -3244,7 +3244,7 @@
   (local.set $$this1$i43$i$i
    (local.get $$this$addr$i42$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$74
    (i32.load
     (local.get $$this1$i43$i$i)
@@ -3253,7 +3253,7 @@
   (local.set $$__p$addr$i$i41$i$i
    (local.get $$74)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$75
    (local.get $$__p$addr$i$i41$i$i)
   )
@@ -3275,7 +3275,7 @@
   (local.set $$this1$i$i$i31$i$i
    (local.get $$this$addr$i$i$i26$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i
    (i32.add
     (local.get $$this1$i$i$i31$i$i)
@@ -3294,7 +3294,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i
    (local.get $$this$addr$i$i$i$i$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$76
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i)
@@ -3326,7 +3326,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$75)
@@ -3342,7 +3342,7 @@
   (local.set $$this1$i22$i$i
    (local.get $$this$addr$i21$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$78
    (i32.load
     (local.get $$this1$i22$i$i)
@@ -3351,7 +3351,7 @@
   (local.set $$__p$addr$i$i20$i$i
    (local.get $$78)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$79
    (local.get $$__p$addr$i$i20$i$i)
   )
@@ -3361,7 +3361,7 @@
   (local.set $$this1$i18$i$i
    (local.get $$this$addr$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i18$i$i)
@@ -3399,7 +3399,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i
    (i32.add
     (local.get $$79)
@@ -3415,7 +3415,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$82
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -3424,7 +3424,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$82)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$83
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -3446,7 +3446,7 @@
   (local.set $$this1$i$i$i$i$i31
    (local.get $$this$addr$i$i$i$i$i22)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i31)
@@ -3465,7 +3465,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$84
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -3497,7 +3497,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i
    (i32.add
     (local.get $$83)
@@ -3522,7 +3522,7 @@
   (local.set $$$addr3$i$i$i
    (local.get $$add$ptr9$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i27)
   )
@@ -3634,7 +3634,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i)
@@ -3713,7 +3713,7 @@
     (local.set $$this1$i20
      (local.get $$this$addr$i19)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
     (local.set $$5
      (i32.load
       (local.get $$this1$i20)
@@ -3776,7 +3776,7 @@
       (local.set $$this1$i24
        (local.get $$this$addr$i22)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
       (local.set $$9
        (i32.load
         (local.get $$this1$i24)
@@ -4101,7 +4101,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1244:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1244:0
   (local.set $$0
    (local.get $$__x$addr)
   )
@@ -4111,7 +4111,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -4133,7 +4133,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1607:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1607:0
   (local.set $$1
    (local.get $$__a$addr$i)
   )
@@ -4158,12 +4158,12 @@
   (local.set $$this$addr$i$i6
    (local.get $$this1$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
   (i32.store
    (local.get $$this1$i10)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i10)
@@ -4174,7 +4174,7 @@
    (local.get $$__end_$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
   (local.set $$__end_cap_$i12
    (i32.add
     (local.get $$this1$i10)
@@ -4191,7 +4191,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$3
    (local.get $$__t$addr$i$i)
   )
@@ -4207,14 +4207,14 @@
   (local.set $$this1$i4$i
    (local.get $$this$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (local.get $$__t1$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$5
    (local.get $$__t$addr$i$i$i)
   )
@@ -4227,7 +4227,7 @@
   (local.set $$this1$i7$i$i
    (local.get $$this$addr$i5$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$6
    (local.get $$__u$addr$i6$i$i)
   )
@@ -4238,14 +4238,14 @@
    (local.get $$this1$i7$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$7
    (local.get $$__t2$addr$i$i)
   )
   (local.set $$__t$addr$i3$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i3$i$i)
   )
@@ -4255,14 +4255,14 @@
   (local.set $$__u$addr$i$i$i
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
   (local.set $$9
    (local.get $$__u$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
   (local.set $$10
    (local.get $$__x$addr)
   )
@@ -4272,7 +4272,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i16
    (i32.add
     (local.get $$this1$i15)
@@ -4310,11 +4310,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
   (local.set $$__n
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1250:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1250:0
   (local.set $$13
    (local.get $$__n)
   )
@@ -4332,11 +4332,11 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1252:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1252:0
   (local.set $$14
    (local.get $$__n)
   )
@@ -4344,7 +4344,7 @@
    (local.get $$this1)
    (local.get $$14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1253:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1253:0
   (local.set $$15
    (local.get $$__x$addr)
   )
@@ -4379,7 +4379,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
   (return)
  )
  (func $__ZNSt3__26vectorI5PointNS_9allocatorIS1_EEEC2ERKS4_ (; 41 ;) (param $$this i32) (param $$__x i32)
@@ -4499,7 +4499,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1244:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1244:0
   (local.set $$0
    (local.get $$__x$addr)
   )
@@ -4509,7 +4509,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -4531,7 +4531,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1607:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1607:0
   (local.set $$1
    (local.get $$__a$addr$i)
   )
@@ -4556,12 +4556,12 @@
   (local.set $$this$addr$i$i6
    (local.get $$this1$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
   (i32.store
    (local.get $$this1$i10)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i10)
@@ -4572,7 +4572,7 @@
    (local.get $$__end_$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
   (local.set $$__end_cap_$i12
    (i32.add
     (local.get $$this1$i10)
@@ -4589,7 +4589,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$3
    (local.get $$__t$addr$i$i)
   )
@@ -4605,14 +4605,14 @@
   (local.set $$this1$i4$i
    (local.get $$this$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (local.get $$__t1$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$5
    (local.get $$__t$addr$i$i$i)
   )
@@ -4625,7 +4625,7 @@
   (local.set $$this1$i7$i$i
    (local.get $$this$addr$i5$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$6
    (local.get $$__u$addr$i6$i$i)
   )
@@ -4636,14 +4636,14 @@
    (local.get $$this1$i7$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$7
    (local.get $$__t2$addr$i$i)
   )
   (local.set $$__t$addr$i3$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i3$i$i)
   )
@@ -4653,14 +4653,14 @@
   (local.set $$__u$addr$i$i$i
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
   (local.set $$9
    (local.get $$__u$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
   (local.set $$10
    (local.get $$__x$addr)
   )
@@ -4670,7 +4670,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i16
    (i32.add
     (local.get $$this1$i15)
@@ -4708,11 +4708,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
   (local.set $$__n
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1250:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1250:0
   (local.set $$13
    (local.get $$__n)
   )
@@ -4730,11 +4730,11 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1252:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1252:0
   (local.set $$14
    (local.get $$__n)
   )
@@ -4742,7 +4742,7 @@
    (local.get $$this1)
    (local.get $$14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1253:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1253:0
   (local.set $$15
    (local.get $$__x$addr)
   )
@@ -4777,7 +4777,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
   (return)
  )
  (func $__ZN8BuildingD2Ev (; 42 ;) (param $$this i32)
@@ -4910,7 +4910,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i$i)
@@ -4919,7 +4919,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$1
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -4929,7 +4929,7 @@
   (local.set $$this1$i43$i$i
    (local.get $$this$addr$i42$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i43$i$i)
@@ -4938,7 +4938,7 @@
   (local.set $$__p$addr$i$i41$i$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$3
    (local.get $$__p$addr$i$i41$i$i)
   )
@@ -4960,7 +4960,7 @@
   (local.set $$this1$i$i$i31$i$i
    (local.get $$this$addr$i$i$i26$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i
    (i32.add
     (local.get $$this1$i$i$i31$i$i)
@@ -4979,7 +4979,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i
    (local.get $$this$addr$i$i$i$i$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i)
@@ -5011,7 +5011,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$3)
@@ -5027,7 +5027,7 @@
   (local.set $$this1$i22$i$i
    (local.get $$this$addr$i21$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i22$i$i)
@@ -5036,7 +5036,7 @@
   (local.set $$__p$addr$i$i20$i$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i20$i$i)
   )
@@ -5046,7 +5046,7 @@
   (local.set $$this1$i18$i$i
    (local.get $$this$addr$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i18$i$i)
@@ -5084,7 +5084,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i
    (i32.add
     (local.get $$7)
@@ -5100,7 +5100,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -5109,7 +5109,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -5131,7 +5131,7 @@
   (local.set $$this1$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i)
@@ -5150,7 +5150,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -5182,7 +5182,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i
    (i32.add
     (local.get $$11)
@@ -5207,7 +5207,7 @@
   (local.set $$$addr3$i$i$i
    (local.get $$add$ptr9$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI5PointNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i)
   )
@@ -5416,7 +5416,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
   (local.set $$0
    (i32.load
     (local.get $$this1)
@@ -5436,7 +5436,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
     (return)
    )
   )
@@ -5446,7 +5446,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
   (local.set $$1
    (i32.load
     (local.get $$this1$i)
@@ -5461,7 +5461,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -5478,7 +5478,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
     (local.set $$3
      (local.get $$__new_last$addr$i$i)
     )
@@ -5503,7 +5503,7 @@
     (local.set $$this1$i$i$i
      (local.get $$this$addr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
     (local.set $$__end_cap_$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -5522,7 +5522,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
     (local.set $$5
      (local.get $$__soon_to_be_end$i$i)
     )
@@ -5538,7 +5538,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$incdec$ptr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i)
     )
@@ -5548,7 +5548,7 @@
     (local.set $$__p$addr$i5$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i)
     )
@@ -5567,7 +5567,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -5580,7 +5580,7 @@
     (local.set $$__p$addr$i$i$i$i$i
      (local.get $$10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
     (local.set $$11
      (local.get $$__p$addr$i$i$i$i$i)
     )
@@ -5590,7 +5590,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
   (local.set $$12
    (local.get $$__new_last$addr$i$i)
   )
@@ -5610,7 +5610,7 @@
   (local.set $$this1$i7
    (local.get $$this$addr$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i7)
@@ -5629,7 +5629,7 @@
   (local.set $$this1$i$i$i9
    (local.get $$this$addr$i$i$i4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
   (local.set $$13
    (i32.load
     (local.get $$this1)
@@ -5647,7 +5647,7 @@
   (local.set $$this1$i$i17
    (local.get $$this$addr$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i17)
@@ -5666,7 +5666,7 @@
   (local.set $$this1$i$i$i$i19
    (local.get $$this$addr$i$i$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$14
    (i32.load
     (local.get $$this1$i$i$i$i19)
@@ -5707,7 +5707,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$16
    (local.get $$__a$addr$i)
   )
@@ -5726,7 +5726,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$19
    (local.get $$__p$addr$i$i)
   )
@@ -5748,7 +5748,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$21
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -5767,7 +5767,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$24
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -5781,7 +5781,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
   (return)
  )
  (func $___clang_call_terminate (; 45 ;) (param $$0 i32)
@@ -5827,7 +5827,7 @@
   (local.set $$__size$addr
    (local.get $$__size)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:278:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:278:0
   (local.set $$0
    (local.get $$__ptr$addr)
   )
@@ -5865,7 +5865,7 @@
   (local.set $$__ptr$addr
    (local.get $$__ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:320:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:320:0
   (local.set $$0
    (local.get $$__ptr$addr)
   )
@@ -6022,7 +6022,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:975:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:975:0
   (local.set $$0
    (local.get $$__n$addr)
   )
@@ -6039,7 +6039,7 @@
   )
   (if
    (local.get $$cmp)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:976:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:976:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1)
    )
@@ -6050,7 +6050,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -6069,7 +6069,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
   (local.set $$1
    (local.get $$__n$addr)
   )
@@ -6079,7 +6079,7 @@
   (local.set $$__n$addr$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
   (local.set $$2
    (local.get $$__a$addr$i)
   )
@@ -6098,7 +6098,7 @@
   (local.set $$this1$i$i23
    (local.get $$this$addr$i$i21)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
   (local.set $$4
    (local.get $$__n$addr$i$i)
   )
@@ -6117,7 +6117,7 @@
     (local.set $$__msg$addr$i$i$i
      (i32.const 6508)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
     (local.set $$exception$i$i$i
      (call $___cxa_allocate_exception
       (i32.const 8)
@@ -6135,7 +6135,7 @@
     (local.set $$this1$i$i$i$i25
      (local.get $$this$addr$i$i$i$i19)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
     (local.set $$6
      (local.get $$__s$addr$i$i$i$i)
     )
@@ -6147,7 +6147,7 @@
      (local.get $$this1$i$i$i$i25)
      (i32.const 6496)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
     (call $___cxa_throw
      (local.get $$exception$i$i$i)
      (i32.const 3096)
@@ -6155,7 +6155,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
     (local.set $$7
      (local.get $$__n$addr$i$i)
     )
@@ -6171,7 +6171,7 @@
     (local.set $$__align$addr$i$i$i
      (i32.const 4)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
     (local.set $$8
      (local.get $$__size$addr$i$i$i)
     )
@@ -6180,7 +6180,7 @@
       (local.get $$8)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
     (local.set $$__end_
      (i32.add
       (local.get $$this1)
@@ -6195,7 +6195,7 @@
      (local.get $$this1)
      (local.get $$call$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
     (local.set $$9
      (i32.load
       (local.get $$this1)
@@ -6219,7 +6219,7 @@
     (local.set $$this1$i15
      (local.get $$this$addr$i14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i16
      (i32.add
       (local.get $$this1$i15)
@@ -6238,7 +6238,7 @@
     (local.set $$this1$i$i$i18
      (local.get $$this$addr$i$i$i12)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
     (i32.store
      (local.get $$this1$i$i$i18)
      (local.get $$add$ptr)
@@ -6258,7 +6258,7 @@
     (local.set $$this1$i$i10
      (local.get $$this$addr$i$i7)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$11
      (i32.load
       (local.get $$this1$i$i10)
@@ -6267,7 +6267,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$12
      (local.get $$__p$addr$i$i$i)
     )
@@ -6277,7 +6277,7 @@
     (local.set $$this1$i39$i
      (local.get $$this$addr$i38$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$13
      (i32.load
       (local.get $$this1$i39$i)
@@ -6286,7 +6286,7 @@
     (local.set $$__p$addr$i$i37$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$14
      (local.get $$__p$addr$i$i37$i)
     )
@@ -6308,7 +6308,7 @@
     (local.set $$this1$i$i$i27$i
      (local.get $$this$addr$i$i$i22$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i28$i
      (i32.add
       (local.get $$this1$i$i$i27$i)
@@ -6327,7 +6327,7 @@
     (local.set $$this1$i$i$i$i$i30$i
      (local.get $$this$addr$i$i$i$i$i20$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$15
      (i32.load
       (local.get $$this1$i$i$i$i$i30$i)
@@ -6359,7 +6359,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
     (local.set $$add$ptr$i
      (i32.add
       (local.get $$14)
@@ -6375,7 +6375,7 @@
     (local.set $$this1$i18$i
      (local.get $$this$addr$i17$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$17
      (i32.load
       (local.get $$this1$i18$i)
@@ -6384,7 +6384,7 @@
     (local.set $$__p$addr$i$i16$i
      (local.get $$17)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$18
      (local.get $$__p$addr$i$i16$i)
     )
@@ -6406,7 +6406,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -6425,7 +6425,7 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$19
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
@@ -6457,7 +6457,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
     (local.set $$add$ptr6$i
      (i32.add
       (local.get $$18)
@@ -6473,7 +6473,7 @@
     (local.set $$this1$i12$i
      (local.get $$this$addr$i11$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$21
      (i32.load
       (local.get $$this1$i12$i)
@@ -6482,11 +6482,11 @@
     (local.set $$__p$addr$i$i10$i
      (local.get $$21)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$22
      (local.get $$__p$addr$i$i10$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
     (local.set $$23
      (local.get $$__current_size$addr$i)
     )
@@ -6517,7 +6517,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:980:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:980:0
     (return)
    )
   )
@@ -6645,7 +6645,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -6664,11 +6664,11 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1068:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1068:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1069:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1069:0
   (local.set $$0
    (local.get $$__n$addr)
   )
@@ -6681,7 +6681,7 @@
   (local.set $$$addr1$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1070:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1070:0
   (local.set $$1
    (local.get $$__a)
   )
@@ -6711,7 +6711,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
     (local.set $$4
      (local.get $$__begin1$addr$i)
     )
@@ -6730,7 +6730,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
     (local.set $$6
      (local.get $$__a$addr$i)
     )
@@ -6745,11 +6745,11 @@
     (local.set $$__p$addr$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$9
      (local.get $$__p$addr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
     (local.set $$10
      (local.get $$__begin1$addr$i)
     )
@@ -6762,7 +6762,7 @@
     (local.set $$__args$addr$i$i
      (local.get $$10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$11
      (local.get $$__a$addr$i$i)
     )
@@ -6775,7 +6775,7 @@
     (local.set $$__t$addr$i$i$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$14
      (local.get $$__t$addr$i$i$i)
     )
@@ -6794,7 +6794,7 @@
     (local.set $$__args$addr$i$i$i
      (local.get $$14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$15
      (local.get $$__a$addr$i$i$i)
     )
@@ -6807,7 +6807,7 @@
     (local.set $$__t$addr$i$i$i$i
      (local.get $$17)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$18
      (local.get $$__t$addr$i$i$i$i)
     )
@@ -6820,7 +6820,7 @@
     (local.set $$__args$addr$i$i$i$i
      (local.get $$18)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$19
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -6830,16 +6830,16 @@
     (local.set $$__t$addr$i$i$i$i$i
      (local.get $$20)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$21
      (local.get $$__t$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (call $__ZN8BuildingC2ERKS_
      (local.get $$19)
      (local.get $$21)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
     (local.set $$22
      (local.get $$__begin1$addr$i)
     )
@@ -6879,7 +6879,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
   (return)
  )
  (func $__ZNKSt3__26vectorI8BuildingNS_9allocatorIS1_EEE8max_sizeEv (; 50 ;) (param $$this i32) (result i32)
@@ -6988,7 +6988,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -7010,7 +7010,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
   (local.set $$0
    (local.get $$__a$addr$i)
   )
@@ -7023,19 +7023,19 @@
   (local.set $$__a$addr$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
   (local.set $$1
    (local.get $$__a$addr$i$i)
   )
   (local.set $$this$addr$i$i$i6
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (i32.store
    (local.get $$ref$tmp)
    (i32.const 268435455)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
   (i32.store
    (local.get $$ref$tmp3)
    (i32.const 2147483647)
@@ -7046,7 +7046,7 @@
   (local.set $$__b$addr$i
    (local.get $$ref$tmp3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
   (local.set $$2
    (local.get $$__a$addr$i11)
   )
@@ -7065,7 +7065,7 @@
   (local.set $$__b$addr$i$i
    (local.get $$3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$4
    (local.get $$__b$addr$i$i)
   )
@@ -7081,7 +7081,7 @@
   (local.set $$__y$addr$i$i$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
   (local.set $$6
    (local.get $$__x$addr$i$i$i)
   )
@@ -7104,7 +7104,7 @@
     (local.get $$9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$10
    (local.get $$__b$addr$i$i)
   )
@@ -7118,7 +7118,7 @@
     (local.get $$11)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (local.set $$12
    (i32.load
     (local.get $$cond$lvalue$i$i2D)
@@ -7254,7 +7254,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
   (local.set $$0
    (i32.load
     (local.get $$this1)
@@ -7274,7 +7274,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
     (return)
    )
   )
@@ -7284,7 +7284,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
   (local.set $$1
    (i32.load
     (local.get $$this1$i)
@@ -7299,7 +7299,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -7316,7 +7316,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
     (local.set $$3
      (local.get $$__new_last$addr$i$i)
     )
@@ -7341,7 +7341,7 @@
     (local.set $$this1$i$i$i
      (local.get $$this$addr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
     (local.set $$__end_cap_$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -7360,7 +7360,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
     (local.set $$5
      (local.get $$__soon_to_be_end$i$i)
     )
@@ -7376,7 +7376,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$incdec$ptr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i)
     )
@@ -7386,7 +7386,7 @@
     (local.set $$__p$addr$i5$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i)
     )
@@ -7405,7 +7405,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -7421,7 +7421,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
   (local.set $$11
    (local.get $$__new_last$addr$i$i)
   )
@@ -7441,7 +7441,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i9)
@@ -7460,7 +7460,7 @@
   (local.set $$this1$i$i$i11
    (local.get $$this$addr$i$i$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
   (local.set $$12
    (i32.load
     (local.get $$this1)
@@ -7478,7 +7478,7 @@
   (local.set $$this1$i$i17
    (local.get $$this$addr$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i17)
@@ -7497,7 +7497,7 @@
   (local.set $$this1$i$i$i$i19
    (local.get $$this$addr$i$i$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$13
    (i32.load
     (local.get $$this1$i$i$i$i19)
@@ -7538,7 +7538,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$15
    (local.get $$__a$addr$i)
   )
@@ -7557,7 +7557,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$17)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$18
    (local.get $$__p$addr$i$i)
   )
@@ -7579,7 +7579,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$20
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -7598,7 +7598,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$22)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$23
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -7612,7 +7612,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
   (return)
  )
  (func $__ZNSt3__26vectorI5PointNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_ (; 52 ;) (param $$this i32) (param $$__x i32)
@@ -7816,7 +7816,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -7835,7 +7835,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
@@ -7845,7 +7845,7 @@
   (local.set $$this1$i11
    (local.get $$this$addr$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i11)
@@ -7883,7 +7883,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$add
    (i32.add
     (local.get $$sub$ptr$div$i)
@@ -7900,7 +7900,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
   (local.set $$call$i
    (call $__ZNKSt3__26vectorI5PointNS_9allocatorIS1_EEE8max_sizeEv
     (local.get $$this1$i15)
@@ -7909,7 +7909,7 @@
   (local.set $$__ms$i
    (local.get $$call$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
   (local.set $$2
    (i32.load
     (local.get $$__new_size$addr$i)
@@ -7926,7 +7926,7 @@
   )
   (if
    (local.get $$cmp$i)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1$i15)
    )
@@ -7949,7 +7949,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -7968,7 +7968,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -8000,11 +8000,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
   (local.set $$__cap$i
    (local.get $$sub$ptr$div$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
   (local.set $$6
    (local.get $$__cap$i)
   )
@@ -8029,7 +8029,7 @@
   (if
    (local.get $$cmp3$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
     (local.set $$8
      (local.get $$__ms$i)
     )
@@ -8038,7 +8038,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$9
      (local.get $$__cap$i)
     )
@@ -8058,7 +8058,7 @@
     (local.set $$__b$addr$i$i
      (local.get $$__new_size$addr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
     (local.set $$10
      (local.get $$__a$addr$i$i)
     )
@@ -8077,7 +8077,7 @@
     (local.set $$__b$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$12
      (local.get $$__a$addr$i$i$i)
     )
@@ -8093,7 +8093,7 @@
     (local.set $$__y$addr$i$i$i$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
     (local.set $$14
      (local.get $$__x$addr$i$i$i$i)
     )
@@ -8116,7 +8116,7 @@
       (local.get $$17)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$18
      (local.get $$__b$addr$i$i$i)
     )
@@ -8130,7 +8130,7 @@
       (local.get $$19)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$20
      (i32.load
       (local.get $$cond$lvalue$i$i$i2D)
@@ -8141,7 +8141,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
   (local.set $$21
    (local.get $$retval$i)
   )
@@ -8151,7 +8151,7 @@
   (local.set $$this1$i19
    (local.get $$this$addr$i18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i20
    (i32.add
     (local.get $$this1$i19)
@@ -8189,7 +8189,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$24
    (local.get $$__a)
   )
@@ -8199,7 +8199,7 @@
    (local.get $$sub$ptr$div$i25)
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$25
    (local.get $$__a)
   )
@@ -8217,18 +8217,18 @@
   (local.set $$__p$addr$i
    (local.get $$26)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$27
    (local.get $$__p$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$28
    (local.get $$__x$addr)
   )
   (local.set $$__t$addr$i
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$29
    (local.get $$__t$addr$i)
   )
@@ -8241,7 +8241,7 @@
   (local.set $$__args$addr$i
    (local.get $$29)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
   (local.set $$30
    (local.get $$__a$addr$i)
   )
@@ -8254,7 +8254,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$32)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$33
    (local.get $$__t$addr$i$i)
   )
@@ -8273,7 +8273,7 @@
   (local.set $$__args$addr$i$i
    (local.get $$33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
   (local.set $$34
    (local.get $$__a$addr$i$i27)
   )
@@ -8286,7 +8286,7 @@
   (local.set $$__t$addr$i$i$i
    (local.get $$36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$37
    (local.get $$__t$addr$i$i$i)
   )
@@ -8299,7 +8299,7 @@
   (local.set $$__args$addr$i$i$i
    (local.get $$37)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (local.set $$38
    (local.get $$__p$addr$i$i$i)
   )
@@ -8309,18 +8309,18 @@
   (local.set $$__t$addr$i$i$i$i
    (local.get $$39)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$40
    (local.get $$__t$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (i64.store align=4
    (local.get $$38)
    (i64.load align=4
     (local.get $$40)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
   (local.set $$__end_7
    (i32.add
     (local.get $$__v)
@@ -8342,12 +8342,12 @@
    (local.get $$__end_7)
    (local.get $$incdec$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
   (call $__ZNSt3__26vectorI5PointNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
    (local.get $$this1)
    (local.get $$__v)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
   (call $__ZNSt3__214__split_bufferI5PointRNS_9allocatorIS1_EEED2Ev
    (local.get $$__v)
   )
@@ -8477,7 +8477,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
   (local.set $$__end_cap_
    (i32.add
     (local.get $$this1)
@@ -8503,14 +8503,14 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$1
    (local.get $$__t1$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$2
    (local.get $$__t$addr$i$i)
   )
@@ -8523,7 +8523,7 @@
   (local.set $$this1$i7$i
    (local.get $$this$addr$i5$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$3
    (local.get $$__u$addr$i6$i)
   )
@@ -8534,7 +8534,7 @@
    (local.get $$this1$i7$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (i32.add
     (local.get $$this1$i)
@@ -8547,7 +8547,7 @@
   (local.set $$__t$addr$i3$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$6
    (local.get $$__t$addr$i3$i)
   )
@@ -8560,23 +8560,23 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$7
    (local.get $$__u$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (i32.store
    (local.get $$this1$i$i)
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (local.set $$9
    (local.get $$__cap$addr)
   )
@@ -8596,7 +8596,7 @@
      (local.set $$this1$i18
       (local.get $$this$addr$i17)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
      (local.set $$__end_cap_$i19
       (i32.add
        (local.get $$this1$i18)
@@ -8609,7 +8609,7 @@
      (local.set $$this1$i$i20
       (local.get $$this$addr$i$i16)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
      (local.set $$add$ptr$i$i
       (i32.add
        (local.get $$this1$i$i20)
@@ -8622,13 +8622,13 @@
      (local.set $$this1$i$i$i21
       (local.get $$this$addr$i$i$i15)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
      (local.set $$10
       (i32.load
        (local.get $$this1$i$i$i21)
       )
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
      (local.set $$11
       (local.get $$__cap$addr)
      )
@@ -8638,7 +8638,7 @@
      (local.set $$__n$addr$i
       (local.get $$11)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
      (local.set $$12
       (local.get $$__a$addr$i)
      )
@@ -8657,7 +8657,7 @@
      (local.set $$this1$i$i13
       (local.get $$this$addr$i$i12)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
      (local.set $$14
       (local.get $$__n$addr$i$i)
      )
@@ -8676,7 +8676,7 @@
        (local.set $$__msg$addr$i$i$i
         (i32.const 6508)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (local.set $$exception$i$i$i
         (call $___cxa_allocate_exception
          (i32.const 8)
@@ -8694,7 +8694,7 @@
        (local.set $$this1$i$i$i$i
         (local.get $$this$addr$i$i$i$i)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
        (local.set $$16
         (local.get $$__s$addr$i$i$i$i)
        )
@@ -8706,7 +8706,7 @@
         (local.get $$this1$i$i$i$i)
         (i32.const 6496)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (call $___cxa_throw
         (local.get $$exception$i$i$i)
         (i32.const 3096)
@@ -8714,7 +8714,7 @@
        )
       )
       (block
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
        (local.set $$17
         (local.get $$__n$addr$i$i)
        )
@@ -8730,7 +8730,7 @@
        (local.set $$__align$addr$i$i$i
         (i32.const 4)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
        (local.set $$18
         (local.get $$__size$addr$i$i$i)
        )
@@ -8751,12 +8751,12 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (i32.store
    (local.get $$this1)
    (local.get $$cond)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
   (local.set $$19
    (i32.load
     (local.get $$this1)
@@ -8794,7 +8794,7 @@
    (local.get $$__begin_)
    (local.get $$add$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (local.set $$21
    (i32.load
     (local.get $$this1)
@@ -8818,7 +8818,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i9)
@@ -8837,7 +8837,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (i32.store
    (local.get $$this1$i$i$i)
    (local.get $$add$ptr5)
@@ -8845,7 +8845,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
   (return)
  )
  (func $__ZNSt3__26vectorI5PointNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE (; 54 ;) (param $$this i32) (param $$__v i32)
@@ -9167,7 +9167,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i)
@@ -9176,7 +9176,7 @@
   (local.set $$__p$addr$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$1
    (local.get $$__p$addr$i$i$i)
   )
@@ -9186,7 +9186,7 @@
   (local.set $$this1$i43$i
    (local.get $$this$addr$i42$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i43$i)
@@ -9195,7 +9195,7 @@
   (local.set $$__p$addr$i$i41$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$3
    (local.get $$__p$addr$i$i41$i)
   )
@@ -9217,7 +9217,7 @@
   (local.set $$this1$i$i$i31$i
    (local.get $$this$addr$i$i$i26$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i
    (i32.add
     (local.get $$this1$i$i$i31$i)
@@ -9236,7 +9236,7 @@
   (local.set $$this1$i$i$i$i$i34$i
    (local.get $$this$addr$i$i$i$i$i24$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i)
@@ -9268,7 +9268,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i
    (i32.add
     (local.get $$3)
@@ -9284,7 +9284,7 @@
   (local.set $$this1$i22$i
    (local.get $$this$addr$i21$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i22$i)
@@ -9293,7 +9293,7 @@
   (local.set $$__p$addr$i$i20$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i20$i)
   )
@@ -9303,7 +9303,7 @@
   (local.set $$this1$i18$i
    (local.get $$this$addr$i17$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i18$i)
@@ -9341,7 +9341,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i
    (i32.add
     (local.get $$7)
@@ -9357,7 +9357,7 @@
   (local.set $$this1$i15$i
    (local.get $$this$addr$i14$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i15$i)
@@ -9366,7 +9366,7 @@
   (local.set $$__p$addr$i$i13$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i13$i)
   )
@@ -9388,7 +9388,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -9407,7 +9407,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -9439,7 +9439,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i
    (i32.add
     (local.get $$11)
@@ -9470,7 +9470,7 @@
   (local.set $$this1$i84
    (local.get $$this$addr$i83)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i85
    (i32.add
     (local.get $$this1$i84)
@@ -9489,7 +9489,7 @@
   (local.set $$this1$i$i$i87
    (local.get $$this$addr$i$i$i81)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
   (local.set $$14
    (i32.load
     (local.get $$this1)
@@ -9527,7 +9527,7 @@
   (local.set $$__end2$addr$i
    (local.get $$__begin_2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1697:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1697:0
   (local.set $$17
    (local.get $$__end1$addr$i)
   )
@@ -9558,7 +9558,7 @@
   (local.set $$_Np$i
    (local.get $$sub$ptr$div$i79)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1698:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1698:0
   (local.set $$19
    (local.get $$_Np$i)
   )
@@ -9589,7 +9589,7 @@
    (local.get $$20)
    (local.get $$add$ptr$i80)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1699:0
   (local.set $$22
    (local.get $$_Np$i)
   )
@@ -9602,7 +9602,7 @@
   (if
    (local.get $$cmp$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1700:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1700:0
     (local.set $$23
      (local.get $$__end2$addr$i)
     )
@@ -9632,7 +9632,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
   (local.set $$27
    (local.get $$__v$addr)
   )
@@ -9648,18 +9648,18 @@
   (local.set $$__y$addr$i74
    (local.get $$__begin_4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$28
    (local.get $$__x$addr$i73)
   )
   (local.set $$__t$addr$i$i72
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$29
    (local.get $$__t$addr$i$i72)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$30
    (i32.load
     (local.get $$29)
@@ -9669,18 +9669,18 @@
    (local.get $$__t$i75)
    (local.get $$30)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$31
    (local.get $$__y$addr$i74)
   )
   (local.set $$__t$addr$i4$i70
    (local.get $$31)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$32
    (local.get $$__t$addr$i4$i70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$33
    (i32.load
     (local.get $$32)
@@ -9696,11 +9696,11 @@
   (local.set $$__t$addr$i3$i71
    (local.get $$__t$i75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$35
    (local.get $$__t$addr$i3$i71)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$36
    (i32.load
     (local.get $$35)
@@ -9713,7 +9713,7 @@
    (local.get $$37)
    (local.get $$36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
   (local.set $$__end_5
    (i32.add
     (local.get $$this1)
@@ -9735,18 +9735,18 @@
   (local.set $$__y$addr$i68
    (local.get $$__end_6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$39
    (local.get $$__x$addr$i67)
   )
   (local.set $$__t$addr$i$i66
    (local.get $$39)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$40
    (local.get $$__t$addr$i$i66)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$41
    (i32.load
     (local.get $$40)
@@ -9756,18 +9756,18 @@
    (local.get $$__t$i69)
    (local.get $$41)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$42
    (local.get $$__y$addr$i68)
   )
   (local.set $$__t$addr$i4$i64
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$43
    (local.get $$__t$addr$i4$i64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$44
    (i32.load
     (local.get $$43)
@@ -9783,11 +9783,11 @@
   (local.set $$__t$addr$i3$i65
    (local.get $$__t$i69)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$46
    (local.get $$__t$addr$i3$i65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$47
    (i32.load
     (local.get $$46)
@@ -9806,7 +9806,7 @@
   (local.set $$this1$i59
    (local.get $$this$addr$i58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i60
    (i32.add
     (local.get $$this1$i59)
@@ -9825,7 +9825,7 @@
   (local.set $$this1$i$i$i62
    (local.get $$this$addr$i$i$i56)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
   (local.set $$49
    (local.get $$__v$addr)
   )
@@ -9835,7 +9835,7 @@
   (local.set $$this1$i53
    (local.get $$this$addr$i52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i53)
@@ -9860,18 +9860,18 @@
   (local.set $$__y$addr$i
    (local.get $$this1$i$i$i55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$50
    (local.get $$__x$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$50)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$51
    (local.get $$__t$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$52
    (i32.load
     (local.get $$51)
@@ -9881,18 +9881,18 @@
    (local.get $$__t$i)
    (local.get $$52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$53
    (local.get $$__y$addr$i)
   )
   (local.set $$__t$addr$i4$i
    (local.get $$53)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$54
    (local.get $$__t$addr$i4$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$55
    (i32.load
     (local.get $$54)
@@ -9908,11 +9908,11 @@
   (local.set $$__t$addr$i3$i
    (local.get $$__t$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$57
    (local.get $$__t$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$58
    (i32.load
     (local.get $$57)
@@ -9925,7 +9925,7 @@
    (local.get $$59)
    (local.get $$58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
   (local.set $$60
    (local.get $$__v$addr)
   )
@@ -9953,7 +9953,7 @@
   (local.set $$this1$i49
    (local.get $$this$addr$i48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i49)
@@ -10006,7 +10006,7 @@
   (local.set $$this1$i$i28
    (local.get $$this$addr$i$i25)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$65
    (i32.load
     (local.get $$this1$i$i28)
@@ -10015,7 +10015,7 @@
   (local.set $$__p$addr$i$i$i24
    (local.get $$65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$66
    (local.get $$__p$addr$i$i$i24)
   )
@@ -10025,7 +10025,7 @@
   (local.set $$this1$i39$i
    (local.get $$this$addr$i38$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$67
    (i32.load
     (local.get $$this1$i39$i)
@@ -10034,7 +10034,7 @@
   (local.set $$__p$addr$i$i37$i
    (local.get $$67)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$68
    (local.get $$__p$addr$i$i37$i)
   )
@@ -10056,7 +10056,7 @@
   (local.set $$this1$i$i$i27$i
    (local.get $$this$addr$i$i$i22$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i28$i
    (i32.add
     (local.get $$this1$i$i$i27$i)
@@ -10075,7 +10075,7 @@
   (local.set $$this1$i$i$i$i$i30$i
    (local.get $$this$addr$i$i$i$i$i20$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$69
    (i32.load
     (local.get $$this1$i$i$i$i$i30$i)
@@ -10107,7 +10107,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
   (local.set $$add$ptr$i30
    (i32.add
     (local.get $$68)
@@ -10123,7 +10123,7 @@
   (local.set $$this1$i18$i31
    (local.get $$this$addr$i17$i13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$71
    (i32.load
     (local.get $$this1$i18$i31)
@@ -10132,7 +10132,7 @@
   (local.set $$__p$addr$i$i16$i
    (local.get $$71)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$72
    (local.get $$__p$addr$i$i16$i)
   )
@@ -10154,7 +10154,7 @@
   (local.set $$this1$i$i$i$i35
    (local.get $$this$addr$i$i$i$i16)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i36
    (i32.add
     (local.get $$this1$i$i$i$i35)
@@ -10173,7 +10173,7 @@
   (local.set $$this1$i$i$i$i$i$i38
    (local.get $$this$addr$i$i$i$i$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$73
    (i32.load
     (local.get $$this1$i$i$i$i$i$i38)
@@ -10205,7 +10205,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$add$ptr6$i45
    (i32.add
     (local.get $$72)
@@ -10221,7 +10221,7 @@
   (local.set $$this1$i12$i46
    (local.get $$this$addr$i11$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$75
    (i32.load
     (local.get $$this1$i12$i46)
@@ -10230,11 +10230,11 @@
   (local.set $$__p$addr$i$i10$i
    (local.get $$75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$76
    (local.get $$__p$addr$i$i10$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$77
    (local.get $$__current_size$addr$i)
   )
@@ -10268,7 +10268,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
   (return)
  )
  (func $__ZNSt3__214__split_bufferI5PointRNS_9allocatorIS1_EEED2Ev (; 55 ;) (param $$this i32)
@@ -10420,7 +10420,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
   (local.set $$__begin_$i
    (i32.add
     (local.get $$this1$i)
@@ -10441,7 +10441,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
   (local.set $$1
    (local.get $$__new_last$addr$i$i)
   )
@@ -10462,7 +10462,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
     (local.set $$2
      (local.get $$__new_last$addr$i$i$i)
     )
@@ -10495,7 +10495,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -10508,7 +10508,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
     (local.set $$add$ptr$i$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i$i)
@@ -10521,13 +10521,13 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
     (local.set $$4
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
     (local.set $$__end_2$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -10552,7 +10552,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$incdec$ptr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -10562,7 +10562,7 @@
     (local.set $$__p$addr$i5$i$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -10581,7 +10581,7 @@
     (local.set $$__p$addr$i$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i$i)
     )
@@ -10597,7 +10597,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
   (local.set $$11
    (i32.load
     (local.get $$this1)
@@ -10617,7 +10617,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
     (return)
    )
   )
@@ -10627,7 +10627,7 @@
   (local.set $$this1$i7
    (local.get $$this$addr$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i7)
@@ -10640,7 +10640,7 @@
   (local.set $$this1$i$i8
    (local.get $$this$addr$i$i5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$this1$i$i8)
@@ -10653,13 +10653,13 @@
   (local.set $$this1$i$i$i9
    (local.get $$this$addr$i$i$i4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
   (local.set $$13
    (i32.load
     (local.get $$this1)
@@ -10677,7 +10677,7 @@
   (local.set $$this1$i$i17
    (local.get $$this$addr$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i17)
@@ -10696,7 +10696,7 @@
   (local.set $$this1$i$i$i$i19
    (local.get $$this$addr$i$i$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
   (local.set $$14
    (i32.load
     (local.get $$this1$i$i$i$i19)
@@ -10737,7 +10737,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$16
    (local.get $$__a$addr$i)
   )
@@ -10756,7 +10756,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$19
    (local.get $$__p$addr$i$i)
   )
@@ -10778,7 +10778,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$21
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -10797,7 +10797,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$24
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -10811,7 +10811,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
   (return)
  )
  (func $__ZNKSt3__26vectorI5PointNS_9allocatorIS1_EEE8max_sizeEv (; 56 ;) (param $$this i32) (result i32)
@@ -10920,7 +10920,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -10942,7 +10942,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
   (local.set $$0
    (local.get $$__a$addr$i)
   )
@@ -10955,19 +10955,19 @@
   (local.set $$__a$addr$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
   (local.set $$1
    (local.get $$__a$addr$i$i)
   )
   (local.set $$this$addr$i$i$i6
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (i32.store
    (local.get $$ref$tmp)
    (i32.const 536870911)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
   (i32.store
    (local.get $$ref$tmp3)
    (i32.const 2147483647)
@@ -10978,7 +10978,7 @@
   (local.set $$__b$addr$i
    (local.get $$ref$tmp3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
   (local.set $$2
    (local.get $$__a$addr$i11)
   )
@@ -10997,7 +10997,7 @@
   (local.set $$__b$addr$i$i
    (local.get $$3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$4
    (local.get $$__b$addr$i$i)
   )
@@ -11013,7 +11013,7 @@
   (local.set $$__y$addr$i$i$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
   (local.set $$6
    (local.get $$__x$addr$i$i$i)
   )
@@ -11036,7 +11036,7 @@
     (local.get $$9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$10
    (local.get $$__b$addr$i$i)
   )
@@ -11050,7 +11050,7 @@
     (local.get $$11)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (local.set $$12
    (i32.load
     (local.get $$cond$lvalue$i$i2D)
@@ -11208,7 +11208,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:975:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:975:0
   (local.set $$0
    (local.get $$__n$addr)
   )
@@ -11225,7 +11225,7 @@
   )
   (if
    (local.get $$cmp)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:976:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:976:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1)
    )
@@ -11236,7 +11236,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -11255,7 +11255,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
   (local.set $$1
    (local.get $$__n$addr)
   )
@@ -11265,7 +11265,7 @@
   (local.set $$__n$addr$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
   (local.set $$2
    (local.get $$__a$addr$i)
   )
@@ -11284,7 +11284,7 @@
   (local.set $$this1$i$i23
    (local.get $$this$addr$i$i21)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
   (local.set $$4
    (local.get $$__n$addr$i$i)
   )
@@ -11303,7 +11303,7 @@
     (local.set $$__msg$addr$i$i$i
      (i32.const 6508)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
     (local.set $$exception$i$i$i
      (call $___cxa_allocate_exception
       (i32.const 8)
@@ -11321,7 +11321,7 @@
     (local.set $$this1$i$i$i$i25
      (local.get $$this$addr$i$i$i$i19)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
     (local.set $$6
      (local.get $$__s$addr$i$i$i$i)
     )
@@ -11333,7 +11333,7 @@
      (local.get $$this1$i$i$i$i25)
      (i32.const 6496)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
     (call $___cxa_throw
      (local.get $$exception$i$i$i)
      (i32.const 3096)
@@ -11341,7 +11341,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
     (local.set $$7
      (local.get $$__n$addr$i$i)
     )
@@ -11357,7 +11357,7 @@
     (local.set $$__align$addr$i$i$i
      (i32.const 4)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
     (local.set $$8
      (local.get $$__size$addr$i$i$i)
     )
@@ -11366,7 +11366,7 @@
       (local.get $$8)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
     (local.set $$__end_
      (i32.add
       (local.get $$this1)
@@ -11381,7 +11381,7 @@
      (local.get $$this1)
      (local.get $$call$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
     (local.set $$9
      (i32.load
       (local.get $$this1)
@@ -11405,7 +11405,7 @@
     (local.set $$this1$i15
      (local.get $$this$addr$i14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i16
      (i32.add
       (local.get $$this1$i15)
@@ -11424,7 +11424,7 @@
     (local.set $$this1$i$i$i18
      (local.get $$this$addr$i$i$i12)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
     (i32.store
      (local.get $$this1$i$i$i18)
      (local.get $$add$ptr)
@@ -11444,7 +11444,7 @@
     (local.set $$this1$i$i10
      (local.get $$this$addr$i$i7)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$11
      (i32.load
       (local.get $$this1$i$i10)
@@ -11453,7 +11453,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$12
      (local.get $$__p$addr$i$i$i)
     )
@@ -11463,7 +11463,7 @@
     (local.set $$this1$i39$i
      (local.get $$this$addr$i38$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$13
      (i32.load
       (local.get $$this1$i39$i)
@@ -11472,7 +11472,7 @@
     (local.set $$__p$addr$i$i37$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$14
      (local.get $$__p$addr$i$i37$i)
     )
@@ -11494,7 +11494,7 @@
     (local.set $$this1$i$i$i27$i
      (local.get $$this$addr$i$i$i22$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i28$i
      (i32.add
       (local.get $$this1$i$i$i27$i)
@@ -11513,7 +11513,7 @@
     (local.set $$this1$i$i$i$i$i30$i
      (local.get $$this$addr$i$i$i$i$i20$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$15
      (i32.load
       (local.get $$this1$i$i$i$i$i30$i)
@@ -11545,7 +11545,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
     (local.set $$add$ptr$i
      (i32.add
       (local.get $$14)
@@ -11561,7 +11561,7 @@
     (local.set $$this1$i18$i
      (local.get $$this$addr$i17$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$17
      (i32.load
       (local.get $$this1$i18$i)
@@ -11570,7 +11570,7 @@
     (local.set $$__p$addr$i$i16$i
      (local.get $$17)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$18
      (local.get $$__p$addr$i$i16$i)
     )
@@ -11592,7 +11592,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -11611,7 +11611,7 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$19
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
@@ -11643,7 +11643,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
     (local.set $$add$ptr6$i
      (i32.add
       (local.get $$18)
@@ -11659,7 +11659,7 @@
     (local.set $$this1$i12$i
      (local.get $$this$addr$i11$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$21
      (i32.load
       (local.get $$this1$i12$i)
@@ -11668,11 +11668,11 @@
     (local.set $$__p$addr$i$i10$i
      (local.get $$21)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$22
      (local.get $$__p$addr$i$i10$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
     (local.set $$23
      (local.get $$__current_size$addr$i)
     )
@@ -11703,7 +11703,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:980:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:980:0
     (return)
    )
   )
@@ -11801,7 +11801,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -11820,11 +11820,11 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1068:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1068:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1069:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1069:0
   (local.set $$0
    (local.get $$__n$addr)
   )
@@ -11837,7 +11837,7 @@
   (local.set $$$addr1$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1070:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1070:0
   (local.set $$1
    (local.get $$__a)
   )
@@ -11865,7 +11865,7 @@
   (local.set $$__begin2$addr$i
    (local.get $$__end_)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1664:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1664:0
   (local.set $$4
    (local.get $$__end1$addr$i)
   )
@@ -11896,7 +11896,7 @@
   (local.set $$_Np$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1665:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1665:0
   (local.set $$6
    (local.get $$_Np$i)
   )
@@ -11917,11 +11917,11 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1667:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1667:0
   (local.set $$7
    (local.get $$__begin2$addr$i)
   )
@@ -11949,7 +11949,7 @@
     (local.get $$mul$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1668:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1668:0
   (local.set $$11
    (local.get $$_Np$i)
   )
@@ -11980,7 +11980,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
   (return)
  )
  (func $__ZNSt3__26vectorI8BuildingNS_9allocatorIS1_EEE21__push_back_slow_pathIRKS1_EEvOT_ (; 59 ;) (param $$this i32) (param $$__x i32)
@@ -12184,7 +12184,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -12203,7 +12203,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
@@ -12213,7 +12213,7 @@
   (local.set $$this1$i11
    (local.get $$this$addr$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i11)
@@ -12251,7 +12251,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$add
    (i32.add
     (local.get $$sub$ptr$div$i)
@@ -12268,7 +12268,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
   (local.set $$call$i
    (call $__ZNKSt3__26vectorI8BuildingNS_9allocatorIS1_EEE8max_sizeEv
     (local.get $$this1$i15)
@@ -12277,7 +12277,7 @@
   (local.set $$__ms$i
    (local.get $$call$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
   (local.set $$2
    (i32.load
     (local.get $$__new_size$addr$i)
@@ -12294,7 +12294,7 @@
   )
   (if
    (local.get $$cmp$i)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1$i15)
    )
@@ -12317,7 +12317,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -12336,7 +12336,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -12368,11 +12368,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
   (local.set $$__cap$i
    (local.get $$sub$ptr$div$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
   (local.set $$6
    (local.get $$__cap$i)
   )
@@ -12397,7 +12397,7 @@
   (if
    (local.get $$cmp3$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
     (local.set $$8
      (local.get $$__ms$i)
     )
@@ -12406,7 +12406,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$9
      (local.get $$__cap$i)
     )
@@ -12426,7 +12426,7 @@
     (local.set $$__b$addr$i$i
      (local.get $$__new_size$addr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
     (local.set $$10
      (local.get $$__a$addr$i$i)
     )
@@ -12445,7 +12445,7 @@
     (local.set $$__b$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$12
      (local.get $$__a$addr$i$i$i)
     )
@@ -12461,7 +12461,7 @@
     (local.set $$__y$addr$i$i$i$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
     (local.set $$14
      (local.get $$__x$addr$i$i$i$i)
     )
@@ -12484,7 +12484,7 @@
       (local.get $$17)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$18
      (local.get $$__b$addr$i$i$i)
     )
@@ -12498,7 +12498,7 @@
       (local.get $$19)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$20
      (i32.load
       (local.get $$cond$lvalue$i$i$i2D)
@@ -12509,7 +12509,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
   (local.set $$21
    (local.get $$retval$i)
   )
@@ -12519,7 +12519,7 @@
   (local.set $$this1$i19
    (local.get $$this$addr$i18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i20
    (i32.add
     (local.get $$this1$i19)
@@ -12557,7 +12557,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$24
    (local.get $$__a)
   )
@@ -12567,7 +12567,7 @@
    (local.get $$sub$ptr$div$i25)
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$25
    (local.get $$__a)
   )
@@ -12585,18 +12585,18 @@
   (local.set $$__p$addr$i
    (local.get $$26)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$27
    (local.get $$__p$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$28
    (local.get $$__x$addr)
   )
   (local.set $$__t$addr$i
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$29
    (local.get $$__t$addr$i)
   )
@@ -12609,7 +12609,7 @@
   (local.set $$__args$addr$i
    (local.get $$29)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
   (local.set $$30
    (local.get $$__a$addr$i)
   )
@@ -12622,7 +12622,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$32)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$33
    (local.get $$__t$addr$i$i)
   )
@@ -12641,7 +12641,7 @@
   (local.set $$__args$addr$i$i
    (local.get $$33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
   (local.set $$34
    (local.get $$__a$addr$i$i27)
   )
@@ -12654,7 +12654,7 @@
   (local.set $$__t$addr$i$i$i
    (local.get $$36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$37
    (local.get $$__t$addr$i$i$i)
   )
@@ -12667,7 +12667,7 @@
   (local.set $$__args$addr$i$i$i
    (local.get $$37)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (local.set $$38
    (local.get $$__p$addr$i$i$i)
   )
@@ -12677,16 +12677,16 @@
   (local.set $$__t$addr$i$i$i$i
    (local.get $$39)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$40
    (local.get $$__t$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (call $__ZN8BuildingC2ERKS_
    (local.get $$38)
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
   (local.set $$__end_7
    (i32.add
     (local.get $$__v)
@@ -12708,12 +12708,12 @@
    (local.get $$__end_7)
    (local.get $$incdec$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
   (call $__ZNSt3__26vectorI8BuildingNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
    (local.get $$this1)
    (local.get $$__v)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
   (call $__ZNSt3__214__split_bufferI8BuildingRNS_9allocatorIS1_EEED2Ev
    (local.get $$__v)
   )
@@ -12843,7 +12843,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
   (local.set $$__end_cap_
    (i32.add
     (local.get $$this1)
@@ -12869,14 +12869,14 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$1
    (local.get $$__t1$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$2
    (local.get $$__t$addr$i$i)
   )
@@ -12889,7 +12889,7 @@
   (local.set $$this1$i7$i
    (local.get $$this$addr$i5$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$3
    (local.get $$__u$addr$i6$i)
   )
@@ -12900,7 +12900,7 @@
    (local.get $$this1$i7$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (i32.add
     (local.get $$this1$i)
@@ -12913,7 +12913,7 @@
   (local.set $$__t$addr$i3$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$6
    (local.get $$__t$addr$i3$i)
   )
@@ -12926,23 +12926,23 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$7
    (local.get $$__u$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (i32.store
    (local.get $$this1$i$i)
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (local.set $$9
    (local.get $$__cap$addr)
   )
@@ -12962,7 +12962,7 @@
      (local.set $$this1$i18
       (local.get $$this$addr$i17)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
      (local.set $$__end_cap_$i19
       (i32.add
        (local.get $$this1$i18)
@@ -12975,7 +12975,7 @@
      (local.set $$this1$i$i20
       (local.get $$this$addr$i$i16)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
      (local.set $$add$ptr$i$i
       (i32.add
        (local.get $$this1$i$i20)
@@ -12988,13 +12988,13 @@
      (local.set $$this1$i$i$i21
       (local.get $$this$addr$i$i$i15)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
      (local.set $$10
       (i32.load
        (local.get $$this1$i$i$i21)
       )
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
      (local.set $$11
       (local.get $$__cap$addr)
      )
@@ -13004,7 +13004,7 @@
      (local.set $$__n$addr$i
       (local.get $$11)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
      (local.set $$12
       (local.get $$__a$addr$i)
      )
@@ -13023,7 +13023,7 @@
      (local.set $$this1$i$i13
       (local.get $$this$addr$i$i12)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
      (local.set $$14
       (local.get $$__n$addr$i$i)
      )
@@ -13042,7 +13042,7 @@
        (local.set $$__msg$addr$i$i$i
         (i32.const 6508)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (local.set $$exception$i$i$i
         (call $___cxa_allocate_exception
          (i32.const 8)
@@ -13060,7 +13060,7 @@
        (local.set $$this1$i$i$i$i
         (local.get $$this$addr$i$i$i$i)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
        (local.set $$16
         (local.get $$__s$addr$i$i$i$i)
        )
@@ -13072,7 +13072,7 @@
         (local.get $$this1$i$i$i$i)
         (i32.const 6496)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (call $___cxa_throw
         (local.get $$exception$i$i$i)
         (i32.const 3096)
@@ -13080,7 +13080,7 @@
        )
       )
       (block
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
        (local.set $$17
         (local.get $$__n$addr$i$i)
        )
@@ -13096,7 +13096,7 @@
        (local.set $$__align$addr$i$i$i
         (i32.const 4)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
        (local.set $$18
         (local.get $$__size$addr$i$i$i)
        )
@@ -13117,12 +13117,12 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (i32.store
    (local.get $$this1)
    (local.get $$cond)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
   (local.set $$19
    (i32.load
     (local.get $$this1)
@@ -13160,7 +13160,7 @@
    (local.get $$__begin_)
    (local.get $$add$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (local.set $$21
    (i32.load
     (local.get $$this1)
@@ -13184,7 +13184,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i9)
@@ -13203,7 +13203,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (i32.store
    (local.get $$this1$i$i$i)
    (local.get $$add$ptr5)
@@ -13211,7 +13211,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
   (return)
  )
  (func $__ZNSt3__26vectorI8BuildingNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE (; 61 ;) (param $$this i32) (param $$__v i32)
@@ -13566,7 +13566,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i)
@@ -13575,7 +13575,7 @@
   (local.set $$__p$addr$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$1
    (local.get $$__p$addr$i$i$i)
   )
@@ -13585,7 +13585,7 @@
   (local.set $$this1$i43$i
    (local.get $$this$addr$i42$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i43$i)
@@ -13594,7 +13594,7 @@
   (local.set $$__p$addr$i$i41$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$3
    (local.get $$__p$addr$i$i41$i)
   )
@@ -13616,7 +13616,7 @@
   (local.set $$this1$i$i$i31$i
    (local.get $$this$addr$i$i$i26$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i
    (i32.add
     (local.get $$this1$i$i$i31$i)
@@ -13635,7 +13635,7 @@
   (local.set $$this1$i$i$i$i$i34$i
    (local.get $$this$addr$i$i$i$i$i24$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i)
@@ -13667,7 +13667,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i
    (i32.add
     (local.get $$3)
@@ -13683,7 +13683,7 @@
   (local.set $$this1$i22$i
    (local.get $$this$addr$i21$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i22$i)
@@ -13692,7 +13692,7 @@
   (local.set $$__p$addr$i$i20$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i20$i)
   )
@@ -13702,7 +13702,7 @@
   (local.set $$this1$i18$i
    (local.get $$this$addr$i17$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i18$i)
@@ -13740,7 +13740,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i
    (i32.add
     (local.get $$7)
@@ -13756,7 +13756,7 @@
   (local.set $$this1$i15$i
    (local.get $$this$addr$i14$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i15$i)
@@ -13765,7 +13765,7 @@
   (local.set $$__p$addr$i$i13$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i13$i)
   )
@@ -13787,7 +13787,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -13806,7 +13806,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -13838,7 +13838,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i
    (i32.add
     (local.get $$11)
@@ -13869,7 +13869,7 @@
   (local.set $$this1$i83
    (local.get $$this$addr$i82)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i84
    (i32.add
     (local.get $$this1$i83)
@@ -13888,7 +13888,7 @@
   (local.set $$this1$i$i$i86
    (local.get $$this$addr$i$i$i80)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
   (local.set $$14
    (i32.load
     (local.get $$this1)
@@ -13928,7 +13928,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1678:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1678:0
     (local.set $$17
      (local.get $$__end1$addr$i)
     )
@@ -13947,7 +13947,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
     (local.set $$19
      (local.get $$__a$addr$i)
     )
@@ -13968,11 +13968,11 @@
     (local.set $$__p$addr$i$i
      (local.get $$add$ptr$i78)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$22
      (local.get $$__p$addr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
     (local.set $$23
      (local.get $$__end1$addr$i)
     )
@@ -13988,14 +13988,14 @@
     (local.set $$__x$addr$i$i
      (local.get $$incdec$ptr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/utility:290:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/utility:290:0
     (local.set $$24
      (local.get $$__x$addr$i$i)
     )
     (local.set $$__t$addr$i$i4$i
      (local.get $$24)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
     (local.set $$25
      (local.get $$__t$addr$i$i4$i)
     )
@@ -14008,7 +14008,7 @@
     (local.set $$__args$addr$i$i
      (local.get $$25)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$26
      (local.get $$__a$addr$i$i)
     )
@@ -14021,7 +14021,7 @@
     (local.set $$__t$addr$i$i$i
      (local.get $$28)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$29
      (local.get $$__t$addr$i$i$i)
     )
@@ -14040,7 +14040,7 @@
     (local.set $$__args$addr$i$i$i
      (local.get $$29)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$30
      (local.get $$__a$addr$i$i$i)
     )
@@ -14053,7 +14053,7 @@
     (local.set $$__t$addr$i$i$i$i
      (local.get $$32)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$33
      (local.get $$__t$addr$i$i$i$i)
     )
@@ -14066,7 +14066,7 @@
     (local.set $$__args$addr$i$i$i$i
      (local.get $$33)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$34
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -14076,16 +14076,16 @@
     (local.set $$__t$addr$i$i$i$i$i
      (local.get $$35)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$36
      (local.get $$__t$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (call $__ZN8BuildingC2EOS_
      (local.get $$34)
      (local.get $$36)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1681:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1681:0
     (local.set $$37
      (local.get $$__end2$addr$i)
     )
@@ -14107,7 +14107,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
   (local.set $$39
    (local.get $$__v$addr)
   )
@@ -14123,18 +14123,18 @@
   (local.set $$__y$addr$i74
    (local.get $$__begin_4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$40
    (local.get $$__x$addr$i73)
   )
   (local.set $$__t$addr$i$i72
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$41
    (local.get $$__t$addr$i$i72)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$42
    (i32.load
     (local.get $$41)
@@ -14144,18 +14144,18 @@
    (local.get $$__t$i75)
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$43
    (local.get $$__y$addr$i74)
   )
   (local.set $$__t$addr$i4$i70
    (local.get $$43)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$44
    (local.get $$__t$addr$i4$i70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$45
    (i32.load
     (local.get $$44)
@@ -14171,11 +14171,11 @@
   (local.set $$__t$addr$i3$i71
    (local.get $$__t$i75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$47
    (local.get $$__t$addr$i3$i71)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$48
    (i32.load
     (local.get $$47)
@@ -14188,7 +14188,7 @@
    (local.get $$49)
    (local.get $$48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
   (local.set $$__end_5
    (i32.add
     (local.get $$this1)
@@ -14210,18 +14210,18 @@
   (local.set $$__y$addr$i68
    (local.get $$__end_6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$51
    (local.get $$__x$addr$i67)
   )
   (local.set $$__t$addr$i$i66
    (local.get $$51)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$52
    (local.get $$__t$addr$i$i66)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$53
    (i32.load
     (local.get $$52)
@@ -14231,18 +14231,18 @@
    (local.get $$__t$i69)
    (local.get $$53)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$54
    (local.get $$__y$addr$i68)
   )
   (local.set $$__t$addr$i4$i64
    (local.get $$54)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$55
    (local.get $$__t$addr$i4$i64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$56
    (i32.load
     (local.get $$55)
@@ -14258,11 +14258,11 @@
   (local.set $$__t$addr$i3$i65
    (local.get $$__t$i69)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$58
    (local.get $$__t$addr$i3$i65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$59
    (i32.load
     (local.get $$58)
@@ -14281,7 +14281,7 @@
   (local.set $$this1$i59
    (local.get $$this$addr$i58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i60
    (i32.add
     (local.get $$this1$i59)
@@ -14300,7 +14300,7 @@
   (local.set $$this1$i$i$i62
    (local.get $$this$addr$i$i$i56)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
   (local.set $$61
    (local.get $$__v$addr)
   )
@@ -14310,7 +14310,7 @@
   (local.set $$this1$i53
    (local.get $$this$addr$i52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i53)
@@ -14335,18 +14335,18 @@
   (local.set $$__y$addr$i
    (local.get $$this1$i$i$i55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$62
    (local.get $$__x$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$62)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$63
    (local.get $$__t$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$64
    (i32.load
     (local.get $$63)
@@ -14356,18 +14356,18 @@
    (local.get $$__t$i)
    (local.get $$64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$65
    (local.get $$__y$addr$i)
   )
   (local.set $$__t$addr$i4$i
    (local.get $$65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$66
    (local.get $$__t$addr$i4$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$67
    (i32.load
     (local.get $$66)
@@ -14383,11 +14383,11 @@
   (local.set $$__t$addr$i3$i
    (local.get $$__t$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$69
    (local.get $$__t$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$70
    (i32.load
     (local.get $$69)
@@ -14400,7 +14400,7 @@
    (local.get $$71)
    (local.get $$70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
   (local.set $$72
    (local.get $$__v$addr)
   )
@@ -14428,7 +14428,7 @@
   (local.set $$this1$i49
    (local.get $$this$addr$i48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i49)
@@ -14481,7 +14481,7 @@
   (local.set $$this1$i$i28
    (local.get $$this$addr$i$i25)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$77
    (i32.load
     (local.get $$this1$i$i28)
@@ -14490,7 +14490,7 @@
   (local.set $$__p$addr$i$i$i24
    (local.get $$77)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$78
    (local.get $$__p$addr$i$i$i24)
   )
@@ -14500,7 +14500,7 @@
   (local.set $$this1$i39$i
    (local.get $$this$addr$i38$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$79
    (i32.load
     (local.get $$this1$i39$i)
@@ -14509,7 +14509,7 @@
   (local.set $$__p$addr$i$i37$i
    (local.get $$79)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$80
    (local.get $$__p$addr$i$i37$i)
   )
@@ -14531,7 +14531,7 @@
   (local.set $$this1$i$i$i27$i
    (local.get $$this$addr$i$i$i22$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i28$i
    (i32.add
     (local.get $$this1$i$i$i27$i)
@@ -14550,7 +14550,7 @@
   (local.set $$this1$i$i$i$i$i30$i
    (local.get $$this$addr$i$i$i$i$i20$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$81
    (i32.load
     (local.get $$this1$i$i$i$i$i30$i)
@@ -14582,7 +14582,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
   (local.set $$add$ptr$i30
    (i32.add
     (local.get $$80)
@@ -14598,7 +14598,7 @@
   (local.set $$this1$i18$i31
    (local.get $$this$addr$i17$i13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$83
    (i32.load
     (local.get $$this1$i18$i31)
@@ -14607,7 +14607,7 @@
   (local.set $$__p$addr$i$i16$i
    (local.get $$83)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$84
    (local.get $$__p$addr$i$i16$i)
   )
@@ -14629,7 +14629,7 @@
   (local.set $$this1$i$i$i$i35
    (local.get $$this$addr$i$i$i$i16)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i36
    (i32.add
     (local.get $$this1$i$i$i$i35)
@@ -14648,7 +14648,7 @@
   (local.set $$this1$i$i$i$i$i$i38
    (local.get $$this$addr$i$i$i$i$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$85
    (i32.load
     (local.get $$this1$i$i$i$i$i$i38)
@@ -14680,7 +14680,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$add$ptr6$i45
    (i32.add
     (local.get $$84)
@@ -14696,7 +14696,7 @@
   (local.set $$this1$i12$i46
    (local.get $$this$addr$i11$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$87
    (i32.load
     (local.get $$this1$i12$i46)
@@ -14705,11 +14705,11 @@
   (local.set $$__p$addr$i$i10$i
    (local.get $$87)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$88
    (local.get $$__p$addr$i$i10$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$89
    (local.get $$__current_size$addr$i)
   )
@@ -14743,7 +14743,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
   (return)
  )
  (func $__ZNSt3__214__split_bufferI8BuildingRNS_9allocatorIS1_EEED2Ev (; 62 ;) (param $$this i32)
@@ -14896,7 +14896,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
   (local.set $$__begin_$i
    (i32.add
     (local.get $$this1$i)
@@ -14917,7 +14917,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
   (local.set $$1
    (local.get $$__new_last$addr$i$i)
   )
@@ -14938,7 +14938,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
     (local.set $$2
      (local.get $$__new_last$addr$i$i$i)
     )
@@ -14971,7 +14971,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -14984,7 +14984,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
     (local.set $$add$ptr$i$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i$i)
@@ -14997,13 +14997,13 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
     (local.set $$4
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
     (local.set $$__end_2$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -15028,7 +15028,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$incdec$ptr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -15038,7 +15038,7 @@
     (local.set $$__p$addr$i5$i$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -15057,7 +15057,7 @@
     (local.set $$__p$addr$i$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i$i)
     )
@@ -15070,7 +15070,7 @@
     (local.set $$__p$addr$i$i$i$i$i$i
      (local.get $$10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
     (local.set $$11
      (local.get $$__p$addr$i$i$i$i$i$i)
     )
@@ -15080,7 +15080,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
   (local.set $$12
    (i32.load
     (local.get $$this1)
@@ -15100,7 +15100,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
     (return)
    )
   )
@@ -15110,7 +15110,7 @@
   (local.set $$this1$i7
    (local.get $$this$addr$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i7)
@@ -15123,7 +15123,7 @@
   (local.set $$this1$i$i8
    (local.get $$this$addr$i$i5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$this1$i$i8)
@@ -15136,13 +15136,13 @@
   (local.set $$this1$i$i$i9
    (local.get $$this$addr$i$i$i4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
   (local.set $$13
    (i32.load
     (local.get $$this1$i$i$i9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
   (local.set $$14
    (i32.load
     (local.get $$this1)
@@ -15160,7 +15160,7 @@
   (local.set $$this1$i$i15
    (local.get $$this$addr$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i15)
@@ -15179,7 +15179,7 @@
   (local.set $$this1$i$i$i$i17
    (local.get $$this$addr$i$i$i$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
   (local.set $$15
    (i32.load
     (local.get $$this1$i$i$i$i17)
@@ -15220,7 +15220,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$17
    (local.get $$__a$addr$i)
   )
@@ -15239,7 +15239,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$20
    (local.get $$__p$addr$i$i)
   )
@@ -15261,7 +15261,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$22
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -15280,7 +15280,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$25
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -15294,7 +15294,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
   (return)
  )
  (func $__ZN8BuildingC2EOS_ (; 63 ;) (param $$this i32) (param $$0 i32)
@@ -15453,7 +15453,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1282:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1282:0
   (local.set $$4
    (local.get $$__x$addr$i)
   )
@@ -15463,7 +15463,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -15485,7 +15485,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$this1$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$5
    (local.get $$__t$addr$i$i)
   )
@@ -15501,12 +15501,12 @@
   (local.set $$this$addr$i$i34$i
    (local.get $$this1$i36$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
   (i32.store
    (local.get $$this1$i36$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i36$i)
@@ -15517,7 +15517,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
   (local.set $$__end_cap_$i38$i
    (i32.add
     (local.get $$this1$i36$i)
@@ -15534,7 +15534,7 @@
   (local.set $$__t$addr$i$i$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$7
    (local.get $$__t$addr$i$i$i)
   )
@@ -15550,14 +15550,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$8
    (local.get $$__t1$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$9
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -15570,7 +15570,7 @@
   (local.set $$this1$i7$i$i$i
    (local.get $$this$addr$i5$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$10
    (local.get $$__u$addr$i6$i$i$i)
   )
@@ -15581,14 +15581,14 @@
    (local.get $$this1$i7$i$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$11
    (local.get $$__t2$addr$i$i$i)
   )
   (local.set $$__t$addr$i3$i$i$i
    (local.get $$11)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$12
    (local.get $$__t$addr$i3$i$i$i)
   )
@@ -15598,14 +15598,14 @@
   (local.set $$__u$addr$i$i$i$i
    (local.get $$12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
   (local.set $$13
    (local.get $$__u$addr$i$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i$i
    (local.get $$13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1288:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1288:0
   (local.set $$14
    (local.get $$__x$addr$i)
   )
@@ -15618,7 +15618,7 @@
    (local.get $$this1$i)
    (local.get $$15)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1289:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1289:0
   (local.set $$16
    (local.get $$__x$addr$i)
   )
@@ -15643,7 +15643,7 @@
    (local.get $$__end_4$i)
    (local.get $$17)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
   (local.set $$18
    (local.get $$__x$addr$i)
   )
@@ -15653,7 +15653,7 @@
   (local.set $$this1$i28$i
    (local.get $$this$addr$i27$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i29$i
    (i32.add
     (local.get $$this1$i28$i)
@@ -15672,7 +15672,7 @@
   (local.set $$this1$i$i$i31$i
    (local.get $$this$addr$i$i$i25$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
   (local.set $$19
    (i32.load
     (local.get $$this1$i$i$i31$i)
@@ -15684,7 +15684,7 @@
   (local.set $$this1$i20$i
    (local.get $$this$addr$i19$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i21$i
    (i32.add
     (local.get $$this1$i20$i)
@@ -15703,12 +15703,12 @@
   (local.set $$this1$i$i$i23$i
    (local.get $$this$addr$i$i$i17$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
   (i32.store
    (local.get $$this1$i$i$i23$i)
    (local.get $$19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
   (local.set $$20
    (local.get $$__x$addr$i)
   )
@@ -15718,7 +15718,7 @@
   (local.set $$this1$i13$i
    (local.get $$this$addr$i12$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i14$i
    (i32.add
     (local.get $$this1$i13$i)
@@ -15737,7 +15737,7 @@
   (local.set $$this1$i$i$i16$i
    (local.get $$this$addr$i$i$i10$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
   (i32.store
    (local.get $$this1$i$i$i16$i)
    (i32.const 0)
@@ -16365,12 +16365,12 @@
   (local.set $$this$addr$i$i$i
    (local.get $$this1$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -16381,7 +16381,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -16401,14 +16401,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$0
    (local.get $$__t$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$1
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -16421,7 +16421,7 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$2
    (local.get $$__u$addr$i$i$i$i)
   )
@@ -16451,7 +16451,7 @@
   (local.set $$this1$i31
    (local.get $$this$addr$i30)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i31)
@@ -16504,7 +16504,7 @@
   (local.set $$this1$i108
    (local.get $$this$addr$i107)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (local.set $$7
    (i32.load
     (local.get $$this1$i108)
@@ -16516,7 +16516,7 @@
   (local.set $$__p$addr$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$8
    (local.get $$__p$addr$i$i)
   )
@@ -16529,7 +16529,7 @@
   (local.set $$this1$i$i$i111
    (local.get $$this$addr$i$i$i105)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$9
    (local.get $$__x$addr$i$i$i)
   )
@@ -16537,13 +16537,13 @@
    (local.get $$this1$i$i$i111)
    (local.get $$9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$10
    (i32.load
     (local.get $$retval$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (i32.store
    (local.get $$retval$i)
    (local.get $$10)
@@ -16567,7 +16567,7 @@
   (local.set $$this1$i182
    (local.get $$this$addr$i181)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (local.set $$__end_$i183
    (i32.add
     (local.get $$this1$i182)
@@ -16585,7 +16585,7 @@
   (local.set $$__p$addr$i$i179
    (local.get $$13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$14
    (local.get $$__p$addr$i$i179)
   )
@@ -16598,7 +16598,7 @@
   (local.set $$this1$i$i$i185
    (local.get $$this$addr$i$i$i175)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$15
    (local.get $$__x$addr$i$i$i176)
   )
@@ -16606,13 +16606,13 @@
    (local.get $$this1$i$i$i185)
    (local.get $$15)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$16
    (i32.load
     (local.get $$retval$i$i177)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (i32.store
    (local.get $$retval$i180)
    (local.get $$16)
@@ -16633,7 +16633,7 @@
   (local.set $$this1$i197
    (local.get $$this$addr$i196)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$18
    (i32.load
     (local.get $$this1$i197)
@@ -16645,7 +16645,7 @@
   (local.set $$__p$addr$i$i194
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$19
    (local.get $$__p$addr$i$i194)
   )
@@ -16658,7 +16658,7 @@
   (local.set $$this1$i$i$i200
    (local.get $$this$addr$i$i$i190)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$20
    (local.get $$__x$addr$i$i$i191)
   )
@@ -16666,13 +16666,13 @@
    (local.get $$this1$i$i$i200)
    (local.get $$20)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$21
    (i32.load
     (local.get $$retval$i$i192)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i195)
    (local.get $$21)
@@ -16716,7 +16716,7 @@
     (local.set $$__y$addr$i$i160
      (local.get $$agg$tmp2152)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$23
      (local.get $$__x$addr$i$i159)
     )
@@ -16729,7 +16729,7 @@
     (local.set $$__y$addr$i$i$i158
      (local.get $$24)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$25
      (local.get $$__x$addr$i$i$i157)
     )
@@ -16739,13 +16739,13 @@
     (local.set $$this1$i$i$i$i162
      (local.get $$this$addr$i$i$i$i156)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$26
      (i32.load
       (local.get $$this1$i$i$i$i162)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$27
      (local.get $$__y$addr$i$i$i158)
     )
@@ -16755,20 +16755,20 @@
     (local.set $$this1$i3$i$i$i164
      (local.get $$this$addr$i2$i$i$i155)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$28
      (i32.load
       (local.get $$this1$i3$i$i$i164)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i$i166
      (i32.eq
       (local.get $$26)
       (local.get $$28)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i$i167
      (i32.xor
       (local.get $$cmp$i$i$i166)
@@ -16781,7 +16781,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (local.set $$29
      (local.get $$__op$addr$i)
     )
@@ -16791,13 +16791,13 @@
     (local.set $$this1$i14$i
      (local.get $$this$addr$i13$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$30
      (i32.load
       (local.get $$this1$i14$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (local.set $$call2$i174
      (call_indirect (type $FUNCSIG$fi)
       (local.get $$30)
@@ -16816,13 +16816,13 @@
     (local.set $$this1$i11$i
      (local.get $$this$addr$i10$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$31
      (i32.load
       (local.get $$this1$i11$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (f32.store
      (local.get $$31)
      (local.get $$call2$i174)
@@ -16833,7 +16833,7 @@
     (local.set $$this1$i7$i
      (local.get $$this$addr$i6$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$32
      (i32.load
       (local.get $$this1$i7$i)
@@ -16873,7 +16873,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1856:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1856:0
   (i32.store
    (local.get $$retval$i161)
    (i32.load
@@ -16896,7 +16896,7 @@
   (local.set $$this1$i143
    (local.get $$this$addr$i142)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$35
    (i32.load
     (local.get $$this1$i143)
@@ -16908,7 +16908,7 @@
   (local.set $$__p$addr$i$i140
    (local.get $$35)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$36
    (local.get $$__p$addr$i$i140)
   )
@@ -16921,7 +16921,7 @@
   (local.set $$this1$i$i$i146
    (local.get $$this$addr$i$i$i136)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$37
    (local.get $$__x$addr$i$i$i137)
   )
@@ -16929,13 +16929,13 @@
    (local.get $$this1$i$i$i146)
    (local.get $$37)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$38
    (i32.load
     (local.get $$retval$i$i138)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i141)
    (local.get $$38)
@@ -16956,7 +16956,7 @@
   (local.set $$this1$i128
    (local.get $$this$addr$i127)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (local.set $$__end_$i129
    (i32.add
     (local.get $$this1$i128)
@@ -16974,7 +16974,7 @@
   (local.set $$__p$addr$i$i125
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$41
    (local.get $$__p$addr$i$i125)
   )
@@ -16987,7 +16987,7 @@
   (local.set $$this1$i$i$i131
    (local.get $$this$addr$i$i$i121)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$42
    (local.get $$__x$addr$i$i$i122)
   )
@@ -16995,13 +16995,13 @@
    (local.get $$this1$i$i$i131)
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$43
    (i32.load
     (local.get $$retval$i$i123)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (i32.store
    (local.get $$retval$i126)
    (local.get $$43)
@@ -17039,7 +17039,7 @@
     (local.set $$__y$addr$i$i
      (local.get $$agg$tmp14113)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$45
      (local.get $$__x$addr$i$i)
     )
@@ -17052,7 +17052,7 @@
     (local.set $$__y$addr$i$i$i
      (local.get $$46)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$47
      (local.get $$__x$addr$i$i$i117)
     )
@@ -17062,13 +17062,13 @@
     (local.set $$this1$i$i$i$i118
      (local.get $$this$addr$i$i$i$i116)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$48
      (i32.load
       (local.get $$this1$i$i$i$i118)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$49
      (local.get $$__y$addr$i$i$i)
     )
@@ -17078,20 +17078,20 @@
     (local.set $$this1$i3$i$i$i119
      (local.get $$this$addr$i2$i$i$i115)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$50
      (i32.load
       (local.get $$this1$i3$i$i$i119)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i$i
      (i32.eq
       (local.get $$48)
       (local.get $$50)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i$i
      (i32.xor
       (local.get $$cmp$i$i$i)
@@ -17113,13 +17113,13 @@
     (local.set $$this1$i4$i
      (local.get $$this$addr$i3$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$52
      (i32.load
       (local.get $$this1$i4$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/numeric:162:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/numeric:162:0
     (local.set $$53
      (f32.load
       (local.get $$52)
@@ -17145,7 +17145,7 @@
     (local.set $$this1$i$i120
      (local.get $$this$addr$i$i114)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$54
      (i32.load
       (local.get $$this1$i$i120)
@@ -17195,7 +17195,7 @@
   (local.set $$this1$i$i$i62
    (local.get $$this$addr$i$i$i55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$56
    (i32.load
     (local.get $$this1$i$i$i62)
@@ -17204,7 +17204,7 @@
   (local.set $$__p$addr$i$i$i$i54
    (local.get $$56)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$57
    (local.get $$__p$addr$i$i$i$i54)
   )
@@ -17214,7 +17214,7 @@
   (local.set $$this1$i43$i$i64
    (local.get $$this$addr$i42$i$i33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$58
    (i32.load
     (local.get $$this1$i43$i$i64)
@@ -17223,7 +17223,7 @@
   (local.set $$__p$addr$i$i41$i$i32
    (local.get $$58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$59
    (local.get $$__p$addr$i$i41$i$i32)
   )
@@ -17245,7 +17245,7 @@
   (local.set $$this1$i$i$i31$i$i68
    (local.get $$this$addr$i$i$i26$i$i36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i69
    (i32.add
     (local.get $$this1$i$i$i31$i$i68)
@@ -17264,7 +17264,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i71
    (local.get $$this$addr$i$i$i$i$i24$i$i34)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$60
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i71)
@@ -17296,7 +17296,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i78
    (i32.add
     (local.get $$59)
@@ -17312,7 +17312,7 @@
   (local.set $$this1$i22$i$i79
    (local.get $$this$addr$i21$i$i40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$62
    (i32.load
     (local.get $$this1$i22$i$i79)
@@ -17321,7 +17321,7 @@
   (local.set $$__p$addr$i$i20$i$i39
    (local.get $$62)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$63
    (local.get $$__p$addr$i$i20$i$i39)
   )
@@ -17331,7 +17331,7 @@
   (local.set $$this1$i18$i$i81
    (local.get $$this$addr$i17$i$i41)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i82
    (i32.add
     (local.get $$this1$i18$i$i81)
@@ -17369,7 +17369,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i88
    (i32.add
     (local.get $$63)
@@ -17385,7 +17385,7 @@
   (local.set $$this1$i15$i$i89
    (local.get $$this$addr$i14$i$i43)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$66
    (i32.load
     (local.get $$this1$i15$i$i89)
@@ -17394,7 +17394,7 @@
   (local.set $$__p$addr$i$i13$i$i42
    (local.get $$66)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$67
    (local.get $$__p$addr$i$i13$i$i42)
   )
@@ -17416,7 +17416,7 @@
   (local.set $$this1$i$i$i$i$i93
    (local.get $$this$addr$i$i$i$i$i46)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i94
    (i32.add
     (local.get $$this1$i$i$i$i$i93)
@@ -17435,7 +17435,7 @@
   (local.set $$this1$i$i$i$i$i$i$i96
    (local.get $$this$addr$i$i$i$i$i$i$i44)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$68
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i96)
@@ -17467,7 +17467,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i103
    (i32.add
     (local.get $$67)
@@ -17492,7 +17492,7 @@
   (local.set $$$addr3$i$i$i53
    (local.get $$add$ptr9$i$i103)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseIfNS_9allocatorIfEEED2Ev
    (local.get $$this1$i60)
   )
@@ -17684,7 +17684,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i)
@@ -17722,11 +17722,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2046:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2046:0
   (local.set $$__cs
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2047:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2047:0
   (local.set $$2
    (local.get $$__cs)
   )
@@ -17742,7 +17742,7 @@
   (if
    (local.get $$cmp)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2048:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2048:0
     (local.set $$4
      (local.get $$__sz$addr)
     )
@@ -17762,11 +17762,11 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2051:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2051:0
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2049:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2049:0
   (local.set $$6
    (local.get $$__cs)
   )
@@ -17787,11 +17787,11 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2051:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2051:0
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2050:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2050:0
   (local.set $$8
    (i32.load
     (local.get $$this1)
@@ -17818,7 +17818,7 @@
   (local.set $$this1$i6
    (local.get $$this$addr$i5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:832:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:832:0
   (local.set $$10
    (local.get $$__new_last$addr$i)
   )
@@ -17834,7 +17834,7 @@
   (local.set $$this1$i4$i
    (local.get $$this$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i4$i)
@@ -17872,11 +17872,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:833:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:833:0
   (local.set $$__old_size$i
    (local.get $$sub$ptr$div$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:834:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:834:0
   (local.set $$13
    (local.get $$__new_last$addr$i)
   )
@@ -17889,7 +17889,7 @@
   (local.set $$this1$i13$i
    (local.get $$this$addr$i11$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
   (local.set $$__end_$i14$i
    (i32.add
     (local.get $$this1$i13$i)
@@ -17906,7 +17906,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
     (local.set $$15
      (local.get $$__new_last$addr$i12$i)
     )
@@ -17931,7 +17931,7 @@
     (local.set $$this1$i$i15$i
      (local.get $$this$addr$i$i10$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
     (local.set $$__end_cap_$i$i$i
      (i32.add
       (local.get $$this1$i$i15$i)
@@ -17950,7 +17950,7 @@
     (local.set $$this1$i$i$i$i17$i
      (local.get $$this$addr$i$i$i$i8$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
     (local.set $$17
      (local.get $$__soon_to_be_end$i$i)
     )
@@ -17966,7 +17966,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$incdec$ptr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$18
      (local.get $$__p$addr$i$i$i)
     )
@@ -17976,7 +17976,7 @@
     (local.set $$__p$addr$i5$i$i
      (local.get $$18)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$19
      (local.get $$__a$addr$i$i$i)
     )
@@ -17995,7 +17995,7 @@
     (local.set $$__p$addr$i$i$i7$i
      (local.get $$20)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$21
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -18011,7 +18011,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
   (local.set $$23
    (local.get $$__new_last$addr$i12$i)
   )
@@ -18025,7 +18025,7 @@
    (local.get $$__end_3$i$i)
    (local.get $$23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:835:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:835:0
   (local.set $$24
    (local.get $$__old_size$i)
   )
@@ -18044,7 +18044,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$25
    (i32.load
     (local.get $$this1$i$i$i)
@@ -18053,7 +18053,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$25)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$26
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -18063,7 +18063,7 @@
   (local.set $$this1$i25$i$i
    (local.get $$this$addr$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$27
    (i32.load
     (local.get $$this1$i25$i$i)
@@ -18072,7 +18072,7 @@
   (local.set $$__p$addr$i$i23$i$i
    (local.get $$27)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$28
    (local.get $$__p$addr$i$i23$i$i)
   )
@@ -18094,7 +18094,7 @@
   (local.set $$this1$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i)
@@ -18113,7 +18113,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$29
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -18145,7 +18145,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:887:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:887:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$28)
@@ -18161,7 +18161,7 @@
   (local.set $$this1$i19$i$i
    (local.get $$this$addr$i18$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$31
    (i32.load
     (local.get $$this1$i19$i$i)
@@ -18170,11 +18170,11 @@
   (local.set $$__p$addr$i$i17$i$i
    (local.get $$31)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$32
    (local.get $$__p$addr$i$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:888:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:888:0
   (local.set $$33
    (local.get $$__old_size$addr$i$i)
   )
@@ -18193,7 +18193,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$34
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -18202,7 +18202,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$34)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$35
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -18212,7 +18212,7 @@
   (local.set $$this1$i11$i$i
    (local.get $$this$addr$i10$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i11$i$i)
@@ -18250,7 +18250,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:888:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:888:0
   (local.set $$add$ptr8$i$i
    (i32.add
     (local.get $$35)
@@ -18278,7 +18278,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2051:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:2051:0
   (return)
  )
  (func $__ZNSt3__213__vector_baseIfNS_9allocatorIfEEED2Ev (; 67 ;) (param $$this i32)
@@ -18404,7 +18404,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
   (local.set $$0
    (i32.load
     (local.get $$this1)
@@ -18424,7 +18424,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
     (return)
    )
   )
@@ -18434,7 +18434,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
   (local.set $$1
    (i32.load
     (local.get $$this1$i)
@@ -18449,7 +18449,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -18466,7 +18466,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
     (local.set $$3
      (local.get $$__new_last$addr$i$i)
     )
@@ -18491,7 +18491,7 @@
     (local.set $$this1$i$i$i
      (local.get $$this$addr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
     (local.set $$__end_cap_$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -18510,7 +18510,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
     (local.set $$5
      (local.get $$__soon_to_be_end$i$i)
     )
@@ -18526,7 +18526,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$incdec$ptr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i)
     )
@@ -18536,7 +18536,7 @@
     (local.set $$__p$addr$i5$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i)
     )
@@ -18555,7 +18555,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -18571,7 +18571,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
   (local.set $$11
    (local.get $$__new_last$addr$i$i)
   )
@@ -18591,7 +18591,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i9)
@@ -18610,7 +18610,7 @@
   (local.set $$this1$i$i$i11
    (local.get $$this$addr$i$i$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
   (local.set $$12
    (i32.load
     (local.get $$this1)
@@ -18628,7 +18628,7 @@
   (local.set $$this1$i$i17
    (local.get $$this$addr$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i17)
@@ -18647,7 +18647,7 @@
   (local.set $$this1$i$i$i$i19
    (local.get $$this$addr$i$i$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$13
    (i32.load
     (local.get $$this1$i$i$i$i19)
@@ -18688,7 +18688,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$15
    (local.get $$__a$addr$i)
   )
@@ -18707,7 +18707,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$17)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$18
    (local.get $$__p$addr$i$i)
   )
@@ -18729,7 +18729,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$20
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -18748,7 +18748,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$22)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$23
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -18762,7 +18762,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
   (return)
  )
  (func $__ZNSt3__26vectorIfNS_9allocatorIfEEE8__appendEm (; 68 ;) (param $$this i32) (param $$__n i32)
@@ -18937,7 +18937,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -18956,7 +18956,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1082:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1082:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i$i)
@@ -19006,7 +19006,7 @@
   (if
    (local.get $$cmp)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1083:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1083:0
     (local.set $$3
      (local.get $$__n$addr)
     )
@@ -19017,7 +19017,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1091:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1091:0
     (return)
    )
   )
@@ -19027,7 +19027,7 @@
   (local.set $$this1$i11
    (local.get $$this$addr$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i12
    (i32.add
     (local.get $$this1$i11)
@@ -19046,7 +19046,7 @@
   (local.set $$this1$i$i$i14
    (local.get $$this$addr$i$i$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1086:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1086:0
   (local.set $$__a
    (local.get $$this1$i$i$i14)
   )
@@ -19056,7 +19056,7 @@
   (local.set $$this1$i16
    (local.get $$this$addr$i15)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i16)
@@ -19094,7 +19094,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1087:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1087:0
   (local.set $$6
    (local.get $$__n$addr)
   )
@@ -19114,7 +19114,7 @@
   (local.set $$this1$i20
    (local.get $$this$addr$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
   (local.set $$call$i
    (call $__ZNKSt3__26vectorIfNS_9allocatorIfEEE8max_sizeEv
     (local.get $$this1$i20)
@@ -19123,7 +19123,7 @@
   (local.set $$__ms$i
    (local.get $$call$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
   (local.set $$7
    (i32.load
     (local.get $$__new_size$addr$i)
@@ -19140,7 +19140,7 @@
   )
   (if
    (local.get $$cmp$i)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1$i20)
    )
@@ -19163,7 +19163,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -19182,7 +19182,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$9
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -19214,11 +19214,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
   (local.set $$__cap$i
    (local.get $$sub$ptr$div$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
   (local.set $$11
    (local.get $$__cap$i)
   )
@@ -19243,7 +19243,7 @@
   (if
    (local.get $$cmp3$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
     (local.set $$13
      (local.get $$__ms$i)
     )
@@ -19252,7 +19252,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$14
      (local.get $$__cap$i)
     )
@@ -19272,7 +19272,7 @@
     (local.set $$__b$addr$i$i
      (local.get $$__new_size$addr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
     (local.set $$15
      (local.get $$__a$addr$i$i)
     )
@@ -19291,7 +19291,7 @@
     (local.set $$__b$addr$i$i$i
      (local.get $$16)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$17
      (local.get $$__a$addr$i$i$i)
     )
@@ -19307,7 +19307,7 @@
     (local.set $$__y$addr$i$i$i$i
      (local.get $$18)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
     (local.set $$19
      (local.get $$__x$addr$i$i$i$i)
     )
@@ -19330,7 +19330,7 @@
       (local.get $$22)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$23
      (local.get $$__b$addr$i$i$i)
     )
@@ -19344,7 +19344,7 @@
       (local.get $$24)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$25
      (i32.load
       (local.get $$cond$lvalue$i$i$i2D)
@@ -19355,7 +19355,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
   (local.set $$26
    (local.get $$retval$i)
   )
@@ -19365,7 +19365,7 @@
   (local.set $$this1$i24
    (local.get $$this$addr$i23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i25
    (i32.add
     (local.get $$this1$i24)
@@ -19403,7 +19403,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1087:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1087:0
   (local.set $$29
    (local.get $$__a)
   )
@@ -19413,7 +19413,7 @@
    (local.get $$sub$ptr$div$i30)
    (local.get $$29)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1088:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1088:0
   (local.set $$30
    (local.get $$__n$addr)
   )
@@ -19421,19 +19421,19 @@
    (local.get $$__v)
    (local.get $$30)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1089:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1089:0
   (call $__ZNSt3__26vectorIfNS_9allocatorIfEEE26__swap_out_circular_bufferERNS_14__split_bufferIfRS2_EE
    (local.get $$this1)
    (local.get $$__v)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1090:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1090:0
   (call $__ZNSt3__214__split_bufferIfRNS_9allocatorIfEEED2Ev
    (local.get $$__v)
   )
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1091:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1091:0
   (return)
  )
  (func $__ZNSt3__26vectorIfNS_9allocatorIfEEE18__construct_at_endEm (; 69 ;) (param $$this i32) (param $$__n i32)
@@ -19528,7 +19528,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -19547,7 +19547,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1026:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1026:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
@@ -19562,7 +19562,7 @@
     (local.set $$$addr1$i
      (i32.const 1)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1030:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1030:0
     (local.set $$0
      (local.get $$__a)
     )
@@ -19580,7 +19580,7 @@
     (local.set $$__p$addr$i8
      (local.get $$1)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$2
      (local.get $$__p$addr$i8)
     )
@@ -19590,7 +19590,7 @@
     (local.set $$__p$addr$i
      (local.get $$2)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$3
      (local.get $$__a$addr$i)
     )
@@ -19609,7 +19609,7 @@
     (local.set $$__p$addr$i$i
      (local.get $$4)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$5
      (local.get $$__a$addr$i$i)
     )
@@ -19622,7 +19622,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$7
      (local.get $$__p$addr$i$i$i)
     )
@@ -19630,7 +19630,7 @@
      (local.get $$7)
      (f32.const 0)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1031:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1031:0
     (local.set $$__end_3
      (i32.add
       (local.get $$this1)
@@ -19652,7 +19652,7 @@
      (local.get $$__end_3)
      (local.get $$incdec$ptr)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1032:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1032:0
     (local.set $$9
      (local.get $$__n$addr)
     )
@@ -19668,7 +19668,7 @@
     (local.set $$this$addr$i4
      (local.get $$__annotator)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1034:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1034:0
     (local.set $$10
      (local.get $$__n$addr)
     )
@@ -19690,7 +19690,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1035:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1035:0
   (return)
  )
  (func $__ZNKSt3__26vectorIfNS_9allocatorIfEEE8max_sizeEv (; 70 ;) (param $$this i32) (result i32)
@@ -19799,7 +19799,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -19821,7 +19821,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
   (local.set $$0
    (local.get $$__a$addr$i)
   )
@@ -19834,19 +19834,19 @@
   (local.set $$__a$addr$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
   (local.set $$1
    (local.get $$__a$addr$i$i)
   )
   (local.set $$this$addr$i$i$i6
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (i32.store
    (local.get $$ref$tmp)
    (i32.const 1073741823)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
   (i32.store
    (local.get $$ref$tmp3)
    (i32.const 2147483647)
@@ -19857,7 +19857,7 @@
   (local.set $$__b$addr$i
    (local.get $$ref$tmp3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
   (local.set $$2
    (local.get $$__a$addr$i11)
   )
@@ -19876,7 +19876,7 @@
   (local.set $$__b$addr$i$i
    (local.get $$3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$4
    (local.get $$__b$addr$i$i)
   )
@@ -19892,7 +19892,7 @@
   (local.set $$__y$addr$i$i$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
   (local.set $$6
    (local.get $$__x$addr$i$i$i)
   )
@@ -19915,7 +19915,7 @@
     (local.get $$9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$10
    (local.get $$__b$addr$i$i)
   )
@@ -19929,7 +19929,7 @@
     (local.get $$11)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (local.set $$12
    (i32.load
     (local.get $$cond$lvalue$i$i2D)
@@ -20063,7 +20063,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
   (local.set $$__end_cap_
    (i32.add
     (local.get $$this1)
@@ -20089,14 +20089,14 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$1
    (local.get $$__t1$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$2
    (local.get $$__t$addr$i$i)
   )
@@ -20109,7 +20109,7 @@
   (local.set $$this1$i7$i
    (local.get $$this$addr$i5$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$3
    (local.get $$__u$addr$i6$i)
   )
@@ -20120,7 +20120,7 @@
    (local.get $$this1$i7$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (i32.add
     (local.get $$this1$i)
@@ -20133,7 +20133,7 @@
   (local.set $$__t$addr$i3$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$6
    (local.get $$__t$addr$i3$i)
   )
@@ -20146,23 +20146,23 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$7
    (local.get $$__u$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (i32.store
    (local.get $$this1$i$i)
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (local.set $$9
    (local.get $$__cap$addr)
   )
@@ -20182,7 +20182,7 @@
      (local.set $$this1$i18
       (local.get $$this$addr$i17)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
      (local.set $$__end_cap_$i19
       (i32.add
        (local.get $$this1$i18)
@@ -20195,7 +20195,7 @@
      (local.set $$this1$i$i20
       (local.get $$this$addr$i$i16)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
      (local.set $$add$ptr$i$i
       (i32.add
        (local.get $$this1$i$i20)
@@ -20208,13 +20208,13 @@
      (local.set $$this1$i$i$i21
       (local.get $$this$addr$i$i$i15)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
      (local.set $$10
       (i32.load
        (local.get $$this1$i$i$i21)
       )
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
      (local.set $$11
       (local.get $$__cap$addr)
      )
@@ -20224,7 +20224,7 @@
      (local.set $$__n$addr$i
       (local.get $$11)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
      (local.set $$12
       (local.get $$__a$addr$i)
      )
@@ -20243,7 +20243,7 @@
      (local.set $$this1$i$i13
       (local.get $$this$addr$i$i12)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
      (local.set $$14
       (local.get $$__n$addr$i$i)
      )
@@ -20262,7 +20262,7 @@
        (local.set $$__msg$addr$i$i$i
         (i32.const 6508)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (local.set $$exception$i$i$i
         (call $___cxa_allocate_exception
          (i32.const 8)
@@ -20280,7 +20280,7 @@
        (local.set $$this1$i$i$i$i
         (local.get $$this$addr$i$i$i$i)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
        (local.set $$16
         (local.get $$__s$addr$i$i$i$i)
        )
@@ -20292,7 +20292,7 @@
         (local.get $$this1$i$i$i$i)
         (i32.const 6496)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (call $___cxa_throw
         (local.get $$exception$i$i$i)
         (i32.const 3096)
@@ -20300,7 +20300,7 @@
        )
       )
       (block
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
        (local.set $$17
         (local.get $$__n$addr$i$i)
        )
@@ -20316,7 +20316,7 @@
        (local.set $$__align$addr$i$i$i
         (i32.const 4)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
        (local.set $$18
         (local.get $$__size$addr$i$i$i)
        )
@@ -20337,12 +20337,12 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (i32.store
    (local.get $$this1)
    (local.get $$cond)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
   (local.set $$19
    (i32.load
     (local.get $$this1)
@@ -20380,7 +20380,7 @@
    (local.get $$__begin_)
    (local.get $$add$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (local.set $$21
    (i32.load
     (local.get $$this1)
@@ -20404,7 +20404,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i9)
@@ -20423,7 +20423,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (i32.store
    (local.get $$this1$i$i$i)
    (local.get $$add$ptr5)
@@ -20431,7 +20431,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
   (return)
  )
  (func $__ZNSt3__214__split_bufferIfRNS_9allocatorIfEEE18__construct_at_endEm (; 72 ;) (param $$this i32) (param $$__n i32)
@@ -20517,7 +20517,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -20530,7 +20530,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -20543,19 +20543,19 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:200:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:200:0
   (local.set $$__a
    (local.get $$0)
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:203:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:203:0
     (local.set $$1
      (local.get $$__a)
     )
@@ -20573,7 +20573,7 @@
     (local.set $$__p$addr$i6
      (local.get $$2)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$3
      (local.get $$__p$addr$i6)
     )
@@ -20583,7 +20583,7 @@
     (local.set $$__p$addr$i
      (local.get $$3)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$4
      (local.get $$__a$addr$i)
     )
@@ -20602,7 +20602,7 @@
     (local.set $$__p$addr$i$i
      (local.get $$5)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$6
      (local.get $$__a$addr$i$i)
     )
@@ -20615,7 +20615,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$7)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$8
      (local.get $$__p$addr$i$i$i)
     )
@@ -20623,7 +20623,7 @@
      (local.get $$8)
      (f32.const 0)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:204:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:204:0
     (local.set $$__end_3
      (i32.add
       (local.get $$this1)
@@ -20645,7 +20645,7 @@
      (local.get $$__end_3)
      (local.get $$incdec$ptr)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:205:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:205:0
     (local.set $$10
      (local.get $$__n$addr)
     )
@@ -20658,7 +20658,7 @@
     (local.set $$__n$addr
      (local.get $$dec)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:206:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:206:0
     (local.set $$11
      (local.get $$__n$addr)
     )
@@ -20680,7 +20680,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:207:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:207:0
   (return)
  )
  (func $__ZNSt3__26vectorIfNS_9allocatorIfEEE26__swap_out_circular_bufferERNS_14__split_bufferIfRS2_EE (; 73 ;) (param $$this i32) (param $$__v i32)
@@ -21002,7 +21002,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i)
@@ -21011,7 +21011,7 @@
   (local.set $$__p$addr$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$1
    (local.get $$__p$addr$i$i$i)
   )
@@ -21021,7 +21021,7 @@
   (local.set $$this1$i43$i
    (local.get $$this$addr$i42$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i43$i)
@@ -21030,7 +21030,7 @@
   (local.set $$__p$addr$i$i41$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$3
    (local.get $$__p$addr$i$i41$i)
   )
@@ -21052,7 +21052,7 @@
   (local.set $$this1$i$i$i31$i
    (local.get $$this$addr$i$i$i26$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i
    (i32.add
     (local.get $$this1$i$i$i31$i)
@@ -21071,7 +21071,7 @@
   (local.set $$this1$i$i$i$i$i34$i
    (local.get $$this$addr$i$i$i$i$i24$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i)
@@ -21103,7 +21103,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i
    (i32.add
     (local.get $$3)
@@ -21119,7 +21119,7 @@
   (local.set $$this1$i22$i
    (local.get $$this$addr$i21$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i22$i)
@@ -21128,7 +21128,7 @@
   (local.set $$__p$addr$i$i20$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i20$i)
   )
@@ -21138,7 +21138,7 @@
   (local.set $$this1$i18$i
    (local.get $$this$addr$i17$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i18$i)
@@ -21176,7 +21176,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i
    (i32.add
     (local.get $$7)
@@ -21192,7 +21192,7 @@
   (local.set $$this1$i15$i
    (local.get $$this$addr$i14$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i15$i)
@@ -21201,7 +21201,7 @@
   (local.set $$__p$addr$i$i13$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i13$i)
   )
@@ -21223,7 +21223,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -21242,7 +21242,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -21274,7 +21274,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i
    (i32.add
     (local.get $$11)
@@ -21305,7 +21305,7 @@
   (local.set $$this1$i84
    (local.get $$this$addr$i83)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i85
    (i32.add
     (local.get $$this1$i84)
@@ -21324,7 +21324,7 @@
   (local.set $$this1$i$i$i87
    (local.get $$this$addr$i$i$i81)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
   (local.set $$14
    (i32.load
     (local.get $$this1)
@@ -21362,7 +21362,7 @@
   (local.set $$__end2$addr$i
    (local.get $$__begin_2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1697:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1697:0
   (local.set $$17
    (local.get $$__end1$addr$i)
   )
@@ -21393,7 +21393,7 @@
   (local.set $$_Np$i
    (local.get $$sub$ptr$div$i79)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1698:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1698:0
   (local.set $$19
    (local.get $$_Np$i)
   )
@@ -21424,7 +21424,7 @@
    (local.get $$20)
    (local.get $$add$ptr$i80)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1699:0
   (local.set $$22
    (local.get $$_Np$i)
   )
@@ -21437,7 +21437,7 @@
   (if
    (local.get $$cmp$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1700:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1700:0
     (local.set $$23
      (local.get $$__end2$addr$i)
     )
@@ -21467,7 +21467,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
   (local.set $$27
    (local.get $$__v$addr)
   )
@@ -21483,18 +21483,18 @@
   (local.set $$__y$addr$i74
    (local.get $$__begin_4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$28
    (local.get $$__x$addr$i73)
   )
   (local.set $$__t$addr$i$i72
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$29
    (local.get $$__t$addr$i$i72)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$30
    (i32.load
     (local.get $$29)
@@ -21504,18 +21504,18 @@
    (local.get $$__t$i75)
    (local.get $$30)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$31
    (local.get $$__y$addr$i74)
   )
   (local.set $$__t$addr$i4$i70
    (local.get $$31)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$32
    (local.get $$__t$addr$i4$i70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$33
    (i32.load
     (local.get $$32)
@@ -21531,11 +21531,11 @@
   (local.set $$__t$addr$i3$i71
    (local.get $$__t$i75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$35
    (local.get $$__t$addr$i3$i71)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$36
    (i32.load
     (local.get $$35)
@@ -21548,7 +21548,7 @@
    (local.get $$37)
    (local.get $$36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
   (local.set $$__end_5
    (i32.add
     (local.get $$this1)
@@ -21570,18 +21570,18 @@
   (local.set $$__y$addr$i68
    (local.get $$__end_6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$39
    (local.get $$__x$addr$i67)
   )
   (local.set $$__t$addr$i$i66
    (local.get $$39)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$40
    (local.get $$__t$addr$i$i66)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$41
    (i32.load
     (local.get $$40)
@@ -21591,18 +21591,18 @@
    (local.get $$__t$i69)
    (local.get $$41)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$42
    (local.get $$__y$addr$i68)
   )
   (local.set $$__t$addr$i4$i64
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$43
    (local.get $$__t$addr$i4$i64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$44
    (i32.load
     (local.get $$43)
@@ -21618,11 +21618,11 @@
   (local.set $$__t$addr$i3$i65
    (local.get $$__t$i69)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$46
    (local.get $$__t$addr$i3$i65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$47
    (i32.load
     (local.get $$46)
@@ -21641,7 +21641,7 @@
   (local.set $$this1$i59
    (local.get $$this$addr$i58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i60
    (i32.add
     (local.get $$this1$i59)
@@ -21660,7 +21660,7 @@
   (local.set $$this1$i$i$i62
    (local.get $$this$addr$i$i$i56)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
   (local.set $$49
    (local.get $$__v$addr)
   )
@@ -21670,7 +21670,7 @@
   (local.set $$this1$i53
    (local.get $$this$addr$i52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i53)
@@ -21695,18 +21695,18 @@
   (local.set $$__y$addr$i
    (local.get $$this1$i$i$i55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$50
    (local.get $$__x$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$50)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$51
    (local.get $$__t$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$52
    (i32.load
     (local.get $$51)
@@ -21716,18 +21716,18 @@
    (local.get $$__t$i)
    (local.get $$52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$53
    (local.get $$__y$addr$i)
   )
   (local.set $$__t$addr$i4$i
    (local.get $$53)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$54
    (local.get $$__t$addr$i4$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$55
    (i32.load
     (local.get $$54)
@@ -21743,11 +21743,11 @@
   (local.set $$__t$addr$i3$i
    (local.get $$__t$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$57
    (local.get $$__t$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$58
    (i32.load
     (local.get $$57)
@@ -21760,7 +21760,7 @@
    (local.get $$59)
    (local.get $$58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
   (local.set $$60
    (local.get $$__v$addr)
   )
@@ -21788,7 +21788,7 @@
   (local.set $$this1$i49
    (local.get $$this$addr$i48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i49)
@@ -21841,7 +21841,7 @@
   (local.set $$this1$i$i28
    (local.get $$this$addr$i$i25)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$65
    (i32.load
     (local.get $$this1$i$i28)
@@ -21850,7 +21850,7 @@
   (local.set $$__p$addr$i$i$i24
    (local.get $$65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$66
    (local.get $$__p$addr$i$i$i24)
   )
@@ -21860,7 +21860,7 @@
   (local.set $$this1$i39$i
    (local.get $$this$addr$i38$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$67
    (i32.load
     (local.get $$this1$i39$i)
@@ -21869,7 +21869,7 @@
   (local.set $$__p$addr$i$i37$i
    (local.get $$67)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$68
    (local.get $$__p$addr$i$i37$i)
   )
@@ -21891,7 +21891,7 @@
   (local.set $$this1$i$i$i27$i
    (local.get $$this$addr$i$i$i22$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i28$i
    (i32.add
     (local.get $$this1$i$i$i27$i)
@@ -21910,7 +21910,7 @@
   (local.set $$this1$i$i$i$i$i30$i
    (local.get $$this$addr$i$i$i$i$i20$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$69
    (i32.load
     (local.get $$this1$i$i$i$i$i30$i)
@@ -21942,7 +21942,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
   (local.set $$add$ptr$i30
    (i32.add
     (local.get $$68)
@@ -21958,7 +21958,7 @@
   (local.set $$this1$i18$i31
    (local.get $$this$addr$i17$i13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$71
    (i32.load
     (local.get $$this1$i18$i31)
@@ -21967,7 +21967,7 @@
   (local.set $$__p$addr$i$i16$i
    (local.get $$71)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$72
    (local.get $$__p$addr$i$i16$i)
   )
@@ -21989,7 +21989,7 @@
   (local.set $$this1$i$i$i$i35
    (local.get $$this$addr$i$i$i$i16)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i36
    (i32.add
     (local.get $$this1$i$i$i$i35)
@@ -22008,7 +22008,7 @@
   (local.set $$this1$i$i$i$i$i$i38
    (local.get $$this$addr$i$i$i$i$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$73
    (i32.load
     (local.get $$this1$i$i$i$i$i$i38)
@@ -22040,7 +22040,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$add$ptr6$i45
    (i32.add
     (local.get $$72)
@@ -22056,7 +22056,7 @@
   (local.set $$this1$i12$i46
    (local.get $$this$addr$i11$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$75
    (i32.load
     (local.get $$this1$i12$i46)
@@ -22065,11 +22065,11 @@
   (local.set $$__p$addr$i$i10$i
    (local.get $$75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$76
    (local.get $$__p$addr$i$i10$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$77
    (local.get $$__current_size$addr$i)
   )
@@ -22103,7 +22103,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
   (return)
  )
  (func $__ZNSt3__214__split_bufferIfRNS_9allocatorIfEEED2Ev (; 74 ;) (param $$this i32)
@@ -22255,7 +22255,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
   (local.set $$__begin_$i
    (i32.add
     (local.get $$this1$i)
@@ -22276,7 +22276,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
   (local.set $$1
    (local.get $$__new_last$addr$i$i)
   )
@@ -22297,7 +22297,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
     (local.set $$2
      (local.get $$__new_last$addr$i$i$i)
     )
@@ -22330,7 +22330,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -22343,7 +22343,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
     (local.set $$add$ptr$i$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i$i)
@@ -22356,13 +22356,13 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
     (local.set $$4
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
     (local.set $$__end_2$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -22387,7 +22387,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$incdec$ptr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -22397,7 +22397,7 @@
     (local.set $$__p$addr$i5$i$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -22416,7 +22416,7 @@
     (local.set $$__p$addr$i$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i$i)
     )
@@ -22432,7 +22432,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
   (local.set $$11
    (i32.load
     (local.get $$this1)
@@ -22452,7 +22452,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
     (return)
    )
   )
@@ -22462,7 +22462,7 @@
   (local.set $$this1$i7
    (local.get $$this$addr$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i7)
@@ -22475,7 +22475,7 @@
   (local.set $$this1$i$i8
    (local.get $$this$addr$i$i5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$this1$i$i8)
@@ -22488,13 +22488,13 @@
   (local.set $$this1$i$i$i9
    (local.get $$this$addr$i$i$i4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
   (local.set $$13
    (i32.load
     (local.get $$this1)
@@ -22512,7 +22512,7 @@
   (local.set $$this1$i$i17
    (local.get $$this$addr$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i17)
@@ -22531,7 +22531,7 @@
   (local.set $$this1$i$i$i$i19
    (local.get $$this$addr$i$i$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
   (local.set $$14
    (i32.load
     (local.get $$this1$i$i$i$i19)
@@ -22572,7 +22572,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$16
    (local.get $$__a$addr$i)
   )
@@ -22591,7 +22591,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$19
    (local.get $$__p$addr$i$i)
   )
@@ -22613,7 +22613,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$21
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -22632,7 +22632,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$24
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -22646,7 +22646,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
   (return)
  )
  (func $__Z16getAverageHeightRKNSt3__26vectorI8BuildingNS_9allocatorIS1_EEEE (; 75 ;) (param $$buildings i32) (result f32)
@@ -23495,12 +23495,12 @@
   (local.set $$this$addr$i$i$i
    (local.get $$this1$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -23511,7 +23511,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -23531,14 +23531,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$0
    (local.get $$__t$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$1
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -23551,7 +23551,7 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$2
    (local.get $$__u$addr$i$i$i$i)
   )
@@ -23581,7 +23581,7 @@
   (local.set $$this1$i56
    (local.get $$this$addr$i55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i56)
@@ -23634,7 +23634,7 @@
   (local.set $$this1$i133
    (local.get $$this$addr$i132)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (local.set $$7
    (i32.load
     (local.get $$this1$i133)
@@ -23646,7 +23646,7 @@
   (local.set $$__p$addr$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$8
    (local.get $$__p$addr$i$i)
   )
@@ -23659,7 +23659,7 @@
   (local.set $$this1$i$i$i136
    (local.get $$this$addr$i$i$i130)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$9
    (local.get $$__x$addr$i$i$i)
   )
@@ -23667,13 +23667,13 @@
    (local.get $$this1$i$i$i136)
    (local.get $$9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$10
    (i32.load
     (local.get $$retval$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (i32.store
    (local.get $$retval$i)
    (local.get $$10)
@@ -23697,7 +23697,7 @@
   (local.set $$this1$i217
    (local.get $$this$addr$i216)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (local.set $$__end_$i218
    (i32.add
     (local.get $$this1$i217)
@@ -23715,7 +23715,7 @@
   (local.set $$__p$addr$i$i214
    (local.get $$13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$14
    (local.get $$__p$addr$i$i214)
   )
@@ -23728,7 +23728,7 @@
   (local.set $$this1$i$i$i220
    (local.get $$this$addr$i$i$i210)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$15
    (local.get $$__x$addr$i$i$i211)
   )
@@ -23736,13 +23736,13 @@
    (local.get $$this1$i$i$i220)
    (local.get $$15)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$16
    (i32.load
     (local.get $$retval$i$i212)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (i32.store
    (local.get $$retval$i215)
    (local.get $$16)
@@ -23763,7 +23763,7 @@
   (local.set $$this1$i305
    (local.get $$this$addr$i304)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$18
    (i32.load
     (local.get $$this1$i305)
@@ -23775,7 +23775,7 @@
   (local.set $$__p$addr$i$i302
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$19
    (local.get $$__p$addr$i$i302)
   )
@@ -23788,7 +23788,7 @@
   (local.set $$this1$i$i$i308
    (local.get $$this$addr$i$i$i298)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$20
    (local.get $$__x$addr$i$i$i299)
   )
@@ -23796,13 +23796,13 @@
    (local.get $$this1$i$i$i308)
    (local.get $$20)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$21
    (i32.load
     (local.get $$retval$i$i300)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i303)
    (local.get $$21)
@@ -23846,7 +23846,7 @@
     (local.set $$__y$addr$i$i388
      (local.get $$agg$tmp2377)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$23
      (local.get $$__x$addr$i$i387)
     )
@@ -23859,7 +23859,7 @@
     (local.set $$__y$addr$i$i$i386
      (local.get $$24)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$25
      (local.get $$__x$addr$i$i$i385)
     )
@@ -23869,13 +23869,13 @@
     (local.set $$this1$i$i$i$i391
      (local.get $$this$addr$i$i$i$i384)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$26
      (i32.load
       (local.get $$this1$i$i$i$i391)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$27
      (local.get $$__y$addr$i$i$i386)
     )
@@ -23885,20 +23885,20 @@
     (local.set $$this1$i3$i$i$i393
      (local.get $$this$addr$i2$i$i$i383)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$28
      (i32.load
       (local.get $$this1$i3$i$i$i393)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i$i395
      (i32.eq
       (local.get $$26)
       (local.get $$28)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i$i396
      (i32.xor
       (local.get $$cmp$i$i$i395)
@@ -23911,7 +23911,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (local.set $$29
      (local.get $$__op$addr$i390)
     )
@@ -23921,13 +23921,13 @@
     (local.set $$this1$i14$i398
      (local.get $$this$addr$i13$i379)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$30
      (i32.load
       (local.get $$this1$i14$i398)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (local.set $$call2$i411
      (call_indirect (type $FUNCSIG$fi)
       (local.get $$30)
@@ -23946,13 +23946,13 @@
     (local.set $$this1$i11$i400
      (local.get $$this$addr$i10$i380)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$31
      (i32.load
       (local.get $$this1$i11$i400)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (f32.store
      (local.get $$31)
      (local.get $$call2$i411)
@@ -23963,7 +23963,7 @@
     (local.set $$this1$i7$i403
      (local.get $$this$addr$i6$i381)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$32
      (i32.load
       (local.get $$this1$i7$i403)
@@ -24003,7 +24003,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1856:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1856:0
   (i32.store
    (local.get $$retval$i389)
    (i32.load
@@ -24026,7 +24026,7 @@
   (local.set $$this1$i420
    (local.get $$this$addr$i419)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$35
    (i32.load
     (local.get $$this1$i420)
@@ -24038,7 +24038,7 @@
   (local.set $$__p$addr$i$i417
    (local.get $$35)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$36
    (local.get $$__p$addr$i$i417)
   )
@@ -24051,7 +24051,7 @@
   (local.set $$this1$i$i$i423
    (local.get $$this$addr$i$i$i413)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$37
    (local.get $$__x$addr$i$i$i414)
   )
@@ -24059,13 +24059,13 @@
    (local.get $$this1$i$i$i423)
    (local.get $$37)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$38
    (i32.load
     (local.get $$retval$i$i415)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i418)
    (local.get $$38)
@@ -24086,7 +24086,7 @@
   (local.set $$this1$i480
    (local.get $$this$addr$i479)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (local.set $$__end_$i481
    (i32.add
     (local.get $$this1$i480)
@@ -24104,7 +24104,7 @@
   (local.set $$__p$addr$i$i477
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$41
    (local.get $$__p$addr$i$i477)
   )
@@ -24117,7 +24117,7 @@
   (local.set $$this1$i$i$i483
    (local.get $$this$addr$i$i$i473)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$42
    (local.get $$__x$addr$i$i$i474)
   )
@@ -24125,13 +24125,13 @@
    (local.get $$this1$i$i$i483)
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$43
    (i32.load
     (local.get $$retval$i$i475)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (i32.store
    (local.get $$retval$i478)
    (local.get $$43)
@@ -24169,7 +24169,7 @@
     (local.set $$__y$addr$i$i528
      (local.get $$agg$tmp14520)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$45
      (local.get $$__x$addr$i$i527)
     )
@@ -24182,7 +24182,7 @@
     (local.set $$__y$addr$i$i$i526
      (local.get $$46)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$47
      (local.get $$__x$addr$i$i$i525)
     )
@@ -24192,13 +24192,13 @@
     (local.set $$this1$i$i$i$i530
      (local.get $$this$addr$i$i$i$i524)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$48
      (i32.load
       (local.get $$this1$i$i$i$i530)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$49
      (local.get $$__y$addr$i$i$i526)
     )
@@ -24208,20 +24208,20 @@
     (local.set $$this1$i3$i$i$i532
      (local.get $$this$addr$i2$i$i$i523)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$50
      (i32.load
       (local.get $$this1$i3$i$i$i532)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i$i534
      (i32.eq
       (local.get $$48)
       (local.get $$50)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i$i535
      (i32.xor
       (local.get $$cmp$i$i$i534)
@@ -24243,13 +24243,13 @@
     (local.set $$this1$i4$i537
      (local.get $$this$addr$i3$i521)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$52
      (i32.load
       (local.get $$this1$i4$i537)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/numeric:162:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/numeric:162:0
     (local.set $$53
      (f32.load
       (local.get $$52)
@@ -24275,7 +24275,7 @@
     (local.set $$this1$i$i542
      (local.get $$this$addr$i$i522)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$54
      (i32.load
       (local.get $$this1$i$i542)
@@ -24318,12 +24318,12 @@
   (local.set $$this$addr$i$i$i504
    (local.get $$this1$i$i509)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i509)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i512
    (i32.add
     (local.get $$this1$i$i509)
@@ -24334,7 +24334,7 @@
    (local.get $$__end_$i$i512)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i513
    (i32.add
     (local.get $$this1$i$i509)
@@ -24354,14 +24354,14 @@
   (local.set $$this1$i4$i$i514
    (local.get $$this$addr$i3$i$i502)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$55
    (local.get $$__t$addr$i$i$i503)
   )
   (local.set $$__t$addr$i$i$i$i501
    (local.get $$55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$56
    (local.get $$__t$addr$i$i$i$i501)
   )
@@ -24374,7 +24374,7 @@
   (local.set $$this1$i3$i$i$i515
    (local.get $$this$addr$i2$i$i$i497)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$57
    (local.get $$__u$addr$i$i$i$i498)
   )
@@ -24404,7 +24404,7 @@
   (local.set $$this1$i489
    (local.get $$this$addr$i488)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i490
    (i32.add
     (local.get $$this1$i489)
@@ -24457,7 +24457,7 @@
   (local.set $$this1$i465
    (local.get $$this$addr$i464)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (local.set $$62
    (i32.load
     (local.get $$this1$i465)
@@ -24469,7 +24469,7 @@
   (local.set $$__p$addr$i$i462
    (local.get $$62)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$63
    (local.get $$__p$addr$i$i462)
   )
@@ -24482,7 +24482,7 @@
   (local.set $$this1$i$i$i468
    (local.get $$this$addr$i$i$i458)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$64
    (local.get $$__x$addr$i$i$i459)
   )
@@ -24490,13 +24490,13 @@
    (local.get $$this1$i$i$i468)
    (local.get $$64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$65
    (i32.load
     (local.get $$retval$i$i460)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (i32.store
    (local.get $$retval$i463)
    (local.get $$65)
@@ -24520,7 +24520,7 @@
   (local.set $$this1$i450
    (local.get $$this$addr$i449)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (local.set $$__end_$i451
    (i32.add
     (local.get $$this1$i450)
@@ -24538,7 +24538,7 @@
   (local.set $$__p$addr$i$i447
    (local.get $$68)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$69
    (local.get $$__p$addr$i$i447)
   )
@@ -24551,7 +24551,7 @@
   (local.set $$this1$i$i$i453
    (local.get $$this$addr$i$i$i443)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$70
    (local.get $$__x$addr$i$i$i444)
   )
@@ -24559,13 +24559,13 @@
    (local.get $$this1$i$i$i453)
    (local.get $$70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$71
    (i32.load
     (local.get $$retval$i$i445)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (i32.store
    (local.get $$retval$i448)
    (local.get $$71)
@@ -24586,7 +24586,7 @@
   (local.set $$this1$i435
    (local.get $$this$addr$i434)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$73
    (i32.load
     (local.get $$this1$i435)
@@ -24598,7 +24598,7 @@
   (local.set $$__p$addr$i$i432
    (local.get $$73)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$74
    (local.get $$__p$addr$i$i432)
   )
@@ -24611,7 +24611,7 @@
   (local.set $$this1$i$i$i438
    (local.get $$this$addr$i$i$i428)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$75
    (local.get $$__x$addr$i$i$i429)
   )
@@ -24619,13 +24619,13 @@
    (local.get $$this1$i$i$i438)
    (local.get $$75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$76
    (i32.load
     (local.get $$retval$i$i430)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i433)
    (local.get $$76)
@@ -24669,7 +24669,7 @@
     (local.set $$__y$addr$i$i361
      (local.get $$agg$tmp25353)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$78
      (local.get $$__x$addr$i$i360)
     )
@@ -24682,7 +24682,7 @@
     (local.set $$__y$addr$i$i$i359
      (local.get $$79)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$80
      (local.get $$__x$addr$i$i$i358)
     )
@@ -24692,13 +24692,13 @@
     (local.set $$this1$i$i$i$i363
      (local.get $$this$addr$i$i$i$i357)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$81
      (i32.load
       (local.get $$this1$i$i$i$i363)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$82
      (local.get $$__y$addr$i$i$i359)
     )
@@ -24708,20 +24708,20 @@
     (local.set $$this1$i3$i$i$i365
      (local.get $$this$addr$i2$i$i$i356)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$83
      (i32.load
       (local.get $$this1$i3$i$i$i365)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i$i367
      (i32.eq
       (local.get $$81)
       (local.get $$83)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i$i368
      (i32.xor
       (local.get $$cmp$i$i$i367)
@@ -24734,7 +24734,7 @@
      )
      (br $while-out2)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (local.set $$84
      (local.get $$__op$addr$i)
     )
@@ -24744,13 +24744,13 @@
     (local.set $$this1$i14$i
      (local.get $$this$addr$i13$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$85
      (i32.load
       (local.get $$this1$i14$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (local.set $$call2$i375
      (call_indirect (type $FUNCSIG$fi)
       (local.get $$85)
@@ -24769,13 +24769,13 @@
     (local.set $$this1$i11$i
      (local.get $$this$addr$i10$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$86
      (i32.load
       (local.get $$this1$i11$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1855:0
     (f32.store
      (local.get $$86)
      (local.get $$call2$i375)
@@ -24786,7 +24786,7 @@
     (local.set $$this1$i7$i
      (local.get $$this$addr$i6$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$87
      (i32.load
       (local.get $$this1$i7$i)
@@ -24826,7 +24826,7 @@
     (br $while-in3)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1856:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:1856:0
   (i32.store
    (local.get $$retval$i362)
    (i32.load
@@ -24849,7 +24849,7 @@
   (local.set $$this1$i344
    (local.get $$this$addr$i343)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$90
    (i32.load
     (local.get $$this1$i344)
@@ -24861,7 +24861,7 @@
   (local.set $$__p$addr$i$i341
    (local.get $$90)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$91
    (local.get $$__p$addr$i$i341)
   )
@@ -24874,7 +24874,7 @@
   (local.set $$this1$i$i$i347
    (local.get $$this$addr$i$i$i337)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$92
    (local.get $$__x$addr$i$i$i338)
   )
@@ -24882,13 +24882,13 @@
    (local.get $$this1$i$i$i347)
    (local.get $$92)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$93
    (i32.load
     (local.get $$retval$i$i339)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i342)
    (local.get $$93)
@@ -24909,7 +24909,7 @@
   (local.set $$this1$i329
    (local.get $$this$addr$i328)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (local.set $$__end_$i330
    (i32.add
     (local.get $$this1$i329)
@@ -24927,7 +24927,7 @@
   (local.set $$__p$addr$i$i326
    (local.get $$95)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$96
    (local.get $$__p$addr$i$i326)
   )
@@ -24940,7 +24940,7 @@
   (local.set $$this1$i$i$i332
    (local.get $$this$addr$i$i$i322)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$97
    (local.get $$__x$addr$i$i$i323)
   )
@@ -24948,13 +24948,13 @@
    (local.get $$this1$i$i$i332)
    (local.get $$97)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$98
    (i32.load
     (local.get $$retval$i$i324)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (i32.store
    (local.get $$retval$i327)
    (local.get $$98)
@@ -24992,7 +24992,7 @@
     (local.set $$__y$addr$i$i
      (local.get $$agg$tmp38314)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$100
      (local.get $$__x$addr$i$i)
     )
@@ -25005,7 +25005,7 @@
     (local.set $$__y$addr$i$i$i
      (local.get $$101)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$102
      (local.get $$__x$addr$i$i$i318)
     )
@@ -25015,13 +25015,13 @@
     (local.set $$this1$i$i$i$i319
      (local.get $$this$addr$i$i$i$i317)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$103
      (i32.load
       (local.get $$this1$i$i$i$i319)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$104
      (local.get $$__y$addr$i$i$i)
     )
@@ -25031,20 +25031,20 @@
     (local.set $$this1$i3$i$i$i320
      (local.get $$this$addr$i2$i$i$i316)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$105
      (i32.load
       (local.get $$this1$i3$i$i$i320)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i$i
      (i32.eq
       (local.get $$103)
       (local.get $$105)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i$i
      (i32.xor
       (local.get $$cmp$i$i$i)
@@ -25066,13 +25066,13 @@
     (local.set $$this1$i4$i
      (local.get $$this$addr$i3$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$107
      (i32.load
       (local.get $$this1$i4$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/numeric:162:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/numeric:162:0
     (local.set $$108
      (f32.load
       (local.get $$107)
@@ -25098,7 +25098,7 @@
     (local.set $$this1$i$i321
      (local.get $$this$addr$i$i315)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$109
      (i32.load
       (local.get $$this1$i$i321)
@@ -25164,7 +25164,7 @@
   (local.set $$this1$i$i$i255
    (local.get $$this$addr$i$i$i248)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$113
    (i32.load
     (local.get $$this1$i$i$i255)
@@ -25173,7 +25173,7 @@
   (local.set $$__p$addr$i$i$i$i247
    (local.get $$113)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$114
    (local.get $$__p$addr$i$i$i$i247)
   )
@@ -25183,7 +25183,7 @@
   (local.set $$this1$i43$i$i257
    (local.get $$this$addr$i42$i$i226)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$115
    (i32.load
     (local.get $$this1$i43$i$i257)
@@ -25192,7 +25192,7 @@
   (local.set $$__p$addr$i$i41$i$i225
    (local.get $$115)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$116
    (local.get $$__p$addr$i$i41$i$i225)
   )
@@ -25214,7 +25214,7 @@
   (local.set $$this1$i$i$i31$i$i261
    (local.get $$this$addr$i$i$i26$i$i229)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i262
    (i32.add
     (local.get $$this1$i$i$i31$i$i261)
@@ -25233,7 +25233,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i264
    (local.get $$this$addr$i$i$i$i$i24$i$i227)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$117
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i264)
@@ -25265,7 +25265,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i271
    (i32.add
     (local.get $$116)
@@ -25281,7 +25281,7 @@
   (local.set $$this1$i22$i$i272
    (local.get $$this$addr$i21$i$i233)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$119
    (i32.load
     (local.get $$this1$i22$i$i272)
@@ -25290,7 +25290,7 @@
   (local.set $$__p$addr$i$i20$i$i232
    (local.get $$119)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$120
    (local.get $$__p$addr$i$i20$i$i232)
   )
@@ -25300,7 +25300,7 @@
   (local.set $$this1$i18$i$i274
    (local.get $$this$addr$i17$i$i234)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i275
    (i32.add
     (local.get $$this1$i18$i$i274)
@@ -25338,7 +25338,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i281
    (i32.add
     (local.get $$120)
@@ -25354,7 +25354,7 @@
   (local.set $$this1$i15$i$i282
    (local.get $$this$addr$i14$i$i236)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$123
    (i32.load
     (local.get $$this1$i15$i$i282)
@@ -25363,7 +25363,7 @@
   (local.set $$__p$addr$i$i13$i$i235
    (local.get $$123)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$124
    (local.get $$__p$addr$i$i13$i$i235)
   )
@@ -25385,7 +25385,7 @@
   (local.set $$this1$i$i$i$i$i286
    (local.get $$this$addr$i$i$i$i$i239)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i287
    (i32.add
     (local.get $$this1$i$i$i$i$i286)
@@ -25404,7 +25404,7 @@
   (local.set $$this1$i$i$i$i$i$i$i289
    (local.get $$this$addr$i$i$i$i$i$i$i237)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$125
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i289)
@@ -25436,7 +25436,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i296
    (i32.add
     (local.get $$124)
@@ -25461,7 +25461,7 @@
   (local.set $$$addr3$i$i$i246
    (local.get $$add$ptr9$i$i296)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseIfNS_9allocatorIfEEED2Ev
    (local.get $$this1$i253)
   )
@@ -25483,7 +25483,7 @@
   (local.set $$this1$i$i$i167
    (local.get $$this$addr$i$i$i160)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$127
    (i32.load
     (local.get $$this1$i$i$i167)
@@ -25492,7 +25492,7 @@
   (local.set $$__p$addr$i$i$i$i159
    (local.get $$127)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$128
    (local.get $$__p$addr$i$i$i$i159)
   )
@@ -25502,7 +25502,7 @@
   (local.set $$this1$i43$i$i169
    (local.get $$this$addr$i42$i$i138)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$129
    (i32.load
     (local.get $$this1$i43$i$i169)
@@ -25511,7 +25511,7 @@
   (local.set $$__p$addr$i$i41$i$i137
    (local.get $$129)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$130
    (local.get $$__p$addr$i$i41$i$i137)
   )
@@ -25533,7 +25533,7 @@
   (local.set $$this1$i$i$i31$i$i173
    (local.get $$this$addr$i$i$i26$i$i141)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i174
    (i32.add
     (local.get $$this1$i$i$i31$i$i173)
@@ -25552,7 +25552,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i176
    (local.get $$this$addr$i$i$i$i$i24$i$i139)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$131
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i176)
@@ -25584,7 +25584,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i183
    (i32.add
     (local.get $$130)
@@ -25600,7 +25600,7 @@
   (local.set $$this1$i22$i$i184
    (local.get $$this$addr$i21$i$i145)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$133
    (i32.load
     (local.get $$this1$i22$i$i184)
@@ -25609,7 +25609,7 @@
   (local.set $$__p$addr$i$i20$i$i144
    (local.get $$133)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$134
    (local.get $$__p$addr$i$i20$i$i144)
   )
@@ -25619,7 +25619,7 @@
   (local.set $$this1$i18$i$i186
    (local.get $$this$addr$i17$i$i146)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i187
    (i32.add
     (local.get $$this1$i18$i$i186)
@@ -25657,7 +25657,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i193
    (i32.add
     (local.get $$134)
@@ -25673,7 +25673,7 @@
   (local.set $$this1$i15$i$i194
    (local.get $$this$addr$i14$i$i148)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$137
    (i32.load
     (local.get $$this1$i15$i$i194)
@@ -25682,7 +25682,7 @@
   (local.set $$__p$addr$i$i13$i$i147
    (local.get $$137)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$138
    (local.get $$__p$addr$i$i13$i$i147)
   )
@@ -25704,7 +25704,7 @@
   (local.set $$this1$i$i$i$i$i198
    (local.get $$this$addr$i$i$i$i$i151)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i199
    (i32.add
     (local.get $$this1$i$i$i$i$i198)
@@ -25723,7 +25723,7 @@
   (local.set $$this1$i$i$i$i$i$i$i201
    (local.get $$this$addr$i$i$i$i$i$i$i149)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$139
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i201)
@@ -25755,7 +25755,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i208
    (i32.add
     (local.get $$138)
@@ -25780,7 +25780,7 @@
   (local.set $$$addr3$i$i$i158
    (local.get $$add$ptr9$i$i208)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseIfNS_9allocatorIfEEED2Ev
    (local.get $$this1$i165)
   )
@@ -25953,7 +25953,7 @@
   (local.set $$__lcpp_y$addr$i
    (i32.const 2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/math.h:1001:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/math.h:1001:0
   (local.set $$2
    (local.get $$__lcpp_x$addr$i)
   )
@@ -26011,7 +26011,7 @@
   (local.set $$__lcpp_y$addr$i6
    (i32.const 2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/math.h:1001:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/math.h:1001:0
   (local.set $$7
    (local.get $$__lcpp_x$addr$i5)
   )
@@ -26281,7 +26281,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$1
    (i32.load
     (local.get $$this1$i)
@@ -26315,7 +26315,7 @@
   (local.set $$this1$i19
    (local.get $$this$addr$i17)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$3
    (i32.load
     (local.get $$this1$i19)
@@ -26370,7 +26370,7 @@
   (local.set $$this1$i97
    (local.get $$this$addr$i95)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$5
    (i32.load
     (local.get $$this1$i97)
@@ -26404,7 +26404,7 @@
   (local.set $$this1$i102
    (local.get $$this$addr$i100)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$7
    (i32.load
     (local.get $$this1$i102)
@@ -26481,7 +26481,7 @@
   (local.set $$this1$i$i$i52
    (local.get $$this$addr$i$i$i45)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$11
    (i32.load
     (local.get $$this1$i$i$i52)
@@ -26490,7 +26490,7 @@
   (local.set $$__p$addr$i$i$i$i44
    (local.get $$11)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$12
    (local.get $$__p$addr$i$i$i$i44)
   )
@@ -26500,7 +26500,7 @@
   (local.set $$this1$i43$i$i54
    (local.get $$this$addr$i42$i$i23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$13
    (i32.load
     (local.get $$this1$i43$i$i54)
@@ -26509,7 +26509,7 @@
   (local.set $$__p$addr$i$i41$i$i22
    (local.get $$13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$14
    (local.get $$__p$addr$i$i41$i$i22)
   )
@@ -26531,7 +26531,7 @@
   (local.set $$this1$i$i$i31$i$i58
    (local.get $$this$addr$i$i$i26$i$i26)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i59
    (i32.add
     (local.get $$this1$i$i$i31$i$i58)
@@ -26550,7 +26550,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i61
    (local.get $$this$addr$i$i$i$i$i24$i$i24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$15
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i61)
@@ -26582,7 +26582,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i68
    (i32.add
     (local.get $$14)
@@ -26598,7 +26598,7 @@
   (local.set $$this1$i22$i$i69
    (local.get $$this$addr$i21$i$i30)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$17
    (i32.load
     (local.get $$this1$i22$i$i69)
@@ -26607,7 +26607,7 @@
   (local.set $$__p$addr$i$i20$i$i29
    (local.get $$17)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$18
    (local.get $$__p$addr$i$i20$i$i29)
   )
@@ -26617,7 +26617,7 @@
   (local.set $$this1$i18$i$i71
    (local.get $$this$addr$i17$i$i31)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i72
    (i32.add
     (local.get $$this1$i18$i$i71)
@@ -26655,7 +26655,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i78
    (i32.add
     (local.get $$18)
@@ -26671,7 +26671,7 @@
   (local.set $$this1$i15$i$i79
    (local.get $$this$addr$i14$i$i33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$21
    (i32.load
     (local.get $$this1$i15$i$i79)
@@ -26680,7 +26680,7 @@
   (local.set $$__p$addr$i$i13$i$i32
    (local.get $$21)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$22
    (local.get $$__p$addr$i$i13$i$i32)
   )
@@ -26702,7 +26702,7 @@
   (local.set $$this1$i$i$i$i$i83
    (local.get $$this$addr$i$i$i$i$i36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i84
    (i32.add
     (local.get $$this1$i$i$i$i$i83)
@@ -26721,7 +26721,7 @@
   (local.set $$this1$i$i$i$i$i$i$i86
    (local.get $$this$addr$i$i$i$i$i$i$i34)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$23
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i86)
@@ -26753,7 +26753,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i93
    (i32.add
     (local.get $$22)
@@ -26778,7 +26778,7 @@
   (local.set $$$addr3$i$i$i43
    (local.get $$add$ptr9$i$i93)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI5PointNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i50)
   )
@@ -27767,12 +27767,12 @@
   (local.set $$this$addr$i$i$i
    (local.get $$this1$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -27783,7 +27783,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -27803,14 +27803,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$0
    (local.get $$__t$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$1
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -27823,7 +27823,7 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$2
    (local.get $$__u$addr$i$i$i$i)
   )
@@ -27874,7 +27874,7 @@
   (local.set $$this1$i68
    (local.get $$this$addr$i67)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i68)
@@ -27892,7 +27892,7 @@
   (local.set $$this1$i$i69
    (local.get $$this$addr$i$i66)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i$i70
    (i32.add
     (local.get $$this1$i$i69)
@@ -27911,7 +27911,7 @@
   (local.set $$this1$i$i$i$i72
    (local.get $$this$addr$i$i$i$i64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
   (local.set $$5
    (i32.load
     (local.get $$this1$i$i$i$i72)
@@ -27941,7 +27941,7 @@
     (local.set $$this1$i14$i
      (local.get $$this$addr$i13$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
     (local.set $$__end_cap_$i15$i
      (i32.add
       (local.get $$this1$i14$i)
@@ -27960,7 +27960,7 @@
     (local.set $$this1$i$i$i17$i
      (local.get $$this$addr$i$i$i11$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
     (local.set $$__end_3$i
      (i32.add
       (local.get $$this1$i68)
@@ -27975,11 +27975,11 @@
     (local.set $$__p$addr$i18$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$7
      (local.get $$__p$addr$i18$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
     (local.set $$8
      (local.get $$__x$addr$i)
     )
@@ -27992,7 +27992,7 @@
     (local.set $$__args$addr$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$9
      (local.get $$__a$addr$i$i)
     )
@@ -28005,7 +28005,7 @@
     (local.set $$__t$addr$i$i$i62
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$12
      (local.get $$__t$addr$i$i$i62)
     )
@@ -28024,7 +28024,7 @@
     (local.set $$__args$addr$i$i$i
      (local.get $$12)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$13
      (local.get $$__a$addr$i$i$i)
     )
@@ -28037,7 +28037,7 @@
     (local.set $$__t$addr$i$i$i$i61
      (local.get $$15)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$16
      (local.get $$__t$addr$i$i$i$i61)
     )
@@ -28050,7 +28050,7 @@
     (local.set $$__args$addr$i$i$i$i
      (local.get $$16)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$17
      (local.get $$__p$addr$i$i$i$i60)
     )
@@ -28060,11 +28060,11 @@
     (local.set $$__t$addr$i$i$i$i$i59
      (local.get $$18)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$19
      (local.get $$__t$addr$i$i$i$i$i59)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (call $__ZN17SolutionCandidateC2ERKS_
      (local.get $$17)
      (local.get $$19)
@@ -28072,7 +28072,7 @@
     (local.set $$this$addr$i7$i
      (local.get $$__annotator$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
     (local.set $$__end_5$i
      (i32.add
       (local.get $$this1$i68)
@@ -28096,7 +28096,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
     (local.set $$21
      (local.get $$__x$addr$i)
     )
@@ -28116,7 +28116,7 @@
   (local.set $$this1$i76
    (local.get $$this$addr$i75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i77
    (i32.add
     (local.get $$this1$i76)
@@ -28229,7 +28229,7 @@
     (local.set $$this1$i$i$i108
      (local.get $$this$addr$i$i$i101)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$29
      (i32.load
       (local.get $$this1$i$i$i108)
@@ -28238,7 +28238,7 @@
     (local.set $$__p$addr$i$i$i$i100
      (local.get $$29)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$30
      (local.get $$__p$addr$i$i$i$i100)
     )
@@ -28248,7 +28248,7 @@
     (local.set $$this1$i43$i$i110
      (local.get $$this$addr$i42$i$i79)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$31
      (i32.load
       (local.get $$this1$i43$i$i110)
@@ -28257,7 +28257,7 @@
     (local.set $$__p$addr$i$i41$i$i78
      (local.get $$31)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$32
      (local.get $$__p$addr$i$i41$i$i78)
     )
@@ -28279,7 +28279,7 @@
     (local.set $$this1$i$i$i31$i$i114
      (local.get $$this$addr$i$i$i26$i$i82)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i115
      (i32.add
       (local.get $$this1$i$i$i31$i$i114)
@@ -28298,7 +28298,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i117
      (local.get $$this$addr$i$i$i$i$i24$i$i80)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$33
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i117)
@@ -28330,7 +28330,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i124
      (i32.add
       (local.get $$32)
@@ -28346,7 +28346,7 @@
     (local.set $$this1$i22$i$i125
      (local.get $$this$addr$i21$i$i86)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$35
      (i32.load
       (local.get $$this1$i22$i$i125)
@@ -28355,7 +28355,7 @@
     (local.set $$__p$addr$i$i20$i$i85
      (local.get $$35)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$36
      (local.get $$__p$addr$i$i20$i$i85)
     )
@@ -28365,7 +28365,7 @@
     (local.set $$this1$i18$i$i127
      (local.get $$this$addr$i17$i$i87)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i128
      (i32.add
       (local.get $$this1$i18$i$i127)
@@ -28403,7 +28403,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i134
      (i32.add
       (local.get $$36)
@@ -28419,7 +28419,7 @@
     (local.set $$this1$i15$i$i135
      (local.get $$this$addr$i14$i$i89)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$39
      (i32.load
       (local.get $$this1$i15$i$i135)
@@ -28428,7 +28428,7 @@
     (local.set $$__p$addr$i$i13$i$i88
      (local.get $$39)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$40
      (local.get $$__p$addr$i$i13$i$i88)
     )
@@ -28450,7 +28450,7 @@
     (local.set $$this1$i$i$i$i$i139
      (local.get $$this$addr$i$i$i$i$i92)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i140
      (i32.add
       (local.get $$this1$i$i$i$i$i139)
@@ -28469,7 +28469,7 @@
     (local.set $$this1$i$i$i$i$i$i$i142
      (local.get $$this$addr$i$i$i$i$i$i$i90)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$41
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i142)
@@ -28501,7 +28501,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i149
      (i32.add
       (local.get $$40)
@@ -28526,7 +28526,7 @@
     (local.set $$$addr3$i$i$i99
      (local.get $$add$ptr9$i$i149)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i106)
     )
@@ -28548,7 +28548,7 @@
     (local.set $$this1$i155
      (local.get $$this$addr$i154)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
     (local.set $$44
      (i32.load
       (local.get $$this1$i155)
@@ -28560,7 +28560,7 @@
     (local.set $$__p$addr$i$i153
      (local.get $$44)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
     (local.set $$45
      (local.get $$__p$addr$i$i153)
     )
@@ -28573,7 +28573,7 @@
     (local.set $$this1$i$i$i158
      (local.get $$this$addr$i$i$i151)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
     (local.set $$46
      (local.get $$__x$addr$i$i$i)
     )
@@ -28581,13 +28581,13 @@
      (local.get $$this1$i$i$i158)
      (local.get $$46)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
     (local.set $$47
      (i32.load
       (local.get $$retval$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
     (i32.store
      (local.get $$retval$i)
      (local.get $$47)
@@ -28611,7 +28611,7 @@
     (local.set $$this1$i166
      (local.get $$this$addr$i165)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
     (local.set $$__end_$i167
      (i32.add
       (local.get $$this1$i166)
@@ -28629,7 +28629,7 @@
     (local.set $$__p$addr$i$i163
      (local.get $$50)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
     (local.set $$51
      (local.get $$__p$addr$i$i163)
     )
@@ -28642,7 +28642,7 @@
     (local.set $$this1$i$i$i169
      (local.get $$this$addr$i$i$i159)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
     (local.set $$52
      (local.get $$__x$addr$i$i$i160)
     )
@@ -28650,13 +28650,13 @@
      (local.get $$this1$i$i$i169)
      (local.get $$52)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
     (local.set $$53
      (i32.load
       (local.get $$retval$i$i161)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
     (i32.store
      (local.get $$retval$i164)
      (local.get $$53)
@@ -28679,7 +28679,7 @@
       (local.set $$__y$addr$i
        (local.get $$__end)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
       (local.set $$55
        (local.get $$__x$addr$i248)
       )
@@ -28692,7 +28692,7 @@
       (local.set $$__y$addr$i$i
        (local.get $$56)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
       (local.set $$57
        (local.get $$__x$addr$i$i)
       )
@@ -28702,13 +28702,13 @@
       (local.set $$this1$i$i$i249
        (local.get $$this$addr$i$i$i247)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
       (local.set $$58
        (i32.load
         (local.get $$this1$i$i$i249)
        )
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
       (local.set $$59
        (local.get $$__y$addr$i$i)
       )
@@ -28718,20 +28718,20 @@
       (local.set $$this1$i3$i$i
        (local.get $$this$addr$i2$i$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
       (local.set $$60
        (i32.load
         (local.get $$this1$i3$i$i)
        )
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
       (local.set $$cmp$i$i
        (i32.eq
         (local.get $$58)
         (local.get $$60)
        )
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
       (local.set $$lnot$i
        (i32.xor
         (local.get $$cmp$i$i)
@@ -28750,7 +28750,7 @@
       (local.set $$this1$i252
        (local.get $$this$addr$i251)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
       (local.set $$61
        (i32.load
         (local.get $$this1$i252)
@@ -28846,7 +28846,7 @@
         (local.set $$this1$i$i$i356
          (local.get $$this$addr$i$i$i349)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$67
          (i32.load
           (local.get $$this1$i$i$i356)
@@ -28855,7 +28855,7 @@
         (local.set $$__p$addr$i$i$i$i348
          (local.get $$67)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$68
          (local.get $$__p$addr$i$i$i$i348)
         )
@@ -28865,7 +28865,7 @@
         (local.set $$this1$i43$i$i358
          (local.get $$this$addr$i42$i$i327)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$69
          (i32.load
           (local.get $$this1$i43$i$i358)
@@ -28874,7 +28874,7 @@
         (local.set $$__p$addr$i$i41$i$i326
          (local.get $$69)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$70
          (local.get $$__p$addr$i$i41$i$i326)
         )
@@ -28896,7 +28896,7 @@
         (local.set $$this1$i$i$i31$i$i362
          (local.get $$this$addr$i$i$i26$i$i330)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
         (local.set $$__end_cap_$i$i$i32$i$i363
          (i32.add
           (local.get $$this1$i$i$i31$i$i362)
@@ -28915,7 +28915,7 @@
         (local.set $$this1$i$i$i$i$i34$i$i365
          (local.get $$this$addr$i$i$i$i$i24$i$i328)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
         (local.set $$71
          (i32.load
           (local.get $$this1$i$i$i$i$i34$i$i365)
@@ -28947,7 +28947,7 @@
           (i32.const -1)
          )
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
         (local.set $$add$ptr$i$i372
          (i32.add
           (local.get $$70)
@@ -28963,7 +28963,7 @@
         (local.set $$this1$i22$i$i373
          (local.get $$this$addr$i21$i$i334)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$73
          (i32.load
           (local.get $$this1$i22$i$i373)
@@ -28972,7 +28972,7 @@
         (local.set $$__p$addr$i$i20$i$i333
          (local.get $$73)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$74
          (local.get $$__p$addr$i$i20$i$i333)
         )
@@ -28982,7 +28982,7 @@
         (local.set $$this1$i18$i$i375
          (local.get $$this$addr$i17$i$i335)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
         (local.set $$__end_$i$i$i376
          (i32.add
           (local.get $$this1$i18$i$i375)
@@ -29020,7 +29020,7 @@
           (i32.const -1)
          )
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
         (local.set $$add$ptr6$i$i382
          (i32.add
           (local.get $$74)
@@ -29036,7 +29036,7 @@
         (local.set $$this1$i15$i$i383
          (local.get $$this$addr$i14$i$i337)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$77
          (i32.load
           (local.get $$this1$i15$i$i383)
@@ -29045,7 +29045,7 @@
         (local.set $$__p$addr$i$i13$i$i336
          (local.get $$77)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$78
          (local.get $$__p$addr$i$i13$i$i336)
         )
@@ -29067,7 +29067,7 @@
         (local.set $$this1$i$i$i$i$i387
          (local.get $$this$addr$i$i$i$i$i340)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
         (local.set $$__end_cap_$i$i$i$i$i388
          (i32.add
           (local.get $$this1$i$i$i$i$i387)
@@ -29086,7 +29086,7 @@
         (local.set $$this1$i$i$i$i$i$i$i390
          (local.get $$this$addr$i$i$i$i$i$i$i338)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
         (local.set $$79
          (i32.load
           (local.get $$this1$i$i$i$i$i$i$i390)
@@ -29118,7 +29118,7 @@
           (i32.const -1)
          )
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
         (local.set $$add$ptr9$i$i397
          (i32.add
           (local.get $$78)
@@ -29143,7 +29143,7 @@
         (local.set $$$addr3$i$i$i347
          (local.get $$add$ptr9$i$i397)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
         (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
          (local.get $$this1$i354)
         )
@@ -29170,7 +29170,7 @@
         (local.set $$this1$i$i$i429
          (local.get $$this$addr$i$i$i422)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$81
          (i32.load
           (local.get $$this1$i$i$i429)
@@ -29179,7 +29179,7 @@
         (local.set $$__p$addr$i$i$i$i421
          (local.get $$81)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$82
          (local.get $$__p$addr$i$i$i$i421)
         )
@@ -29189,7 +29189,7 @@
         (local.set $$this1$i43$i$i431
          (local.get $$this$addr$i42$i$i400)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$83
          (i32.load
           (local.get $$this1$i43$i$i431)
@@ -29198,7 +29198,7 @@
         (local.set $$__p$addr$i$i41$i$i399
          (local.get $$83)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$84
          (local.get $$__p$addr$i$i41$i$i399)
         )
@@ -29220,7 +29220,7 @@
         (local.set $$this1$i$i$i31$i$i435
          (local.get $$this$addr$i$i$i26$i$i403)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
         (local.set $$__end_cap_$i$i$i32$i$i436
          (i32.add
           (local.get $$this1$i$i$i31$i$i435)
@@ -29239,7 +29239,7 @@
         (local.set $$this1$i$i$i$i$i34$i$i438
          (local.get $$this$addr$i$i$i$i$i24$i$i401)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
         (local.set $$85
          (i32.load
           (local.get $$this1$i$i$i$i$i34$i$i438)
@@ -29271,7 +29271,7 @@
           (i32.const -1)
          )
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
         (local.set $$add$ptr$i$i445
          (i32.add
           (local.get $$84)
@@ -29287,7 +29287,7 @@
         (local.set $$this1$i22$i$i446
          (local.get $$this$addr$i21$i$i407)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$87
          (i32.load
           (local.get $$this1$i22$i$i446)
@@ -29296,7 +29296,7 @@
         (local.set $$__p$addr$i$i20$i$i406
          (local.get $$87)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$88
          (local.get $$__p$addr$i$i20$i$i406)
         )
@@ -29306,7 +29306,7 @@
         (local.set $$this1$i18$i$i448
          (local.get $$this$addr$i17$i$i408)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
         (local.set $$__end_$i$i$i449
          (i32.add
           (local.get $$this1$i18$i$i448)
@@ -29344,7 +29344,7 @@
           (i32.const -1)
          )
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
         (local.set $$add$ptr6$i$i455
          (i32.add
           (local.get $$88)
@@ -29360,7 +29360,7 @@
         (local.set $$this1$i15$i$i456
          (local.get $$this$addr$i14$i$i410)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
         (local.set $$91
          (i32.load
           (local.get $$this1$i15$i$i456)
@@ -29369,7 +29369,7 @@
         (local.set $$__p$addr$i$i13$i$i409
          (local.get $$91)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
         (local.set $$92
          (local.get $$__p$addr$i$i13$i$i409)
         )
@@ -29391,7 +29391,7 @@
         (local.set $$this1$i$i$i$i$i460
          (local.get $$this$addr$i$i$i$i$i413)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
         (local.set $$__end_cap_$i$i$i$i$i461
          (i32.add
           (local.get $$this1$i$i$i$i$i460)
@@ -29410,7 +29410,7 @@
         (local.set $$this1$i$i$i$i$i$i$i463
          (local.get $$this$addr$i$i$i$i$i$i$i411)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
         (local.set $$93
          (i32.load
           (local.get $$this1$i$i$i$i$i$i$i463)
@@ -29442,7 +29442,7 @@
           (i32.const -1)
          )
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
         (local.set $$add$ptr9$i$i470
          (i32.add
           (local.get $$92)
@@ -29467,7 +29467,7 @@
         (local.set $$$addr3$i$i$i420
          (local.get $$add$ptr9$i$i470)
         )
-        ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+        ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
         (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
          (local.get $$this1$i427)
         )
@@ -29493,7 +29493,7 @@
       (local.set $$this1$i692
        (local.get $$this$addr$i691)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
       (local.set $$96
        (i32.load
         (local.get $$this1$i692)
@@ -29530,7 +29530,7 @@
     (local.set $$this1$i$i$i798
      (local.get $$this$addr$i$i$i791)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$97
      (i32.load
       (local.get $$this1$i$i$i798)
@@ -29539,7 +29539,7 @@
     (local.set $$__p$addr$i$i$i$i790
      (local.get $$97)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$98
      (local.get $$__p$addr$i$i$i$i790)
     )
@@ -29549,7 +29549,7 @@
     (local.set $$this1$i43$i$i800
      (local.get $$this$addr$i42$i$i769)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$99
      (i32.load
       (local.get $$this1$i43$i$i800)
@@ -29558,7 +29558,7 @@
     (local.set $$__p$addr$i$i41$i$i768
      (local.get $$99)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$100
      (local.get $$__p$addr$i$i41$i$i768)
     )
@@ -29580,7 +29580,7 @@
     (local.set $$this1$i$i$i31$i$i804
      (local.get $$this$addr$i$i$i26$i$i772)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i805
      (i32.add
       (local.get $$this1$i$i$i31$i$i804)
@@ -29599,7 +29599,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i807
      (local.get $$this$addr$i$i$i$i$i24$i$i770)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$101
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i807)
@@ -29631,7 +29631,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i814
      (i32.add
       (local.get $$100)
@@ -29647,7 +29647,7 @@
     (local.set $$this1$i22$i$i815
      (local.get $$this$addr$i21$i$i776)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$103
      (i32.load
       (local.get $$this1$i22$i$i815)
@@ -29656,7 +29656,7 @@
     (local.set $$__p$addr$i$i20$i$i775
      (local.get $$103)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$104
      (local.get $$__p$addr$i$i20$i$i775)
     )
@@ -29666,7 +29666,7 @@
     (local.set $$this1$i18$i$i817
      (local.get $$this$addr$i17$i$i777)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i818
      (i32.add
       (local.get $$this1$i18$i$i817)
@@ -29704,7 +29704,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i824
      (i32.add
       (local.get $$104)
@@ -29720,7 +29720,7 @@
     (local.set $$this1$i15$i$i825
      (local.get $$this$addr$i14$i$i779)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$107
      (i32.load
       (local.get $$this1$i15$i$i825)
@@ -29729,7 +29729,7 @@
     (local.set $$__p$addr$i$i13$i$i778
      (local.get $$107)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$108
      (local.get $$__p$addr$i$i13$i$i778)
     )
@@ -29751,7 +29751,7 @@
     (local.set $$this1$i$i$i$i$i829
      (local.get $$this$addr$i$i$i$i$i782)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i830
      (i32.add
       (local.get $$this1$i$i$i$i$i829)
@@ -29770,7 +29770,7 @@
     (local.set $$this1$i$i$i$i$i$i$i832
      (local.get $$this$addr$i$i$i$i$i$i$i780)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$109
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i832)
@@ -29802,7 +29802,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i839
      (i32.add
       (local.get $$108)
@@ -29827,7 +29827,7 @@
     (local.set $$$addr3$i$i$i789
      (local.get $$add$ptr9$i$i839)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i796)
     )
@@ -29879,7 +29879,7 @@
   (local.set $$this1$i$i$i944
    (local.get $$this$addr$i$i$i937)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$112
    (i32.load
     (local.get $$this1$i$i$i944)
@@ -29888,7 +29888,7 @@
   (local.set $$__p$addr$i$i$i$i936
    (local.get $$112)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$113
    (local.get $$__p$addr$i$i$i$i936)
   )
@@ -29898,7 +29898,7 @@
   (local.set $$this1$i43$i$i946
    (local.get $$this$addr$i42$i$i915)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$114
    (i32.load
     (local.get $$this1$i43$i$i946)
@@ -29907,7 +29907,7 @@
   (local.set $$__p$addr$i$i41$i$i914
    (local.get $$114)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$115
    (local.get $$__p$addr$i$i41$i$i914)
   )
@@ -29929,7 +29929,7 @@
   (local.set $$this1$i$i$i31$i$i950
    (local.get $$this$addr$i$i$i26$i$i918)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i951
    (i32.add
     (local.get $$this1$i$i$i31$i$i950)
@@ -29948,7 +29948,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i953
    (local.get $$this$addr$i$i$i$i$i24$i$i916)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$116
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i953)
@@ -29980,7 +29980,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i960
    (i32.add
     (local.get $$115)
@@ -29996,7 +29996,7 @@
   (local.set $$this1$i22$i$i961
    (local.get $$this$addr$i21$i$i922)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$118
    (i32.load
     (local.get $$this1$i22$i$i961)
@@ -30005,7 +30005,7 @@
   (local.set $$__p$addr$i$i20$i$i921
    (local.get $$118)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$119
    (local.get $$__p$addr$i$i20$i$i921)
   )
@@ -30015,7 +30015,7 @@
   (local.set $$this1$i18$i$i963
    (local.get $$this$addr$i17$i$i923)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i964
    (i32.add
     (local.get $$this1$i18$i$i963)
@@ -30053,7 +30053,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i970
    (i32.add
     (local.get $$119)
@@ -30069,7 +30069,7 @@
   (local.set $$this1$i15$i$i971
    (local.get $$this$addr$i14$i$i925)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$122
    (i32.load
     (local.get $$this1$i15$i$i971)
@@ -30078,7 +30078,7 @@
   (local.set $$__p$addr$i$i13$i$i924
    (local.get $$122)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$123
    (local.get $$__p$addr$i$i13$i$i924)
   )
@@ -30100,7 +30100,7 @@
   (local.set $$this1$i$i$i$i$i975
    (local.get $$this$addr$i$i$i$i$i928)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i976
    (i32.add
     (local.get $$this1$i$i$i$i$i975)
@@ -30119,7 +30119,7 @@
   (local.set $$this1$i$i$i$i$i$i$i978
    (local.get $$this$addr$i$i$i$i$i$i$i926)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$124
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i978)
@@ -30151,7 +30151,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i985
    (i32.add
     (local.get $$123)
@@ -30176,7 +30176,7 @@
   (local.set $$$addr3$i$i$i935
    (local.get $$add$ptr9$i$i985)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i942)
   )
@@ -30213,7 +30213,7 @@
   (local.set $$this1$i$i$i1017
    (local.get $$this$addr$i$i$i1010)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$126
    (i32.load
     (local.get $$this1$i$i$i1017)
@@ -30222,7 +30222,7 @@
   (local.set $$__p$addr$i$i$i$i1009
    (local.get $$126)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$127
    (local.get $$__p$addr$i$i$i$i1009)
   )
@@ -30232,7 +30232,7 @@
   (local.set $$this1$i43$i$i1019
    (local.get $$this$addr$i42$i$i988)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$128
    (i32.load
     (local.get $$this1$i43$i$i1019)
@@ -30241,7 +30241,7 @@
   (local.set $$__p$addr$i$i41$i$i987
    (local.get $$128)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$129
    (local.get $$__p$addr$i$i41$i$i987)
   )
@@ -30263,7 +30263,7 @@
   (local.set $$this1$i$i$i31$i$i1023
    (local.get $$this$addr$i$i$i26$i$i991)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i1024
    (i32.add
     (local.get $$this1$i$i$i31$i$i1023)
@@ -30282,7 +30282,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i1026
    (local.get $$this$addr$i$i$i$i$i24$i$i989)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$130
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i1026)
@@ -30314,7 +30314,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i1033
    (i32.add
     (local.get $$129)
@@ -30330,7 +30330,7 @@
   (local.set $$this1$i22$i$i1034
    (local.get $$this$addr$i21$i$i995)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$132
    (i32.load
     (local.get $$this1$i22$i$i1034)
@@ -30339,7 +30339,7 @@
   (local.set $$__p$addr$i$i20$i$i994
    (local.get $$132)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$133
    (local.get $$__p$addr$i$i20$i$i994)
   )
@@ -30349,7 +30349,7 @@
   (local.set $$this1$i18$i$i1036
    (local.get $$this$addr$i17$i$i996)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i1037
    (i32.add
     (local.get $$this1$i18$i$i1036)
@@ -30387,7 +30387,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i1043
    (i32.add
     (local.get $$133)
@@ -30403,7 +30403,7 @@
   (local.set $$this1$i15$i$i1044
    (local.get $$this$addr$i14$i$i998)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$136
    (i32.load
     (local.get $$this1$i15$i$i1044)
@@ -30412,7 +30412,7 @@
   (local.set $$__p$addr$i$i13$i$i997
    (local.get $$136)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$137
    (local.get $$__p$addr$i$i13$i$i997)
   )
@@ -30434,7 +30434,7 @@
   (local.set $$this1$i$i$i$i$i1048
    (local.get $$this$addr$i$i$i$i$i1001)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i1049
    (i32.add
     (local.get $$this1$i$i$i$i$i1048)
@@ -30453,7 +30453,7 @@
   (local.set $$this1$i$i$i$i$i$i$i1051
    (local.get $$this$addr$i$i$i$i$i$i$i999)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$138
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i1051)
@@ -30485,7 +30485,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i1058
    (i32.add
     (local.get $$137)
@@ -30510,7 +30510,7 @@
   (local.set $$$addr3$i$i$i1008
    (local.get $$add$ptr9$i$i1058)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i1015)
   )
@@ -30536,7 +30536,7 @@
   (local.set $$this1$i$i$i725
    (local.get $$this$addr$i$i$i718)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$140
    (i32.load
     (local.get $$this1$i$i$i725)
@@ -30545,7 +30545,7 @@
   (local.set $$__p$addr$i$i$i$i717
    (local.get $$140)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$141
    (local.get $$__p$addr$i$i$i$i717)
   )
@@ -30555,7 +30555,7 @@
   (local.set $$this1$i43$i$i727
    (local.get $$this$addr$i42$i$i696)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$142
    (i32.load
     (local.get $$this1$i43$i$i727)
@@ -30564,7 +30564,7 @@
   (local.set $$__p$addr$i$i41$i$i695
    (local.get $$142)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$143
    (local.get $$__p$addr$i$i41$i$i695)
   )
@@ -30586,7 +30586,7 @@
   (local.set $$this1$i$i$i31$i$i731
    (local.get $$this$addr$i$i$i26$i$i699)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i732
    (i32.add
     (local.get $$this1$i$i$i31$i$i731)
@@ -30605,7 +30605,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i734
    (local.get $$this$addr$i$i$i$i$i24$i$i697)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$144
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i734)
@@ -30637,7 +30637,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i741
    (i32.add
     (local.get $$143)
@@ -30653,7 +30653,7 @@
   (local.set $$this1$i22$i$i742
    (local.get $$this$addr$i21$i$i703)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$146
    (i32.load
     (local.get $$this1$i22$i$i742)
@@ -30662,7 +30662,7 @@
   (local.set $$__p$addr$i$i20$i$i702
    (local.get $$146)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$147
    (local.get $$__p$addr$i$i20$i$i702)
   )
@@ -30672,7 +30672,7 @@
   (local.set $$this1$i18$i$i744
    (local.get $$this$addr$i17$i$i704)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i745
    (i32.add
     (local.get $$this1$i18$i$i744)
@@ -30710,7 +30710,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i751
    (i32.add
     (local.get $$147)
@@ -30726,7 +30726,7 @@
   (local.set $$this1$i15$i$i752
    (local.get $$this$addr$i14$i$i706)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$150
    (i32.load
     (local.get $$this1$i15$i$i752)
@@ -30735,7 +30735,7 @@
   (local.set $$__p$addr$i$i13$i$i705
    (local.get $$150)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$151
    (local.get $$__p$addr$i$i13$i$i705)
   )
@@ -30757,7 +30757,7 @@
   (local.set $$this1$i$i$i$i$i756
    (local.get $$this$addr$i$i$i$i$i709)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i757
    (i32.add
     (local.get $$this1$i$i$i$i$i756)
@@ -30776,7 +30776,7 @@
   (local.set $$this1$i$i$i$i$i$i$i759
    (local.get $$this$addr$i$i$i$i$i$i$i707)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$152
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i759)
@@ -30808,7 +30808,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i766
    (i32.add
     (local.get $$151)
@@ -30833,7 +30833,7 @@
   (local.set $$$addr3$i$i$i716
    (local.get $$add$ptr9$i$i766)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i723)
   )
@@ -31127,7 +31127,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -31146,7 +31146,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
@@ -31156,7 +31156,7 @@
   (local.set $$this1$i11
    (local.get $$this$addr$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i11)
@@ -31194,7 +31194,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$add
    (i32.add
     (local.get $$sub$ptr$div$i)
@@ -31211,7 +31211,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
   (local.set $$call$i
    (call $__ZNKSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE8max_sizeEv
     (local.get $$this1$i15)
@@ -31220,7 +31220,7 @@
   (local.set $$__ms$i
    (local.get $$call$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
   (local.set $$2
    (i32.load
     (local.get $$__new_size$addr$i)
@@ -31237,7 +31237,7 @@
   )
   (if
    (local.get $$cmp$i)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1$i15)
    )
@@ -31260,7 +31260,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -31279,7 +31279,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -31311,11 +31311,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
   (local.set $$__cap$i
    (local.get $$sub$ptr$div$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
   (local.set $$6
    (local.get $$__cap$i)
   )
@@ -31340,7 +31340,7 @@
   (if
    (local.get $$cmp3$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
     (local.set $$8
      (local.get $$__ms$i)
     )
@@ -31349,7 +31349,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$9
      (local.get $$__cap$i)
     )
@@ -31369,7 +31369,7 @@
     (local.set $$__b$addr$i$i
      (local.get $$__new_size$addr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
     (local.set $$10
      (local.get $$__a$addr$i$i)
     )
@@ -31388,7 +31388,7 @@
     (local.set $$__b$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$12
      (local.get $$__a$addr$i$i$i)
     )
@@ -31404,7 +31404,7 @@
     (local.set $$__y$addr$i$i$i$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
     (local.set $$14
      (local.get $$__x$addr$i$i$i$i)
     )
@@ -31427,7 +31427,7 @@
       (local.get $$17)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$18
      (local.get $$__b$addr$i$i$i)
     )
@@ -31441,7 +31441,7 @@
       (local.get $$19)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$20
      (i32.load
       (local.get $$cond$lvalue$i$i$i2D)
@@ -31452,7 +31452,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
   (local.set $$21
    (local.get $$retval$i)
   )
@@ -31462,7 +31462,7 @@
   (local.set $$this1$i19
    (local.get $$this$addr$i18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i20
    (i32.add
     (local.get $$this1$i19)
@@ -31500,7 +31500,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$24
    (local.get $$__a)
   )
@@ -31510,7 +31510,7 @@
    (local.get $$sub$ptr$div$i25)
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$25
    (local.get $$__a)
   )
@@ -31528,18 +31528,18 @@
   (local.set $$__p$addr$i
    (local.get $$26)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$27
    (local.get $$__p$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$28
    (local.get $$__x$addr)
   )
   (local.set $$__t$addr$i
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$29
    (local.get $$__t$addr$i)
   )
@@ -31552,7 +31552,7 @@
   (local.set $$__args$addr$i
    (local.get $$29)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
   (local.set $$30
    (local.get $$__a$addr$i)
   )
@@ -31565,7 +31565,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$32)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$33
    (local.get $$__t$addr$i$i)
   )
@@ -31584,7 +31584,7 @@
   (local.set $$__args$addr$i$i
    (local.get $$33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
   (local.set $$34
    (local.get $$__a$addr$i$i27)
   )
@@ -31597,7 +31597,7 @@
   (local.set $$__t$addr$i$i$i
    (local.get $$36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$37
    (local.get $$__t$addr$i$i$i)
   )
@@ -31610,7 +31610,7 @@
   (local.set $$__args$addr$i$i$i
    (local.get $$37)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (local.set $$38
    (local.get $$__p$addr$i$i$i)
   )
@@ -31620,16 +31620,16 @@
   (local.set $$__t$addr$i$i$i$i
    (local.get $$39)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$40
    (local.get $$__t$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (call $__ZN17SolutionCandidateC2ERKS_
    (local.get $$38)
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
   (local.set $$__end_7
    (i32.add
     (local.get $$__v)
@@ -31651,12 +31651,12 @@
    (local.get $$__end_7)
    (local.get $$incdec$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
   (call $__ZNSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
    (local.get $$this1)
    (local.get $$__v)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
   (call $__ZNSt3__214__split_bufferI17SolutionCandidateRNS_9allocatorIS1_EEED2Ev
    (local.get $$__v)
   )
@@ -32376,12 +32376,12 @@
   (local.set $$this$addr$i$i$i
    (local.get $$this1$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -32392,7 +32392,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -32412,14 +32412,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$0
    (local.get $$__t$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$1
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -32432,7 +32432,7 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$2
    (local.get $$__u$addr$i$i$i$i)
   )
@@ -32465,7 +32465,7 @@
   (local.set $$this1$i39
    (local.get $$this$addr$i38)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i39)
@@ -32543,7 +32543,7 @@
     (local.set $$this1$i$i$i143
      (local.get $$this$addr$i$i$i136)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$9
      (i32.load
       (local.get $$this1$i$i$i143)
@@ -32552,7 +32552,7 @@
     (local.set $$__p$addr$i$i$i$i135
      (local.get $$9)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$10
      (local.get $$__p$addr$i$i$i$i135)
     )
@@ -32562,7 +32562,7 @@
     (local.set $$this1$i43$i$i145
      (local.get $$this$addr$i42$i$i114)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$11
      (i32.load
       (local.get $$this1$i43$i$i145)
@@ -32571,7 +32571,7 @@
     (local.set $$__p$addr$i$i41$i$i113
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$12
      (local.get $$__p$addr$i$i41$i$i113)
     )
@@ -32593,7 +32593,7 @@
     (local.set $$this1$i$i$i31$i$i149
      (local.get $$this$addr$i$i$i26$i$i117)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i150
      (i32.add
       (local.get $$this1$i$i$i31$i$i149)
@@ -32612,7 +32612,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i152
      (local.get $$this$addr$i$i$i$i$i24$i$i115)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$13
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i152)
@@ -32644,7 +32644,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i159
      (i32.add
       (local.get $$12)
@@ -32660,7 +32660,7 @@
     (local.set $$this1$i22$i$i160
      (local.get $$this$addr$i21$i$i121)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$15
      (i32.load
       (local.get $$this1$i22$i$i160)
@@ -32669,7 +32669,7 @@
     (local.set $$__p$addr$i$i20$i$i120
      (local.get $$15)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$16
      (local.get $$__p$addr$i$i20$i$i120)
     )
@@ -32679,7 +32679,7 @@
     (local.set $$this1$i18$i$i162
      (local.get $$this$addr$i17$i$i122)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i163
      (i32.add
       (local.get $$this1$i18$i$i162)
@@ -32717,7 +32717,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i169
      (i32.add
       (local.get $$16)
@@ -32733,7 +32733,7 @@
     (local.set $$this1$i15$i$i170
      (local.get $$this$addr$i14$i$i124)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$19
      (i32.load
       (local.get $$this1$i15$i$i170)
@@ -32742,7 +32742,7 @@
     (local.set $$__p$addr$i$i13$i$i123
      (local.get $$19)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$20
      (local.get $$__p$addr$i$i13$i$i123)
     )
@@ -32764,7 +32764,7 @@
     (local.set $$this1$i$i$i$i$i174
      (local.get $$this$addr$i$i$i$i$i127)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i175
      (i32.add
       (local.get $$this1$i$i$i$i$i174)
@@ -32783,7 +32783,7 @@
     (local.set $$this1$i$i$i$i$i$i$i177
      (local.get $$this$addr$i$i$i$i$i$i$i125)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$21
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i177)
@@ -32815,7 +32815,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i184
      (i32.add
       (local.get $$20)
@@ -32840,7 +32840,7 @@
     (local.set $$$addr3$i$i$i134
      (local.get $$add$ptr9$i$i184)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i141)
     )
@@ -32872,7 +32872,7 @@
     (local.set $$this1$i195
      (local.get $$this$addr$i194)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
     (local.set $$__end_$i
      (i32.add
       (local.get $$this1$i195)
@@ -32890,7 +32890,7 @@
     (local.set $$this1$i$i196
      (local.get $$this$addr$i$i193)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i$i197
      (i32.add
       (local.get $$this1$i$i196)
@@ -32909,7 +32909,7 @@
     (local.set $$this1$i$i$i$i199
      (local.get $$this$addr$i$i$i$i191)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
     (local.set $$24
      (i32.load
       (local.get $$this1$i$i$i$i199)
@@ -32939,7 +32939,7 @@
       (local.set $$this1$i16$i
        (local.get $$this$addr$i15$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
       (local.set $$__end_cap_$i17$i
        (i32.add
         (local.get $$this1$i16$i)
@@ -32958,7 +32958,7 @@
       (local.set $$this1$i$i$i19$i
        (local.get $$this$addr$i$i$i13$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1653:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1653:0
       (local.set $$__end_3$i
        (i32.add
         (local.get $$this1$i195)
@@ -32973,18 +32973,18 @@
       (local.set $$__p$addr$i21$i
        (local.get $$25)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
       (local.set $$26
        (local.get $$__p$addr$i21$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1654:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1654:0
       (local.set $$27
        (local.get $$__x$addr$i)
       )
       (local.set $$__t$addr$i20$i
        (local.get $$27)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
       (local.set $$28
        (local.get $$__t$addr$i20$i)
       )
@@ -32997,7 +32997,7 @@
       (local.set $$__args$addr$i$i
        (local.get $$28)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
       (local.set $$29
        (local.get $$__a$addr$i$i)
       )
@@ -33010,7 +33010,7 @@
       (local.set $$__t$addr$i$i$i189
        (local.get $$31)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$32
        (local.get $$__t$addr$i$i$i189)
       )
@@ -33029,7 +33029,7 @@
       (local.set $$__args$addr$i$i$i
        (local.get $$32)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
       (local.set $$33
        (local.get $$__a$addr$i$i$i)
       )
@@ -33042,7 +33042,7 @@
       (local.set $$__t$addr$i$i$i$i188
        (local.get $$35)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$36
        (local.get $$__t$addr$i$i$i$i188)
       )
@@ -33055,7 +33055,7 @@
       (local.set $$__args$addr$i$i$i$i
        (local.get $$36)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (local.set $$37
        (local.get $$__p$addr$i$i$i$i187)
       )
@@ -33065,11 +33065,11 @@
       (local.set $$__t$addr$i$i$i$i$i186
        (local.get $$38)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$39
        (local.get $$__t$addr$i$i$i$i$i186)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (call $__ZN17SolutionCandidateC2EOS_
        (local.get $$37)
        (local.get $$39)
@@ -33077,7 +33077,7 @@
       (local.set $$this$addr$i9$i
        (local.get $$__annotator$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1656:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1656:0
       (local.set $$__end_6$i
        (i32.add
         (local.get $$this1$i195)
@@ -33101,18 +33101,18 @@
       )
      )
      (block
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
       (local.set $$41
        (local.get $$__x$addr$i)
       )
       (local.set $$__t$addr$i$i
        (local.get $$41)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
       (local.set $$42
        (local.get $$__t$addr$i$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
       (call $__ZNSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_
        (local.get $$this1$i195)
        (local.get $$42)
@@ -33141,7 +33141,7 @@
     (local.set $$this1$i$i$i231
      (local.get $$this$addr$i$i$i224)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$43
      (i32.load
       (local.get $$this1$i$i$i231)
@@ -33150,7 +33150,7 @@
     (local.set $$__p$addr$i$i$i$i223
      (local.get $$43)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$44
      (local.get $$__p$addr$i$i$i$i223)
     )
@@ -33160,7 +33160,7 @@
     (local.set $$this1$i43$i$i233
      (local.get $$this$addr$i42$i$i202)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$45
      (i32.load
       (local.get $$this1$i43$i$i233)
@@ -33169,7 +33169,7 @@
     (local.set $$__p$addr$i$i41$i$i201
      (local.get $$45)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$46
      (local.get $$__p$addr$i$i41$i$i201)
     )
@@ -33191,7 +33191,7 @@
     (local.set $$this1$i$i$i31$i$i237
      (local.get $$this$addr$i$i$i26$i$i205)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i238
      (i32.add
       (local.get $$this1$i$i$i31$i$i237)
@@ -33210,7 +33210,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i240
      (local.get $$this$addr$i$i$i$i$i24$i$i203)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$47
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i240)
@@ -33242,7 +33242,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i247
      (i32.add
       (local.get $$46)
@@ -33258,7 +33258,7 @@
     (local.set $$this1$i22$i$i248
      (local.get $$this$addr$i21$i$i209)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$49
      (i32.load
       (local.get $$this1$i22$i$i248)
@@ -33267,7 +33267,7 @@
     (local.set $$__p$addr$i$i20$i$i208
      (local.get $$49)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$50
      (local.get $$__p$addr$i$i20$i$i208)
     )
@@ -33277,7 +33277,7 @@
     (local.set $$this1$i18$i$i250
      (local.get $$this$addr$i17$i$i210)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i251
      (i32.add
       (local.get $$this1$i18$i$i250)
@@ -33315,7 +33315,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i257
      (i32.add
       (local.get $$50)
@@ -33331,7 +33331,7 @@
     (local.set $$this1$i15$i$i258
      (local.get $$this$addr$i14$i$i212)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$53
      (i32.load
       (local.get $$this1$i15$i$i258)
@@ -33340,7 +33340,7 @@
     (local.set $$__p$addr$i$i13$i$i211
      (local.get $$53)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$54
      (local.get $$__p$addr$i$i13$i$i211)
     )
@@ -33362,7 +33362,7 @@
     (local.set $$this1$i$i$i$i$i262
      (local.get $$this$addr$i$i$i$i$i215)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i263
      (i32.add
       (local.get $$this1$i$i$i$i$i262)
@@ -33381,7 +33381,7 @@
     (local.set $$this1$i$i$i$i$i$i$i265
      (local.get $$this$addr$i$i$i$i$i$i$i213)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$55
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i265)
@@ -33413,7 +33413,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i272
      (i32.add
       (local.get $$54)
@@ -33438,7 +33438,7 @@
     (local.set $$$addr3$i$i$i222
      (local.get $$add$ptr9$i$i272)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i229)
     )
@@ -33500,7 +33500,7 @@
     (local.set $$this1$i$i$i450
      (local.get $$this$addr$i$i$i443)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$59
      (i32.load
       (local.get $$this1$i$i$i450)
@@ -33509,7 +33509,7 @@
     (local.set $$__p$addr$i$i$i$i442
      (local.get $$59)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$60
      (local.get $$__p$addr$i$i$i$i442)
     )
@@ -33519,7 +33519,7 @@
     (local.set $$this1$i43$i$i452
      (local.get $$this$addr$i42$i$i421)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$61
      (i32.load
       (local.get $$this1$i43$i$i452)
@@ -33528,7 +33528,7 @@
     (local.set $$__p$addr$i$i41$i$i420
      (local.get $$61)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$62
      (local.get $$__p$addr$i$i41$i$i420)
     )
@@ -33550,7 +33550,7 @@
     (local.set $$this1$i$i$i31$i$i456
      (local.get $$this$addr$i$i$i26$i$i424)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i457
      (i32.add
       (local.get $$this1$i$i$i31$i$i456)
@@ -33569,7 +33569,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i459
      (local.get $$this$addr$i$i$i$i$i24$i$i422)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$63
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i459)
@@ -33601,7 +33601,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i466
      (i32.add
       (local.get $$62)
@@ -33617,7 +33617,7 @@
     (local.set $$this1$i22$i$i467
      (local.get $$this$addr$i21$i$i428)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$65
      (i32.load
       (local.get $$this1$i22$i$i467)
@@ -33626,7 +33626,7 @@
     (local.set $$__p$addr$i$i20$i$i427
      (local.get $$65)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$66
      (local.get $$__p$addr$i$i20$i$i427)
     )
@@ -33636,7 +33636,7 @@
     (local.set $$this1$i18$i$i469
      (local.get $$this$addr$i17$i$i429)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i470
      (i32.add
       (local.get $$this1$i18$i$i469)
@@ -33674,7 +33674,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i476
      (i32.add
       (local.get $$66)
@@ -33690,7 +33690,7 @@
     (local.set $$this1$i15$i$i477
      (local.get $$this$addr$i14$i$i431)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$69
      (i32.load
       (local.get $$this1$i15$i$i477)
@@ -33699,7 +33699,7 @@
     (local.set $$__p$addr$i$i13$i$i430
      (local.get $$69)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$70
      (local.get $$__p$addr$i$i13$i$i430)
     )
@@ -33721,7 +33721,7 @@
     (local.set $$this1$i$i$i$i$i481
      (local.get $$this$addr$i$i$i$i$i434)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i482
      (i32.add
       (local.get $$this1$i$i$i$i$i481)
@@ -33740,7 +33740,7 @@
     (local.set $$this1$i$i$i$i$i$i$i484
      (local.get $$this$addr$i$i$i$i$i$i$i432)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$71
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i484)
@@ -33772,7 +33772,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i491
      (i32.add
       (local.get $$70)
@@ -33797,7 +33797,7 @@
     (local.set $$$addr3$i$i$i441
      (local.get $$add$ptr9$i$i491)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i448)
     )
@@ -33829,7 +33829,7 @@
     (local.set $$this1$i524
      (local.get $$this$addr$i521)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
     (local.set $$__end_$i525
      (i32.add
       (local.get $$this1$i524)
@@ -33847,7 +33847,7 @@
     (local.set $$this1$i$i526
      (local.get $$this$addr$i$i520)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i$i527
      (i32.add
       (local.get $$this1$i$i526)
@@ -33866,7 +33866,7 @@
     (local.set $$this1$i$i$i$i529
      (local.get $$this$addr$i$i$i$i518)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1649:0
     (local.set $$74
      (i32.load
       (local.get $$this1$i$i$i$i529)
@@ -33896,7 +33896,7 @@
       (local.set $$this1$i16$i533
        (local.get $$this$addr$i15$i497)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
       (local.set $$__end_cap_$i17$i534
        (i32.add
         (local.get $$this1$i16$i533)
@@ -33915,7 +33915,7 @@
       (local.set $$this1$i$i$i19$i536
        (local.get $$this$addr$i$i$i13$i495)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1653:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1653:0
       (local.set $$__end_3$i537
        (i32.add
         (local.get $$this1$i524)
@@ -33930,18 +33930,18 @@
       (local.set $$__p$addr$i21$i493
        (local.get $$75)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
       (local.set $$76
        (local.get $$__p$addr$i21$i493)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1654:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1654:0
       (local.set $$77
        (local.get $$__x$addr$i522)
       )
       (local.set $$__t$addr$i20$i494
        (local.get $$77)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
       (local.set $$78
        (local.get $$__t$addr$i20$i494)
       )
@@ -33954,7 +33954,7 @@
       (local.set $$__args$addr$i$i510
        (local.get $$78)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
       (local.set $$79
        (local.get $$__a$addr$i$i508)
       )
@@ -33967,7 +33967,7 @@
       (local.set $$__t$addr$i$i$i507
        (local.get $$81)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$82
        (local.get $$__t$addr$i$i$i507)
       )
@@ -33986,7 +33986,7 @@
       (local.set $$__args$addr$i$i$i505
        (local.get $$82)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
       (local.set $$83
        (local.get $$__a$addr$i$i$i503)
       )
@@ -33999,7 +33999,7 @@
       (local.set $$__t$addr$i$i$i$i502
        (local.get $$85)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$86
        (local.get $$__t$addr$i$i$i$i502)
       )
@@ -34012,7 +34012,7 @@
       (local.set $$__args$addr$i$i$i$i501
        (local.get $$86)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (local.set $$87
        (local.get $$__p$addr$i$i$i$i500)
       )
@@ -34022,11 +34022,11 @@
       (local.set $$__t$addr$i$i$i$i$i498
        (local.get $$88)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$89
        (local.get $$__t$addr$i$i$i$i$i498)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (call $__ZN17SolutionCandidateC2EOS_
        (local.get $$87)
        (local.get $$89)
@@ -34034,7 +34034,7 @@
       (local.set $$this$addr$i9$i513
        (local.get $$__annotator$i523)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1656:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1656:0
       (local.set $$__end_6$i540
        (i32.add
         (local.get $$this1$i524)
@@ -34058,18 +34058,18 @@
       )
      )
      (block
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
       (local.set $$91
        (local.get $$__x$addr$i522)
       )
       (local.set $$__t$addr$i$i514
        (local.get $$91)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
       (local.set $$92
        (local.get $$__t$addr$i$i514)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1659:0
       (call $__ZNSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEvOT_
        (local.get $$this1$i524)
        (local.get $$92)
@@ -34098,7 +34098,7 @@
     (local.set $$this1$i$i$i576
      (local.get $$this$addr$i$i$i569)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$93
      (i32.load
       (local.get $$this1$i$i$i576)
@@ -34107,7 +34107,7 @@
     (local.set $$__p$addr$i$i$i$i568
      (local.get $$93)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$94
      (local.get $$__p$addr$i$i$i$i568)
     )
@@ -34117,7 +34117,7 @@
     (local.set $$this1$i43$i$i578
      (local.get $$this$addr$i42$i$i547)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$95
      (i32.load
       (local.get $$this1$i43$i$i578)
@@ -34126,7 +34126,7 @@
     (local.set $$__p$addr$i$i41$i$i546
      (local.get $$95)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$96
      (local.get $$__p$addr$i$i41$i$i546)
     )
@@ -34148,7 +34148,7 @@
     (local.set $$this1$i$i$i31$i$i582
      (local.get $$this$addr$i$i$i26$i$i550)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i32$i$i583
      (i32.add
       (local.get $$this1$i$i$i31$i$i582)
@@ -34167,7 +34167,7 @@
     (local.set $$this1$i$i$i$i$i34$i$i585
      (local.get $$this$addr$i$i$i$i$i24$i$i548)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$97
      (i32.load
       (local.get $$this1$i$i$i$i$i34$i$i585)
@@ -34199,7 +34199,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
     (local.set $$add$ptr$i$i592
      (i32.add
       (local.get $$96)
@@ -34215,7 +34215,7 @@
     (local.set $$this1$i22$i$i593
      (local.get $$this$addr$i21$i$i554)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$99
      (i32.load
       (local.get $$this1$i22$i$i593)
@@ -34224,7 +34224,7 @@
     (local.set $$__p$addr$i$i20$i$i553
      (local.get $$99)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$100
      (local.get $$__p$addr$i$i20$i$i553)
     )
@@ -34234,7 +34234,7 @@
     (local.set $$this1$i18$i$i595
      (local.get $$this$addr$i17$i$i555)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
     (local.set $$__end_$i$i$i596
      (i32.add
       (local.get $$this1$i18$i$i595)
@@ -34272,7 +34272,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr6$i$i602
      (i32.add
       (local.get $$100)
@@ -34288,7 +34288,7 @@
     (local.set $$this1$i15$i$i603
      (local.get $$this$addr$i14$i$i557)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$103
      (i32.load
       (local.get $$this1$i15$i$i603)
@@ -34297,7 +34297,7 @@
     (local.set $$__p$addr$i$i13$i$i556
      (local.get $$103)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$104
      (local.get $$__p$addr$i$i13$i$i556)
     )
@@ -34319,7 +34319,7 @@
     (local.set $$this1$i$i$i$i$i607
      (local.get $$this$addr$i$i$i$i$i560)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i$i608
      (i32.add
       (local.get $$this1$i$i$i$i$i607)
@@ -34338,7 +34338,7 @@
     (local.set $$this1$i$i$i$i$i$i$i610
      (local.get $$this$addr$i$i$i$i$i$i$i558)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$105
      (i32.load
       (local.get $$this1$i$i$i$i$i$i$i610)
@@ -34370,7 +34370,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
     (local.set $$add$ptr9$i$i617
      (i32.add
       (local.get $$104)
@@ -34395,7 +34395,7 @@
     (local.set $$$addr3$i$i$i567
      (local.get $$add$ptr9$i$i617)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
     (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
      (local.get $$this1$i574)
     )
@@ -34448,7 +34448,7 @@
   (local.set $$this1$i$i$i70
    (local.get $$this$addr$i$i$i63)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$107
    (i32.load
     (local.get $$this1$i$i$i70)
@@ -34457,7 +34457,7 @@
   (local.set $$__p$addr$i$i$i$i62
    (local.get $$107)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$108
    (local.get $$__p$addr$i$i$i$i62)
   )
@@ -34467,7 +34467,7 @@
   (local.set $$this1$i43$i$i72
    (local.get $$this$addr$i42$i$i41)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$109
    (i32.load
     (local.get $$this1$i43$i$i72)
@@ -34476,7 +34476,7 @@
   (local.set $$__p$addr$i$i41$i$i40
    (local.get $$109)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$110
    (local.get $$__p$addr$i$i41$i$i40)
   )
@@ -34498,7 +34498,7 @@
   (local.set $$this1$i$i$i31$i$i76
    (local.get $$this$addr$i$i$i26$i$i44)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i77
    (i32.add
     (local.get $$this1$i$i$i31$i$i76)
@@ -34517,7 +34517,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i79
    (local.get $$this$addr$i$i$i$i$i24$i$i42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$111
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i79)
@@ -34549,7 +34549,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i86
    (i32.add
     (local.get $$110)
@@ -34565,7 +34565,7 @@
   (local.set $$this1$i22$i$i87
    (local.get $$this$addr$i21$i$i48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$113
    (i32.load
     (local.get $$this1$i22$i$i87)
@@ -34574,7 +34574,7 @@
   (local.set $$__p$addr$i$i20$i$i47
    (local.get $$113)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$114
    (local.get $$__p$addr$i$i20$i$i47)
   )
@@ -34584,7 +34584,7 @@
   (local.set $$this1$i18$i$i89
    (local.get $$this$addr$i17$i$i49)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i90
    (i32.add
     (local.get $$this1$i18$i$i89)
@@ -34622,7 +34622,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i96
    (i32.add
     (local.get $$114)
@@ -34638,7 +34638,7 @@
   (local.set $$this1$i15$i$i97
    (local.get $$this$addr$i14$i$i51)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$117
    (i32.load
     (local.get $$this1$i15$i$i97)
@@ -34647,7 +34647,7 @@
   (local.set $$__p$addr$i$i13$i$i50
    (local.get $$117)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$118
    (local.get $$__p$addr$i$i13$i$i50)
   )
@@ -34669,7 +34669,7 @@
   (local.set $$this1$i$i$i$i$i101
    (local.get $$this$addr$i$i$i$i$i54)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i102
    (i32.add
     (local.get $$this1$i$i$i$i$i101)
@@ -34688,7 +34688,7 @@
   (local.set $$this1$i$i$i$i$i$i$i104
    (local.get $$this$addr$i$i$i$i$i$i$i52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$119
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i104)
@@ -34720,7 +34720,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i111
    (i32.add
     (local.get $$118)
@@ -34745,7 +34745,7 @@
   (local.set $$$addr3$i$i$i61
    (local.get $$add$ptr9$i$i111)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i68)
   )
@@ -34972,7 +34972,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i)
@@ -34984,7 +34984,7 @@
   (local.set $$__p$addr$i$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$3
    (local.get $$__p$addr$i$i)
   )
@@ -34997,7 +34997,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$4
    (local.get $$__x$addr$i$i$i)
   )
@@ -35005,13 +35005,13 @@
    (local.get $$this1$i$i$i)
    (local.get $$4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$5
    (i32.load
     (local.get $$retval$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (i32.store
    (local.get $$retval$i)
    (local.get $$5)
@@ -35035,7 +35035,7 @@
   (local.set $$this1$i23
    (local.get $$this$addr$i22)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (local.set $$__end_$i24
    (i32.add
     (local.get $$this1$i23)
@@ -35053,7 +35053,7 @@
   (local.set $$__p$addr$i$i20
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$9
    (local.get $$__p$addr$i$i20)
   )
@@ -35066,7 +35066,7 @@
   (local.set $$this1$i$i$i26
    (local.get $$this$addr$i$i$i16)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$10
    (local.get $$__x$addr$i$i$i17)
   )
@@ -35074,13 +35074,13 @@
    (local.get $$this1$i$i$i26)
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$11
    (i32.load
     (local.get $$retval$i$i18)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (i32.store
    (local.get $$retval$i21)
    (local.get $$11)
@@ -35103,7 +35103,7 @@
     (local.set $$__y$addr$i
      (local.get $$__end)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$13
      (local.get $$__x$addr$i32)
     )
@@ -35116,7 +35116,7 @@
     (local.set $$__y$addr$i$i
      (local.get $$14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$15
      (local.get $$__x$addr$i$i)
     )
@@ -35126,13 +35126,13 @@
     (local.set $$this1$i$i$i33
      (local.get $$this$addr$i$i$i31)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$16
      (i32.load
       (local.get $$this1$i$i$i33)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$17
      (local.get $$__y$addr$i$i)
     )
@@ -35142,20 +35142,20 @@
     (local.set $$this1$i3$i$i
      (local.get $$this$addr$i2$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$18
      (i32.load
       (local.get $$this1$i3$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i
      (i32.eq
       (local.get $$16)
       (local.get $$18)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i
      (i32.xor
       (local.get $$cmp$i$i)
@@ -35174,7 +35174,7 @@
     (local.set $$this1$i36
      (local.get $$this$addr$i35)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$19
      (i32.load
       (local.get $$this1$i36)
@@ -35200,7 +35200,7 @@
     (local.set $$this1$i12
      (local.get $$this$addr$i11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
     (local.set $$__end_$i
      (i32.add
       (local.get $$this1$i12)
@@ -35218,7 +35218,7 @@
     (local.set $$this1$i$i13
      (local.get $$this$addr$i$i10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i$i
      (i32.add
       (local.get $$this1$i$i13)
@@ -35237,7 +35237,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
     (local.set $$23
      (i32.load
       (local.get $$this1$i$i$i$i)
@@ -35267,7 +35267,7 @@
       (local.set $$this1$i14$i
        (local.get $$this$addr$i13$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
       (local.set $$__end_cap_$i15$i
        (i32.add
         (local.get $$this1$i14$i)
@@ -35286,7 +35286,7 @@
       (local.set $$this1$i$i$i17$i
        (local.get $$this$addr$i$i$i11$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
       (local.set $$__end_3$i
        (i32.add
         (local.get $$this1$i12)
@@ -35301,11 +35301,11 @@
       (local.set $$__p$addr$i18$i
        (local.get $$24)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
       (local.set $$25
        (local.get $$__p$addr$i18$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
       (local.set $$26
        (local.get $$__x$addr$i)
       )
@@ -35318,7 +35318,7 @@
       (local.set $$__args$addr$i$i
        (local.get $$26)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
       (local.set $$27
        (local.get $$__a$addr$i$i)
       )
@@ -35331,7 +35331,7 @@
       (local.set $$__t$addr$i$i$i
        (local.get $$29)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$30
        (local.get $$__t$addr$i$i$i)
       )
@@ -35350,7 +35350,7 @@
       (local.set $$__args$addr$i$i$i
        (local.get $$30)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
       (local.set $$31
        (local.get $$__a$addr$i$i$i)
       )
@@ -35363,7 +35363,7 @@
       (local.set $$__t$addr$i$i$i$i
        (local.get $$33)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$34
        (local.get $$__t$addr$i$i$i$i)
       )
@@ -35376,7 +35376,7 @@
       (local.set $$__args$addr$i$i$i$i
        (local.get $$34)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (local.set $$35
        (local.get $$__p$addr$i$i$i$i)
       )
@@ -35386,11 +35386,11 @@
       (local.set $$__t$addr$i$i$i$i$i
        (local.get $$36)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
       (local.set $$37
        (local.get $$__t$addr$i$i$i$i$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
       (call $__ZN17SolutionCandidateC2ERKS_
        (local.get $$35)
        (local.get $$37)
@@ -35398,7 +35398,7 @@
       (local.set $$this$addr$i7$i
        (local.get $$__annotator$i)
       )
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
       (local.set $$__end_5$i
        (i32.add
         (local.get $$this1$i12)
@@ -35422,7 +35422,7 @@
       )
      )
      (block
-      ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
+      ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
       (local.set $$39
        (local.get $$__x$addr$i)
       )
@@ -35438,7 +35438,7 @@
     (local.set $$this1$i7
      (local.get $$this$addr$i6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$40
      (i32.load
       (local.get $$this1$i7)
@@ -35587,7 +35587,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:462:0
   (local.set $$0
    (i32.load
     (local.get $$this1)
@@ -35607,7 +35607,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
     (return)
    )
   )
@@ -35617,7 +35617,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:370:0
   (local.set $$1
    (i32.load
     (local.get $$this1$i)
@@ -35632,7 +35632,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:425:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -35649,7 +35649,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:426:0
     (local.set $$3
      (local.get $$__new_last$addr$i$i)
     )
@@ -35674,7 +35674,7 @@
     (local.set $$this1$i$i$i
      (local.get $$this$addr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
     (local.set $$__end_cap_$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -35693,7 +35693,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:427:0
     (local.set $$5
      (local.get $$__soon_to_be_end$i$i)
     )
@@ -35709,7 +35709,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$incdec$ptr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i)
     )
@@ -35719,7 +35719,7 @@
     (local.set $$__p$addr$i5$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i)
     )
@@ -35738,7 +35738,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -35751,7 +35751,7 @@
     (local.set $$__p$addr$i$i$i$i$i
      (local.get $$10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
     (local.set $$11
      (local.get $$__p$addr$i$i$i$i$i)
     )
@@ -35761,7 +35761,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:428:0
   (local.set $$12
    (local.get $$__new_last$addr$i$i)
   )
@@ -35781,7 +35781,7 @@
   (local.set $$this1$i7
    (local.get $$this$addr$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i7)
@@ -35800,7 +35800,7 @@
   (local.set $$this1$i$i$i9
    (local.get $$this$addr$i$i$i4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:465:0
   (local.set $$13
    (i32.load
     (local.get $$this1)
@@ -35818,7 +35818,7 @@
   (local.set $$this1$i$i17
    (local.get $$this$addr$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i17)
@@ -35837,7 +35837,7 @@
   (local.set $$this1$i$i$i$i19
    (local.get $$this$addr$i$i$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$14
    (i32.load
     (local.get $$this1$i$i$i$i19)
@@ -35878,7 +35878,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$16
    (local.get $$__a$addr$i)
   )
@@ -35897,7 +35897,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$19
    (local.get $$__p$addr$i$i)
   )
@@ -35919,7 +35919,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$21
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -35938,7 +35938,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$23)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$24
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -35952,7 +35952,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:467:0
   (return)
  )
  (func $__Z29getFeasibleSolutionCandidatesRKNSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEEE (; 86 ;) (param $$agg$result i32) (param $$solutionCandidates i32)
@@ -36292,12 +36292,12 @@
   (local.set $$this$addr$i$i$i
    (local.get $$this1$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:435:0
   (i32.store
    (local.get $$this1$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:436:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -36308,7 +36308,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:437:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -36328,14 +36328,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2241:0
   (local.set $$0
    (local.get $$__t$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$1
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -36348,7 +36348,7 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$2
    (local.get $$__u$addr$i$i$i$i)
   )
@@ -36384,7 +36384,7 @@
   (local.set $$this1$i20
    (local.get $$this$addr$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (local.set $$5
    (i32.load
     (local.get $$this1$i20)
@@ -36396,7 +36396,7 @@
   (local.set $$__p$addr$i$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$6
    (local.get $$__p$addr$i$i)
   )
@@ -36409,7 +36409,7 @@
   (local.set $$this1$i$i$i22
    (local.get $$this$addr$i$i$i17)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$7
    (local.get $$__x$addr$i$i$i)
   )
@@ -36417,13 +36417,13 @@
    (local.get $$this1$i$i$i22)
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$8
    (i32.load
     (local.get $$retval$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1519:0
   (i32.store
    (local.get $$retval$i)
    (local.get $$8)
@@ -36447,7 +36447,7 @@
   (local.set $$this1$i105
    (local.get $$this$addr$i104)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i105)
@@ -36465,7 +36465,7 @@
   (local.set $$__p$addr$i$i102
    (local.get $$11)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$12
    (local.get $$__p$addr$i$i102)
   )
@@ -36478,7 +36478,7 @@
   (local.set $$this1$i$i$i107
    (local.get $$this$addr$i$i$i98)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$13
    (local.get $$__x$addr$i$i$i99)
   )
@@ -36486,13 +36486,13 @@
    (local.get $$this1$i$i$i107)
    (local.get $$13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1502:0
   (local.set $$14
    (i32.load
     (local.get $$retval$i$i100)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1535:0
   (i32.store
    (local.get $$retval$i103)
    (local.get $$14)
@@ -36515,7 +36515,7 @@
     (local.set $$__y$addr$i
      (local.get $$__end)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$16
      (local.get $$__x$addr$i132)
     )
@@ -36528,7 +36528,7 @@
     (local.set $$__y$addr$i$i
      (local.get $$17)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$18
      (local.get $$__x$addr$i$i)
     )
@@ -36538,13 +36538,13 @@
     (local.set $$this1$i$i$i133
      (local.get $$this$addr$i$i$i131)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$19
      (i32.load
       (local.get $$this1$i$i$i133)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$20
      (local.get $$__y$addr$i$i)
     )
@@ -36554,20 +36554,20 @@
     (local.set $$this1$i3$i$i
      (local.get $$this$addr$i2$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$21
      (i32.load
       (local.get $$this1$i3$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i
      (i32.eq
       (local.get $$19)
       (local.get $$21)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i
      (i32.xor
       (local.get $$cmp$i$i)
@@ -36586,7 +36586,7 @@
     (local.set $$this1$i136
      (local.get $$this$addr$i135)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$22
      (i32.load
       (local.get $$this1$i136)
@@ -36634,7 +36634,7 @@
        (local.set $$this1$i122
         (local.get $$this$addr$i121)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
        (local.set $$__end_$i123
         (i32.add
          (local.get $$this1$i122)
@@ -36652,7 +36652,7 @@
        (local.set $$this1$i$i124
         (local.get $$this$addr$i$i120)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
        (local.set $$__end_cap_$i$i125
         (i32.add
          (local.get $$this1$i$i124)
@@ -36671,7 +36671,7 @@
        (local.set $$this1$i$i$i$i127
         (local.get $$this$addr$i$i$i$i118)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1630:0
        (local.set $$27
         (i32.load
          (local.get $$this1$i$i$i$i127)
@@ -36701,7 +36701,7 @@
          (local.set $$this1$i14$i
           (local.get $$this$addr$i13$i)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
          (local.set $$__end_cap_$i15$i
           (i32.add
            (local.get $$this1$i14$i)
@@ -36720,7 +36720,7 @@
          (local.set $$this1$i$i$i17$i
           (local.get $$this$addr$i$i$i11$i)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
          (local.set $$__end_3$i
           (i32.add
            (local.get $$this1$i122)
@@ -36735,11 +36735,11 @@
          (local.set $$__p$addr$i18$i
           (local.get $$28)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
          (local.set $$29
           (local.get $$__p$addr$i18$i)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1634:0
          (local.set $$30
           (local.get $$__x$addr$i)
          )
@@ -36752,7 +36752,7 @@
          (local.set $$__args$addr$i$i
           (local.get $$30)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
          (local.set $$31
           (local.get $$__a$addr$i$i)
          )
@@ -36765,7 +36765,7 @@
          (local.set $$__t$addr$i$i$i115
           (local.get $$33)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
          (local.set $$34
           (local.get $$__t$addr$i$i$i115)
          )
@@ -36784,7 +36784,7 @@
          (local.set $$__args$addr$i$i$i
           (local.get $$34)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
          (local.set $$35
           (local.get $$__a$addr$i$i$i)
          )
@@ -36797,7 +36797,7 @@
          (local.set $$__t$addr$i$i$i$i114
           (local.get $$37)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
          (local.set $$38
           (local.get $$__t$addr$i$i$i$i114)
          )
@@ -36810,7 +36810,7 @@
          (local.set $$__args$addr$i$i$i$i
           (local.get $$38)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
          (local.set $$39
           (local.get $$__p$addr$i$i$i$i113)
          )
@@ -36820,11 +36820,11 @@
          (local.set $$__t$addr$i$i$i$i$i112
           (local.get $$40)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
          (local.set $$41
           (local.get $$__t$addr$i$i$i$i$i112)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
          (call $__ZN17SolutionCandidateC2ERKS_
           (local.get $$39)
           (local.get $$41)
@@ -36832,7 +36832,7 @@
          (local.set $$this$addr$i7$i
           (local.get $$__annotator$i)
          )
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1636:0
          (local.set $$__end_5$i
           (i32.add
            (local.get $$this1$i122)
@@ -36857,7 +36857,7 @@
          (br $do-once)
         )
         (block
-         ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
+         ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1639:0
          (local.set $$43
           (local.get $$__x$addr$i)
          )
@@ -36877,7 +36877,7 @@
     (local.set $$this1$i24
      (local.get $$this$addr$i23)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$44
      (i32.load
       (local.get $$this1$i24)
@@ -36943,7 +36943,7 @@
   (local.set $$this1$i$i$i14
    (local.get $$this$addr$i$i$i9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$45
    (i32.load
     (local.get $$this1$i$i$i14)
@@ -36952,7 +36952,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$45)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$46
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -36962,7 +36962,7 @@
   (local.set $$this1$i43$i$i
    (local.get $$this$addr$i42$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$47
    (i32.load
     (local.get $$this1$i43$i$i)
@@ -36971,7 +36971,7 @@
   (local.set $$__p$addr$i$i41$i$i
    (local.get $$47)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$48
    (local.get $$__p$addr$i$i41$i$i)
   )
@@ -36993,7 +36993,7 @@
   (local.set $$this1$i$i$i31$i$i
    (local.get $$this$addr$i$i$i26$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i
    (i32.add
     (local.get $$this1$i$i$i31$i$i)
@@ -37012,7 +37012,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i
    (local.get $$this$addr$i$i$i$i$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$49
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i)
@@ -37044,7 +37044,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$48)
@@ -37060,7 +37060,7 @@
   (local.set $$this1$i22$i$i
    (local.get $$this$addr$i21$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$51
    (i32.load
     (local.get $$this1$i22$i$i)
@@ -37069,7 +37069,7 @@
   (local.set $$__p$addr$i$i20$i$i
    (local.get $$51)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$52
    (local.get $$__p$addr$i$i20$i$i)
   )
@@ -37079,7 +37079,7 @@
   (local.set $$this1$i18$i$i
    (local.get $$this$addr$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i18$i$i)
@@ -37117,7 +37117,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i
    (i32.add
     (local.get $$52)
@@ -37133,7 +37133,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$55
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -37142,7 +37142,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$56
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -37164,7 +37164,7 @@
   (local.set $$this1$i$i$i$i$i16
    (local.get $$this$addr$i$i$i$i$i7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i16)
@@ -37183,7 +37183,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$57
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -37215,7 +37215,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i
    (i32.add
     (local.get $$56)
@@ -37240,7 +37240,7 @@
   (local.set $$$addr3$i$i$i
    (local.get $$add$ptr9$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI17SolutionCandidateNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i12)
   )
@@ -37367,7 +37367,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1244:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1244:0
   (local.set $$0
    (local.get $$__x$addr)
   )
@@ -37377,7 +37377,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -37399,7 +37399,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1607:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1607:0
   (local.set $$1
    (local.get $$__a$addr$i)
   )
@@ -37424,12 +37424,12 @@
   (local.set $$this$addr$i$i6
    (local.get $$this1$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
   (i32.store
    (local.get $$this1$i10)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i10)
@@ -37440,7 +37440,7 @@
    (local.get $$__end_$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
   (local.set $$__end_cap_$i12
    (i32.add
     (local.get $$this1$i10)
@@ -37457,7 +37457,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$3
    (local.get $$__t$addr$i$i)
   )
@@ -37473,14 +37473,14 @@
   (local.set $$this1$i4$i
    (local.get $$this$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (local.get $$__t1$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$5
    (local.get $$__t$addr$i$i$i)
   )
@@ -37493,7 +37493,7 @@
   (local.set $$this1$i7$i$i
    (local.get $$this$addr$i5$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$6
    (local.get $$__u$addr$i6$i$i)
   )
@@ -37504,14 +37504,14 @@
    (local.get $$this1$i7$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$7
    (local.get $$__t2$addr$i$i)
   )
   (local.set $$__t$addr$i3$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i3$i$i)
   )
@@ -37521,14 +37521,14 @@
   (local.set $$__u$addr$i$i$i
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
   (local.set $$9
    (local.get $$__u$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
   (local.set $$10
    (local.get $$__x$addr)
   )
@@ -37538,7 +37538,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i16
    (i32.add
     (local.get $$this1$i15)
@@ -37576,11 +37576,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1249:0
   (local.set $$__n
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1250:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1250:0
   (local.set $$13
    (local.get $$__n)
   )
@@ -37598,11 +37598,11 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1252:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1252:0
   (local.set $$14
    (local.get $$__n)
   )
@@ -37610,7 +37610,7 @@
    (local.get $$this1)
    (local.get $$14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1253:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1253:0
   (local.set $$15
    (local.get $$__x$addr)
   )
@@ -37645,7 +37645,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1255:0
   (return)
  )
  (func $__ZN17SolutionCandidateD2Ev (; 88 ;) (param $$this i32)
@@ -37778,7 +37778,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i$i)
@@ -37787,7 +37787,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$1
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -37797,7 +37797,7 @@
   (local.set $$this1$i43$i$i
    (local.get $$this$addr$i42$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i43$i$i)
@@ -37806,7 +37806,7 @@
   (local.set $$__p$addr$i$i41$i$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$3
    (local.get $$__p$addr$i$i41$i$i)
   )
@@ -37828,7 +37828,7 @@
   (local.set $$this1$i$i$i31$i$i
    (local.get $$this$addr$i$i$i26$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i
    (i32.add
     (local.get $$this1$i$i$i31$i$i)
@@ -37847,7 +37847,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i
    (local.get $$this$addr$i$i$i$i$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i)
@@ -37879,7 +37879,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$3)
@@ -37895,7 +37895,7 @@
   (local.set $$this1$i22$i$i
    (local.get $$this$addr$i21$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i22$i$i)
@@ -37904,7 +37904,7 @@
   (local.set $$__p$addr$i$i20$i$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i20$i$i)
   )
@@ -37914,7 +37914,7 @@
   (local.set $$this1$i18$i$i
    (local.get $$this$addr$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i18$i$i)
@@ -37952,7 +37952,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i
    (i32.add
     (local.get $$7)
@@ -37968,7 +37968,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -37977,7 +37977,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -37999,7 +37999,7 @@
   (local.set $$this1$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i)
@@ -38018,7 +38018,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -38050,7 +38050,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i
    (i32.add
     (local.get $$11)
@@ -38075,7 +38075,7 @@
   (local.set $$$addr3$i$i$i
    (local.get $$add$ptr9$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i)
   )
@@ -38230,7 +38230,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:975:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:975:0
   (local.set $$0
    (local.get $$__n$addr)
   )
@@ -38247,7 +38247,7 @@
   )
   (if
    (local.get $$cmp)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:976:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:976:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1)
    )
@@ -38258,7 +38258,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -38277,7 +38277,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
   (local.set $$1
    (local.get $$__n$addr)
   )
@@ -38287,7 +38287,7 @@
   (local.set $$__n$addr$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
   (local.set $$2
    (local.get $$__a$addr$i)
   )
@@ -38306,7 +38306,7 @@
   (local.set $$this1$i$i23
    (local.get $$this$addr$i$i21)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
   (local.set $$4
    (local.get $$__n$addr$i$i)
   )
@@ -38325,7 +38325,7 @@
     (local.set $$__msg$addr$i$i$i
      (i32.const 6508)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
     (local.set $$exception$i$i$i
      (call $___cxa_allocate_exception
       (i32.const 8)
@@ -38343,7 +38343,7 @@
     (local.set $$this1$i$i$i$i25
      (local.get $$this$addr$i$i$i$i19)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
     (local.set $$6
      (local.get $$__s$addr$i$i$i$i)
     )
@@ -38355,7 +38355,7 @@
      (local.get $$this1$i$i$i$i25)
      (i32.const 6496)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
     (call $___cxa_throw
      (local.get $$exception$i$i$i)
      (i32.const 3096)
@@ -38363,7 +38363,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
     (local.set $$7
      (local.get $$__n$addr$i$i)
     )
@@ -38379,7 +38379,7 @@
     (local.set $$__align$addr$i$i$i
      (i32.const 4)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
     (local.set $$8
      (local.get $$__size$addr$i$i$i)
     )
@@ -38388,7 +38388,7 @@
       (local.get $$8)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:977:0
     (local.set $$__end_
      (i32.add
       (local.get $$this1)
@@ -38403,7 +38403,7 @@
      (local.get $$this1)
      (local.get $$call$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
     (local.set $$9
      (i32.load
       (local.get $$this1)
@@ -38427,7 +38427,7 @@
     (local.set $$this1$i15
      (local.get $$this$addr$i14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
     (local.set $$__end_cap_$i16
      (i32.add
       (local.get $$this1$i15)
@@ -38446,7 +38446,7 @@
     (local.set $$this1$i$i$i18
      (local.get $$this$addr$i$i$i12)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:978:0
     (i32.store
      (local.get $$this1$i$i$i18)
      (local.get $$add$ptr)
@@ -38466,7 +38466,7 @@
     (local.set $$this1$i$i10
      (local.get $$this$addr$i$i7)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$11
      (i32.load
       (local.get $$this1$i$i10)
@@ -38475,7 +38475,7 @@
     (local.set $$__p$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$12
      (local.get $$__p$addr$i$i$i)
     )
@@ -38485,7 +38485,7 @@
     (local.set $$this1$i39$i
      (local.get $$this$addr$i38$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$13
      (i32.load
       (local.get $$this1$i39$i)
@@ -38494,7 +38494,7 @@
     (local.set $$__p$addr$i$i37$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$14
      (local.get $$__p$addr$i$i37$i)
     )
@@ -38516,7 +38516,7 @@
     (local.set $$this1$i$i$i27$i
      (local.get $$this$addr$i$i$i22$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i28$i
      (i32.add
       (local.get $$this1$i$i$i27$i)
@@ -38535,7 +38535,7 @@
     (local.set $$this1$i$i$i$i$i30$i
      (local.get $$this$addr$i$i$i$i$i20$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$15
      (i32.load
       (local.get $$this1$i$i$i$i$i30$i)
@@ -38567,7 +38567,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
     (local.set $$add$ptr$i
      (i32.add
       (local.get $$14)
@@ -38583,7 +38583,7 @@
     (local.set $$this1$i18$i
      (local.get $$this$addr$i17$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$17
      (i32.load
       (local.get $$this1$i18$i)
@@ -38592,7 +38592,7 @@
     (local.set $$__p$addr$i$i16$i
      (local.get $$17)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$18
      (local.get $$__p$addr$i$i16$i)
     )
@@ -38614,7 +38614,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -38633,7 +38633,7 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
     (local.set $$19
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
@@ -38665,7 +38665,7 @@
       (i32.const -1)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
     (local.set $$add$ptr6$i
      (i32.add
       (local.get $$18)
@@ -38681,7 +38681,7 @@
     (local.set $$this1$i12$i
      (local.get $$this$addr$i11$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
     (local.set $$21
      (i32.load
       (local.get $$this1$i12$i)
@@ -38690,11 +38690,11 @@
     (local.set $$__p$addr$i$i10$i
      (local.get $$21)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$22
      (local.get $$__p$addr$i$i10$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
     (local.set $$23
      (local.get $$__current_size$addr$i)
     )
@@ -38725,7 +38725,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:980:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:980:0
     (return)
    )
   )
@@ -38853,7 +38853,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -38872,11 +38872,11 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1068:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1068:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1069:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1069:0
   (local.set $$0
    (local.get $$__n$addr)
   )
@@ -38889,7 +38889,7 @@
   (local.set $$$addr1$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1070:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1070:0
   (local.set $$1
    (local.get $$__a)
   )
@@ -38919,7 +38919,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
     (local.set $$4
      (local.get $$__begin1$addr$i)
     )
@@ -38938,7 +38938,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
     (local.set $$6
      (local.get $$__a$addr$i)
     )
@@ -38953,11 +38953,11 @@
     (local.set $$__p$addr$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$9
      (local.get $$__p$addr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1646:0
     (local.set $$10
      (local.get $$__begin1$addr$i)
     )
@@ -38970,7 +38970,7 @@
     (local.set $$__args$addr$i$i
      (local.get $$10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$11
      (local.get $$__a$addr$i$i)
     )
@@ -38983,7 +38983,7 @@
     (local.set $$__t$addr$i$i$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$14
      (local.get $$__t$addr$i$i$i)
     )
@@ -39002,7 +39002,7 @@
     (local.set $$__args$addr$i$i$i
      (local.get $$14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$15
      (local.get $$__a$addr$i$i$i)
     )
@@ -39015,7 +39015,7 @@
     (local.set $$__t$addr$i$i$i$i
      (local.get $$17)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$18
      (local.get $$__t$addr$i$i$i$i)
     )
@@ -39028,7 +39028,7 @@
     (local.set $$__args$addr$i$i$i$i
      (local.get $$18)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$19
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -39038,16 +39038,16 @@
     (local.set $$__t$addr$i$i$i$i$i
      (local.get $$20)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$21
      (local.get $$__t$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (call $__ZN17SolutionCandidateC2ERKS_
      (local.get $$19)
      (local.get $$21)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1645:0
     (local.set $$22
      (local.get $$__begin1$addr$i)
     )
@@ -39087,7 +39087,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1072:0
   (return)
  )
  (func $__ZNKSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE8max_sizeEv (; 91 ;) (param $$this i32) (result i32)
@@ -39196,7 +39196,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:352:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -39218,7 +39218,7 @@
   (local.set $$__a$addr$i
    (local.get $$this1$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1600:0
   (local.set $$0
    (local.get $$__a$addr$i)
   )
@@ -39231,19 +39231,19 @@
   (local.set $$__a$addr$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1753:0
   (local.set $$1
    (local.get $$__a$addr$i$i)
   )
   (local.set $$this$addr$i$i$i6
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (i32.store
    (local.get $$ref$tmp)
    (i32.const 214748364)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:999:0
   (i32.store
    (local.get $$ref$tmp3)
    (i32.const 2147483647)
@@ -39254,7 +39254,7 @@
   (local.set $$__b$addr$i
    (local.get $$ref$tmp3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2464:0
   (local.set $$2
    (local.get $$__a$addr$i11)
   )
@@ -39273,7 +39273,7 @@
   (local.set $$__b$addr$i$i
    (local.get $$3)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$4
    (local.get $$__b$addr$i$i)
   )
@@ -39289,7 +39289,7 @@
   (local.set $$__y$addr$i$i$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
   (local.set $$6
    (local.get $$__x$addr$i$i$i)
   )
@@ -39312,7 +39312,7 @@
     (local.get $$9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2456:0
   (local.set $$10
    (local.get $$__b$addr$i$i)
   )
@@ -39326,7 +39326,7 @@
     (local.get $$11)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:998:0
   (local.set $$12
    (i32.load
     (local.get $$cond$lvalue$i$i2D)
@@ -39496,7 +39496,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$1
    (i32.load
     (local.get $$this1$i)
@@ -39541,7 +39541,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1544:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i9)
@@ -39611,7 +39611,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$8
    (i32.load
     (local.get $$this1$i$i$i)
@@ -39620,7 +39620,7 @@
   (local.set $$__p$addr$i$i$i$i
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$9
    (local.get $$__p$addr$i$i$i$i)
   )
@@ -39630,7 +39630,7 @@
   (local.set $$this1$i43$i$i
    (local.get $$this$addr$i42$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i43$i$i)
@@ -39639,7 +39639,7 @@
   (local.set $$__p$addr$i$i41$i$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i41$i$i)
   )
@@ -39661,7 +39661,7 @@
   (local.set $$this1$i$i$i31$i$i
    (local.get $$this$addr$i$i$i26$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i$i
    (i32.add
     (local.get $$this1$i$i$i31$i$i)
@@ -39680,7 +39680,7 @@
   (local.set $$this1$i$i$i$i$i34$i$i
    (local.get $$this$addr$i$i$i$i$i24$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i$i)
@@ -39712,7 +39712,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$11)
@@ -39728,7 +39728,7 @@
   (local.set $$this1$i22$i$i
    (local.get $$this$addr$i21$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$14
    (i32.load
     (local.get $$this1$i22$i$i)
@@ -39737,7 +39737,7 @@
   (local.set $$__p$addr$i$i20$i$i
    (local.get $$14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$15
    (local.get $$__p$addr$i$i20$i$i)
   )
@@ -39747,7 +39747,7 @@
   (local.set $$this1$i18$i$i
    (local.get $$this$addr$i17$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i$i
    (i32.add
     (local.get $$this1$i18$i$i)
@@ -39785,7 +39785,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i$i
    (i32.add
     (local.get $$15)
@@ -39801,7 +39801,7 @@
   (local.set $$this1$i15$i$i
    (local.get $$this$addr$i14$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$18
    (i32.load
     (local.get $$this1$i15$i$i)
@@ -39810,7 +39810,7 @@
   (local.set $$__p$addr$i$i13$i$i
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$19
    (local.get $$__p$addr$i$i13$i$i)
   )
@@ -39832,7 +39832,7 @@
   (local.set $$this1$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i$i)
@@ -39851,7 +39851,7 @@
   (local.set $$this1$i$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$20
    (i32.load
     (local.get $$this1$i$i$i$i$i$i$i)
@@ -39883,7 +39883,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i$i
    (i32.add
     (local.get $$19)
@@ -39908,7 +39908,7 @@
   (local.set $$$addr3$i$i$i
    (local.get $$add$ptr9$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:556:0
   (call $__ZNSt3__213__vector_baseI8BuildingNS_9allocatorIS1_EEED2Ev
    (local.get $$this1$i6)
   )
@@ -40082,7 +40082,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1282:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1282:0
   (local.set $$3
    (local.get $$__x$addr$i)
   )
@@ -40092,7 +40092,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i)
@@ -40114,7 +40114,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$this1$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$4
    (local.get $$__t$addr$i$i)
   )
@@ -40130,12 +40130,12 @@
   (local.set $$this$addr$i$i34$i
    (local.get $$this1$i36$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:454:0
   (i32.store
    (local.get $$this1$i36$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:455:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i36$i)
@@ -40146,7 +40146,7 @@
    (local.get $$__end_$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:456:0
   (local.set $$__end_cap_$i38$i
    (i32.add
     (local.get $$this1$i36$i)
@@ -40163,7 +40163,7 @@
   (local.set $$__t$addr$i$i$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$6
    (local.get $$__t$addr$i$i$i)
   )
@@ -40179,14 +40179,14 @@
   (local.set $$this1$i4$i$i
    (local.get $$this$addr$i3$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$7
    (local.get $$__t1$addr$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i$i$i$i)
   )
@@ -40199,7 +40199,7 @@
   (local.set $$this1$i7$i$i$i
    (local.get $$this$addr$i5$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$9
    (local.get $$__u$addr$i6$i$i$i)
   )
@@ -40210,14 +40210,14 @@
    (local.get $$this1$i7$i$i$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$10
    (local.get $$__t2$addr$i$i$i)
   )
   (local.set $$__t$addr$i3$i$i$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$11
    (local.get $$__t$addr$i3$i$i$i)
   )
@@ -40227,14 +40227,14 @@
   (local.set $$__u$addr$i$i$i$i
    (local.get $$11)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2187:0
   (local.set $$12
    (local.get $$__u$addr$i$i$i$i)
   )
   (local.set $$__t$addr$i$i$i$i$i
    (local.get $$12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1288:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1288:0
   (local.set $$13
    (local.get $$__x$addr$i)
   )
@@ -40247,7 +40247,7 @@
    (local.get $$this1$i)
    (local.get $$14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1289:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1289:0
   (local.set $$15
    (local.get $$__x$addr$i)
   )
@@ -40272,7 +40272,7 @@
    (local.get $$__end_4$i)
    (local.get $$16)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
   (local.set $$17
    (local.get $$__x$addr$i)
   )
@@ -40282,7 +40282,7 @@
   (local.set $$this1$i28$i
    (local.get $$this$addr$i27$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i29$i
    (i32.add
     (local.get $$this1$i28$i)
@@ -40301,7 +40301,7 @@
   (local.set $$this1$i$i$i31$i
    (local.get $$this$addr$i$i$i25$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
   (local.set $$18
    (i32.load
     (local.get $$this1$i$i$i31$i)
@@ -40313,7 +40313,7 @@
   (local.set $$this1$i20$i
    (local.get $$this$addr$i19$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i21$i
    (i32.add
     (local.get $$this1$i20$i)
@@ -40332,12 +40332,12 @@
   (local.set $$this1$i$i$i23$i
    (local.get $$this$addr$i$i$i17$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1290:0
   (i32.store
    (local.get $$this1$i$i$i23$i)
    (local.get $$18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
   (local.set $$19
    (local.get $$__x$addr$i)
   )
@@ -40347,7 +40347,7 @@
   (local.set $$this1$i13$i
    (local.get $$this$addr$i12$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i14$i
    (i32.add
     (local.get $$this1$i13$i)
@@ -40366,7 +40366,7 @@
   (local.set $$this1$i$i$i16$i
    (local.get $$this$addr$i$i$i10$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1291:0
   (i32.store
    (local.get $$this1$i$i$i16$i)
    (i32.const 0)
@@ -40598,7 +40598,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i)
@@ -40617,7 +40617,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1617:0
   (local.set $$__a
    (local.get $$this1$i$i$i)
   )
@@ -40627,7 +40627,7 @@
   (local.set $$this1$i11
    (local.get $$this$addr$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i11)
@@ -40665,7 +40665,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$add
    (i32.add
     (local.get $$sub$ptr$div$i)
@@ -40682,7 +40682,7 @@
   (local.set $$this1$i15
    (local.get $$this$addr$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1008:0
   (local.set $$call$i
    (call $__ZNKSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE8max_sizeEv
     (local.get $$this1$i15)
@@ -40691,7 +40691,7 @@
   (local.set $$__ms$i
    (local.get $$call$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1009:0
   (local.set $$2
    (i32.load
     (local.get $$__new_size$addr$i)
@@ -40708,7 +40708,7 @@
   )
   (if
    (local.get $$cmp$i)
-   ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
+   ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1010:0
    (call $__ZNKSt3__220__vector_base_commonILb1EE20__throw_length_errorEv
     (local.get $$this1$i15)
    )
@@ -40731,7 +40731,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -40750,7 +40750,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -40782,11 +40782,11 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1011:0
   (local.set $$__cap$i
    (local.get $$sub$ptr$div$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1012:0
   (local.set $$6
    (local.get $$__cap$i)
   )
@@ -40811,7 +40811,7 @@
   (if
    (local.get $$cmp3$i)
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1013:0
     (local.set $$8
      (local.get $$__ms$i)
     )
@@ -40820,7 +40820,7 @@
     )
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$9
      (local.get $$__cap$i)
     )
@@ -40840,7 +40840,7 @@
     (local.set $$__b$addr$i$i
      (local.get $$__new_size$addr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2531:0
     (local.set $$10
      (local.get $$__a$addr$i$i)
     )
@@ -40859,7 +40859,7 @@
     (local.set $$__b$addr$i$i$i
      (local.get $$11)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$12
      (local.get $$__a$addr$i$i$i)
     )
@@ -40875,7 +40875,7 @@
     (local.set $$__y$addr$i$i$i$i
      (local.get $$13)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:716:0
     (local.set $$14
      (local.get $$__x$addr$i$i$i$i)
     )
@@ -40898,7 +40898,7 @@
       (local.get $$17)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2523:0
     (local.set $$18
      (local.get $$__b$addr$i$i$i)
     )
@@ -40912,7 +40912,7 @@
       (local.get $$19)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1014:0
     (local.set $$20
      (i32.load
       (local.get $$cond$lvalue$i$i$i2D)
@@ -40923,7 +40923,7 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1015:0
   (local.set $$21
    (local.get $$retval$i)
   )
@@ -40933,7 +40933,7 @@
   (local.set $$this1$i19
    (local.get $$this$addr$i18)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i20
    (i32.add
     (local.get $$this1$i19)
@@ -40971,7 +40971,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1618:0
   (local.set $$24
    (local.get $$__a)
   )
@@ -40981,7 +40981,7 @@
    (local.get $$sub$ptr$div$i25)
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$25
    (local.get $$__a)
   )
@@ -40999,18 +40999,18 @@
   (local.set $$__p$addr$i
    (local.get $$26)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$27
    (local.get $$__p$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1620:0
   (local.set $$28
    (local.get $$__x$addr)
   )
   (local.set $$__t$addr$i
    (local.get $$28)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$29
    (local.get $$__t$addr$i)
   )
@@ -41023,7 +41023,7 @@
   (local.set $$__args$addr$i
    (local.get $$29)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
   (local.set $$30
    (local.get $$__a$addr$i)
   )
@@ -41036,7 +41036,7 @@
   (local.set $$__t$addr$i$i
    (local.get $$32)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$33
    (local.get $$__t$addr$i$i)
   )
@@ -41055,7 +41055,7 @@
   (local.set $$__args$addr$i$i
    (local.get $$33)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
   (local.set $$34
    (local.get $$__a$addr$i$i27)
   )
@@ -41068,7 +41068,7 @@
   (local.set $$__t$addr$i$i$i
    (local.get $$36)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$37
    (local.get $$__t$addr$i$i$i)
   )
@@ -41081,7 +41081,7 @@
   (local.set $$__args$addr$i$i$i
    (local.get $$37)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (local.set $$38
    (local.get $$__p$addr$i$i$i)
   )
@@ -41091,16 +41091,16 @@
   (local.set $$__t$addr$i$i$i$i
    (local.get $$39)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$40
    (local.get $$__t$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
   (call $__ZN17SolutionCandidateC2EOS_
    (local.get $$38)
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1621:0
   (local.set $$__end_7
    (i32.add
     (local.get $$__v)
@@ -41122,12 +41122,12 @@
    (local.get $$__end_7)
    (local.get $$incdec$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1622:0
   (call $__ZNSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
    (local.get $$this1)
    (local.get $$__v)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1623:0
   (call $__ZNSt3__214__split_bufferI17SolutionCandidateRNS_9allocatorIS1_EEED2Ev
    (local.get $$__v)
   )
@@ -41257,7 +41257,7 @@
   (local.set $$this1
    (local.get $$this$addr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:309:0
   (local.set $$__end_cap_
    (i32.add
     (local.get $$this1)
@@ -41283,14 +41283,14 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$1
    (local.get $$__t1$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$1)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$2
    (local.get $$__t$addr$i$i)
   )
@@ -41303,7 +41303,7 @@
   (local.set $$this1$i7$i
    (local.get $$this$addr$i5$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$3
    (local.get $$__u$addr$i6$i)
   )
@@ -41314,7 +41314,7 @@
    (local.get $$this1$i7$i)
    (i32.const 0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2251:0
   (local.set $$4
    (i32.add
     (local.get $$this1$i)
@@ -41327,7 +41327,7 @@
   (local.set $$__t$addr$i3$i
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$6
    (local.get $$__t$addr$i3$i)
   )
@@ -41340,23 +41340,23 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (local.set $$7
    (local.get $$__u$addr$i$i)
   )
   (local.set $$__t$addr$i$i$i
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
   (local.set $$8
    (local.get $$__t$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2148:0
   (i32.store
    (local.get $$this1$i$i)
    (local.get $$8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (local.set $$9
    (local.get $$__cap$addr)
   )
@@ -41376,7 +41376,7 @@
      (local.set $$this1$i18
       (local.get $$this$addr$i17)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
      (local.set $$__end_cap_$i19
       (i32.add
        (local.get $$this1$i18)
@@ -41389,7 +41389,7 @@
      (local.set $$this1$i$i20
       (local.get $$this$addr$i$i16)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
      (local.set $$add$ptr$i$i
       (i32.add
        (local.get $$this1$i$i20)
@@ -41402,13 +41402,13 @@
      (local.set $$this1$i$i$i21
       (local.get $$this$addr$i$i$i15)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
      (local.set $$10
       (i32.load
        (local.get $$this1$i$i$i21)
       )
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
      (local.set $$11
       (local.get $$__cap$addr)
      )
@@ -41418,7 +41418,7 @@
      (local.set $$__n$addr$i
       (local.get $$11)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1547:0
      (local.set $$12
       (local.get $$__a$addr$i)
      )
@@ -41437,7 +41437,7 @@
      (local.set $$this1$i$i13
       (local.get $$this$addr$i$i12)
      )
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1811:0
      (local.set $$14
       (local.get $$__n$addr$i$i)
      )
@@ -41456,7 +41456,7 @@
        (local.set $$__msg$addr$i$i$i
         (i32.const 6508)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (local.set $$exception$i$i$i
         (call $___cxa_allocate_exception
          (i32.const 8)
@@ -41474,7 +41474,7 @@
        (local.set $$this1$i$i$i$i
         (local.get $$this$addr$i$i$i$i)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:136:0
        (local.set $$16
         (local.get $$__s$addr$i$i$i$i)
        )
@@ -41486,7 +41486,7 @@
         (local.get $$this1$i$i$i$i)
         (i32.const 6496)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/stdexcept:225:0
        (call $___cxa_throw
         (local.get $$exception$i$i$i)
         (i32.const 3096)
@@ -41494,7 +41494,7 @@
        )
       )
       (block
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1814:0
        (local.set $$17
         (local.get $$__n$addr$i$i)
        )
@@ -41510,7 +41510,7 @@
        (local.set $$__align$addr$i$i$i
         (i32.const 4)
        )
-       ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
+       ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:239:0
        (local.set $$18
         (local.get $$__size$addr$i$i$i)
        )
@@ -41531,12 +41531,12 @@
     )
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:311:0
   (i32.store
    (local.get $$this1)
    (local.get $$cond)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:312:0
   (local.set $$19
    (i32.load
     (local.get $$this1)
@@ -41574,7 +41574,7 @@
    (local.get $$__begin_)
    (local.get $$add$ptr)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (local.set $$21
    (i32.load
     (local.get $$this1)
@@ -41598,7 +41598,7 @@
   (local.set $$this1$i9
    (local.get $$this$addr$i8)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i9)
@@ -41617,7 +41617,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:313:0
   (i32.store
    (local.get $$this1$i$i$i)
    (local.get $$add$ptr5)
@@ -41625,7 +41625,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:314:0
   (return)
  )
  (func $__ZNSt3__26vectorI17SolutionCandidateNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE (; 96 ;) (param $$this i32) (param $$__v i32)
@@ -41980,7 +41980,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i$i)
@@ -41989,7 +41989,7 @@
   (local.set $$__p$addr$i$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$1
    (local.get $$__p$addr$i$i$i)
   )
@@ -41999,7 +41999,7 @@
   (local.set $$this1$i43$i
    (local.get $$this$addr$i42$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$2
    (i32.load
     (local.get $$this1$i43$i)
@@ -42008,7 +42008,7 @@
   (local.set $$__p$addr$i$i41$i
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$3
    (local.get $$__p$addr$i$i41$i)
   )
@@ -42030,7 +42030,7 @@
   (local.set $$this1$i$i$i31$i
    (local.get $$this$addr$i$i$i26$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i32$i
    (i32.add
     (local.get $$this1$i$i$i31$i)
@@ -42049,7 +42049,7 @@
   (local.set $$this1$i$i$i$i$i34$i
    (local.get $$this$addr$i$i$i$i$i24$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$4
    (i32.load
     (local.get $$this1$i$i$i$i$i34$i)
@@ -42081,7 +42081,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:873:0
   (local.set $$add$ptr$i
    (i32.add
     (local.get $$3)
@@ -42097,7 +42097,7 @@
   (local.set $$this1$i22$i
    (local.get $$this$addr$i21$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$6
    (i32.load
     (local.get $$this1$i22$i)
@@ -42106,7 +42106,7 @@
   (local.set $$__p$addr$i$i20$i
    (local.get $$6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$7
    (local.get $$__p$addr$i$i20$i)
   )
@@ -42116,7 +42116,7 @@
   (local.set $$this1$i18$i
    (local.get $$this$addr$i17$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i$i
    (i32.add
     (local.get $$this1$i18$i)
@@ -42154,7 +42154,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr6$i
    (i32.add
     (local.get $$7)
@@ -42170,7 +42170,7 @@
   (local.set $$this1$i15$i
    (local.get $$this$addr$i14$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$10
    (i32.load
     (local.get $$this1$i15$i)
@@ -42179,7 +42179,7 @@
   (local.set $$__p$addr$i$i13$i
    (local.get $$10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$11
    (local.get $$__p$addr$i$i13$i)
   )
@@ -42201,7 +42201,7 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i
    (i32.add
     (local.get $$this1$i$i$i$i)
@@ -42220,7 +42220,7 @@
   (local.set $$this1$i$i$i$i$i$i
    (local.get $$this$addr$i$i$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$12
    (i32.load
     (local.get $$this1$i$i$i$i$i$i)
@@ -42252,7 +42252,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:874:0
   (local.set $$add$ptr9$i
    (i32.add
     (local.get $$11)
@@ -42283,7 +42283,7 @@
   (local.set $$this1$i83
    (local.get $$this$addr$i82)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:349:0
   (local.set $$__end_cap_$i84
    (i32.add
     (local.get $$this1$i83)
@@ -42302,7 +42302,7 @@
   (local.set $$this1$i$i$i86
    (local.get $$this$addr$i$i$i80)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:938:0
   (local.set $$14
    (i32.load
     (local.get $$this1)
@@ -42342,7 +42342,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1678:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1678:0
     (local.set $$17
      (local.get $$__end1$addr$i)
     )
@@ -42361,7 +42361,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
     (local.set $$19
      (local.get $$__a$addr$i)
     )
@@ -42382,11 +42382,11 @@
     (local.set $$__p$addr$i$i
      (local.get $$add$ptr$i78)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$22
      (local.get $$__p$addr$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1680:0
     (local.set $$23
      (local.get $$__end1$addr$i)
     )
@@ -42402,14 +42402,14 @@
     (local.set $$__x$addr$i$i
      (local.get $$incdec$ptr$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/utility:290:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/utility:290:0
     (local.set $$24
      (local.get $$__x$addr$i$i)
     )
     (local.set $$__t$addr$i$i4$i
      (local.get $$24)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
     (local.set $$25
      (local.get $$__t$addr$i$i4$i)
     )
@@ -42422,7 +42422,7 @@
     (local.set $$__args$addr$i$i
      (local.get $$25)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1562:0
     (local.set $$26
      (local.get $$__a$addr$i$i)
     )
@@ -42435,7 +42435,7 @@
     (local.set $$__t$addr$i$i$i
      (local.get $$28)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$29
      (local.get $$__t$addr$i$i$i)
     )
@@ -42454,7 +42454,7 @@
     (local.set $$__args$addr$i$i$i
      (local.get $$29)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1718:0
     (local.set $$30
      (local.get $$__a$addr$i$i$i)
     )
@@ -42467,7 +42467,7 @@
     (local.set $$__t$addr$i$i$i$i
      (local.get $$32)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$33
      (local.get $$__t$addr$i$i$i$i)
     )
@@ -42480,7 +42480,7 @@
     (local.set $$__args$addr$i$i$i$i
      (local.get $$33)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (local.set $$34
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -42490,16 +42490,16 @@
     (local.set $$__t$addr$i$i$i$i$i
      (local.get $$35)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2313:0
     (local.set $$36
      (local.get $$__t$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1826:0
     (call $__ZN17SolutionCandidateC2EOS_
      (local.get $$34)
      (local.get $$36)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1681:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1681:0
     (local.set $$37
      (local.get $$__end2$addr$i)
     )
@@ -42521,7 +42521,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:939:0
   (local.set $$39
    (local.get $$__v$addr)
   )
@@ -42537,18 +42537,18 @@
   (local.set $$__y$addr$i74
    (local.get $$__begin_4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$40
    (local.get $$__x$addr$i73)
   )
   (local.set $$__t$addr$i$i72
    (local.get $$40)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$41
    (local.get $$__t$addr$i$i72)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$42
    (i32.load
     (local.get $$41)
@@ -42558,18 +42558,18 @@
    (local.get $$__t$i75)
    (local.get $$42)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$43
    (local.get $$__y$addr$i74)
   )
   (local.set $$__t$addr$i4$i70
    (local.get $$43)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$44
    (local.get $$__t$addr$i4$i70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$45
    (i32.load
     (local.get $$44)
@@ -42585,11 +42585,11 @@
   (local.set $$__t$addr$i3$i71
    (local.get $$__t$i75)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$47
    (local.get $$__t$addr$i3$i71)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$48
    (i32.load
     (local.get $$47)
@@ -42602,7 +42602,7 @@
    (local.get $$49)
    (local.get $$48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:940:0
   (local.set $$__end_5
    (i32.add
     (local.get $$this1)
@@ -42624,18 +42624,18 @@
   (local.set $$__y$addr$i68
    (local.get $$__end_6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$51
    (local.get $$__x$addr$i67)
   )
   (local.set $$__t$addr$i$i66
    (local.get $$51)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$52
    (local.get $$__t$addr$i$i66)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$53
    (i32.load
     (local.get $$52)
@@ -42645,18 +42645,18 @@
    (local.get $$__t$i69)
    (local.get $$53)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$54
    (local.get $$__y$addr$i68)
   )
   (local.set $$__t$addr$i4$i64
    (local.get $$54)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$55
    (local.get $$__t$addr$i4$i64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$56
    (i32.load
     (local.get $$55)
@@ -42672,11 +42672,11 @@
   (local.set $$__t$addr$i3$i65
    (local.get $$__t$i69)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$58
    (local.get $$__t$addr$i3$i65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$59
    (i32.load
     (local.get $$58)
@@ -42695,7 +42695,7 @@
   (local.set $$this1$i59
    (local.get $$this$addr$i58)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:355:0
   (local.set $$__end_cap_$i60
    (i32.add
     (local.get $$this1$i59)
@@ -42714,7 +42714,7 @@
   (local.set $$this1$i$i$i62
    (local.get $$this$addr$i$i$i56)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:941:0
   (local.set $$61
    (local.get $$__v$addr)
   )
@@ -42724,7 +42724,7 @@
   (local.set $$this1$i53
    (local.get $$this$addr$i52)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:58:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i53)
@@ -42749,18 +42749,18 @@
   (local.set $$__y$addr$i
    (local.get $$this1$i$i$i55)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$62
    (local.get $$__x$addr$i)
   )
   (local.set $$__t$addr$i$i
    (local.get $$62)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$63
    (local.get $$__t$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4518:0
   (local.set $$64
    (i32.load
     (local.get $$63)
@@ -42770,18 +42770,18 @@
    (local.get $$__t$i)
    (local.get $$64)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$65
    (local.get $$__y$addr$i)
   )
   (local.set $$__t$addr$i4$i
    (local.get $$65)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$66
    (local.get $$__t$addr$i4$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4519:0
   (local.set $$67
    (i32.load
     (local.get $$66)
@@ -42797,11 +42797,11 @@
   (local.set $$__t$addr$i3$i
    (local.get $$__t$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:2305:0
   (local.set $$69
    (local.get $$__t$addr$i3$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/type_traits:4520:0
   (local.set $$70
    (i32.load
     (local.get $$69)
@@ -42814,7 +42814,7 @@
    (local.get $$71)
    (local.get $$70)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:942:0
   (local.set $$72
    (local.get $$__v$addr)
   )
@@ -42842,7 +42842,7 @@
   (local.set $$this1$i49
    (local.get $$this$addr$i48)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:657:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i49)
@@ -42895,7 +42895,7 @@
   (local.set $$this1$i$i28
    (local.get $$this$addr$i$i25)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$77
    (i32.load
     (local.get $$this1$i$i28)
@@ -42904,7 +42904,7 @@
   (local.set $$__p$addr$i$i$i24
    (local.get $$77)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$78
    (local.get $$__p$addr$i$i$i24)
   )
@@ -42914,7 +42914,7 @@
   (local.set $$this1$i39$i
    (local.get $$this$addr$i38$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$79
    (i32.load
     (local.get $$this1$i39$i)
@@ -42923,7 +42923,7 @@
   (local.set $$__p$addr$i$i37$i
    (local.get $$79)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$80
    (local.get $$__p$addr$i$i37$i)
   )
@@ -42945,7 +42945,7 @@
   (local.set $$this1$i$i$i27$i
    (local.get $$this$addr$i$i$i22$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i28$i
    (i32.add
     (local.get $$this1$i$i$i27$i)
@@ -42964,7 +42964,7 @@
   (local.set $$this1$i$i$i$i$i30$i
    (local.get $$this$addr$i$i$i$i$i20$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$81
    (i32.load
     (local.get $$this1$i$i$i$i$i30$i)
@@ -42996,7 +42996,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:867:0
   (local.set $$add$ptr$i30
    (i32.add
     (local.get $$80)
@@ -43012,7 +43012,7 @@
   (local.set $$this1$i18$i31
    (local.get $$this$addr$i17$i13)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$83
    (i32.load
     (local.get $$this1$i18$i31)
@@ -43021,7 +43021,7 @@
   (local.set $$__p$addr$i$i16$i
    (local.get $$83)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$84
    (local.get $$__p$addr$i$i16$i)
   )
@@ -43043,7 +43043,7 @@
   (local.set $$this1$i$i$i$i35
    (local.get $$this$addr$i$i$i$i16)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:358:0
   (local.set $$__end_cap_$i$i$i$i36
    (i32.add
     (local.get $$this1$i$i$i$i35)
@@ -43062,7 +43062,7 @@
   (local.set $$this1$i$i$i$i$i$i38
    (local.get $$this$addr$i$i$i$i$i$i14)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:373:0
   (local.set $$85
    (i32.load
     (local.get $$this1$i$i$i$i$i$i38)
@@ -43094,7 +43094,7 @@
     (i32.const -1)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$add$ptr6$i45
    (i32.add
     (local.get $$84)
@@ -43110,7 +43110,7 @@
   (local.set $$this1$i12$i46
    (local.get $$this$addr$i11$i19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:699:0
   (local.set $$87
    (i32.load
     (local.get $$this1$i12$i46)
@@ -43119,11 +43119,11 @@
   (local.set $$__p$addr$i$i10$i
    (local.get $$87)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
   (local.set $$88
    (local.get $$__p$addr$i$i10$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:868:0
   (local.set $$89
    (local.get $$__current_size$addr$i)
   )
@@ -43157,7 +43157,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:945:0
   (return)
  )
  (func $__ZNSt3__214__split_bufferI17SolutionCandidateRNS_9allocatorIS1_EEED2Ev (; 97 ;) (param $$this i32)
@@ -43310,7 +43310,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:88:0
   (local.set $$__begin_$i
    (i32.add
     (local.get $$this1$i)
@@ -43331,7 +43331,7 @@
   (local.set $$this1$i$i
    (local.get $$this$addr$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:141:0
   (local.set $$1
    (local.get $$__new_last$addr$i$i)
   )
@@ -43352,7 +43352,7 @@
   )
   (loop $while-in
    (block $while-out
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:295:0
     (local.set $$2
      (local.get $$__new_last$addr$i$i$i)
     )
@@ -43385,7 +43385,7 @@
     (local.set $$this1$i$i$i$i
      (local.get $$this$addr$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
     (local.set $$__end_cap_$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i)
@@ -43398,7 +43398,7 @@
     (local.set $$this1$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
     (local.set $$add$ptr$i$i$i$i$i
      (i32.add
       (local.get $$this1$i$i$i$i$i)
@@ -43411,13 +43411,13 @@
     (local.set $$this1$i$i$i$i$i$i
      (local.get $$this$addr$i$i$i$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
     (local.set $$4
      (i32.load
       (local.get $$this1$i$i$i$i$i$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:296:0
     (local.set $$__end_2$i$i$i
      (i32.add
       (local.get $$this1$i$i$i)
@@ -43442,7 +43442,7 @@
     (local.set $$__p$addr$i$i$i$i
      (local.get $$incdec$ptr$i$i$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1108:0
     (local.set $$6
      (local.get $$__p$addr$i$i$i$i)
     )
@@ -43452,7 +43452,7 @@
     (local.set $$__p$addr$i5$i$i$i
      (local.get $$6)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1596:0
     (local.set $$7
      (local.get $$__a$addr$i$i$i$i)
     )
@@ -43471,7 +43471,7 @@
     (local.set $$__p$addr$i$i$i$i$i
      (local.get $$8)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1743:0
     (local.set $$9
      (local.get $$__a$addr$i$i$i$i$i)
     )
@@ -43484,7 +43484,7 @@
     (local.set $$__p$addr$i$i$i$i$i$i
      (local.get $$10)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1881:0
     (local.set $$11
      (local.get $$__p$addr$i$i$i$i$i$i)
     )
@@ -43494,7 +43494,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:342:0
   (local.set $$12
    (i32.load
     (local.get $$this1)
@@ -43514,7 +43514,7 @@
     (global.set $STACKTOP
      (local.get $sp)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
     (return)
    )
   )
@@ -43524,7 +43524,7 @@
   (local.set $$this1$i7
    (local.get $$this$addr$i6)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:56:0
   (local.set $$__end_cap_$i
    (i32.add
     (local.get $$this1$i7)
@@ -43537,7 +43537,7 @@
   (local.set $$this1$i$i8
    (local.get $$this$addr$i$i5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2290:0
   (local.set $$add$ptr$i$i
    (i32.add
     (local.get $$this1$i$i8)
@@ -43550,13 +43550,13 @@
   (local.set $$this1$i$i$i9
    (local.get $$this$addr$i$i$i4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:2163:0
   (local.set $$13
    (i32.load
     (local.get $$this1$i$i$i9)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:343:0
   (local.set $$14
    (i32.load
     (local.get $$this1)
@@ -43574,7 +43574,7 @@
   (local.set $$this1$i$i15
    (local.get $$this$addr$i$i12)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:59:0
   (local.set $$__end_cap_$i$i
    (i32.add
     (local.get $$this1$i$i15)
@@ -43593,7 +43593,7 @@
   (local.set $$this1$i$i$i$i17
    (local.get $$this$addr$i$i$i$i10)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:91:0
   (local.set $$15
    (i32.load
     (local.get $$this1$i$i$i$i17)
@@ -43634,7 +43634,7 @@
   (local.set $$__n$addr$i
    (local.get $$sub$ptr$div$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1555:0
   (local.set $$17
    (local.get $$__a$addr$i)
   )
@@ -43653,7 +43653,7 @@
   (local.set $$__n$addr$i$i
    (local.get $$19)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/memory:1817:0
   (local.set $$20
    (local.get $$__p$addr$i$i)
   )
@@ -43675,7 +43675,7 @@
   (local.set $$__align$addr$i$i$i
    (i32.const 4)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:326:0
   (local.set $$22
    (local.get $$__ptr$addr$i$i$i)
   )
@@ -43694,7 +43694,7 @@
   (local.set $$__align$addr$i$i$i$i
    (local.get $$24)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/new:248:0
   (local.set $$25
    (local.get $$__ptr$addr$i$i$i$i)
   )
@@ -43708,7 +43708,7 @@
   (global.set $STACKTOP
    (local.get $sp)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/__split_buffer:344:0
   (return)
  )
  (func $__Z36createSolutionCandidateFromBuildingsRKNSt3__26vectorI8BuildingNS_9allocatorIS1_EEEE16ObjectiveTogglesf (; 98 ;) (param $$agg$result i32) (param $$buildings i32) (param $$objectiveToggles i32) (param $$maxAverageHeight f32)
@@ -44115,7 +44115,7 @@
   (local.set $$this1$i
    (local.get $$this$addr$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1329:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1329:0
   (i32.store
    (local.get $$this1$i)
    (i32.const 0)
@@ -44126,7 +44126,7 @@
   (local.set $$this1$i8
    (local.get $$this$addr$i7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (local.set $$0
    (i32.load
     (local.get $$this1$i8)
@@ -44138,7 +44138,7 @@
   (local.set $$__p$addr$i$i
    (local.get $$0)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$1
    (local.get $$__p$addr$i$i)
   )
@@ -44151,7 +44151,7 @@
   (local.set $$this1$i$i$i
    (local.get $$this$addr$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$2
    (local.get $$__x$addr$i$i$i)
   )
@@ -44159,13 +44159,13 @@
    (local.get $$this1$i$i$i)
    (local.get $$2)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$3
    (i32.load
     (local.get $$retval$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1511:0
   (i32.store
    (local.get $$retval$i)
    (local.get $$3)
@@ -44186,7 +44186,7 @@
   (local.set $$this1$i27
    (local.get $$this$addr$i26)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (local.set $$__end_$i
    (i32.add
     (local.get $$this1$i27)
@@ -44204,7 +44204,7 @@
   (local.set $$__p$addr$i$i24
    (local.get $$5)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$6
    (local.get $$__p$addr$i$i24)
   )
@@ -44217,7 +44217,7 @@
   (local.set $$this1$i$i$i29
    (local.get $$this$addr$i$i$i20)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1440:0
   (local.set $$7
    (local.get $$__x$addr$i$i$i21)
   )
@@ -44225,13 +44225,13 @@
    (local.get $$this1$i$i$i29)
    (local.get $$7)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1490:0
   (local.set $$8
    (i32.load
     (local.get $$retval$i$i22)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/vector:1527:0
   (i32.store
    (local.get $$retval$i25)
    (local.get $$8)
@@ -44267,7 +44267,7 @@
   (local.set $$__y$addr$i$i
    (local.get $$agg$tmp113)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
   (local.set $$10
    (local.get $$__x$addr$i$i)
   )
@@ -44280,7 +44280,7 @@
   (local.set $$__y$addr$i$i$i
    (local.get $$11)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
   (local.set $$12
    (local.get $$__x$addr$i$i$i15)
   )
@@ -44290,13 +44290,13 @@
   (local.set $$this1$i$i$i$i
    (local.get $$this$addr$i$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
   (local.set $$13
    (i32.load
     (local.get $$this1$i$i$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
   (local.set $$14
    (local.get $$__y$addr$i$i$i)
   )
@@ -44306,20 +44306,20 @@
   (local.set $$this1$i3$i$i$i
    (local.get $$this$addr$i2$i$i$i)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
   (local.set $$15
    (i32.load
     (local.get $$this1$i3$i$i$i)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
   (local.set $$cmp$i$i$i
    (i32.eq
     (local.get $$13)
     (local.get $$15)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
   (local.set $$lnot$i$i
    (i32.xor
     (local.get $$cmp$i$i$i)
@@ -44331,7 +44331,7 @@
     (local.get $$lnot$i$i)
    )
    (block
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2503:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2503:0
     (i32.store
      (local.get $$retval$i16)
      (i32.load
@@ -44360,7 +44360,7 @@
     (local.set $$this1$i10
      (local.get $$this$addr$i9)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$27
      (i32.load
       (local.get $$this1$i10)
@@ -44377,7 +44377,7 @@
     (return)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2498:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2498:0
   (i32.store
    (local.get $$__i$i17)
    (i32.load
@@ -44392,7 +44392,7 @@
     (local.set $$this1$i$i18
      (local.get $$this$addr$i$i14)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1390:0
     (local.set $$16
      (i32.load
       (local.get $$this1$i$i18)
@@ -44414,7 +44414,7 @@
     (local.set $$__y$addr$i19$i
      (local.get $$agg$tmp113)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$17
      (local.get $$__x$addr$i18$i)
     )
@@ -44427,7 +44427,7 @@
     (local.set $$__y$addr$i$i17$i
      (local.get $$18)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$19
      (local.get $$__x$addr$i$i16$i)
     )
@@ -44437,13 +44437,13 @@
     (local.set $$this1$i$i$i20$i
      (local.get $$this$addr$i$i$i15$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$20
      (i32.load
       (local.get $$this1$i$i$i20$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$21
      (local.get $$__y$addr$i$i17$i)
     )
@@ -44453,20 +44453,20 @@
     (local.set $$this1$i3$i$i22$i
      (local.get $$this$addr$i2$i$i14$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1431:0
     (local.set $$22
      (i32.load
       (local.get $$this1$i3$i$i22$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1527:0
     (local.set $$cmp$i$i24$i
      (i32.eq
       (local.get $$20)
       (local.get $$22)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1579:0
     (local.set $$lnot$i25$i
      (i32.xor
       (local.get $$cmp$i$i24$i)
@@ -44479,7 +44479,7 @@
      )
      (br $while-out)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2500:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2500:0
     (local.set $$23
      (local.get $$__comp$addr$i)
     )
@@ -44489,7 +44489,7 @@
     (local.set $$this1$i12$i
      (local.get $$this$addr$i11$i)
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
     (local.set $$24
      (i32.load
       (local.get $$this1$i12$i)
@@ -44506,7 +44506,7 @@
       (local.get $$this1$i9$i)
      )
     )
-    ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2500:0
+    ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2500:0
     (local.set $$call5$i
      (call_indirect (type $FUNCSIG$iii)
       (local.get $$24)
@@ -44522,7 +44522,7 @@
     )
     (if
      (local.get $$call5$i)
-     ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2501:0
+     ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2501:0
      (i32.store
       (local.get $$agg$tmp12)
       (i32.load
@@ -44533,7 +44533,7 @@
     (br $while-in)
    )
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2503:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/algorithm:2503:0
   (i32.store
    (local.get $$retval$i16)
    (i32.load
@@ -44562,7 +44562,7 @@
   (local.set $$this1$i10
    (local.get $$this$addr$i9)
   )
-  ;;@ /Users/guroseternes/spacemaker/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
+  ;;@ /Users/havard/dev/emsdk/fastcomp/emscripten/system/include/libcxx/iterator:1374:0
   (local.set $$27
    (i32.load
     (local.get $$this1$i10)

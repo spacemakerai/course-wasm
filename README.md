@@ -98,21 +98,43 @@ the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
 by both loading and wrapping the wasm module with a JavaScript wrapper.
 
 Lets first look at a much simpler example so that we can load and wrap the wasm
-module our selves. The module is already compiled to [`.wasm`](src/simple/simple.wasm).
+module our selves.
 
-The [`simple.wat`](src/simple/simple.wat) file is the text representation of the `.wasm` module.
+To compile the module run the following command in your commandline.
+
+```bash
+emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
+```
+
+This will create the module [`.wasm`](src/simple/simple.wasm).
+
+Now open the [`simple.js`](src/simple/simple.js) and complete the task number 5.
+
+Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
+representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
+
+Note 2:
+
+```bash
+emcc                                \ # emscripten binary
+  -Os                               \ # optimize for size, (will remove all the unused code, like emscripten runtime)
+  -s EXPORTED_FUNCTIONS='["_move"]' \ # list of functions we want to keep
+  src/simple/simple.c               \ # source file
+  -o src/simple/simple.wasm           # output file
+```
 
 ### 6. Compiling the wasm module
 
-This assumes that you have install `emcc` on your system.
+Now lets build build the base implementation of the solver and call it.
 
-To compile our C++ code into WebAssembly files we will use the `emscripten`
-toolchain. This is a C/C++ compiler which will create `.wasm`
-(the WebAssembly binary), `.wast`
+Run the [`build.sh`](build.sh) script. This will create `solver.wasm` (the WebAssembly binary),
+`solver.js` (Javascript wrapper) in the [`out`](out) folder.
+
+From the `main.js`
 
 ### 7. Load the `emcc` wasm module
 
-### 8. Debugging the module in
+### 8. Debugging the module in the browser
 
 Hack need to run `ln -s ../src src` from the [`out`](out) directory.
 
