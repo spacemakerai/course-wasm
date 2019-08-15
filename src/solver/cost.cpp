@@ -1,22 +1,35 @@
 
 #include <numeric>
+#include <algorithm>
 #include "cost.h"
 
 float getTotalVolume(const Buildings& buildings);
 
 
-float getCost(const Buildings& buildings, ObjectiveToggles objectiveToggles)
+float getDistanceToBusStop(const Buildings &vector, Point busStopCoordinate, float volume);
+
+float getCost(const Buildings& buildings, ObjectiveToggles objectiveToggles, Point busStopCoordinate)
 {
     float cost = 0;
+    float volume = getTotalVolume(buildings);
     if (objectiveToggles.volume) {
-        float volume = getTotalVolume(buildings);
         cost += volume;
     }
-    if (objectiveToggles.sun){
-        float sunCost = 0;
-        cost += sunCost;
+    if (objectiveToggles.distanceToBusStop){
+        float distanceToBusStop = getDistanceToBusStop(buildings, busStopCoordinate, volume);
+        cost += distanceToBusStop;
     }
     return cost;
+}
+
+float getDistanceToBusStop(const Buildings &buildings, Point busStopCoordinate, float totalVolume) {
+    float totalDistanceToBusStopCost = 0;
+    for (auto building : buildings) {
+        Point buildingCentroid = getCentroid(building);
+        float busStopContributionForBuilding = getVolume(building) * lengthOfLine(buildingCentroid, busStopCoordinate);
+        totalDistanceToBusStopCost += busStopContributionForBuilding;
+    }
+    return -(totalDistanceToBusStopCost/totalVolume*10);
 }
 
 

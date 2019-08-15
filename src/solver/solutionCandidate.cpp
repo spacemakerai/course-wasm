@@ -6,7 +6,8 @@
 
 SolutionCandidate createSolutionCandidateFromBuildings(const Buildings& buildings, ObjectiveToggles objectiveToggles, float maxAverageHeight)
 {
-    float cost = getCost(buildings, objectiveToggles);
+    Point busStopCoordinate{11, 25};
+    float cost = getCost(buildings, objectiveToggles, busStopCoordinate);
     bool isFeasible = solutionIsFeasible(buildings, maxAverageHeight);
     return {cost, isFeasible, buildings};
 }

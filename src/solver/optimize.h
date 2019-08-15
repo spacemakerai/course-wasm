@@ -6,8 +6,7 @@
 #include <vector>
 
 struct ObjectiveToggles {
-    bool sun;
-
+    bool distanceToBusStop;
     bool volume;
 };
 

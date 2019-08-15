@@ -9,6 +9,7 @@ struct Point {
     float x;
     float y;
 };
+
 typedef std::vector<Point> Polygon;
 struct Building {
     float height;
@@ -17,6 +18,8 @@ struct Building {
 typedef std::vector<Building> Buildings;
 float getArea(const Building& rectangularBuilding);
 float getVolume(const Building& building);
+Point getCentroid(const Building& rectangularBuilding);
+float lengthOfLine(Point point1, Point point2);
 
 
 #endif //COURSE_WASM_GEOMETRY_H
