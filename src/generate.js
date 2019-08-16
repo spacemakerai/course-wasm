@@ -15,18 +15,34 @@ const building2 = {
 
 const buildings = [building0, building1, building2];
 
+
 export function generate() {
-  return new Float32Array(
-    buildings.map(building => [
-        building.ground_polygon[0][0],
-        building.ground_polygon[0][1],
-        building.ground_polygon[1][0],
-        building.ground_polygon[1][1],
-        building.ground_polygon[2][0],
-        building.ground_polygon[2][1],
-        building.ground_polygon[3][0],
-        building.ground_polygon[3][1],
-        building.height
-    ])
-  );
+  return {
+      buildings: new Float32Array(buildings.map(building => [
+          building.ground_polygon[0][0],
+          building.ground_polygon[0][1],
+          building.ground_polygon[1][0],
+          building.ground_polygon[1][1],
+          building.ground_polygon[2][0],
+          building.ground_polygon[2][1],
+          building.ground_polygon[3][0],
+          building.ground_polygon[3][1],
+          building.height
+      ])),
+
+    setBuildings(buildings) {
+      this.buildings = buildings;
+
+      (this.listeners || []).forEach(listener => listener(this.buildings));
+    },
+
+    getBuildings() {
+      return this.buildings;
+    },
+
+    onChange(listener) {
+      this.listeners = this.listeners || [];
+      this.listeners.push(listener);
+    }
+  };
 }

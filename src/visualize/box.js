@@ -14,7 +14,7 @@ const createBuilding = (coordinates, height) => {
 
   const geometry = new THREE.BoxGeometry(1, 1, 1);
   const material = new THREE.MeshLambertMaterial({
-    color: 0xff0000
+    color: 0xfafafa
   });
 
   const building = new THREE.Mesh(geometry, material);

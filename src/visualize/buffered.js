@@ -13,10 +13,12 @@ export function create(buildings) {
   geometry.computeFaceNormals();
   geometry.computeVertexNormals();
   const material = new THREE.MeshLambertMaterial({
-    color: 0xff0000
+    color: 0xfafafa
   });
   const facades = new THREE.Mesh(geometry, material);
-  facades.receiveShadow = facades.castShadow = true;
+
+  // 4.
+  // facades.receiveShadow = facades.castShadow = true;
 
   return facades;
 }
