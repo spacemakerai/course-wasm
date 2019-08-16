@@ -18,8 +18,8 @@ void addSolutionCandidatesToList(SolutionCandidates& listToBeAddedTo, const Solu
 Buildings optimizeBuildings(const Buildings& initialBuildings, Objective objective)
 {
     SolutionCandidates solutions;
-    SolutionCandidate initialSolutionCandidate{createSolutionCandidateFromBuildings(initialBuildings, objective, MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)};
-    solutions.push_back(initialSolutionCandidate);
+    SolutionCandidate initialSolution{createSolutionFromBuildings(initialBuildings, objective, MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)};
+    solutions.push_back(initialSolution);
 
     int numberOfBuildings = int (initialBuildings.size());
 
@@ -78,12 +78,14 @@ SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange
     if (currentHeight <= MAX_HEIGHT + HEIGHT_INCREMENT)
     {
         Buildings buildingsWithIncreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, HEIGHT_INCREMENT);
-        potentialSolutionCandidates.push_back({createSolutionCandidateFromBuildings(buildingsWithIncreasedHeight, objective, MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)});
+        potentialSolutionCandidates.push_back({createSolutionFromBuildings(buildingsWithIncreasedHeight, objective,
+                                                                           MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)});
     }
     if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT)
     {
         Buildings buildingsWithDecreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, -HEIGHT_INCREMENT);
-        potentialSolutionCandidates.push_back({createSolutionCandidateFromBuildings(buildingsWithDecreasedHeight, objective, MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)});
+        potentialSolutionCandidates.push_back({createSolutionFromBuildings(buildingsWithDecreasedHeight, objective,
+                                                                           MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)});
     }
     return potentialSolutionCandidates;
 }
