@@ -26,14 +26,12 @@ Buildings optimizeBuildings(const Buildings& initialBuildings, Objective objecti
     for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1)
     {
         SolutionCandidates solutionsWithOneBuildingHeightChanged = increaseAndDecreaseHeightOfBuilding(buildingIndex, initialBuildings, objective);
-        addSolutionCandidatesToList(solutions, solutionsWithOneBuildingHeightChanged);
 
         for (const SolutionCandidate& solutionCandidate: solutionsWithOneBuildingHeightChanged)
         {
             for (int otherBuildingIndex = buildingIndex + 1; otherBuildingIndex < numberOfBuildings; otherBuildingIndex += 1)
             {
                 SolutionCandidates solutionsWithTwoBuildingHeightsChanged = increaseAndDecreaseHeightOfBuilding(otherBuildingIndex, solutionCandidate.buildings, objective);
-                addSolutionCandidatesToList(solutions, solutionsWithTwoBuildingHeightsChanged);
             }
         }
     }

@@ -164,3 +164,16 @@ lets us debug the WebAssembly with source maps directly in our browser.
 Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
 
 You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
+
+
+### 8. Add new solution candidates to list
+In the file "optimize.cpp", the solver first looks for possible new solutions by changing one building height. It then
+looks for new solutions where the change of the first building is combined with a height change in a second building.
+The list `solutionCandidates is supposed to collect all of these potential new solutions. Eventually, the best feasible
+solution from the solutionCandidate list is returned. However, none of the new solutions are added to the
+solutionCandidate list right now. Hint: A function called addSolutionCandidatesToList is already implemented.
+
+
+### 9. Make volume the objective function
+When the objective is "VOLUME", the solver should return the solution with the most volume. Correct the return
+statement in "cost.cpp" so that the total volume is returned. Hint: Check out the getTotalVolume function.
