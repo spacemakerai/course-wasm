@@ -4,9 +4,9 @@
 #include "feasibilityChecker.h"
 
 
-SolutionCandidate createSolutionCandidateFromBuildings(const Buildings& buildings, ObjectiveToggles objectiveToggles, float maxAverageHeight)
+SolutionCandidate createSolutionCandidateFromBuildings(const Buildings& buildings, Objective objective, float maxAverageHeight, Point busStopCoordinate)
 {
-    float cost = getCost(buildings, objectiveToggles);
+    float cost = getCost(buildings, objective, busStopCoordinate);
     bool isFeasible = solutionIsFeasible(buildings, maxAverageHeight);
     return {cost, isFeasible, buildings};
 }

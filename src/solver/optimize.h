@@ -5,12 +5,8 @@
 #include "geometry.h"
 #include <vector>
 
-struct ObjectiveToggles {
-    bool sun;
+enum Objective {DISTANCE_TO_BUS_STOP, VOLUME};
 
-    bool volume;
-};
-
-Buildings optimizeBuildings(const Buildings& initialBuildings, ObjectiveToggles objectiveToggles);
+Buildings optimizeBuildings(const Buildings& initialBuildings, Objective objective);
 
 #endif //OPTIMIZE_OPTIMIZE_H

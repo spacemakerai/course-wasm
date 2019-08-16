@@ -1,4 +1,4 @@
-import * as OptimizerSolver from "./solver/solver.js";
+import * as Solver from "./solver/solver.js";
 // 5. Import the simple module at ./simple/simple.js
 import * as Simple from "./simple/simple.js";
 import { generate } from "./generate.js";
@@ -8,7 +8,7 @@ const site = generate();
 
 Visualize.init(site);
 
-OptimizerSolver.init(site).then(solver => {
+Solver.init(site).then(solver => {
   const id = setInterval(() => {
     if (solver.iterate()) {
       clearInterval(id);

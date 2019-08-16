@@ -5,8 +5,7 @@
 
 int PARAMETERS_PER_BUILDING = 9;
 int NUMBER_OF_COORDINATES_PER_BUILDING = 4;
-bool SUN_OBJECTIVE = false;
-bool VOLUME_OBJECTIVE = true;
+Objective mainObjective = Objective::VOLUME;
 
 Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings);
 void convertBuildingsToParameters(Buildings buildings, float *positions);
@@ -15,7 +14,7 @@ extern "C" void move(float *positions, int n)
 {
     int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
     Buildings inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
-    Buildings optimizedBuildings = optimizeBuildings(inputBuildings, {SUN_OBJECTIVE, VOLUME_OBJECTIVE});
+    Buildings optimizedBuildings = optimizeBuildings(inputBuildings, mainObjective);
     convertBuildingsToParameters(optimizedBuildings, positions);
 }
 
@@ -44,7 +43,7 @@ void convertBuildingsToParameters(Buildings buildings, float *positions)
         Building building = buildings[i];
         for (int j=0; j<NUMBER_OF_COORDINATES_PER_BUILDING; j++)
         {
-            Point point = building.ground_polygon[j];
+            Point point = building.groundPolygon[j];
             positions[i*PARAMETERS_PER_BUILDING + j*2] = point.x;
             positions[i*PARAMETERS_PER_BUILDING + j*2 + 1] = point.y;
             positions[i*PARAMETERS_PER_BUILDING + 8] = building.height;
