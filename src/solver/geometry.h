@@ -11,12 +11,12 @@ struct Point {
 typedef std::vector<Point> Polygon;
 struct Building {
     float height;
-    Polygon ground_polygon;
+    Polygon groundPolygon;
 };
 typedef std::vector<Building> Buildings;
 float getArea(const Building& rectangularBuilding);
 float getVolume(const Building& building);
-Point getCentroid(const Building& rectangularBuilding);
+Point getCentroid(const Polygon& polygon);
 float lengthOfLine(Point point1, Point point2);
 
 

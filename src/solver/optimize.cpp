@@ -10,7 +10,7 @@ float HEIGHT_INCREMENT = 1.0;
 float MAX_AVERAGE_HEIGHT = 18;
 Point BUS_STOP_COORDINATE{100, 100};
 
-SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, Objective objectiveToggles);
+SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, Objective objective);
 SolutionCandidates getFeasibleSolutionCandidates(const SolutionCandidates& solutionCandidates);
 void addSolutionCandidatesToList(SolutionCandidates& listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd);
 

@@ -12,10 +12,10 @@ float getCost(const Buildings& buildings, Objective objective, Point busStopCoor
 {
     float cost = 0;
     float volume = getTotalVolume(buildings);
-    if (objective == Objective::VOLUME_OBJECTIVE) {
+    if (objective == Objective::VOLUME) {
         cost = volume;
     }
-    else if (objective == Objective::DISTANCE_TO_BUS_STOP_OBJECTIVE){
+    else if (objective == Objective::DISTANCE_TO_BUS_STOP){
         cost = getDistanceToBusStop(buildings, busStopCoordinate, volume);
     }
     return cost;
@@ -24,7 +24,7 @@ float getCost(const Buildings& buildings, Objective objective, Point busStopCoor
 float getDistanceToBusStop(const Buildings &buildings, Point busStopCoordinate, float totalVolume) {
     float totalDistanceToBusStopCost = 0;
     for (auto building : buildings) {
-        Point buildingCentroid = getCentroid(building);
+        Point buildingCentroid = getCentroid(building.groundPolygon);
         float busStopContributionForBuilding = getVolume(building) * lengthOfLine(buildingCentroid, busStopCoordinate);
         totalDistanceToBusStopCost += busStopContributionForBuilding;
     }

@@ -5,7 +5,7 @@
 #include "geometry.h"
 #include <vector>
 
-enum Objective {DISTANCE_TO_BUS_STOP_OBJECTIVE, VOLUME_OBJECTIVE};
+enum Objective {DISTANCE_TO_BUS_STOP, VOLUME};
 
 Buildings optimizeBuildings(const Buildings& initialBuildings, Objective objective);
 
