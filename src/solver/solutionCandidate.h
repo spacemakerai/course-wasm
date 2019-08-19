@@ -7,7 +7,7 @@
 
 
 struct SolutionCandidate {
-    float cost;
+    float objectiveValue;
     bool isFeasible;
     Buildings buildings;
 };

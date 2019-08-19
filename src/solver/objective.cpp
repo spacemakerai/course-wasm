@@ -1,36 +1,37 @@
 
 #include <numeric>
 #include <algorithm>
-#include "cost.h"
+#include "objective.h"
 
 float getTotalVolume(const Buildings& buildings);
 
 
-float getDistanceToBusStop(const Buildings &buildings, Point busStopCoordinate);
+float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate);
 
-float getCost(const Buildings& buildings, Objective objective, Point busStopCoordinate)
+float getObjectiveValue(const Buildings& buildings, Objective objective, Point busStopCoordinate)
 {
-    float cost = 0;
+    float objectiveValue = 0;
+    float volume = getTotalVolume(buildings);
     if (objective == Objective::VOLUME) {
-        cost = 0;
+        objectiveValue = volume;
     }
     else if (objective == Objective::DISTANCE_TO_BUS_STOP){
-        cost = getDistanceToBusStop(buildings, busStopCoordinate);
+        objectiveValue = getDistanceToBusStopObjectiveValue(buildings, busStopCoordinate);
     }
-    return cost;
+    return objectiveValue;
 }
 
-float getDistanceToBusStop(const Buildings &buildings, Point busStopCoordinate) {
+float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate) {
     float totalVolume = 0;
-    float totalDistanceToBusStopCost = 0;
+    float totalDistanceToBusStopObjectiveValue = 0;
     for (const Building& building : buildings) {
         Point buildingCentroid = getCentroid(building.groundPolygon);
         float buildingVolume = getVolume(building);
         totalVolume += buildingVolume;
         float busStopContributionForBuilding = buildingVolume * lengthOfLine(buildingCentroid, busStopCoordinate);
-        totalDistanceToBusStopCost += busStopContributionForBuilding;
+        totalDistanceToBusStopObjectiveValue += busStopContributionForBuilding;
     }
-    return -(totalDistanceToBusStopCost/totalVolume);
+    return -(totalDistanceToBusStopObjectiveValue / totalVolume);
 }
 
 
