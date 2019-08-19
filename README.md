@@ -175,9 +175,9 @@ As you can see in your browser, the buildings grow until they reach the maximum 
 Right now the buildings are optimized for maximum volume, which is not so exciting. A common requirement for building projects is that the residents have a short distance to public transport. We will try to simulate this by adding a bus stop to our site and then get our solver to move the buildings mass distribution close to this point.
 The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`. 
 
-In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through a cost function, the cost function `getCost` is defined in `cost.cpp`. Here you can see that it computes the cost based on which objective is set. Currently the `getDistanceToBusStopCost` is empty. Try implementing it.
+In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objectiveValue based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
 Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop. 
-Hint 3: Shorter distance should give higher cost
+Hint 3: Shorter distance should give higher objectiveValue
  

@@ -25,8 +25,8 @@ add_executable(height_optimize
         src/solver/main.cpp
         src/solver/geometry.h
         src/solver/geometry.cpp
-        src/solver/cost.h
-        src/solver/cost.cpp
+        src/solver/objective.h
+        src/solver/objective.cpp
         src/solver/optimize.h
         src/solver/optimize.cpp
         src/solver/solutionCandidate.h
