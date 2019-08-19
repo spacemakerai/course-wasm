@@ -10,10 +10,10 @@ float lengthOfLine(Point point1, Point point2)
 }
 
 
-Point getCentroid(const Polygon polygon) {
+Point getCentroid(const Polygon& polygon)
+{
     Point centroid = {(polygon[1].x + polygon[3].x) / 2, (polygon[1].y + polygon[3].y) / 2};
     return centroid;
-
 }
 
 float getArea(const Building& rectangularBuilding)
