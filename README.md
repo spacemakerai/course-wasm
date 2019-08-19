@@ -169,7 +169,7 @@ You should now be able to open your `.wasm` file using the file tree or ctrl-P o
 
 ## Solver track
 ### 1. Adding constraints
-As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now this returns `true`. We have started on the function signature for a helper method for you, `getAverageHeight`.    
+As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now this returns `true` without checking anything. We have started on the function signature for a helper method for you, `getAverageHeight`.    
 
 ### 2. New objective
 Right now the buildings are optimized for maximum volume, which is not so exciting. A common requirement for building projects is that the residents have a short distance to public transport. We will try to simulate this by adding a bus stop to our site and trying to move the buildings mass distribution close to this point.
