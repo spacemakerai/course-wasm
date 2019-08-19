@@ -6,7 +6,7 @@
 float getTotalVolume(const Buildings& buildings);
 
 
-float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate, float totalVolume);
+float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate);
 
 float getObjectiveValue(const Buildings& buildings, Objective objective, Point busStopCoordinate)
 {
@@ -16,16 +16,19 @@ float getObjectiveValue(const Buildings& buildings, Objective objective, Point b
         objectiveValue = volume;
     }
     else if (objective == Objective::DISTANCE_TO_BUS_STOP){
-        objectiveValue = getDistanceToBusStopObjectiveValue(buildings, busStopCoordinate, volume);
+        objectiveValue = getDistanceToBusStopObjectiveValue(buildings, busStopCoordinate);
     }
     return objectiveValue;
 }
 
-float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate, float totalVolume) {
+float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate) {
+    float totalVolume = 0;
     float totalDistanceToBusStopObjectiveValue = 0;
-    for (auto building : buildings) {
+    for (const Building& building : buildings) {
         Point buildingCentroid = getCentroid(building.groundPolygon);
-        float busStopContributionForBuilding = getVolume(building) * lengthOfLine(buildingCentroid, busStopCoordinate);
+        float buildingVolume = getVolume(building);
+        totalVolume += buildingVolume;
+        float busStopContributionForBuilding = buildingVolume * lengthOfLine(buildingCentroid, busStopCoordinate);
         totalDistanceToBusStopObjectiveValue += busStopContributionForBuilding;
     }
     return -(totalDistanceToBusStopObjectiveValue / totalVolume);
