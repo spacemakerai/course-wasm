@@ -4,13 +4,11 @@
 #include "cost.h"
 #include "feasibilityChecker.h"
 
-float MAX_HEIGHT = 20.0;
-float MIN_HEIGHT = 5.0;
 float HEIGHT_INCREMENT = 1.0;
 float MAX_AVERAGE_HEIGHT = 18;
 Point BUS_STOP_COORDINATE{100, 100};
 
-SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, Objective objective);
+SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, const Buildings& buildings, Objective objective);
 SolutionCandidates getFeasibleSolutionCandidates(const SolutionCandidates& solutionCandidates);
 void addSolutionCandidatesToList(SolutionCandidates& listToBeAddedTo, const SolutionCandidates& solutionCandidatesToAdd);
 
@@ -69,21 +67,17 @@ SolutionCandidates getFeasibleSolutionCandidates(const SolutionCandidates& solut
 }
 
 
-SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, Buildings buildings, Objective objective)
+SolutionCandidates increaseAndDecreaseHeightOfBuilding(int buildingIndexToChange, const Buildings& buildings, Objective objective)
 {
-    SolutionCandidates potentialSolutionCandidates;
-    float currentHeight = buildings[buildingIndexToChange].height;
-    if (currentHeight <= MAX_HEIGHT + HEIGHT_INCREMENT)
-    {
-        Buildings buildingsWithIncreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, HEIGHT_INCREMENT);
-        potentialSolutionCandidates.push_back({createSolutionFromBuildings(buildingsWithIncreasedHeight, objective,
-                                                                           MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)});
-    }
-    if (currentHeight >= MIN_HEIGHT - HEIGHT_INCREMENT)
-    {
-        Buildings buildingsWithDecreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, -HEIGHT_INCREMENT);
-        potentialSolutionCandidates.push_back({createSolutionFromBuildings(buildingsWithDecreasedHeight, objective,
-                                                                           MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE)});
-    }
-    return potentialSolutionCandidates;
+    SolutionCandidates solutionCandidates;
+
+    Buildings buildingsWithIncreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, HEIGHT_INCREMENT);
+    SolutionCandidate solutionWithIncreasedBuildingHeight = createSolutionFromBuildings(buildingsWithIncreasedHeight, objective, MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE);
+    solutionCandidates.push_back(solutionWithIncreasedBuildingHeight);
+
+    Buildings buildingsWithDecreasedHeight = changeHeightOfBuilding(buildings, buildingIndexToChange, -HEIGHT_INCREMENT);
+    SolutionCandidate solutionWithDecreasedBuildingHeight = createSolutionFromBuildings(buildingsWithDecreasedHeight, objective, MAX_AVERAGE_HEIGHT, BUS_STOP_COORDINATE);
+    solutionCandidates.push_back(solutionWithDecreasedBuildingHeight);
+
+    return solutionCandidates;
 }
