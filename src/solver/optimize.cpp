@@ -1,7 +1,7 @@
 
 #include "optimize.h"
 #include "solutionCandidate.h"
-#include "cost.h"
+#include "objective.h"
 #include "feasibilityChecker.h"
 
 float HEIGHT_INCREMENT = 1.0;

@@ -1,19 +1,19 @@
 
 #include "solutionCandidate.h"
-#include "cost.h"
+#include "objective.h"
 #include "feasibilityChecker.h"
 
 
 SolutionCandidate createSolutionFromBuildings(const Buildings& buildings, Objective objective, float maxAverageHeight, Point busStopCoordinate, float minHeight, float maxHeight)
 {
-    float cost = getCost(buildings, objective, busStopCoordinate);
+    float objectiveValue = getObjectiveValue(buildings, objective, busStopCoordinate);
     bool isFeasible = solutionIsFeasible(buildings, maxAverageHeight, minHeight, maxHeight);
-    return {cost, isFeasible, buildings};
+    return {objectiveValue, isFeasible, buildings};
 }
 
 bool compareCost(const SolutionCandidate& solutionCandidate1 , const SolutionCandidate& solutionCandidate2)
 {
-    return (solutionCandidate2.cost > solutionCandidate1.cost);
+    return (solutionCandidate2.objectiveValue > solutionCandidate1.objectiveValue);
 }
 
 SolutionCandidate getBestSolutionCandidate(SolutionCandidates solutionCandidates)
