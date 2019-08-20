@@ -18,9 +18,27 @@ float getAverageHeight(const Buildings& buildings)
     return averageHeight;
 }
 
-bool solutionIsFeasible(const Buildings& buildings, float maxAverageHeight)
+bool checkIfBuildingWithinHeightRange(const Buildings& buildings, float minHeight, float maxHeight)
 {
+    for (const Building& building: buildings)
+    {
+        if (building.height < minHeight)
+        {
+            return false;
+        }
+        if (building.height > maxHeight)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool solutionIsFeasible(const Buildings& buildings, float maxAverageHeight, float minHeight, float maxHeight)
+{
+    bool buildingsAreWithinMinMaxHeightBounds = checkIfBuildingWithinHeightRange(buildings, minHeight, maxHeight);
     float averageHeight = getAverageHeight(buildings);
-    bool solutionIsFeasible = averageHeight <= maxAverageHeight;
+    bool averageBuildingHeightIsBelowCriticalLimit = averageHeight <= maxAverageHeight;
+    bool solutionIsFeasible = averageBuildingHeightIsBelowCriticalLimit && buildingsAreWithinMinMaxHeightBounds;
     return solutionIsFeasible;
 }
