@@ -174,10 +174,10 @@ In the file `optimize.cpp`, the solver first looks for possible new solutions by
 looks for new solutions where the change of the first building is combined with a height change in a second building.
 The list `solutionCandidates` is supposed to collect all of these potential new solutions.
 
-The solver must take some restrictions into account, i.e. it must comply with certain rules. As the solver is
-implemented, the height of each building must be within a min and max value. When none of the
-restrictions are broken, we say that the solution is "feasible". When the solver has generated potential solutions, the
-best feasible solution from the `solutionCandidates` list is returned.
+The solver must take some restrictions into account, i.e. it must comply with certain rules. When none of the
+restrictions are broken, we say that the solution is "feasible". As the solver is implemented, the height of each
+building must be within a min and max value. When the solver has generated potential solutions, the best feasible
+solution from the `solutionCandidates` list is returned.
 
 Right now, one of the new solutions are added to the `solutionCandidates` list. Add the missing code so that the new
 solutions are added to this list.
