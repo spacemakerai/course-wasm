@@ -194,7 +194,7 @@ When the objective is `VOLUME`, the solver should return the solution with the m
 objective function should calculate the volume of the buildings. Correct the return statement in `cost.cpp` so that the
 total volume is returned.
 
-Hint: Check out the `getTotalVolume function.
+Hint: Check out the `getTotalVolume` function.
 
 
 
