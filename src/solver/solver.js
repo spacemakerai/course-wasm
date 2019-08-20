@@ -8,7 +8,7 @@ const instance = Module();
 // Use it to create a wrapped version of the "move" function.
 let move = instance.cwrap("move", null, ["number", "number"]);
 
-export async function init(site ) {
+export async function init(site) {
   await new Promise(resolve => setTimeout(resolve, 1000));
   const buildings = site.getBuildings();
   var nDataBytes = buildings.length * buildings.BYTES_PER_ELEMENT;
