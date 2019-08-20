@@ -18,7 +18,7 @@ const buildings = [building0, building1, building2];
 
 export function generate() {
   return {
-      buildings: new Float32Array(buildings.map(building => [
+      buildings: new Float32Array(buildings.flatMap(building => [
           building.ground_polygon[0][0],
           building.ground_polygon[0][1],
           building.ground_polygon[1][0],
@@ -29,6 +29,7 @@ export function generate() {
           building.ground_polygon[3][1],
           building.height
       ])),
+      bus_stop_position: [10, -10, 0],
 
     setBuildings(buildings) {
       this.buildings = buildings;
