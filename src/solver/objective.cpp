@@ -11,9 +11,8 @@ float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busSt
 float getObjectiveValue(const Buildings& buildings, Objective objective, Point busStopCoordinate)
 {
     float objectiveValue = 0;
-    float volume = getTotalVolume(buildings);
     if (objective == Objective::VOLUME) {
-        objectiveValue = volume;
+        objectiveValue = 0;
     }
     else if (objective == Objective::DISTANCE_TO_BUS_STOP){
         objectiveValue = getDistanceToBusStopObjectiveValue(buildings, busStopCoordinate);
