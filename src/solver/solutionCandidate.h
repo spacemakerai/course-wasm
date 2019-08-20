@@ -13,7 +13,7 @@ struct SolutionCandidate {
 };
 typedef std::vector<SolutionCandidate> SolutionCandidates;
 
-SolutionCandidate createSolutionFromBuildings(const Buildings& buildings, Objective objective, float maxAverageHeight, Point busStopCoordinate);
+SolutionCandidate createSolutionFromBuildings(const Buildings& buildings, Objective objective, float maxAverageHeight, Point busStopCoordinate, float minHeight, float maxHeight);
 SolutionCandidate getBestSolutionCandidate(SolutionCandidates solutionCandidates);
 
 #endif //OPTIMIZE_SOLUTIONCANDIDATE_H

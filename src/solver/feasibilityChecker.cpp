@@ -1,8 +1,6 @@
 
 #include <numeric>
 #include "feasibilityChecker.h"
-float MAX_HEIGHT = 20.0;
-float MIN_HEIGHT = 5.0;
 
 float getAverageHeight(const Buildings& buildings)
 {
@@ -20,15 +18,15 @@ float getAverageHeight(const Buildings& buildings)
     return averageHeight;
 }
 
-bool checkIfBuildingsComplyWithMinMaxHeightBounds(const Buildings& buildings)
+bool checkIfBuildingsComplyWithMinMaxHeightBounds(const Buildings& buildings, float minHeight, float maxHeight)
 {
     for (const Building& building: buildings)
     {
-        if (building.height < MIN_HEIGHT)
+        if (building.height < minHeight)
         {
             return false;
         }
-        if (building.height > MAX_HEIGHT)
+        if (building.height > maxHeight)
         {
             return false;
         }
@@ -36,9 +34,9 @@ bool checkIfBuildingsComplyWithMinMaxHeightBounds(const Buildings& buildings)
     return true;
 }
 
-bool solutionIsFeasible(const Buildings& buildings, float maxAverageHeight)
+bool solutionIsFeasible(const Buildings& buildings, float maxAverageHeight, float minHeight, float maxHeight)
 {
-    bool buildingsAreWithinMinMaxHeightBounds = checkIfBuildingsComplyWithMinMaxHeightBounds(buildings);
+    bool buildingsAreWithinMinMaxHeightBounds = checkIfBuildingsComplyWithMinMaxHeightBounds(buildings, minHeight, maxHeight);
     float averageHeight = getAverageHeight(buildings);
     bool averageBuildingHeightIsBelowCriticalLimit = averageHeight <= maxAverageHeight;
     bool solutionIsFeasible = averageBuildingHeightIsBelowCriticalLimit && buildingsAreWithinMinMaxHeightBounds;
