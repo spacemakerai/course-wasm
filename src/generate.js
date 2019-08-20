@@ -30,6 +30,7 @@ export function generate() {
         building.height
       ])
     ),
+    busStopPosition: [20.0, 50.0, 0.0],
 
     setBuildings(buildings) {
       this.buildings = buildings;

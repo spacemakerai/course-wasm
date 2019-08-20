@@ -16,13 +16,15 @@ export function init(site) {
   scene.add(createLight());
   scene.add(createPlane());
 
-  const objects = geometry.create(site.buildings, site.bus_stop_position);
+  const objects = geometry.create(site.buildings, site.busStopPosition);
   scene.add(objects);
 
   document.getElementById("container").appendChild(renderer.domElement);
   window.addEventListener("resize", onWindowResize, false);
 
-  site.onChange(buildings => geometry.move(objects, buildings, site.bus_stop_position));
+  site.onChange(buildings =>
+    geometry.move(objects, buildings, site.busStopPosition)
+  );
 
   // 2. uncomment the follwing function to implement the render loop
 

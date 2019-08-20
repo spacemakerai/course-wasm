@@ -12,8 +12,7 @@ const vertexShader = `
       roof = abs(normal.z) > 0.001 ? 1.0 : 0.0 ;
       gl_Position = projectionMatrix * modelViewPosition; 
     }
-  `
-
+  `;
 
 const fragmentShader = `
       varying vec3 distanceVec;
@@ -24,7 +23,7 @@ const fragmentShader = `
         float distance = pow(distance_squared, 0.5);
         // float distance = 0.0;
         if (roof > 0.0) {
-            gl_FragColor = vec4(1.0, 1.0,1.0, 1.0);
+            gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
         } else {   
             float scaled_distance = distance / 100.;
             gl_FragColor = vec4(
@@ -35,15 +34,18 @@ const fragmentShader = `
             );
         }
       }
-  `
+  `;
 
-export function createCustomMaterial(geometry, bus_stop_position) {
-    let uniforms = {}
-    uniforms.distance_position = {type: 'vec3', value: new THREE.Vector3(...bus_stop_position)}
+export function createCustomMaterial(geometry, busStopPosition) {
+  let uniforms = {};
+  uniforms.distance_position = {
+    type: "vec3",
+    value: new THREE.Vector3(...busStopPosition)
+  };
 
-    return new THREE.ShaderMaterial({
-        uniforms: uniforms,
-        fragmentShader: fragmentShader,
-        vertexShader: vertexShader,
-    })
+  return new THREE.ShaderMaterial({
+    uniforms: uniforms,
+    fragmentShader: fragmentShader,
+    vertexShader: vertexShader
+  });
 }

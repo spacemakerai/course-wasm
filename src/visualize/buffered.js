@@ -1,5 +1,5 @@
 import * as THREE from "../three.js";
-import {createCustomMaterial} from "./shaderMesh.js"
+import { createCustomMaterial } from "./shaderMesh.js";
 
 function createBuildingGeometry(buildings) {
   const vertices = createVertices(buildings);
@@ -7,14 +7,14 @@ function createBuildingGeometry(buildings) {
   const geometry = new THREE.BufferGeometry();
 
   geometry.addAttribute(
-      "position",
-      new THREE.Float32BufferAttribute(vertices.flat(), 3)
+    "position",
+    new THREE.Float32BufferAttribute(vertices.flat(), 3)
   );
 
   geometry.verticesNeedUpdate = true;
   geometry.computeFaceNormals();
   geometry.computeVertexNormals();
-  return geometry
+  return geometry;
 }
 
 function createLambertMaterial(geometry) {
@@ -23,9 +23,9 @@ function createLambertMaterial(geometry) {
   });
 }
 
-export function create(buildings, bus_stop_position) {
-  const geometry = createBuildingGeometry(buildings)
-  const material = createCustomMaterial(geometry, bus_stop_position)
+export function create(buildings, busStopPosition) {
+  const geometry = createBuildingGeometry(buildings);
+  const material = createCustomMaterial(geometry, busStopPosition);
   // const material = createLambertMaterial(geometry)
 
   const facades = new THREE.Mesh(geometry, material);

@@ -1,5 +1,5 @@
 import * as THREE from "../three.js";
-import {createCustomMaterial} from "./shaderMesh.js"
+import { createCustomMaterial } from "./shaderMesh.js";
 
 function chunk(array, chunkSize) {
   const result = [];
@@ -8,7 +8,7 @@ function chunk(array, chunkSize) {
   return result;
 }
 
-const createBuilding = (coordinates, height, bus_stop_position) => {
+const createBuilding = (coordinates, height, busStopPosition) => {
   const [[x0, y0], [x1, y1], [x2, y2], [x3, y3]] = coordinates;
 
   const shape = new THREE.Shape();
@@ -28,7 +28,7 @@ const createBuilding = (coordinates, height, bus_stop_position) => {
     bevelEnabled: false
   });
 
-  const material = createCustomMaterial(geometry, bus_stop_position)
+  const material = createCustomMaterial(geometry, busStopPosition);
 
   // const material = new THREE.MeshLambertMaterial({
   //   color: 0xfafafa
@@ -42,19 +42,23 @@ const createBuilding = (coordinates, height, bus_stop_position) => {
   return building;
 };
 
-function createBuildings(buildings, bus_stop_position) {
+function createBuildings(buildings, busStopPosition) {
   return chunk(buildings, 9).map(([x0, y0, x1, y1, x2, y2, x3, y3, height]) => {
-    return createBuilding([[x0, y0], [x1, y1], [x2, y2], [x3, y3]], height, bus_stop_position);
+    return createBuilding(
+      [[x0, y0], [x1, y1], [x2, y2], [x3, y3]],
+      height,
+      busStopPosition
+    );
   });
 }
 
-export function create(buildings, bus_stop_position) {
+export function create(buildings, busStopPosition) {
   const group = new THREE.Group();
-  group.add(...createBuildings(buildings, bus_stop_position));
+  group.add(...createBuildings(buildings, busStopPosition));
   return group;
 }
 
-export function move(group, buildings, bus_stop_position) {
+export function move(group, buildings, busStopPosition) {
   group.children = [];
-  group.add(...createBuildings(buildings, bus_stop_position));
+  group.add(...createBuildings(buildings, busStopPosition));
 }
