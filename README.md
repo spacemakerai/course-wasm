@@ -200,13 +200,13 @@ Hint: Check out the `getTotalVolume function.
 
 ## Solver track
 ### 1. Adding constraints
-As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now this returns `true` without checking anything. We have started on the function signature for a helper method for you, `getAverageHeight`.    
+As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.    
 
 ### 2. New objective
 Right now the buildings are optimized for maximum volume, which is not so exciting. A common requirement for building projects is that the residents have a short distance to public transport. We will try to simulate this by adding a bus stop to our site and then get our solver to move the buildings mass distribution close to this point.
 The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`. 
 
-In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objectiveValue based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
+In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
 Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop. 
