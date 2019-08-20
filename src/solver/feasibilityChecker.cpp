@@ -18,7 +18,7 @@ float getAverageHeight(const Buildings& buildings)
     return averageHeight;
 }
 
-bool checkIfBuildingsComplyWithMinMaxHeightBounds(const Buildings& buildings, float minHeight, float maxHeight)
+bool checkIfBuildingWithinHeightRange(const Buildings& buildings, float minHeight, float maxHeight)
 {
     for (const Building& building: buildings)
     {
@@ -36,7 +36,7 @@ bool checkIfBuildingsComplyWithMinMaxHeightBounds(const Buildings& buildings, fl
 
 bool solutionIsFeasible(const Buildings& buildings, float maxAverageHeight, float minHeight, float maxHeight)
 {
-    bool buildingsAreWithinMinMaxHeightBounds = checkIfBuildingsComplyWithMinMaxHeightBounds(buildings, minHeight, maxHeight);
+    bool buildingsAreWithinMinMaxHeightBounds = checkIfBuildingWithinHeightRange(buildings, minHeight, maxHeight);
     float averageHeight = getAverageHeight(buildings);
     bool averageBuildingHeightIsBelowCriticalLimit = averageHeight <= maxAverageHeight;
     bool solutionIsFeasible = averageBuildingHeightIsBelowCriticalLimit && buildingsAreWithinMinMaxHeightBounds;
