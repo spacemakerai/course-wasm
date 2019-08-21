@@ -25,16 +25,15 @@ export function init(site) {
   site.onChange(buildings => geometry.move(objects, buildings));
 
   // 2. uncomment the follwing function to implement the render loop
-
+  /*
   function render() {
     controls.update();
 
-    // move the renderer.render call here
-    renderer.render(scene, camera);
+    // 2. move the renderer.render call here
 
-    // call the requestAnimationFrame with the render function as an argument
-    requestAnimationFrame(render);
+    // 2. call the requestAnimationFrame with the render function as an argument
   }
+  */
 
   function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
@@ -44,7 +43,6 @@ export function init(site) {
   // 1. insert `renderer.render(scene, camera)` here
 
   // 2. call render() (you should remove the render call from the previous task)
-  render();
 }
 
 function createRenderer() {
@@ -76,7 +74,7 @@ function createLight() {
   const group = new THREE.Group();
   const ambient = new THREE.AmbientLight(0xf0f0f0, 0.55);
   // 4. Uncomment the following code to add an Directional Light
-
+  /*
   const light = new THREE.DirectionalLight(0xffffff, 0.45);
   light.position.set(80, 20, 20);
   light.castShadow = true;
@@ -87,8 +85,8 @@ function createLight() {
   light.shadow.camera.right = size;
   light.shadow.camera.top = size;
   light.shadow.camera.bottom = -size;
-
   group.add(light);
+  */
 
   group.add(ambient);
   return group;
