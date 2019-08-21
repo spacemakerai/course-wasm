@@ -3,7 +3,7 @@
 In this course you will get an introduction to WebAssembly and 3D visualization using Three.js.
 
 WebAssembly is a binary compilation format which lets you run languages like C, C++ and Rust in the browser.
-This means exising code can be used in web application and possibilies for increased performance by using lower-level languages than JavaScript.
+This means existing code can be used in web application and possibilities for increased performance by using lower-level languages than JavaScript.
 Three.js is a highly successful library which is used to create 3D applications which run in the browser.
 
 At Spacemaker we use Three.js in large parts of our applications to let our users interact buildings on
@@ -82,7 +82,7 @@ sun light, which is a source far away from our scene.
 
 We want our Directional Light to cast shadows. This takes a bit of code to
 set up for nice results. The gist is that the GPU creates the light source
-by placing an Orthograpic Camera at the position of the light source and takes
+by placing an Orthographic Camera at the position of the light source and takes
 a picture of the scene. Every thing that it sees is deemed to receive light
 and the rest is shadow. This technique is called shadow mapping.
 The parameters we set on `light.shadow.camera` is the size of this camera.
