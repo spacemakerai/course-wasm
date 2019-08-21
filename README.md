@@ -39,10 +39,20 @@ you would like to try based on what interests you.
 
 ### 1. Rendering the scene
 
-At the center of all 3D applications is the `render` call. It tells your CPU
+**Description** At the center of all 3D applications is the `render` call. It tells your CPU
 to update the scene and geometry on the GPU, and to schedule a rendering pass.
 This will result in a 3D image being written to the framebuffer of the GPU.
 This framebuffer will be mapped to the screen.
+
+**TODO**
+
+*When you have completed this task...*
+your browser should look like this
+
+<img src="readme-images/task1.png" alt="drawing" width="200"/>
+
+![alt text](readme-images/task1.png = 200x200)
+
 
 ### 2. Implementing the render loop
 
