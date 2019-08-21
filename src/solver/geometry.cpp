@@ -30,13 +30,22 @@ Point getCentroid(const Polygon& polygon)
     return {centroidXCoordinate, centroidYCoordinate};
 }
 
+
 float getArea(const Building& rectangularBuilding)
 {
-    Polygon polygon = rectangularBuilding.groundPolygon;
-    float length = lengthOfLine(polygon[0], polygon[1]);
-    float width = lengthOfLine(polygon[1], polygon[2]);
-    return length * width;
+    Polygon groundPolygon = rectangularBuilding.groundPolygon;
+    int numberOfCorners = groundPolygon.size();
+    float area = 0;
+    for (int i = 0; i < numberOfCorners; i += 1)
+    {
+        int j = (i + 1) % numberOfCorners;
+        area += groundPolygon[i].x * groundPolygon[j].y;
+        area -= groundPolygon[j].x * groundPolygon[i].y;
+    }
+    area = abs(area) / 2.0;
+    return area;
 }
+
 
 float getVolume(const Building& building)
 {
