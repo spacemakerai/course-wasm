@@ -3,7 +3,7 @@
 In this course you will get an introduction to WebAssembly and 3D visualization using Three.js.
 
 WebAssembly is a binary compilation format which lets you run languages like C, C++ and Rust in the browser.
-This means exising code can be used in web application and possibilies for increased performance by using lower-level languages than JavaScript.
+This means existing code can be used in web application and possibilities for increased performance by using lower-level languages than JavaScript.
 Three.js is a highly successful library which is used to create 3D applications which run in the browser.
 
 At Spacemaker we use Three.js in large parts of our applications to let our users interact buildings on
@@ -39,7 +39,7 @@ you would like to try based on what interests you.
 
 ### 1. Rendering the scene
 
-At the center of all 3D application is the `render` call. It tells your CPU
+At the center of all 3D applications is the `render` call. It tells your CPU
 to update the scene and geometry on the GPU, and to schedule a rendering pass.
 This will result in a 3D image being written to the framebuffer of the GPU.
 This framebuffer will be mapped to the screen.
@@ -49,8 +49,8 @@ This framebuffer will be mapped to the screen.
 The render method must be called each time we want to update the image on
 the screen. This is usually done in a render loop running at 60 frames per
 second. This means that the render function will be called every ~16 ms
-and can't more time to finish. If it takes more time, we will get
-less that 60 fps, which might result in noticable lagg.
+and can't take more time to finish. If it takes more time, we will get
+less than 60 fps, which might result in noticeable lag.
 
 The browser has a function called `requestAnimationFrame`. This function
 is intended to be used for animations. Using it will ensure that our
@@ -64,7 +64,7 @@ describes the location and shape of the object, while the `material`
 describes how it looks. There is more than one way of building these
 objects. In this task we will use a `THREE.Shape` which defines
 a 2d shape on a plane. And a `THREE.ExtrudeGeometry` to extend the shape
-with a height. This cooresponds to a building with an uniform height (flat roof) and vertical
+with a height. This corresponds to a building with a uniform height (flat roof) and vertical
 walls.
 
 The data model for our houses is a 2d ground polygon plus the height
@@ -82,7 +82,7 @@ sun light, which is a source far away from our scene.
 
 We want our Directional Light to cast shadows. This takes a bit of code to
 set up for nice results. The gist is that the GPU creates the light source
-by placing an Orthograpic Camera at the position of the light source and takes
+by placing an Orthographic Camera at the position of the light source and takes
 a picture of the scene. Every thing that it sees is deemed to receive light
 and the rest is shadow. This technique is called shadow mapping.
 The parameters we set on `light.shadow.camera` is the size of this camera.
@@ -165,8 +165,8 @@ Open your application in `Firefox` and open the [`Developer Console`](https://de
 
 You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
 
-
 ### 8. Add new solution candidates to list`
+
 The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
 returns the buildings with updated building heights.
 
@@ -184,8 +184,8 @@ solutions are added to this list.
 
 Hint: A function called `addSolutionCandidatesToList` is already implemented.
 
-
 ### 9. Make volume the objective function
+
 The objective value is a value that says how good a solution is. The objective function states how the objective value
 should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
 is, the better is the solution.
@@ -196,19 +196,41 @@ total volume is returned.
 
 Hint: Check out the `getTotalVolume` function.
 
+## THREE.js Track
 
+### 1. Custom shaders - color the building walls with the distance to a bus stop
+Uncomment the lines in src/visualize/extrude.js to use the custom shaders in customShaders.js. 
+Complete the vertex and fragment shaders to color the building walls with a shade of green growing 
+darker the further away that pixel is from the bus stop 
+
+
+
+
+## WebAssembly Track
+
+### 1. Variable building size
+
+Our current format for buildings is hard coded to 4 corner buildings.
+Extend the application to `generate`, `visualize` and `optimize` buildings with an
+arbritrarly number of corners. This requires changes in all the parts, and
+changing the interface of the WebAssembly code wrapper.
+
+Hint: Add a prefix to each building with the number of corners to make the
+format `[length, x0, y0, x1, y1, ..., xn, yn, height, ... ]`
 
 ## Solver track
+
 ### 1. Adding constraints
-As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.    
+
+As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.
 
 ### 2. New objective
+
 Right now the buildings are optimized for maximum volume, which is not so exciting. A common requirement for building projects is that the residents have a short distance to public transport. We will try to simulate this by adding a bus stop to our site and then get our solver to move the buildings mass distribution close to this point.
-The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`. 
+The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`.
 
 In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
 Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
-Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop. 
+Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
- 

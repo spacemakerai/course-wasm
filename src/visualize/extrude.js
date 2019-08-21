@@ -1,4 +1,5 @@
 import * as THREE from "../three.js";
+import {createCustomShaderMaterial} from "./customShader.js"
 
 function chunk(array, chunkSize) {
   const result = [];
@@ -24,6 +25,10 @@ const createBuilding = (coordinates, height) => {
   const material = new THREE.MeshLambertMaterial({
     color: 0xfafafa
   });
+
+  // THREE task 1: uncomment the lines below to use the material with the custom shaders
+  // let busStopPosition = [0, 0, 0]
+  // const material = createCustomShaderMaterial(busStopPosition)
 
   const building = new THREE.Mesh(geometry, material);
   // 4. The `THREE.Mesh` must have `receiceShadow` and `castShadow` set to true
