@@ -39,7 +39,7 @@ you would like to try based on what interests you.
 
 ### 1. Rendering the scene
 
-At the center of all 3D application is the `render` call. It tells your CPU
+At the center of all 3D applications is the `render` call. It tells your CPU
 to update the scene and geometry on the GPU, and to schedule a rendering pass.
 This will result in a 3D image being written to the framebuffer of the GPU.
 This framebuffer will be mapped to the screen.
@@ -49,8 +49,8 @@ This framebuffer will be mapped to the screen.
 The render method must be called each time we want to update the image on
 the screen. This is usually done in a render loop running at 60 frames per
 second. This means that the render function will be called every ~16 ms
-and can't more time to finish. If it takes more time, we will get
-less that 60 fps, which might result in noticable lagg.
+and can't take more time to finish. If it takes more time, we will get
+less than 60 fps, which might result in noticeable lag.
 
 The browser has a function called `requestAnimationFrame`. This function
 is intended to be used for animations. Using it will ensure that our
@@ -64,7 +64,7 @@ describes the location and shape of the object, while the `material`
 describes how it looks. There is more than one way of building these
 objects. In this task we will use a `THREE.Shape` which defines
 a 2d shape on a plane. And a `THREE.ExtrudeGeometry` to extend the shape
-with a height. This cooresponds to a building with an uniform height (flat roof) and vertical
+with a height. This corresponds to a building with a uniform height (flat roof) and vertical
 walls.
 
 The data model for our houses is a 2d ground polygon plus the height
