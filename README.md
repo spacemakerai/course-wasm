@@ -91,40 +91,7 @@ In addition to configuring the light source we need to set `receiveShadow`
 and `castShadow` to `true` on each object which should receive and cast
 shadows respectively.
 
-### 5. Loading a WebAssembly module
-
-To compile C++ to WebAssembly and to load it into the browser we will use
-the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
-by both loading and wrapping the wasm module with a JavaScript wrapper.
-
-Lets first look at a much simpler example so that we can load and wrap the wasm
-module our selves.
-
-To compile the module run the following command in your commandline.
-
-```bash
-emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
-```
-
-This will create the module [`.wasm`](src/simple/simple.wasm).
-
-Now open the [`simple.js`](src/simple/simple.js) and complete the task number 5.
-
-Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
-representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
-
-Note 2:
-
-```bash
-emcc                                \ # emscripten binary
-  -Os                               \ # optimize for size,
-                                      # (will remove all the unused code)
-  -s EXPORTED_FUNCTIONS='["_move"]' \ # list of functions to keep
-  src/simple/simple.c               \ # source file
-  -o src/simple/simple.wasm           # output file
-```
-
-### 6. Compile and run the wasm module
+### 5. Compile and run the wasm module
 
 Now lets build build the base implementation of the solver and call it.
 
@@ -154,18 +121,7 @@ cwrap(ident, returnType, argTypes[, opts]);
 
 - A JavaScript function that can be used for running the C function.
 
-### 7. Debugging the module in the browser
-
-Hack need to run `ln -s ../src src` from the [`out`](out) directory.
-
-The [`Firefox Developer Edition`](https://www.mozilla.org/nb-NO/firefox/developer/)
-lets us debug the WebAssembly with source maps directly in our browser.
-
-Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
-
-You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
-
-### 8. Add new solution candidates to list`
+### 6. Add new solution candidates to list`
 
 The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
 returns the buildings with updated building heights.
@@ -184,7 +140,7 @@ solutions are added to this list.
 
 Hint: A function called `addSolutionCandidatesToList` is already implemented.
 
-### 9. Make volume the objective function
+### 7. Make volume the objective function
 
 The objective value is a value that says how good a solution is. The objective function states how the objective value
 should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
@@ -208,7 +164,53 @@ darker the further away that pixel is from the bus stop
 
 ## WebAssembly Track
 
-### 1. Variable building size
+### 1. Loading a WebAssembly module
+
+In the original assigment we compile C++ to WebAssembly and to load it into the browser we will use
+the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
+by both loading and wrapping the wasm module with a JavaScript wrapper.
+
+Lets take a look at a much simpler example so that we can load and wrap the wasm
+module our selves.
+
+To compile the module run the following command in your commandline.
+
+```bash
+emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
+```
+
+This will create the module [`.wasm`](src/simple/simple.wasm).
+
+Now open the [`simple.js`](src/simple/simple.js) and complete the Task WASM.2.
+
+Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
+representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
+
+Note 2:
+
+```bash
+emcc                                \ # emscripten binary
+  -Os                               \ # optimize for size,
+                                      # (will remove all the unused code)
+  -s EXPORTED_FUNCTIONS='["_move"]' \ # list of functions to keep
+  src/simple/simple.c               \ # source file
+  -o src/simple/simple.wasm           # output file
+```
+
+Go to the `main.js` file and replace the
+
+### 2. Debugging the module in the browser
+
+Hack need to run `ln -s ../src src` from the [`out`](out) directory.
+
+The [`Firefox Developer Edition`](https://www.mozilla.org/nb-NO/firefox/developer/)
+lets us debug the WebAssembly with source maps directly in our browser.
+
+Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
+
+You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
+
+### 3. Variable building size
 
 Our current format for buildings is hard coded to 4 corner buildings.
 Extend the application to `generate`, `visualize` and `optimize` buildings with an
