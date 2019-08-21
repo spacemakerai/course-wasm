@@ -196,6 +196,16 @@ total volume is returned.
 
 Hint: Check out the `getTotalVolume` function.
 
+## THREE.js Track
+
+### 1. Custom shaders - color the building walls with the distance to a bus stop
+Uncomment the lines in src/visualize/extrude.js to use the custom shaders in customShaders.js. 
+Complete the vertex and fragment shaders to color the building walls with a shade of green growing 
+darker the further away that pixel is from the bus stop 
+
+
+
+
 ## WebAssembly Track
 
 ### 1. Variable building size
