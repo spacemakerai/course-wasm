@@ -49,7 +49,7 @@ This framebuffer will be mapped to the screen.
 **When you have completed this task...**
 your browser should look like this
 
-![](./readme-images/task1.png = 400x)
+![](./readme-images/task1.png =250x250)
 
 
 ### 2. Implementing the render loop
