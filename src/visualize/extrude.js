@@ -12,6 +12,13 @@ const createBuilding = (coordinates, height) => {
   const [[x0, y0], [x1, y1], [x2, y2], [x3, y3]] = coordinates;
 
   const shape = new THREE.Shape();
+
+  shape.moveTo(x0, y0);
+  shape.lineTo(x1,y1);
+  shape.lineTo(x2,y2);
+  shape.lineTo(x3,y3);
+  shape.lineTo(x0,y0);
+
   const geometry = new THREE.ExtrudeGeometry(shape, {
     depth: height,
     bevelEnabled: false
@@ -25,6 +32,8 @@ const createBuilding = (coordinates, height) => {
   // const material = createCustomShaderMaterial(busStopPosition)
 
   const building = new THREE.Mesh(geometry, material);
+  building.castShadow = true;
+  building.receiveShadow = true;
   // 4. The `THREE.Mesh` must have `receiceShadow` and `castShadow` set to true
 
   return building;
