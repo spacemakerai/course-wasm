@@ -19,11 +19,7 @@ export async function init(site) {
   //
   // - Now we create an instance of the module with `WebAssembly.instantiate`.
   //   pass it the `bytes` from the response and the `importObjects`.
-  const response = await fetch("src/simple/simple.wasm");
-  const bytes = await response.arrayBuffer();
-  const { instance } = await WebAssembly.instantiate(bytes, importObjects);
 
-  console.log(instance);
   const heap = new Float32Array(memory.buffer);
 
   const buildings = site.getBuildings();

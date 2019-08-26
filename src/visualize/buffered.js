@@ -17,8 +17,7 @@ export function create(buildings) {
   });
   const facades = new THREE.Mesh(geometry, material);
 
-  // 4.
-  // facades.receiveShadow = facades.castShadow = true;
+  // 4. The `THREE.Mesh` must have `receiceShadow` and `castShadow` set to true
 
   return facades;
 }
