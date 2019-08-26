@@ -226,7 +226,9 @@ In task 5 you managed to run one iteration of the solver, but of course we want 
 Use the javascript [`setInterval`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals#setInterval()) method to run an iteration every second.
 
 #### Validation
-The buildings should be moving up and down on your screen
+The buildings should be moving up and down on your screen, the serach is not deterministic right now, but they might end up like this.
+
+<img src="readme-images/task6.png" width="400">
 
 ### 7. Add new solution candidates to list`
 
