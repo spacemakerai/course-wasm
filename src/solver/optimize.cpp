@@ -26,6 +26,7 @@ Buildings optimizeBuildings(const Buildings& initialBuildings, Objective objecti
     for (int buildingIndex = 0; buildingIndex < numberOfBuildings; buildingIndex += 1)
     {
         SolutionCandidates solutionsWithOneBuildingHeightChanged = increaseAndDecreaseHeightOfBuilding(buildingIndex, initialBuildings, objective);
+        addSolutionCandidatesToList(solutions, solutionsWithOneBuildingHeightChanged);
 
         for (const SolutionCandidate& solutionCandidate: solutionsWithOneBuildingHeightChanged)
         {

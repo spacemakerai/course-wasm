@@ -10,7 +10,7 @@ float getObjectiveValue(const Buildings& buildings, Objective objective, Point b
 {
     float objectiveValue = 0;
     if (objective == Objective::VOLUME) {
-        objectiveValue = 0;
+        objectiveValue = rand();
     }
     else if (objective == Objective::DISTANCE_TO_BUS_STOP){
         objectiveValue = getDistanceToBusStopObjectiveValue(buildings, busStopCoordinate);
