@@ -10,7 +10,7 @@ export async function init(site) {
     This can be done with `const response = await fetch(...);` 
   */
 
-  // 5. Loading a WebAssembly module
+  // Task WASM. Loading a WebAssembly module
   // - call the `fetch` method to get the `.wasm` module
   //   pass it the path "src/simple/simple.wasm"
   //
