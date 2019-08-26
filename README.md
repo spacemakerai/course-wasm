@@ -26,8 +26,8 @@ Open your browser on `http://localhost:3000`
 
 ## Assignment
 
-The assignments in this workshop have 2 parts. In part 1 you will go through a set of 7 small tasks where you fill in
-missing parts of code. When you have completed task 7, you will have a program which searches and visualizes
+The assignments in this workshop have 2 parts. In part 1 you will go through a set of 8 small tasks where you fill in
+missing parts of code. When you have completed task 8, you will have a program which searches and visualizes
 the iterations until an optimal solution is found.
 
 The second part builds on the foundation in part 1 with more advanced tasks.
@@ -216,8 +216,19 @@ Hint: Task E might help you figure out what the second and third arguments to cw
 In js you can handle this by piping the promise with the [`then`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) function.
 In our case, the value returned by the promise is an instance of the solver object defined in `src/solver/solver.js` on which we can call the `iterate` method.                                                                                                                                  
 
+#### Validation
+When you have completed G you should see a small movement on one of the buildings straight after refresh, you might have to refresh several times to see it.
 
-### 6. Add new solution candidates to list`
+### 6. Multiple iterations
+In task 5 you managed to run one iteration of the solver, but of course we want to the solver to run multiple iterations. It is also cool to be able to see what happens in each iteration, thus we want to add a pause between each call to the iterate function. 
+
+#### To do
+Use the javascript [`setInterval`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals#setInterval()) method to run an iteration every second.
+
+#### Validation
+The buildings should be moving up and down on your screen
+
+### 7. Add new solution candidates to list`
 
 The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
 returns the buildings with updated building heights.
@@ -236,7 +247,7 @@ solutions are added to this list.
 
 Hint: A function called `addSolutionCandidatesToList` is already implemented.
 
-### 7. Make volume the objective function
+### 8. Make volume the objective function
 
 The objective value is a value that says how good a solution is. The objective function states how the objective value
 should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
