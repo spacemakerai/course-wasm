@@ -169,11 +169,12 @@ When you have completed task A and B, your browser should look like this, respec
 
 
 ### 5. Compile and run the wasm module
+#### Description
+Now lets **build** the base implementation of the search algorithm (solver) and call it.
 
-Now lets build build the base implementation of the solver and call it.
-
-Run the [`build.sh`](build.sh) script. This will create `solver.wasm` (the WebAssembly binary),
-`solver.js` (Javascript wrapper) in the [`out`](out) folder.
+Run the [`build.sh`](build.sh) script. This will create two files in the [`out`](out) folder: 
+**1)** The file  `solver.wasm`, a WebAssembly binary of the search algorithm located in `src/solver`
+**2)** The file `solver.js` (Javascript wrapper) in the [`out`](out) folder.
 
 Finish the tasks to load the module and call it.
 
@@ -186,6 +187,8 @@ The signature for the `cwrap` function is as follows:
 ```
 cwrap(ident, returnType, argTypes[, opts]);
 ```
+
+#### To do
 
 #### Arguments:
 
