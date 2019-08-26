@@ -198,36 +198,33 @@ cwrap(ident, returnType, argTypes[, opts]);
 
 - A JavaScript function that can be used for running the C function.
 
-### 6. Add new solution candidates to list`
+### 6. Make volume the objective function
+
+The objective value is a value that says how good a solution is. The objective function states how the objective value
+should be calculated. As the solver is maximizing the objective value, it means that the higher the objective value
+is, the better is the solution.
+
+When the objective is `VOLUME`, the solver should return the solution with the most volume. This means that the
+objective function should calculate the volume of the buildings. Correct the return statement in `cost.cpp` so that the
+total volume is returned instead of a random number.
+
+Hint: Check out the `getTotalVolume` function.
+
+### 7. Add new solution candidates to list`
 
 The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
 returns the buildings with updated building heights.
 
 In the file `optimize.cpp`, the solver first looks for possible new solutions by changing one building height. It then
 looks for new solutions where the change of the first building is combined with a height change in a second building.
-The list `solutionCandidates` is supposed to collect all of these potential new solutions.
+The list `solutions` is supposed to collect all of these potential new solutions.
 
-The solver must take some restrictions into account, i.e. it must comply with certain rules. When none of the
-restrictions are broken, we say that the solution is "feasible". As the solver is implemented, the height of each
-building must be within a min and max value. When the solver has generated potential solutions, the best feasible
-solution from the `solutionCandidates` list is returned.
-
-Right now, one of the new solutions are added to the `solutionCandidates` list. Add the missing code so that the new
-solutions are added to this list.
+Right now, the initial solution and the solutions with only one height change are added to the `solutions` list. Add 
+the missing code so that also the solutions that combine two height changes are added to this list.
 
 Hint: A function called `addSolutionCandidatesToList` is already implemented.
 
-### 7. Make volume the objective function
 
-The objective value is a value that says how good a solution is. The objective function states how the objective value
-should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
-is, the better is the solution.
-
-When the objective is `VOLUME`, the solver should return the solution with the most volume. This means that the
-objective function should calculate the volume of the buildings. Correct the return statement in `cost.cpp` so that the
-total volume is returned.
-
-Hint: Check out the `getTotalVolume` function.
 
 ---
 ## Part 2
