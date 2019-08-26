@@ -115,7 +115,7 @@ Think of this as if you where drawing on paper.
 `moveTo` moves your pencil without touching the paper, `lineTo` will a draw a straight line from your current position to the new point.
 
 #### Validation
-When you have completed this task, your browser should look like this
+When you have completed this task, your browser should look like this.
 
 <img src="./readme-images/task3.png" width="400">
 
