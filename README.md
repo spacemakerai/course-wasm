@@ -142,7 +142,7 @@ and `castShadow` to `true` on each object which should receive and cast
 shadows respectively.
 
 #### To do
-**A)** Go to the file `visualize.js` and add the following lines to the function `createLight` right after the creation of the ambient light
+**A)** Go to the file `visualize.js` and add the following lines to the function `createLight` right after the creation of the ambient light.
 ```javascript
   const light = new THREE.DirectionalLight(0xffffff, 0.45);
   light.position.set(80, 20, 20);
@@ -158,11 +158,11 @@ shadows respectively.
 ```
 
 **B)**
-The building mesh (`THREE.Mesh`) created in the `createLight` function must have `receiveShadow` and `castShadow` set to true
+The building mesh (`THREE.Mesh`) created in the `createLight` function must have `receiveShadow` and `castShadow` set to `true.
 
 #### Verification
 
-When you have completed task A and B, your browser should look like this, respectively.
+When you have completed task **A** and **B**, your browser should look like this, respectively.
 
 <img src="readme-images/task4a.png" width="400"><img src="readme-images/task4b.png" width="400">
 
@@ -170,9 +170,9 @@ When you have completed task A and B, your browser should look like this, respec
 
 ### 5. Compile and run the wasm module
 #### Description
-Our search algorithm (solver) is located in `src/solver`, if we jump into the file `src/solver/main.cpp` we can see the main function `move` at the top.
-It is this function that we want to be able to call from our javascript code.
-To be able to do this we need to **build** the c++ implementation of the search algorithm.
+Our search algorithm (solver) is located in `src/solver`. If we jump into the file `src/solver/main.cpp`, we can see the main function `move` at the top.
+We want to be able to call this function from our javascript code.
+To be able to do this, we need to **build** the c++ implementation.
 
 Running the [`build.sh`](build.sh) script will create two files in the [`out`](out) folder: 
 
@@ -205,30 +205,30 @@ cwrap(ident, returnType, argTypes[, opts]);
 #### To do
 **A)** Run the [`build.sh`](build.sh) script
 
-**B)** Go into the file `src/solver/solver.js`, at the top of the file you import the solver module located in `out/solver.js` (this is the default import).
+**B)** Go into the file `src/solver/solver.js`, import the solver module located in `out/solver.js` (this is the default import) at the top of this file.
 
-**C)** The module you just imported is a function which creates an instance when called. Create such an instance, i.e. `const instance = Module()` 
+**C)** The module you just imported is a function which creates an instance when called. Create such an instance, i.e. `const instance = Module();`. 
 
-**D)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move` function, i.e. 
+**D)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `moe` function, i.e. 
 ```
 const wrappedMove = instance.cwrap(<arguments here>)
 ```
-Hint: Task **E** might help you figure out what the second and third arguments to cwrap should be.
+Hint: Task **E** in combination with the **description** might help you figure out what the arguments to cwrap should be.
 
-**E)** Make a call to `wrappedMove ` inside the `iterate` function defined inside `init`.
-`wrappedMove` has two arguments, the first is a pointer to the memory location, the second is the number of buildings
+**E)** Make a call to `wrappedMove` inside the `iterate` function defined inside `init`.
+`wrappedMove` has two arguments, the first is a pointer to the memory location, the second is the number of buildings.
 
-**F)** Go into `src/main.js` and import the solver you just finished in **E** the same way as Visualize is imported.
+**F)** Go into `src/main.js` and import the solver you just finished in **E** the same way as `Visualize` is imported.
 
-**G)** Call the init method on the imported solver, this method is async and thus it returns a promise. 
+**G)** Call the `init method on the imported solver, this method is async and thus it returns a promise. 
 In js you can handle this by piping the promise with the [`then`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) function.
-In our case, the value returned by the promise is an instance of the solver object defined in `src/solver/solver.js` on which we can call the `iterate` method.                                                                                                                                  
+In our case, the value returned by the promise is an instance of the solver object defined in `src/solver/solver.js`, on which we can call the `iterate` method.                                                                                                                                  
 
 #### Validation
 When you have completed task **G** you should see a small movement on one of the buildings straight after refresh, you might have to refresh several times to see it.
 
 ### 6. Multiple iterations
-In task 5 you managed to run one iteration of the solver, but of course we want the solver to run multiple iterations. It is also cool to be able to see what happens in each iteration, thus we want to add a pause between each call to the iterate function. 
+In task **5** you managed to run one iteration of the solver, but of course we want the solver to run multiple iterations. It is also cool to be able to see what happens in each iteration, thus we want to add a pause between each call to the iterate function. 
 
 #### To do
 Use the javascript [`setInterval`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals#setInterval()) method to run an iteration every second.
