@@ -26,26 +26,45 @@ Open your browser on `http://localhost:3000`
 
 ## Assignment
 
-The assignments in this workshop have 2 parts. First you will finish the
-missing parts of code. You can find these by searching through the code by
-number, e.g. "1." for the first task. When you finish one task you should be
-able to refresh your browser and see a visual change. When you have completed
-all 9 tasks you should have a complete program which searches and visualizes
+The assignments in this workshop have 2 parts. In part 1 you will go through a set of 7 small tasks where you fill in
+missing parts of code. When you have completed task 7, you will have a program which searches and visualizes
 the iterations until an optimal solution is found.
 
 The second part builds on the foundation in part 1 with more advanced tasks.
 Here we have put together independent tasks so that you can choose the task
 you would like to try based on what interests you.
 
+---
+
+## Part 1
+
 ### 1. Rendering the scene
 
+#### Description 
 At the center of all 3D applications is the `render` call. It tells your CPU
 to update the scene and geometry on the GPU, and to schedule a rendering pass.
 This will result in a 3D image being written to the framebuffer of the GPU.
 This framebuffer will be mapped to the screen.
 
+#### To do
+
+Go to the file `visualize.js` and add the following line at the end of the `init` function
+```
+renderer.render(scene, camera)
+```
+
+#### Validation
+
+When you have completed this task, your browser should look like this
+
+<img src="./readme-images/task1.png" width="400">
+
+
+
+
 ### 2. Implementing the render loop
 
+#### Description
 The render method must be called each time we want to update the image on
 the screen. This is usually done in a render loop running at 60 frames per
 second. This means that the render function will be called every ~16 ms
@@ -57,8 +76,26 @@ is intended to be used for animations. Using it will ensure that our
 render loop runs at the same frequency as our monitor, which is usually
 60 fps.
 
+#### Todo
+**A)** Go into the file `visualize.js`, add the following function definition into the `init` function
+```
+  function render() {
+    controls.update();
+    renderer.render(scene, camera)
+  }
+```
+ We have to make this render function call on itself for a continuous render, so add `requestAnimationFrame(render)` as the last line in the function.
+ 
+**B)** Now you can replace the call to `renderer.render` from task 1 with a call to your new function `render`.
+
+#### Validation
+When you have completed this task, you should be able to move around in your scene with the mouse. 
+
+<img src="./readme-images/task2a.png" width="400"><img src="./readme-images/task2b.png" width="400">
+
 ### 3. Building the scene
 
+#### Description
 A `Three.js` object consists of two main properties. The `geometry`
 describes the location and shape of the object, while the `material`
 describes how it looks. There is more than one way of building these
@@ -71,6 +108,18 @@ The data model for our houses is a 2d ground polygon plus the height
 of the building. These are flattened into a list of numbers
 (`[x0, y0, x1, y1, x2, y2, x3, y3, height, ... ]`). The first building
 is at indexes 0-8 in the array, the second at 9-16 and so on.
+
+#### To do
+The goal is to build the 2d ground polygon. Go into the file `extrude.js`, and into the function `createBuilding`. 
+The `THREE.Shape` object has a `moveTo(x, y)` and `lineTo(x, y)` method. 
+Think of this as if you where drawing on paper. 
+`moveTo` moves your pencil without touching the paper, `lineTo` will draw a straight line from your current position to the new point.
+
+#### Validation
+When you have completed this task, your browser should look like this.
+
+<img src="./readme-images/task3.png" width="400">
+
 
 ### 4. Adding a directional light
 
@@ -153,15 +202,16 @@ total volume is returned.
 Hint: Check out the `getTotalVolume` function.
 Hint: Check out the `getTotalVolume` function.
 
+---
+## Part 2
+Choose one or more of the following tracks
+
 ## THREE.js Track
 
 ### 1. Custom shaders - color the building walls with the distance to a bus stop
 Uncomment the lines in src/visualize/extrude.js to use the custom shaders in customShaders.js. 
 Complete the vertex and fragment shaders to color the building walls with a shade of green growing 
 darker the further away that pixel is from the bus stop 
-
-
-
 
 ## WebAssembly Track
 
@@ -238,3 +288,4 @@ In the main function in `main.cpp`, you can set what you want your objective to 
 Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
+ 
