@@ -283,23 +283,21 @@ darker the further away that pixel is from the bus stop
 ## WebAssembly Track
 
 ### 1. Loading a WebAssembly module
-
-In the original assigment we compile C++ to WebAssembly and to load it into the browser we will use
+#### Description
+In part 1 we compiled C++ to WebAssembly and loaded it into the browser with 
 the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
 by both loading and wrapping the wasm module with a JavaScript wrapper.
 
 Lets take a look at a much simpler example so that we can load and wrap the wasm
-module our selves.
+module ourselves.
 
-To compile the module run the following command in your commandline.
+The wasm module can be compiled by the following command 
 
 ```bash
 emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
 ```
 
 This will create the module [`.wasm`](src/simple/simple.wasm).
-
-Now open the [`simple.js`](src/simple/simple.js) and complete the Task WASM.2.
 
 Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
 representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
@@ -314,6 +312,14 @@ emcc                                \ # emscripten binary
   src/simple/simple.c               \ # source file
   -o src/simple/simple.wasm           # output file
 ```
+
+#### To do
+**A)** Compile the wasm module by running the following in the terminal
+```bash
+emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
+```
+**B)** Go into 
+
 
 Go to the `main.js` file and replace the
 
