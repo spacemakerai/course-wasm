@@ -78,7 +78,7 @@ render loop runs at the same frequency as our monitor, which is usually
 
 #### Todo
 **A)** Go into the file `visualize.js`, add the following function definition into the `init` function
-```
+```javascript
   function render() {
     controls.update();
     renderer.render(scene, camera)
@@ -123,10 +123,11 @@ When you have completed this task, your browser should look like this.
 
 ### 4. Adding a directional light
 
+#### Description
 The light source in the scene is an Ambient light. This will uniformly
 light every object in the scene. It is a convenient light to add to emulate
 real light conditions and enhance shadows. However, real lighting situations
-have a source of the light. We will add a Directional Light source to emulate
+have a source of light. We will add a Directional Light source to emulate
 sun light, which is a source far away from our scene.
 
 We want our Directional Light to cast shadows. This takes a bit of code to
@@ -139,6 +140,33 @@ The parameters we set on `light.shadow.camera` is the size of this camera.
 In addition to configuring the light source we need to set `receiveShadow`
 and `castShadow` to `true` on each object which should receive and cast
 shadows respectively.
+
+#### To do
+**A)** Go to the file `visualize.js` and add the following lines to the function `createLight` right after the creation of the ambient light
+```javascript
+  const light = new THREE.DirectionalLight(0xffffff, 0.45);
+  light.position.set(80, 20, 20);
+  light.castShadow = true;
+  const size = 200;
+  light.shadow.camera.near = 10;
+  light.shadow.camera.far = 1000;
+  light.shadow.camera.left = -size;
+  light.shadow.camera.right = size;
+  light.shadow.camera.top = size;
+  light.shadow.camera.bottom = -size;
+  group.add(light);
+```
+
+**B)**
+The building mesh (`THREE.Mesh`) created in the `createLight` function must have `receiveShadow` and `castShadow` set to true
+
+#### Verification
+
+When you have completed task A and B, your browser should look like this, respectively.
+
+<img src="readme-images/task4a.png" width="400"><img src="readme-images/task4b.png" width="400">
+
+
 
 ### 5. Compile and run the wasm module
 
