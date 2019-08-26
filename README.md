@@ -209,11 +209,11 @@ cwrap(ident, returnType, argTypes[, opts]);
 
 **C)** The module you just imported is a function which creates an instance when called. Create such an instance, i.e. `const instance = Module()` 
 
-**D)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move function, i.e. 
+**D)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move` function, i.e. 
 ```
 const wrappedMove = instance.cwrap(<arguments here>)
 ```
-Hint: Task E might help you figure out what the second and third arguments to cwrap should be.
+Hint: Task **E** might help you figure out what the second and third arguments to cwrap should be.
 
 **E)** Make a call to `wrappedMove ` inside the `iterate` function defined inside `init`.
 `wrappedMove` has two arguments, the first is a pointer to the memory location, the second is the number of buildings
@@ -225,20 +225,20 @@ In js you can handle this by piping the promise with the [`then`](https://develo
 In our case, the value returned by the promise is an instance of the solver object defined in `src/solver/solver.js` on which we can call the `iterate` method.                                                                                                                                  
 
 #### Validation
-When you have completed G you should see a small movement on one of the buildings straight after refresh, you might have to refresh several times to see it.
+When you have completed task **G** you should see a small movement on one of the buildings straight after refresh, you might have to refresh several times to see it.
 
 ### 6. Multiple iterations
-In task 5 you managed to run one iteration of the solver, but of course we want to the solver to run multiple iterations. It is also cool to be able to see what happens in each iteration, thus we want to add a pause between each call to the iterate function. 
+In task 5 you managed to run one iteration of the solver, but of course we want the solver to run multiple iterations. It is also cool to be able to see what happens in each iteration, thus we want to add a pause between each call to the iterate function. 
 
 #### To do
 Use the javascript [`setInterval`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals#setInterval()) method to run an iteration every second.
 
 #### Validation
-The buildings should be moving up and down on your screen, the serach is not deterministic right now, but they might end up like this.
+The buildings should be moving up and down on your screen, the search is not deterministic right now, but they might end up like this.
 
 <img src="readme-images/task6.png" width="400">
 
-### 7. Add new solution candidates to list`
+### 7. Add new solution candidates to list
 
 The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
 returns the buildings with updated building heights.
