@@ -108,40 +108,7 @@ In addition to configuring the light source we need to set `receiveShadow`
 and `castShadow` to `true` on each object which should receive and cast
 shadows respectively.
 
-### 5. Loading a WebAssembly module
-
-To compile C++ to WebAssembly and to load it into the browser we will use
-the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
-by both loading and wrapping the wasm module with a JavaScript wrapper.
-
-Lets first look at a much simpler example so that we can load and wrap the wasm
-module our selves.
-
-To compile the module run the following command in your commandline.
-
-```bash
-emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
-```
-
-This will create the module [`.wasm`](src/simple/simple.wasm).
-
-Now open the [`simple.js`](src/simple/simple.js) and complete the task number 5.
-
-Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
-representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
-
-Note 2:
-
-```bash
-emcc                                \ # emscripten binary
-  -Os                               \ # optimize for size,
-                                      # (will remove all the unused code)
-  -s EXPORTED_FUNCTIONS='["_move"]' \ # list of functions to keep
-  src/simple/simple.c               \ # source file
-  -o src/simple/simple.wasm           # output file
-```
-
-### 6. Compile and run the wasm module
+### 5. Compile and run the wasm module
 
 Now lets build build the base implementation of the solver and call it.
 
@@ -171,19 +138,8 @@ cwrap(ident, returnType, argTypes[, opts]);
 
 - A JavaScript function that can be used for running the C function.
 
-### 7. Debugging the module in the browser
+### 6. Add new solution candidates to list`
 
-Hack need to run `ln -s ../src src` from the [`out`](out) directory.
-
-The [`Firefox Developer Edition`](https://www.mozilla.org/nb-NO/firefox/developer/)
-lets us debug the WebAssembly with source maps directly in our browser.
-
-Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
-
-You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
-
-
-### 8. Add new solution candidates to list`
 The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
 returns the buildings with updated building heights.
 
@@ -201,8 +157,8 @@ solutions are added to this list.
 
 Hint: A function called `addSolutionCandidatesToList` is already implemented.
 
+### 7. Make volume the objective function
 
-### 9. Make volume the objective function
 The objective value is a value that says how good a solution is. The objective function states how the objective value
 should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
 is, the better is the solution.
@@ -213,19 +169,88 @@ total volume is returned.
 
 Hint: Check out the `getTotalVolume` function.
 
+## THREE.js Track
 
+### 1. Custom shaders - color the building walls with the distance to a bus stop
+Uncomment the lines in src/visualize/extrude.js to use the custom shaders in customShaders.js. 
+Complete the vertex and fragment shaders to color the building walls with a shade of green growing 
+darker the further away that pixel is from the bus stop 
+
+
+
+
+## WebAssembly Track
+
+### 1. Loading a WebAssembly module
+
+In the original assigment we compile C++ to WebAssembly and to load it into the browser we will use
+the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
+by both loading and wrapping the wasm module with a JavaScript wrapper.
+
+Lets take a look at a much simpler example so that we can load and wrap the wasm
+module our selves.
+
+To compile the module run the following command in your commandline.
+
+```bash
+emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
+```
+
+This will create the module [`.wasm`](src/simple/simple.wasm).
+
+Now open the [`simple.js`](src/simple/simple.js) and complete the Task WASM.2.
+
+Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
+representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
+
+Note 2:
+
+```bash
+emcc                                \ # emscripten binary
+  -Os                               \ # optimize for size,
+                                      # (will remove all the unused code)
+  -s EXPORTED_FUNCTIONS='["_move"]' \ # list of functions to keep
+  src/simple/simple.c               \ # source file
+  -o src/simple/simple.wasm           # output file
+```
+
+Go to the `main.js` file and replace the
+
+### 2. Debugging the module in the browser
+
+Hack need to run `ln -s ../src src` from the [`out`](out) directory.
+
+The [`Firefox Developer Edition`](https://www.mozilla.org/nb-NO/firefox/developer/)
+lets us debug the WebAssembly with source maps directly in our browser.
+
+Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
+
+You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
+
+### 3. Variable building size
+
+Our current format for buildings is hard coded to 4 corner buildings.
+Extend the application to `generate`, `visualize` and `optimize` buildings with an
+arbritrarly number of corners. This requires changes in all the parts, and
+changing the interface of the WebAssembly code wrapper.
+
+Hint: Add a prefix to each building with the number of corners to make the
+format `[length, x0, y0, x1, y1, ..., xn, yn, height, ... ]`
 
 ## Solver track
+
 ### 1. Adding constraints
-As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.    
+
+As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.
 
 ### 2. New objective
+
 Right now the buildings are optimized for maximum volume, which is not so exciting. A common requirement for building projects is that the residents have a short distance to public transport. We will try to simulate this by adding a bus stop to our site and then get our solver to move the buildings mass distribution close to this point.
-The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`. 
+The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`.
 
 In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
 Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
-Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop. 
+Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
  
