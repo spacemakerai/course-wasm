@@ -271,7 +271,8 @@ Hint: Check out the `getTotalVolume` function.
 
 ---
 ## Part 2
-Choose one or more of the following tracks
+Choose one or more of the following tracks. 
+**Tip:** it might be a good idea to commit what you have done until now, so that you can always go back to something that works.
 
 ## THREE.js Track
 
