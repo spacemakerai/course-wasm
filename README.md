@@ -113,7 +113,7 @@ is at indexes 0-8 in the array, the second at 9-16 and so on.
 The goal is to build the 2d ground polygon. Go into the file `extrude.js`, and into the function `createBuilding`. 
 The `THREE.Shape` object has a `moveTo(x, y)` and `lineTo(x, y)` method. 
 Think of this as if you where drawing on paper. 
-`moveTo` moves your pencil without touching the paper, `lineTo` will a staight line from your current position to the new point.
+`moveTo` moves your pencil without touching the paper, `lineTo` will a draw a straight line from your current position to the new point.
 
 #### Validation
 When you have completed this task, your browser should look like this
