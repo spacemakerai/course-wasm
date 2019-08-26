@@ -4,13 +4,16 @@
 #include "objective.h"
 
 float getTotalVolume(const Buildings& buildings);
+
+
 float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate);
 
 float getObjectiveValue(const Buildings& buildings, Objective objective, Point busStopCoordinate)
 {
     float objectiveValue = 0;
     if (objective == Objective::VOLUME) {
-        objectiveValue = 0;
+        float volume = getTotalVolume(buildings);
+        objectiveValue = volume;
     }
     else if (objective == Objective::DISTANCE_TO_BUS_STOP){
         objectiveValue = getDistanceToBusStopObjectiveValue(buildings, busStopCoordinate);
@@ -19,7 +22,16 @@ float getObjectiveValue(const Buildings& buildings, Objective objective, Point b
 }
 
 float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate) {
-    return 0;
+    float totalVolume = 0;
+    float totalDistanceToBusStopObjectiveValue = 0;
+    for (const Building& building : buildings) {
+        Point buildingCentroid = getCentroid(building.groundPolygon);
+        float buildingVolume = getVolume(building);
+        totalVolume += buildingVolume;
+        float busStopContributionForBuilding = buildingVolume * lengthOfLine(buildingCentroid, busStopCoordinate);
+        totalDistanceToBusStopObjectiveValue += busStopContributionForBuilding;
+    }
+    return -(totalDistanceToBusStopObjectiveValue / totalVolume);
 }
 
 

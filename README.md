@@ -151,6 +151,7 @@ objective function should calculate the volume of the buildings. Correct the ret
 total volume is returned.
 
 Hint: Check out the `getTotalVolume` function.
+Hint: Check out the `getTotalVolume` function.
 
 ## THREE.js Track
 
@@ -223,6 +224,7 @@ format `[length, x0, y0, x1, y1, ..., xn, yn, height, ... ]`
 ## Solver track
 
 ### 1. Adding constraints
+As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.    
 
 As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.
 

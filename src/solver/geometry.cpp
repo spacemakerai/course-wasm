@@ -3,6 +3,12 @@
 #include<cmath>
 #include <numeric>
 
+float lengthOfLine(Point point1, Point point2)
+{
+    float distance = sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
+    return distance;
+}
+
 
 Point getCentroid(const Polygon& polygon)
 {
