@@ -52,9 +52,9 @@ Go to the file `visualize.js` and add the following line at the end of the `init
 renderer.render(scene, camera)
 ```
 
-#### When you have completed this task...
+#### Validation
 
-your browser should look like this
+When you have completed this task, your browser should look like this
 
 <img src="./readme-images/task1.png" width="400">
 
@@ -63,6 +63,7 @@ your browser should look like this
 
 ### 2. Implementing the render loop
 
+#### Description
 The render method must be called each time we want to update the image on
 the screen. This is usually done in a render loop running at 60 frames per
 second. This means that the render function will be called every ~16 ms
@@ -74,8 +75,27 @@ is intended to be used for animations. Using it will ensure that our
 render loop runs at the same frequency as our monitor, which is usually
 60 fps.
 
+#### Todo
+**A)** Go into the file `visualize.js`, add the following function definition into the `init` function
+```
+  function render() {
+    controls.update();
+    renderer.render(scene, camera)
+  }
+```
+ We have to make this render function call on itself for a continuous render, so add `requestAnimationFrame(render)` as the last line in the function.
+ 
+**B)** Now you can replace the call to `renderer.render` from task 1 with a call to your new function `render`.
+
+#### Validation
+When you have completed this task, you should be able to move around in your scene with the mouse. 
+
+<img src="./readme-images/task2a.png" width="400">
+<img src="./readme-images/task2b.png" width="400">
+
 ### 3. Building the scene
 
+#### Description
 A `Three.js` object consists of two main properties. The `geometry`
 describes the location and shape of the object, while the `material`
 describes how it looks. There is more than one way of building these
@@ -88,6 +108,18 @@ The data model for our houses is a 2d ground polygon plus the height
 of the building. These are flattened into a list of numbers
 (`[x0, y0, x1, y1, x2, y2, x3, y3, height, ... ]`). The first building
 is at indexes 0-8 in the array, the second at 9-16 and so on.
+
+#### To do
+The goal is to build the 2d ground polygon. Go into the file `extrude.js`, and into the function `createBuilding`. 
+The `THREE.Shape` object has a `moveTo(x, y)` and `lineTo(x, y)` method. 
+Think of this as if you where drawing on paper. 
+`moveTo` moves your pencil without touching the paper, `lineTo` will a staight line from your current position to the new point.
+
+#### Validation
+When you have completed this task, your browser should look like this
+
+<img src="./readme-images/task3.png" width="400">
+
 
 ### 4. Adding a directional light
 
