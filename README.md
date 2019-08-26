@@ -26,16 +26,17 @@ Open your browser on `http://localhost:3000`
 
 ## Assignment
 
-The assignments in this workshop have 2 parts. First you will finish the
-missing parts of code. You can find these by searching through the code by
-number, e.g. "1." for the first task. When you finish one task you should be
-able to refresh your browser and see a visual change. When you have completed
-all 9 tasks you should have a complete program which searches and visualizes
+The assignments in this workshop have 2 parts. In part 1 you will go through a set of 7 small tasks where you fill in
+missing parts of code. When you have completed task 7, you will have a program which searches and visualizes
 the iterations until an optimal solution is found.
 
 The second part builds on the foundation in part 1 with more advanced tasks.
 Here we have put together independent tasks so that you can choose the task
 you would like to try based on what interests you.
+
+---
+
+## Part 1
 
 ### 1. Rendering the scene
 
@@ -112,7 +113,7 @@ is at indexes 0-8 in the array, the second at 9-16 and so on.
 The goal is to build the 2d ground polygon. Go into the file `extrude.js`, and into the function `createBuilding`. 
 The `THREE.Shape` object has a `moveTo(x, y)` and `lineTo(x, y)` method. 
 Think of this as if you where drawing on paper. 
-`moveTo` moves your pencil without touching the paper, `lineTo` will a draw a straight line from your current position to the new point.
+`moveTo` moves your pencil without touching the paper, `lineTo` will draw a straight line from your current position to the new point.
 
 #### Validation
 When you have completed this task, your browser should look like this.
@@ -200,15 +201,16 @@ total volume is returned.
 
 Hint: Check out the `getTotalVolume` function.
 
+---
+## Part 2
+Choose one or more of the following tracks
+
 ## THREE.js Track
 
 ### 1. Custom shaders - color the building walls with the distance to a bus stop
 Uncomment the lines in src/visualize/extrude.js to use the custom shaders in customShaders.js. 
 Complete the vertex and fragment shaders to color the building walls with a shade of green growing 
 darker the further away that pixel is from the bus stop 
-
-
-
 
 ## WebAssembly Track
 
