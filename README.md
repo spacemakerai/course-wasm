@@ -90,8 +90,7 @@ render loop runs at the same frequency as our monitor, which is usually
 #### Validation
 When you have completed this task, you should be able to move around in your scene with the mouse. 
 
-<img src="./readme-images/task2a.png" width="400">
-<img src="./readme-images/task2b.png" width="400">
+<img src="./readme-images/task2a.png" width="400"><img src="./readme-images/task2b.png" width="400">
 
 ### 3. Building the scene
 
