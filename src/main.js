@@ -5,13 +5,7 @@ import * as Visualize from "./visualize/visualize.js";
 const site = generate();
 
 Visualize.init(site);
-Solver.init(site).then(solver => {
-    const id = setInterval(() => {
-        if (solver.iterate()) {
-            clearInterval(id);
-        } else {
-        }
-    }, 1000);
+Solver.init(site).then(solver => {setInterval(solver.iterate, 1000);
 });
 
 
