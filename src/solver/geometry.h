@@ -17,6 +17,7 @@ typedef std::vector<Building> Buildings;
 float getArea(const Building& building);
 float getVolume(const Building& building);
 Point getCentroid(const Polygon& polygon);
+float lengthOfLine(Point point1, Point point2);
 
 
 #endif //COURSE_WASM_GEOMETRY_H
