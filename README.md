@@ -220,7 +220,7 @@ Hint: Task **E** in combination with the **description** might help you figure o
 
 **F)** Go into `src/main.js` and import the solver you just finished in **E** the same way as `Visualize` is imported.
 
-**G)** Call the `init method on the imported solver, this method is async and thus it returns a promise. 
+**G)** Call the `init` method on the imported solver, this method is async and thus it returns a promise. 
 In js you can handle this by piping the promise with the [`then`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) function.
 In our case, the value returned by the promise is an instance of the solver object defined in `src/solver/solver.js`, on which we can call the `iterate` method.                                                                                                                                  
 
