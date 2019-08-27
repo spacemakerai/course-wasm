@@ -1,7 +1,7 @@
 
 #include "geometry.h"
 #include<cmath>
-
+#include <numeric>
 
 float lengthOfLine(Point point1, Point point2)
 {
@@ -12,17 +12,40 @@ float lengthOfLine(Point point1, Point point2)
 
 Point getCentroid(const Polygon& polygon)
 {
-    Point centroid = {(polygon[1].x + polygon[3].x) / 2, (polygon[1].y + polygon[3].y) / 2};
-    return centroid;
+    std::vector<float> xCoordinates;
+    std::vector<float> yCoordinates;
+
+    for (Point cornerPoint: polygon)
+    {
+        xCoordinates.push_back(cornerPoint.x);
+        yCoordinates.push_back(cornerPoint.y);
+    }
+    float sumOfXCoordinate = std::accumulate(xCoordinates.begin(), xCoordinates.end(), 0.0);
+    float sumOfYCoordinate = std::accumulate(yCoordinates.begin(), yCoordinates.end(), 0.0);
+
+    int numberOfCornerPoints = polygon.size();
+    float centroidXCoordinate = sumOfXCoordinate / (float) numberOfCornerPoints;
+    float centroidYCoordinate = sumOfYCoordinate / (float) numberOfCornerPoints;
+
+    return {centroidXCoordinate, centroidYCoordinate};
 }
 
-float getArea(const Building& rectangularBuilding)
+
+float getArea(const Building& building)
 {
-    Polygon polygon = rectangularBuilding.groundPolygon;
-    float length = lengthOfLine(polygon[0], polygon[1]);
-    float width = lengthOfLine(polygon[1], polygon[2]);
-    return length * width;
+    Polygon groundPolygon = building.groundPolygon;
+    int numberOfCorners = groundPolygon.size();
+    float area = 0;
+    for (int i = 0; i < numberOfCorners; i += 1)
+    {
+        int j = (i + 1) % numberOfCorners;
+        area += groundPolygon[i].x * groundPolygon[j].y;
+        area -= groundPolygon[j].x * groundPolygon[i].y;
+    }
+    area = abs(area) / 2.0;
+    return area;
 }
+
 
 float getVolume(const Building& building)
 {
