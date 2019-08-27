@@ -21,16 +21,7 @@ float getObjectiveValue(const Buildings& buildings, Objective objective, Point b
 }
 
 float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate) {
-    float totalVolume = 0;
-    float totalDistanceToBusStopObjectiveValue = 0;
-    for (const Building& building : buildings) {
-        Point buildingCentroid = getCentroid(building.groundPolygon);
-        float buildingVolume = getVolume(building);
-        totalVolume += buildingVolume;
-        float busStopContributionForBuilding = buildingVolume * lengthOfLine(buildingCentroid, busStopCoordinate);
-        totalDistanceToBusStopObjectiveValue += busStopContributionForBuilding;
-    }
-    return -(totalDistanceToBusStopObjectiveValue / totalVolume);
+
 }
 
 
