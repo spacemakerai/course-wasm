@@ -395,7 +395,7 @@ The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`.
 
 In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
-Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
+Hint 1: The function `getCentroid` and `lengthOfLine` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
  
