@@ -345,7 +345,8 @@ lets us debug the WebAssembly with source maps directly in our browser.
 **B)** Run `ln -s ../src src` from the [`out`](out) directory to create a link to the src directory (hack).
 
 **C)** Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
-You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload, you can open the c++ files and set breakpoints.
+You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload your browser, you can open the c++ files and set breakpoints.
+
 
 #### Validation
 You should be able to set a break point in the c++ source code, like this
