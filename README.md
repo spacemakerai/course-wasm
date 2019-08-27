@@ -320,7 +320,7 @@ emcc                                \ # emscripten binary
 For example, the `fetch` method fetches a file from the server and downloads it. 
 We need to wait for the results to return. This can be done with `const response = await fetch(...);` 
 
-- Go into `src/simple/simple.js` and jump into the init function.  
+- Go into `src/simple/simple.js` and find the `init` function.  
 - Call the `fetch` method to get the `.wasm` module. Pass it the path `src/simple/simple.wasm`.
 - The response needs to be converted to a byte buffer, you can do that with the method `.arrayBuffer()` .
 - Once we have our array buffer, we can use that as an argument to the function [`WebAssembly.instantiate`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate)
