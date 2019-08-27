@@ -268,7 +268,6 @@ objective function should calculate the volume of the buildings. Correct the ret
 total volume is returned.
 
 Hint: Check out the `getTotalVolume` function.
-Hint: Check out the `getTotalVolume` function.
 
 ---
 ## Part 2
