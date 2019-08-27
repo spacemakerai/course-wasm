@@ -352,7 +352,7 @@ Our current format for buildings is hard coded to 4 corner buildings. It would b
 
 #### To do
 Extend the application to `generate`, `visualize` and `optimize` buildings with an
-arbritrarly number of corners. This requires changes in all the parts, and
+arbitrarily number of corners. This requires changes in all the parts, and
 changing the interface of the WebAssembly code wrapper.
 
 Hint: Add a prefix to each building with the number of corners to make the
