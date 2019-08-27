@@ -14,6 +14,14 @@ In the first part of the course we will give you an introduction to WebAssembly 
 the second part you will finish a project which combines both these technologies to find an optimal
 utilization of a building site. (no prior knowledge about WebAssembly, Three.js or optimization is required.)
 
+## Prerequisites
+
+Make sure you have the following installed:
+
+- `node` - https://nodejs.org/en/
+- `git` - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- `emcc` - https://emscripten.org/docs/getting_started/downloads.html
+
 ## Usage
 
 Install dependencies with `npm install` and [`emcc`](https://emscripten.org/docs/getting_started/downloads.html)
