@@ -209,7 +209,7 @@ cwrap(ident, returnType, argTypes[, opts]);
 The module is a function which creates an instance when called. 
 Create such an instance, i.e. `const instance = Module();`. 
 
-**C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `moe` function, i.e. 
+**C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move` function, i.e. 
 ```
 const wrappedMove = instance.cwrap(<arguments here>)
 ```
