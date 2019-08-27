@@ -2,6 +2,12 @@ export async function init(site) {
   const memory = new WebAssembly.Memory({ initial: 256, maximum: 256 });
   const importObjects = { env: { memory } };
 
+  const wasmCode = await fetch("src/simple/simple.wasm");
+
+  const byteBuffer = await wasmCode.arrayBuffer();
+
+  const {instance } =  await WebAssembly.instantiate(byteBuffer, importObjects);
+
   /*
     Note: the following function are asynchronous and returns Promises.
     For example the `fetch` method fetches a file from the server and 
