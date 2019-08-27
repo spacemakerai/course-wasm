@@ -16,10 +16,10 @@ const fragmentShader = `
 
       void main() {
         float distance = 0.0;
-        float scaled_distance = distance / 100.;
+        float scaledDistance = distance / 100.;
         gl_FragColor = vec4(
             0.1,
-            1.0 - scaled_distance, // set the green channel of the pixel color to a shading of green depending on the computed distance
+            1.0 - scaledDistance, // set the green channel of the pixel color to a shading of green depending on the computed distance
             0.1,
             1.0
         );

@@ -208,10 +208,25 @@ Choose one or more of the following tracks
 
 ## THREE.js Track
 
-### 1. Custom shaders - color the building walls with the distance to a bus stop
-Uncomment the lines in src/visualize/extrude.js to use the custom shaders in customShaders.js. 
-Complete the vertex and fragment shaders to color the building walls with a shade of green growing 
-darker the further away that pixel is from the bus stop 
+### 1. Custom shaders
+
+Color the building walls with the distance to a bus stop!
+Uncomment the lines in [`extrude.js`](src/visualize/extrude.js) to use the custom shaders in [`customShader.js`](src/visualize/customShader.js). 
+Complete the vertex and fragment shaders to color the building walls with a shade of green growing darker the further away that pixel is from the bus stop.
+
+The shaders are written in [`GLSL`](https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders) as text strings that are then compiled by the JIT in the browser. 
+The language is similar to C in syntax, and has vec3 and vec4 classes with overloaded operators such as ```*/+-``` etc as well as standard functions such as ```dot(vec3, vec3)``` and ```sqrt(float)``` (hint: will be useful).
+
+There are three different variable types in the shaders: 
+- **Attributes** are vertex specific and available in the vertex shader (e.g. position).  
+- **Uniforms** are the same value for all vertexes and can be passed when creating the material (e.g. the position of the bus stop)
+- **Varyings** are data passed from the vertex shader to the fragment shader. The value of each varying will be smoothly interpolated from the values of adjacent vertices.
+
+For more information see the THREE [`docs`](https://threejs.org/docs/#api/en/materials/ShaderMaterial)
+
+When complete your buildings should look something like this 
+<img src="./readme-images/task1.png" width="400">
+
 
 ## WebAssembly Track
 
