@@ -238,37 +238,45 @@ The buildings should be moving up and down on your screen, the search is not det
 
 <img src="readme-images/task6.png" width="400">
 
-### 7. Add new solution candidates to list
-
-The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
-returns the buildings with updated building heights.
-
-In the file `optimize.cpp`, the solver first looks for possible new solutions by changing one building height. It then
-looks for new solutions where the change of the first building is combined with a height change in a second building.
-The list `solutionCandidates` is supposed to collect all of these potential new solutions.
-
-The solver must take some restrictions into account, i.e. it must comply with certain rules. When none of the
-restrictions are broken, we say that the solution is "feasible". As the solver is implemented, the height of each
-building must be within a min and max value. When the solver has generated potential solutions, the best feasible
-solution from the `solutionCandidates` list is returned.
-
-Right now, one of the new solutions are added to the `solutionCandidates` list. Add the missing code so that the new
-solutions are added to this list.
-
-Hint: A function called `addSolutionCandidatesToList` is already implemented.
-
-### 8. Make volume the objective function
+### 7. Make volume the objective function
 
 The objective value is a value that says how good a solution is. The objective function states how the objective value
 should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
 is, the better is the solution.
 
 When the objective is `VOLUME`, the solver should return the solution with the most volume. This means that the
-objective function should calculate the volume of the buildings. Correct the return statement in `cost.cpp` so that the
-total volume is returned.
+objective function should calculate the volume of the buildings. 
+
+#### To do
+
+Correct the return statement in `cost.cpp` so that the total volume is returned instead of a random number. 
 
 Hint: Check out the `getTotalVolume` function.
-Hint: Check out the `getTotalVolume` function.
+
+#### Validation
+When you have completed this task, you will see that the buildings, one at a time, will move until they reach their maximum height. 
+<img src="readme-images/task7.png" width="400">
+
+### 8. Add new solution to list
+
+The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
+returns the buildings with updated building heights.
+
+In the file `optimize.cpp`, the solver first looks for possible new solutions by changing one building height. It then
+looks for new solutions where the change of the first building is combined with a height change in a second building.
+The list `solutions` is supposed to collect all of these potential new solutions.
+
+Right now, the solutions with one height change and the initial solution are added to the `solutions` list. 
+
+#### To do
+
+Add the missing code so that the solutions with two height changes also are added to this list.
+
+Hint: A function called `addSolutionCandidatesToList` is already implemented.
+
+#### Validation
+When you have completed this task, you will see that two buildings are allowed to change height in the same iteration. The final solution will be identical to the one in task 7. 
+
 
 ---
 ## Part 2
@@ -395,7 +403,7 @@ The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`.
 
 In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
-Hint 1: The function `getCentroid` and `lengthOfLine` in `geometry.cpp` can be useful
+Hint 1: The function `getCentroid` and `lengthOfLin` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
  
