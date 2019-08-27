@@ -272,7 +272,7 @@ Hint: Check out the `getTotalVolume` function.
 ---
 ## Part 2
 Choose one or more of the following tracks. 
-**Tip:** it might be a good idea to commit what you have done until now, so that you can always go back to something that works.
+**Tip:** it might be a good idea to **commit** what you have done until now, so that you can always go back to something that works.
 
 ## THREE.js Track
 
@@ -314,13 +314,18 @@ emcc                                \ # emscripten binary
   -o src/simple/simple.wasm           # output file
 ```
 
-**B)** All the following functions are async and return promises. 
+**B)**
+
+**Note** 
+
+All the following functions are async and return promises. 
 For example the `fetch` method fetches a file from the server and download it. 
 We need to wait for the results to return. This can be done with `const response = await fetch(...);` 
-Go into `src/simple/simple.js` and jump into the init function.  
-Call the `fetch` method to get the `.wasm` module. Pass it the path `src/simple/simple.wasm`.
-The response needs to be converted to a byte buffer, you can do that with the method `.arrayBuffer()` .
-Once we have our array buffer, we can use that as an argument to the function [`WebAssembly.instantiate`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate)
+
+- Go into `src/simple/simple.js` and jump into the init function.  
+- Call the `fetch` method to get the `.wasm` module. Pass it the path `src/simple/simple.wasm`.
+- The response needs to be converted to a byte buffer, you can do that with the method `.arrayBuffer()` .
+- Once we have our array buffer, we can use that as an argument to the function [`WebAssembly.instantiate`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate)
 along with `importObjects`. After calling this function we want to end up with an instance of our module. As you can see, this instance is used in the `iterate` function below.
 
 **C)**
