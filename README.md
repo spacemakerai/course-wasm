@@ -317,7 +317,7 @@ emcc                                \ # emscripten binary
 **B)**
 
 **Note** All the following functions are async and return promises. 
-For example the `fetch` method fetches a file from the server and download it. 
+For example, the `fetch` method fetches a file from the server and downloads it. 
 We need to wait for the results to return. This can be done with `const response = await fetch(...);` 
 
 - Go into `src/simple/simple.js` and jump into the init function.  
@@ -341,13 +341,15 @@ lets us debug the WebAssembly with source maps directly in our browser.
 
 #### Todo
 **A)** Go back to using the original solver in `src/main.js`, we will stick to that for the rest of the course.
+
 **B)** Run `ln -s ../src src` from the [`out`](out) directory.
-Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
-You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
+
+**C)** Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
+You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload, you can open the c++ files and set breakpoints.
 
 #### Validation
-You should be able to set a break point in the cpp source code, like this
-<img src="./readme-images/wasm-task2.png" width="400">
+You should be able to set a break point in the c++ source code, like this
+<img src="./readme-images/wasm-task2.png" width="800">
 
 ### 3. Variable building size
 #### Description
