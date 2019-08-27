@@ -124,7 +124,7 @@ When you have completed this task, your browser should look like this.
 ### 4. Adding a directional light
 
 #### Description
-The light source in the scene is an Ambient light. This will uniformly
+The light source in the scene is an [Ambient](https://threejs.org/docs/#api/en/lights/AmbientLight) light. This will uniformly
 light every object in the scene. It is a convenient light to add to emulate
 real light conditions. However, real lighting situations
 have a source of light. We will add a [Directional Light](https://threejs.org/docs/#api/en/lights/DirectionalLight) source to emulate 
