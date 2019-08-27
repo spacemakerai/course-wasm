@@ -16,7 +16,7 @@ const fragmentShader = `
 
       void main() {
         float distanceBetweenBusStopAndFragment = 0.0;
-        float scaledDistance = distanceBetweenBusStopAndFragment / 400.;
+        float scaledDistance = distanceBetweenBusStopAndFragment / 300.;
         gl_FragColor = vec4(
             0.1,
             1.0 - scaledDistance, // set the green channel of the pixel color to a shading of green depending on the computed distance

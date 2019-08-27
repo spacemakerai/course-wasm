@@ -298,7 +298,10 @@ For more information see the THREE [`docs`](https://threejs.org/docs/#api/en/mat
 **B)** Replace the existing material with your new material, `const material = createCustomShaderMaterial(busStopPosition)` 
 **C)** Complete the vertex and fragment shaders to color the building walls with a shade of green growing darker the further away that pixel is from the bus stop.
 
-<img src="./readme-images/shaders.png" width="400">
+
+#### Validation 
+When you have completed this task, your browser should look ike this
+<img src="./readme-images/shader-task.png" width="400">
 
 
 ## WebAssembly Track
