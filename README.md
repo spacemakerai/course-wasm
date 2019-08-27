@@ -316,9 +316,7 @@ emcc                                \ # emscripten binary
 
 **B)**
 
-**Note** 
-
-All the following functions are async and return promises. 
+**Note** All the following functions are async and return promises. 
 For example the `fetch` method fetches a file from the server and download it. 
 We need to wait for the results to return. This can be done with `const response = await fetch(...);` 
 
