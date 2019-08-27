@@ -225,6 +225,7 @@ There are three different variable types in the shaders:
 For more information see the THREE [`docs`](https://threejs.org/docs/#api/en/materials/ShaderMaterial)
 
 When complete your buildings should look something like this 
+
 <img src="./readme-images/task1.png" width="400">
 
 
