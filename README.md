@@ -158,7 +158,7 @@ shadows respectively.
 ```
 
 **B)**
-The building mesh (`THREE.Mesh`) created in the `createBuilding` function must have `receiveShadow` and `castShadow` set to `true.
+The building mesh (`THREE.Mesh`) created in the `createBuilding` function must have `receiveShadow` and `castShadow` set to `true`.
 
 #### Verification
 
