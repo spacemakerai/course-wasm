@@ -139,7 +139,7 @@ The parameters we set on `light.shadow.camera` is the size of this camera.
 
 In addition to configuring the light source we need to set `receiveShadow`
 and `castShadow` to `true` on each object which should receive and cast
-shadows respectively.
+shadows, respectively.
 
 #### To do
 **A)** Go to the file `visualize.js` and add the following lines to the function `createLight` right after the creation of the ambient light.
@@ -158,7 +158,7 @@ shadows respectively.
 ```
 
 **B)**
-The building mesh (`THREE.Mesh`) created in the `createLight` function must have `receiveShadow` and `castShadow` set to `true.
+The building mesh (`THREE.Mesh`) created in the `createBuilding` function must have `receiveShadow` and `castShadow` set to `true`.
 
 #### Verification
 
@@ -174,7 +174,7 @@ Our search algorithm (solver) is located in `src/solver`. If we jump into the fi
 We want to be able to call this function from our javascript code.
 To be able to do this, we need to **build** the c++ implementation.
 
-Running the [`build.sh`](build.sh) script will create two files in the [`out`](out) folder: 
+Running the [`build.sh`](build.sh) script will create four files in the [`out`](out) folder. We will now look at two of them:
 
 **1)** The file  `solver.wasm`, a WebAssembly binary of the search algorithm located in `src/solver`
 
@@ -209,7 +209,7 @@ cwrap(ident, returnType, argTypes[, opts]);
 The module is a function which creates an instance when called. 
 Create such an instance, i.e. `const instance = Module();`. 
 
-**C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `moe` function, i.e. 
+**C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move` function, i.e. 
 ```
 const wrappedMove = instance.cwrap(<arguments here>)
 ```
@@ -238,36 +238,45 @@ The buildings should be moving up and down on your screen, the search is not det
 
 <img src="readme-images/task6.png" width="400">
 
-### 7. Add new solution candidates to list
-
-The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
-returns the buildings with updated building heights.
-
-In the file `optimize.cpp`, the solver first looks for possible new solutions by changing one building height. It then
-looks for new solutions where the change of the first building is combined with a height change in a second building.
-The list `solutionCandidates` is supposed to collect all of these potential new solutions.
-
-The solver must take some restrictions into account, i.e. it must comply with certain rules. When none of the
-restrictions are broken, we say that the solution is "feasible". As the solver is implemented, the height of each
-building must be within a min and max value. When the solver has generated potential solutions, the best feasible
-solution from the `solutionCandidates` list is returned.
-
-Right now, one of the new solutions are added to the `solutionCandidates` list. Add the missing code so that the new
-solutions are added to this list.
-
-Hint: A function called `addSolutionCandidatesToList` is already implemented.
-
-### 8. Make volume the objective function
+### 7. Make volume the objective function
 
 The objective value is a value that says how good a solution is. The objective function states how the objective value
 should be calculated. As we want the solver to maximize the objective value, it means that the higher the objective value
 is, the better is the solution.
 
 When the objective is `VOLUME`, the solver should return the solution with the most volume. This means that the
-objective function should calculate the volume of the buildings. Correct the return statement in `cost.cpp` so that the
-total volume is returned.
+objective function should calculate the volume of the buildings. 
+
+#### To do
+
+Correct the return statement in `cost.cpp` so that the total volume is returned instead of a random number. 
 
 Hint: Check out the `getTotalVolume` function.
+
+#### Validation
+When you have completed this task, you will see that the buildings, one at a time, will move until they reach their maximum height. 
+<img src="readme-images/task7.png" width="400">
+
+### 8. Add new solution to list
+
+The solver takes some buildings as input, tries to improve the buildings by changing the building heights, and then
+returns the buildings with updated building heights.
+
+In the file `optimize.cpp`, the solver first looks for possible new solutions by changing one building height. It then
+looks for new solutions where the change of the first building is combined with a height change in a second building.
+The list `solutions` is supposed to collect all of these potential new solutions.
+
+Right now, the solutions with one height change and the initial solution are added to the `solutions` list. 
+
+#### To do
+
+Add the missing code so that the solutions with two height changes also are added to this list.
+
+Hint: A function called `addSolutionCandidatesToList` is already implemented.
+
+#### Validation
+When you have completed this task, you will see that two buildings are allowed to change height in the same iteration. The final solution will be identical to the one in task 7. 
+
 
 ---
 ## Part 2
@@ -276,25 +285,32 @@ Choose one or more of the following tracks.
 
 ## THREE.js Track
 
-### 1. Custom shaders
+### 1. Custom shaders 
+#### Description
+In Spacemaker, we often use shaders to visualize data, in particular building qualities.
+The way we do this is that we manipulate the materials of the THREE geometries (buildings)  
+In this task you will color the building walls with the distance to a bus stop!
 
-Color the building walls with the distance to a bus stop!
-Uncomment the lines in [`extrude.js`](src/visualize/extrude.js) to use the custom shaders in [`customShader.js`](src/visualize/customShader.js). 
-Complete the vertex and fragment shaders to color the building walls with a shade of green growing darker the further away that pixel is from the bus stop.
-
+If you go into [`customShader.js`](src/visualize/customShader.js), you will see two custom shaders at the top. 
 The shaders are written in [`GLSL`](https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders) as text strings that are then compiled by the JIT in the browser. 
 The language is similar to C in syntax, and has vec3 and vec4 classes with overloaded operators such as ```*/+-``` etc as well as standard functions such as ```dot(vec3, vec3)``` and ```sqrt(float)``` (hint: will be useful).
 
 There are three different variable types in the shaders: 
 - **Attributes** are vertex specific and available in the vertex shader (e.g. position).  
-- **Uniforms** are the same value for all vertexes and can be passed when creating the material (e.g. the position of the bus stop)
+- **Uniforms** are global values available vertexes and can be passed when creating the material (e.g. the position of the bus stop)
 - **Varyings** are data passed from the vertex shader to the fragment shader. The value of each varying will be smoothly interpolated from the values of adjacent vertices.
 
 For more information see the THREE [`docs`](https://threejs.org/docs/#api/en/materials/ShaderMaterial)
 
-When complete your buildings should look something like this 
+#### To do
+**A)** In the file [`extrude.js`](src/visualize/extrude.js), inside the `createBuilding` function, declare a bus stop position, `const busStopPosition = [100, 100, 0]`
+**B)** Replace the existing material with your new material, `const material = createCustomShaderMaterial(busStopPosition)` 
+**C)** Complete the vertex and fragment shaders to color the building walls with a shade of green growing darker the further away that pixel is from the bus stop. 
 
-<img src="./readme-images/shaders.png" width="400">
+
+#### Validation 
+When you have completed this task, your browser should look ike this
+<img src="./readme-images/shader-task.png" width="400">
 
 
 ## WebAssembly Track
@@ -394,7 +410,7 @@ The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`.
 
 In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
-Hint 1: The function `getCentroid` in `geometry.cpp` can be useful
+Hint 1: The function `getCentroid` and `lengthOfLine` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
  

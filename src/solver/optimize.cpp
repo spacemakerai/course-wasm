@@ -33,7 +33,6 @@ Buildings optimizeBuildings(const Buildings& initialBuildings, Objective objecti
             for (int otherBuildingIndex = buildingIndex + 1; otherBuildingIndex < numberOfBuildings; otherBuildingIndex += 1)
             {
                 SolutionCandidates solutionsWithTwoBuildingHeightsChanged = increaseAndDecreaseHeightOfBuilding(otherBuildingIndex, solutionCandidate.buildings, objective);
-                addSolutionCandidatesToList(solutions, solutionsWithTwoBuildingHeightsChanged);
             }
         }
     }
