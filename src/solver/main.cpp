@@ -5,7 +5,7 @@
 
 int PARAMETERS_PER_BUILDING = 9;
 int NUMBER_OF_COORDINATES_PER_BUILDING = 4;
-Objective mainObjective = Objective::VOLUME;
+Objective mainObjective = Objective::DISTANCE_TO_BUS_STOP;
 
 Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings);
 void convertBuildingsToParameters(Buildings buildings, float *positions);
