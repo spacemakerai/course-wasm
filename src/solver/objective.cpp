@@ -21,7 +21,7 @@ float getObjectiveValue(const Buildings& buildings, Objective objective, Point b
 }
 
 float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate) {
-
+    return 0;
 }
 
 

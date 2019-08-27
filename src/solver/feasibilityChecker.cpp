@@ -4,6 +4,7 @@
 
 float getAverageHeight(const Buildings& buildings)
 {
+    return 0;
 }
 
 bool checkIfBuildingWithinHeightRange(const Buildings& buildings, float minHeight, float maxHeight)
