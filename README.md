@@ -337,9 +337,14 @@ The [`Firefox Developer Edition`](https://www.mozilla.org/nb-NO/firefox/develope
 lets us debug the WebAssembly with source maps directly in our browser.
 
 #### Todo
-Hack need to run `ln -s ../src src` from the [`out`](out) directory.
+**A)** Go back to using the original solver in `src/main.js`, we will stick to that for the rest of the course.
+**B)** Run `ln -s ../src src` from the [`out`](out) directory.
 Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
 You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
+
+#### Validation
+You should be able to set a break point in the cpp source code, like this
+<img src="./readme-images/wasm-task2.png" width="400">
 
 ### 3. Variable building size
 #### Description
