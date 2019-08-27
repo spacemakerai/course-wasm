@@ -139,7 +139,7 @@ The parameters we set on `light.shadow.camera` is the size of this camera.
 
 In addition to configuring the light source we need to set `receiveShadow`
 and `castShadow` to `true` on each object which should receive and cast
-shadows respectively.
+shadows, respectively.
 
 #### To do
 **A)** Go to the file `visualize.js` and add the following lines to the function `createLight` right after the creation of the ambient light.
