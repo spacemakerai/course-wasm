@@ -126,7 +126,7 @@ When you have completed this task, your browser should look like this.
 #### Description
 The light source in the scene is an Ambient light. This will uniformly
 light every object in the scene. It is a convenient light to add to emulate
-real light conditions and enhance shadows. However, real lighting situations
+real light conditions. However, real lighting situations
 have a source of light. We will add a [Directional Light](https://threejs.org/docs/#api/en/lights/DirectionalLight) source to emulate 
 sun light, which is a source far away from our scene.
 
