@@ -6,7 +6,7 @@ import * as Visualize from "./visualize/visualize.js";
 const site = generate();
 
 Visualize.init(site);
-SimpleSolver.init(site).then(solver => {setInterval(solver.iterate, 1000);
+Solver.init(site).then(solver => {setInterval(solver.iterate, 1000);
 });
 
 
