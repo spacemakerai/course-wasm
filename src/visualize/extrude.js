@@ -20,10 +20,6 @@ const createBuilding = (coordinates, height) => {
     color: 0xfafafa
   });
 
-  // THREE task 1: uncomment the lines below to use the material with the custom shaders
-  // let busStopPosition = [0, 0, 0]
-  // const material = createCustomShaderMaterial(busStopPosition)
-
   const building = new THREE.Mesh(geometry, material);
 
   return building;

@@ -285,25 +285,32 @@ Choose one or more of the following tracks.
 
 ## THREE.js Track
 
-### 1. Custom shaders
+### 1. Custom shaders 
+#### Description
+In Spacemaker, we often use shaders to visualize data, in particular building qualities.
+The way we do this is that we manipulate the materials of the THREE geometries (buildings)  
+In this task you will color the building walls with the distance to a bus stop!
 
-Color the building walls with the distance to a bus stop!
-Uncomment the lines in [`extrude.js`](src/visualize/extrude.js) to use the custom shaders in [`customShader.js`](src/visualize/customShader.js). 
-Complete the vertex and fragment shaders to color the building walls with a shade of green growing darker the further away that pixel is from the bus stop.
-
+If you go into [`customShader.js`](src/visualize/customShader.js), you will see two custom shaders at the top. 
 The shaders are written in [`GLSL`](https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders) as text strings that are then compiled by the JIT in the browser. 
 The language is similar to C in syntax, and has vec3 and vec4 classes with overloaded operators such as ```*/+-``` etc as well as standard functions such as ```dot(vec3, vec3)``` and ```sqrt(float)``` (hint: will be useful).
 
 There are three different variable types in the shaders: 
 - **Attributes** are vertex specific and available in the vertex shader (e.g. position).  
-- **Uniforms** are the same value for all vertexes and can be passed when creating the material (e.g. the position of the bus stop)
+- **Uniforms** are global values available vertexes and can be passed when creating the material (e.g. the position of the bus stop)
 - **Varyings** are data passed from the vertex shader to the fragment shader. The value of each varying will be smoothly interpolated from the values of adjacent vertices.
 
 For more information see the THREE [`docs`](https://threejs.org/docs/#api/en/materials/ShaderMaterial)
 
-When complete your buildings should look something like this 
+#### To do
+**A)** In the file [`extrude.js`](src/visualize/extrude.js), inside the `createBuilding` function, declare a bus stop position, `const busStopPosition = [100, 100, 0]`
+**B)** Replace the existing material with your new material, `const material = createCustomShaderMaterial(busStopPosition)` 
+**C)** Complete the vertex and fragment shaders to color the building walls with a shade of green growing darker the further away that pixel is from the bus stop. 
 
-<img src="./readme-images/shaders.png" width="400">
+
+#### Validation 
+When you have completed this task, your browser should look ike this
+<img src="./readme-images/shader-task.png" width="400">
 
 
 ## WebAssembly Track
