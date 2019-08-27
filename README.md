@@ -271,7 +271,8 @@ Hint: Check out the `getTotalVolume` function.
 
 ---
 ## Part 2
-Choose one or more of the following tracks
+Choose one or more of the following tracks. 
+**Tip:** it might be a good idea to **commit** what you have done until now, so that you can always go back to something that works.
 
 ## THREE.js Track
 
@@ -283,28 +284,26 @@ darker the further away that pixel is from the bus stop
 ## WebAssembly Track
 
 ### 1. Loading a WebAssembly module
-
-In the original assigment we compile C++ to WebAssembly and to load it into the browser we will use
+#### Description
+In part 1 we compiled C++ to WebAssembly and loaded it into the browser with 
 the `emscripten` toolchain. This does a lot of the heavy lifting on our behalf
 by both loading and wrapping the wasm module with a JavaScript wrapper.
 
 Lets take a look at a much simpler example so that we can load and wrap the wasm
-module our selves.
+module ourselves.
 
-To compile the module run the following command in your commandline.
 
+#### To do
+**A)** Compile the wasm module by running the following in the terminal
 ```bash
 emcc -Os -s EXPORTED_FUNCTIONS='["_move"]' src/simple/simple.c -o src/simple/simple.wasm
 ```
-
 This will create the module [`.wasm`](src/simple/simple.wasm).
 
-Now open the [`simple.js`](src/simple/simple.js) and complete the Task WASM.2.
-
-Note 1: We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
+**Note 1:** We have included the [`simple.wast`](src/simple/simple.wast) file which is the text
 representation of the `.wasm` module. It was created with [`wasm2wat`](https://github.com/WebAssembly/wabt).
 
-Note 2:
+**Note 2:**
 
 ```bash
 emcc                                \ # emscripten binary
@@ -315,24 +314,51 @@ emcc                                \ # emscripten binary
   -o src/simple/simple.wasm           # output file
 ```
 
-Go to the `main.js` file and replace the
+**B)**
+
+**Note** All the following functions are async and return promises. 
+For example, the `fetch` method fetches a file from the server and downloads it. 
+We need to wait for the results to return. This can be done with `const response = await fetch(...);` 
+
+- Go into `src/simple/simple.js` and find the `init` function.  
+- Add a call to the `fetch` method to get the `.wasm` module. Pass it the path `src/simple/simple.wasm`.
+- The response needs to be converted to a byte buffer, you can do that with the method `.arrayBuffer()` .
+- Once we have our array buffer, we can use that as an argument to the function [`WebAssembly.instantiate`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate)
+along with `importObjects`. After calling this function we want to end up with an instance of our module. As you can see, this instance is used in the `iterate` function below.
+
+**C)**
+Go to the `src/main.js` file and replace the `Solver` with your new `SimpleSolver`.
+
+#### Validate
+When you have completed this task, your browser should look like this.
+
+<img src="./readme-images/wasm-task1.png" width="400">
 
 ### 2. Debugging the module in the browser
-
-Hack need to run `ln -s ../src src` from the [`out`](out) directory.
-
+#### Description
 The [`Firefox Developer Edition`](https://www.mozilla.org/nb-NO/firefox/developer/)
 lets us debug the WebAssembly with source maps directly in our browser.
 
-Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
+#### Todo
+**A)** Go back to using the original solver in `src/main.js`, we will stick to that for the rest of the course.
 
-You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload you can open the c++ files and set breakpoints.
+**B)** Run `ln -s ../src src` from the [`out`](out) directory to create a link to the src directory (hack).
+
+**C)** Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
+You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload your browser, you can open the c++ files and set breakpoints.
+
+
+#### Validation
+You should be able to set a break point in the c++ source code, like this
+<img src="./readme-images/wasm-task2.png" width="800">
 
 ### 3. Variable building size
+#### Description
+Our current format for buildings is hard coded to 4 corner buildings. It would be great if our application supported buildings with more exciting shapes.
 
-Our current format for buildings is hard coded to 4 corner buildings.
+#### To do
 Extend the application to `generate`, `visualize` and `optimize` buildings with an
-arbritrarly number of corners. This requires changes in all the parts, and
+arbitrarily number of corners. This requires changes in all the parts, and
 changing the interface of the WebAssembly code wrapper.
 
 Hint: Add a prefix to each building with the number of corners to make the
