@@ -25,7 +25,6 @@ const createBuilding = (coordinates, height) => {
   // const material = createCustomShaderMaterial(busStopPosition)
 
   const building = new THREE.Mesh(geometry, material);
-  // 4. The `THREE.Mesh` must have `receiceShadow` and `castShadow` set to true
 
   return building;
 };
