@@ -342,7 +342,7 @@ lets us debug the WebAssembly with source maps directly in our browser.
 #### Todo
 **A)** Go back to using the original solver in `src/main.js`, we will stick to that for the rest of the course.
 
-**B)** Run `ln -s ../src src` from the [`out`](out) directory.
+**B)** Run `ln -s ../src src` from the [`out`](out) directory to create a link to the src directory (hack).
 
 **C)** Open your application in `Firefox` and open the [`Developer Console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console).
 You should now be able to open your `.wasm` file using the file tree or ctrl-P or cmd-P. If you now reload, you can open the c++ files and set breakpoints.
