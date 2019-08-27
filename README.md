@@ -205,27 +205,27 @@ cwrap(ident, returnType, argTypes[, opts]);
 #### To do
 **A)** Run the [`build.sh`](build.sh) script
 
-**B)** Go into the file `src/solver/solver.js`, import the solver module located in `out/solver.js` (this is the default import) at the top of this file.
+**B)** Go into the file `src/solver/solver.js`, there you will se that we have already imported the solver module for you. 
+The module is a function which creates an instance when called. 
+Create such an instance, i.e. `const instance = Module();`. 
 
-**C)** The module you just imported is a function which creates an instance when called. Create such an instance, i.e. `const instance = Module();`. 
-
-**D)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `moe` function, i.e. 
+**C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `moe` function, i.e. 
 ```
 const wrappedMove = instance.cwrap(<arguments here>)
 ```
 Hint: Task **E** in combination with the **description** might help you figure out what the arguments to cwrap should be.
 
-**E)** Make a call to `wrappedMove` inside the `iterate` function defined inside `init`.
+**D)** Make a call to `wrappedMove` inside the `iterate` function defined inside `init`.
 `wrappedMove` has two arguments, the first is a pointer to the memory location, the second is the number of buildings.
 
-**F)** Go into `src/main.js` and import the solver you just finished in **E** the same way as `Visualize` is imported.
+**E)** Go into `src/main.js` and import the solver you just finished in **D** the same way as `Visualize` is imported.
 
-**G)** Call the `init` method on the imported solver, this method is async and thus it returns a promise. 
+**F)** Call the `init` method on the imported solver, this method is async and thus it returns a promise. 
 In js you can handle this by piping the promise with the [`then`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) function.
 In our case, the value returned by the promise is an instance of the solver object defined in `src/solver/solver.js`, on which we can call the `iterate` method.                                                                                                                                  
 
 #### Validation
-When you have completed task **G** you should see a small movement on one of the buildings straight after refresh, you might have to refresh several times to see it.
+When you have completed task **F** you should see a small movement on one of the buildings straight after refresh, you might have to refresh several times to see it.
 
 ### 6. Multiple iterations
 In task **5** you managed to run one iteration of the solver, but of course we want the solver to run multiple iterations. It is also cool to be able to see what happens in each iteration, thus we want to add a pause between each call to the iterate function. 

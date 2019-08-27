@@ -1,3 +1,5 @@
+import Module from "../../out/solver.js";
+
 export async function init(site) {
   await new Promise(resolve => setTimeout(resolve, 1000));
   const buildings = site.getBuildings();
