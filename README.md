@@ -28,7 +28,7 @@ Open your browser on `http://localhost:3000`
 
 The assignments in this workshop have 2 parts. In part 1 you will go through a set of 8 small tasks where you fill in
 missing parts of code. When you have completed task 8, you will have a program which searches and visualizes
-the iterations until an optimal solution is found.
+the iterations until the solver converges
 
 The second part builds on the foundation in part 1 with more advanced tasks.
 Here we have put together independent tasks so that you can choose the task
