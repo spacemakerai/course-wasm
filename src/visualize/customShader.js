@@ -5,7 +5,7 @@ const vertexShader = `
     uniform vec3 busStopPosition; // uniform passed from the material
     
     void main() {
-      distanceVec = vec3(0.0, 0.0, 0.0);
+      distanceVec = position-busStopPosition;
       vec4 modelViewPosition = modelViewMatrix * vec4(position, 1.0);
       gl_Position = projectionMatrix * modelViewPosition; 
     }
@@ -15,11 +15,11 @@ const fragmentShader = `
       varying vec3 distanceVec; // interpolated from the values set for each vertex in the vertex shader
 
       void main() {
-        float distance = 0.0;
-        float scaled_distance = distance / 100.;
+        float distance = sqrt(dot(distanceVec, distanceVec));
+        float scaledDistance = distance / 400.;
         gl_FragColor = vec4(
             0.1,
-            1.0 - scaled_distance, // set the green channel of the pixel color to a shading of green depending on the computed distance
+            1.0 - scaledDistance, // set the green channel of the pixel color to a shading of green depending on the computed distance
             0.1,
             1.0
         );
@@ -28,7 +28,7 @@ const fragmentShader = `
 
 export function createCustomShaderMaterial(busStopPosition) {
     let uniforms = {};
-    uniforms.distance_position = {
+    uniforms.busStopPosition = {
         type: "vec3",
         value: new THREE.Vector3(...busStopPosition)
     };
