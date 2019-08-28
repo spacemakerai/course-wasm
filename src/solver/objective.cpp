@@ -4,6 +4,8 @@
 #include "objective.h"
 
 float getTotalVolume(const Buildings& buildings);
+
+
 float getDistanceToBusStopObjectiveValue(const Buildings &buildings, Point busStopCoordinate);
 
 float getObjectiveValue(const Buildings& buildings, Objective objective, Point busStopCoordinate)
