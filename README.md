@@ -390,15 +390,37 @@ You should be able to set a break point in the c++ source code, like this
 
 ### 3. Variable building size
 #### Description
-Our current format for buildings is hard coded to 4 corner buildings. It would be great if our application supported buildings with more exciting shapes.
+Our current format for buildings is hard coded to 4 corner buildings. 
+It would be great if our application supported buildings with more exciting shapes. 
+For example a hexagon shaped building.
 
 #### To do
 Extend the application to `generate`, `visualize` and `optimize` buildings with an
 arbitrarily number of corners. This requires changes in all the parts, and
 changing the interface of the WebAssembly code wrapper.
 
+Check if it works by replacing `building0` in `src/generate` with this hexagon shaped building:
+```javascript
+const HEX_SCALING = 10;
+const building0 = {
+  ground_polygon: [
+      [0, 1*HEX_SCALING],
+      [0.86*HEX_SCALING, 0.5*HEX_SCALING],
+      [0.86*HEX_SCALING, -0.5*HEX_SCALING],
+      [0, -1*HEX_SCALING], [-0.86*HEX_SCALING, -0.5*HEX_SCALING],
+      [-0.86*HEX_SCALING, 0.5*HEX_SCALING]
+  ],
+  height: 10
+};
+```
+
 Hint: Add a prefix to each building with the number of corners to make the
 format `[length, x0, y0, x1, y1, ..., xn, yn, height, ... ]`
+
+#### Validation
+When you have completed this task, your browser should look like this.
+
+<img src="./readme-images/wasm-task3png" width="400">
 
 ## Solver track
 
