@@ -75,6 +75,6 @@ function createPlane() {
   });
   var plane = new THREE.Mesh(geometry, material);
 
-  plane.receiveShadow = plane.castShadow = true;
+  plane.receiveShadow = true;
   return plane;
 }
