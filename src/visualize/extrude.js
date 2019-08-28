@@ -1,31 +1,24 @@
 import * as THREE from "../three.js";
-import {createCustomShaderMaterial} from "./customShader.js"
-
-function chunk(array, chunkSize) {
-  const result = [];
-  for (let i = 0; i < array.length; i += chunkSize)
-    result.push(array.slice(i, i + chunkSize));
-  return result;
-}
+import { createCustomShaderMaterial } from "./customShader.js";
 
 const createBuilding = (coordinates, height) => {
-  const [[x0, y0], [x1, y1], [x2, y2], [x3, y3]] = coordinates;
-
   const shape = new THREE.Shape();
 
-  shape.moveTo(x0, y0);
-  shape.lineTo(x1,y1);
-  shape.lineTo(x2,y2);
-  shape.lineTo(x3,y3);
-  shape.lineTo(x0,y0);
+  const [x, y] = coordinates[0];
+  shape.moveTo(x, y);
+  for (let i = 1; i < coordinates.length; i++) {
+    const [x, y] = coordinates[i];
+    shape.lineTo(x, y);
+  }
+  shape.lineTo(x, y);
 
   const geometry = new THREE.ExtrudeGeometry(shape, {
     depth: height,
     bevelEnabled: false
   });
 
-  const busStopPosition = [100, 100, 0]
-  const material = createCustomShaderMaterial(busStopPosition)
+  const busStopPosition = [100, 100, 0];
+  const material = createCustomShaderMaterial(busStopPosition);
 
   const building = new THREE.Mesh(geometry, material);
   building.castShadow = true;
@@ -35,9 +28,23 @@ const createBuilding = (coordinates, height) => {
 };
 
 function createBuildings(buildings) {
-  return chunk(buildings, 9).map(([x0, y0, x1, y1, x2, y2, x3, y3, height]) => {
-    return createBuilding([[x0, y0], [x1, y1], [x2, y2], [x3, y3]], height);
-  });
+  const blds = [];
+  for (let i = 0; i < buildings.length; i++) {
+    let n = buildings[i];
+
+    i++;
+
+    const coordinates = [];
+    for (let j = 0; j < n; j += 2, i += 2) {
+      coordinates.push([buildings[i], buildings[i + 1]]);
+    }
+
+    let height = buildings[i];
+
+    blds.push(createBuilding(coordinates, height));
+  }
+
+  return blds;
 }
 
 export function create(buildings) {

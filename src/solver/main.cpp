@@ -3,33 +3,36 @@
 #include "geometry.h"
 #include "optimize.h"
 
-int PARAMETERS_PER_BUILDING = 9;
 int NUMBER_OF_COORDINATES_PER_BUILDING = 4;
 Objective mainObjective = Objective::DISTANCE_TO_BUS_STOP;
 
-Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings);
+Buildings convertParametersToBuildings(const float *positions, int numberOfBuildings);
 void convertBuildingsToParameters(Buildings buildings, float *positions);
 
 extern "C" void move(float *positions, int n)
 {
-    int numberOfBuildings = n/PARAMETERS_PER_BUILDING;
-    Buildings inputBuildings = convertParametersToBuildings(positions, numberOfBuildings);
+    Buildings inputBuildings = convertParametersToBuildings(positions, n);
     Buildings optimizedBuildings = optimizeBuildings(inputBuildings, mainObjective);
     convertBuildingsToParameters(optimizedBuildings, positions);
 }
 
-Buildings convertParametersToBuildings(const float* positions, int numberOfBuildings)
+Buildings convertParametersToBuildings(const float *positions, int n)
 {
     Buildings inputBuildings;
-    for (int i= 0; i<numberOfBuildings; i++)
+    for (int i = 0; i < n; i++)
     {
+        int length = positions[i];
+
+        i++;
+
         Polygon ground_polygon;
-        for (int j=0; j<NUMBER_OF_COORDINATES_PER_BUILDING; j++)
+
+        for (int j = 0; j < length; j += 2, i += 2)
         {
-            Point point{positions[i*PARAMETERS_PER_BUILDING + j*2], positions[i*PARAMETERS_PER_BUILDING + j*2 +1]};
+            Point point{positions[i], positions[i + 1]};
             ground_polygon.push_back(point);
         }
-        Building building = {positions[i*PARAMETERS_PER_BUILDING + 8], ground_polygon};
+        Building building = {positions[i], ground_polygon};
         inputBuildings.push_back(building);
     }
     return inputBuildings;
@@ -37,19 +40,19 @@ Buildings convertParametersToBuildings(const float* positions, int numberOfBuild
 
 void convertBuildingsToParameters(Buildings buildings, float *positions)
 {
-    int numberOfBuildings = (int) buildings.size();
-    for (int i= 0; i<numberOfBuildings; i++)
+    int index = 0;
+    for (int i = 0; i < buildings.size(); i++)
     {
         Building building = buildings[i];
-        for (int j=0; j<NUMBER_OF_COORDINATES_PER_BUILDING; j++)
+        positions[index++] = building.groundPolygon.size() * 2;
+        for (int j = 0; j < building.groundPolygon.size(); j++)
         {
             Point point = building.groundPolygon[j];
-            positions[i*PARAMETERS_PER_BUILDING + j*2] = point.x;
-            positions[i*PARAMETERS_PER_BUILDING + j*2 + 1] = point.y;
-            positions[i*PARAMETERS_PER_BUILDING + 8] = building.height;
+            positions[index++] = point.x;
+            positions[index++] = point.y;
         }
+        positions[index++] = building.height;
     }
-
 }
 
 int main(int argc, char *argv[])
