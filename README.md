@@ -216,11 +216,11 @@ cwrap(ident, returnType, argTypes[, opts]);
 
 
 #### To do
+**A)** Run the [`build.sh`](build.sh)/[`build.bat`](build.bat) script
 
 **B)** Go into the file `src/solver/solver.js`, there you will se that we have already imported the solver module for you. 
 The module is a function which creates an instance when called. 
 Create such an instance, i.e. `const instance = Module();`. 
-**A)** Run the [`build.sh`](build.sh)/[`build.bat`](build.bat) script
 
 **C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move` function, i.e. 
 ```
@@ -262,7 +262,7 @@ objective function should calculate the volume of the buildings.
 
 #### To do
 
-Correct the return statement in `cost.cpp` so that the total volume is returned instead of a random number. 
+Correct the return statement in `objective.cpp` so that the total volume is returned instead of a random number. 
 
 Hint: Check out the `getTotalVolume` function.
 
