@@ -1,5 +1,12 @@
+const HEX_SCALING = 10;
 const building0 = {
-  ground_polygon: [[0, 0], [5, -2], [10, 0], [10, 10], [0, 10]],
+  ground_polygon: [
+      [0, 1*HEX_SCALING],
+      [0.86*HEX_SCALING, 0.5*HEX_SCALING],
+      [0.86*HEX_SCALING, -0.5*HEX_SCALING],
+      [0, -1*HEX_SCALING], [-0.86*HEX_SCALING, -0.5*HEX_SCALING],
+      [-0.86*HEX_SCALING, 0.5*HEX_SCALING]
+  ],
   height: 10
 };
 
