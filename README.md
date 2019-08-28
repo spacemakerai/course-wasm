@@ -434,18 +434,34 @@ When you have completed this task, your browser should look like this.
 ## Solver track
 
 ### 1. Adding constraints
-As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.    
+#### Description 
+As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. 
+In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. 
+The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. 
 
-As you can see in your browser, the buildings grow until they reach the maximum height which is set in `optimize.cpp`. In most building projects, this is not the case, usually there is a limitation on the average height of the buildings. The maximum average height is often lower than the max height of each building, and that's when we need to explore the trade off space. Try implementing such a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. Right now, it only checks if the buildings are within the height bounds. We have started on the function signature for a helper method for you, `getAverageHeight`.
+#### To do
+Implement a constraint by extending the method `solutionIsFeasible` in `feasibilityChecker.cpp`. 
+Right now, it only checks if the buildings are within the height bounds. 
+We have started on the function signature for a helper method for you, `getAverageHeight`.    
+
+#### Validation
+When you have completed this task, the volume should be distributed between the buildings.
 
 ### 2. New objective
-
+#### Description
 Right now the buildings are optimized for maximum volume, which is not so exciting. A common requirement for building projects is that the residents have a short distance to public transport. We will try to simulate this by adding a bus stop to our site and then get our solver to move the buildings mass distribution close to this point.
 The bus stop location (`BUS_STOP_COORDINATE`) is defined in `optimize.cpp`.
 
+#### To do
 In the main function in `main.cpp`, you can set what you want your objective to be, currently it is set to `VOLUME`, but you can change it to `BUS_STOP_DISTANCE`. The solver evaluates the solutions through an objective value function, the objectiveValue function `getObjectiveValue` is defined in `objectiveValue.cpp`. Here you can see that it computes the objective value based on which objective is set. Currently the `getDistanceToBusStopObjectiveValue` is empty. Try implementing it.
 
 Hint 1: The function `getCentroid` and `lengthOfLine` in `geometry.cpp` can be useful
 Hint 2: Remember that we want as many people (volume) as possible to be close to the bus stop.
 Hint 3: Shorter distance should give higher objectiveValue
+
+#### Validation
+When you have completed this task, the building(s) closest to you bus stop location should be higher.
+Try moving the bus stop around the site, and see what happens.
+ 
+
  
