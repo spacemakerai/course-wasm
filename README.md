@@ -61,7 +61,7 @@ renderer.render(scene, camera)
 
 When you have completed this task, your browser should look like this
 
-<img src="readme-images/task0.png" width="400">
+<img src="readme-images/task1.png" width="400">
 
 
 
