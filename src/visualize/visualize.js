@@ -1,6 +1,4 @@
 import * as THREE from "../three.js";
-import * as buffered from "./buffered.js";
-import * as box from "./box.js";
 import * as extrude from "./extrude.js";
 
 const geometry = extrude;
