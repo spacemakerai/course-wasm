@@ -26,7 +26,8 @@ Make sure you have the following installed:
 
 Install dependencies with `npm install` and [`emcc`](https://emscripten.org/docs/getting_started/downloads.html)
 
-Build the code with `./build.sh`
+Build the code with `./build.sh` on linux and osx.
+Build the code with `build.bat` on windows.
 
 Start a web server `npm run start`
 
@@ -186,7 +187,7 @@ Our search algorithm (solver) is located in `src/solver`. If we jump into the fi
 We want to be able to call this function from our javascript code.
 To be able to do this, we need to **build** the c++ implementation.
 
-Running the [`build.sh`](build.sh) script will create four files in the [`out`](out) folder. We will now look at two of them:
+Running the [`build.sh`](build.sh)/[`build.bat`](build.bat) script will create four files in the [`out`](out) folder. We will now look at two of them:
 
 **1)** The file  `solver.wasm`, a WebAssembly binary of the search algorithm located in `src/solver`
 
@@ -215,11 +216,11 @@ cwrap(ident, returnType, argTypes[, opts]);
 
 
 #### To do
-**A)** Run the [`build.sh`](build.sh) script
 
 **B)** Go into the file `src/solver/solver.js`, there you will se that we have already imported the solver module for you. 
 The module is a function which creates an instance when called. 
 Create such an instance, i.e. `const instance = Module();`. 
+**A)** Run the [`build.sh`](build.sh)/[`build.bat`](build.bat) script
 
 **C)** Your newly created instance contains a method called `cwrap`, use it to create a wrapped version of the `move` function, i.e. 
 ```
