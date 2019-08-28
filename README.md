@@ -24,6 +24,10 @@ Start a web server `npm run start`
 
 Open your browser on `http://localhost:3000`
 
+Your window should look like this
+
+<img src="./readme-images/task0.png" width="400">
+
 ## Assignment
 
 The assignments in this workshop have 2 parts. In part 1 you will go through a set of 8 small tasks where you fill in
@@ -57,7 +61,7 @@ renderer.render(scene, camera)
 
 When you have completed this task, your browser should look like this
 
-<img src="./readme-images/task1.png" width="400">
+<img src="readme-images/task1.png" width="400">
 
 
 
