@@ -1,6 +1,6 @@
-# WebAssembly sample 1
+# WebAssembly sample 2
 
-Initiate a module with and imported function.
+Call a WebAssembly function passing it an array.
 
 ## Usage
 

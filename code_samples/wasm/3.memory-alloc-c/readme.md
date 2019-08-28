@@ -1,4 +1,4 @@
-# WebAssembly sample 2
+# WebAssembly sample 3
 
 Initiate a module with and imported function.
 

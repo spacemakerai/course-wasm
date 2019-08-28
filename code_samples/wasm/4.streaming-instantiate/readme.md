@@ -6,7 +6,7 @@ Initiate a module with and imported function.
 
 Compile `index.wat` into `index.wasm` with `wat2wasm` from [1].
 
-Start a Web server (e.g. `python -m SimpleHttpServer 8080`)
+Start a Web server; `python server.py`
 
 Open a web browser with the developer console on `localhost:8080`
 

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>three.js webgl - cameras</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <style>
+      a {
+        color: #08f;
+      }
+      b {
+        color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="info">
+      <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> -
+      cameras<br />
+      <b>O</b> orthographic <b>P</b> perspective
+    </div>
+
+    <script type="module">
+      import * as THREE from "./three.module.js";
+
+      import Stats from "./stats.module.js";
+
+      var SCREEN_WIDTH = window.innerWidth;
+      var SCREEN_HEIGHT = window.innerHeight;
+      var aspect = SCREEN_WIDTH / SCREEN_HEIGHT;
+
+      var container, stats;
+      var camera, scene, renderer, mesh, light;
+      var cameraRig, activeCamera, activeHelper;
+      var cameraPerspective, cameraOrtho;
+      var cameraPerspectiveHelper, cameraOrthoHelper;
+      var frustumSize = 600;
+
+      init();
+      animate();
+
+      function init() {
+        container = document.createElement("div");
+        document.body.appendChild(container);
+
+        scene = new THREE.Scene();
+
+        //
+
+        camera = new THREE.PerspectiveCamera(50, 0.5 * aspect, 1, 10000);
+        camera.position.z = 2500;
+
+        cameraPerspective = new THREE.PerspectiveCamera(
+          50,
+          0.5 * aspect,
+          150,
+          1000
+        );
+
+        cameraPerspectiveHelper = new THREE.CameraHelper(cameraPerspective);
+        //scene.add(cameraPerspectiveHelper);
+
+        //
+        cameraOrtho = new THREE.OrthographicCamera(
+          (0.5 * frustumSize * aspect) / -2,
+          (0.5 * frustumSize * aspect) / 2,
+          frustumSize / 2,
+          frustumSize / -2,
+          150,
+          1000
+        );
+
+        cameraOrthoHelper = new THREE.CameraHelper(cameraOrtho);
+        scene.add(cameraOrthoHelper);
+
+        //
+
+        activeCamera = cameraPerspective;
+        activeHelper = cameraPerspectiveHelper;
+
+        // counteract different front orientation of cameras vs rig
+
+        cameraOrtho.rotation.y = Math.PI;
+        cameraPerspective.rotation.y = Math.PI;
+
+        cameraRig = new THREE.Group();
+
+        cameraRig.add(cameraPerspective);
+        cameraRig.add(cameraOrtho);
+
+        scene.add(cameraRig);
+
+        //
+
+        mesh = new THREE.Mesh(
+          new THREE.SphereGeometry(80, 32, 32),
+          new THREE.MeshBasicMaterial({ color: "red" })
+        );
+        mesh.castShadow = mesh.receiveShadow = true;
+        scene.add(mesh);
+
+        var edges = new THREE.EdgesGeometry(new THREE.BoxGeometry(80, 80, 80));
+        var line = new THREE.LineSegments(
+          edges,
+          new THREE.LineBasicMaterial({ color: "black" })
+        );
+        mesh.add(line);
+
+        /*var mesh2 = new THREE.Mesh(
+          new THREE.BoxGeometry(80, 80, 80),
+          new THREE.MeshLambertMaterial({ color: "red" })
+        );
+        mesh2.position.x = 100;
+        mesh2.castShadow = mesh2.receiveShadow = true;
+        mesh.add(mesh2);
+        {
+          var edges = new THREE.EdgesGeometry(
+            new THREE.BoxGeometry(80, 80, 80)
+          );
+          var line = new THREE.LineSegments(
+            edges,
+            new THREE.LineBasicMaterial({ color: "black" })
+          );
+          mesh2.add(line);
+        }*/
+
+        //scene.add(new THREE.AmbientLight(0xf0f0f0, 0.55));
+        //
+
+        light = new THREE.DirectionalLight(0xffffff, 1.0);
+        light.up.set(0, 0, 1);
+        light.position.set(100, 0, 20);
+        window.mesh = mesh;
+        window.light = light;
+        light.castShadow = true;
+        scene.add(light);
+
+        //scene.add(new THREE.DirectionalLightHelper(light, 10, "black"));
+
+        renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+        renderer.setClearColor(0xffffff);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+        container.appendChild(renderer.domElement);
+
+        renderer.autoClear = false;
+
+        window.addEventListener("resize", onWindowResize, false);
+        document.addEventListener("keydown", onKeyDown, false);
+      }
+
+      //
+
+      function onKeyDown(event) {
+        switch (event.keyCode) {
+          case 79 /*O*/:
+            activeCamera = cameraOrtho;
+            activeHelper = cameraOrthoHelper;
+
+            break;
+
+          case 80 /*P*/:
+            activeCamera = cameraPerspective;
+            activeHelper = cameraPerspectiveHelper;
+
+            break;
+        }
+      }
+
+      //
+
+      function onWindowResize() {
+        SCREEN_WIDTH = window.innerWidth;
+        SCREEN_HEIGHT = window.innerHeight;
+        aspect = SCREEN_WIDTH / SCREEN_HEIGHT;
+
+        renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+
+        camera.aspect = 0.5 * aspect;
+        camera.updateProjectionMatrix();
+
+        cameraPerspective.aspect = 0.5 * aspect;
+        cameraPerspective.updateProjectionMatrix();
+
+        cameraOrtho.left = (-0.5 * frustumSize * aspect) / 2;
+        cameraOrtho.right = (0.5 * frustumSize * aspect) / 2;
+        cameraOrtho.top = frustumSize / 2;
+        cameraOrtho.bottom = -frustumSize / 2;
+        cameraOrtho.updateProjectionMatrix();
+      }
+
+      //
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        render();
+      }
+
+      function render() {
+        var r = Math.PI * 1; // new Date() * 0.001;
+
+        mesh.position.x = 300 * Math.cos(r);
+        mesh.position.z = 300 * Math.sin(r);
+        mesh.position.y = 300 * Math.sin(r);
+
+        //light.lookAt(mesh.position);
+
+        if (activeCamera === cameraPerspective) {
+          cameraPerspective.fov = 35 + 30 * Math.sin(0.5 * r);
+          cameraPerspective.far = mesh.position.length() * 1;
+          cameraPerspective.updateProjectionMatrix();
+
+          cameraPerspectiveHelper.update();
+          cameraPerspectiveHelper.visible = true;
+
+          cameraOrthoHelper.visible = false;
+        } else {
+          cameraOrtho.far = mesh.position.length() * 1.5;
+          cameraOrtho.updateProjectionMatrix();
+
+          cameraOrthoHelper.update();
+          cameraOrthoHelper.visible = true;
+
+          cameraPerspectiveHelper.visible = false;
+        }
+
+        cameraRig.lookAt(mesh.position);
+
+        renderer.clear();
+
+        activeHelper.visible = false;
+
+        renderer.setViewport(0, 0, SCREEN_WIDTH / 2, SCREEN_HEIGHT);
+        renderer.render(scene, activeCamera);
+
+        activeHelper.visible = true;
+
+        renderer.setViewport(
+          SCREEN_WIDTH / 2,
+          0,
+          SCREEN_WIDTH / 2,
+          SCREEN_HEIGHT
+        );
+        renderer.render(scene, camera);
+      }
+    </script>
+  </body>
+</html>
